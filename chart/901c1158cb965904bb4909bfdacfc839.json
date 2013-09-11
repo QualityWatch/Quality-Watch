@@ -1,0 +1,12 @@
+{
+	"chart_identifier" : "901c1158cb965904bb4909bfdacfc839",
+	"chart_title" : "Finished consultant episodes in the UK",
+	"chart_analysis_commentary" : "<p>Your HTML markup can go in here. Be sure to escape \"double-quotes\" with a backslash, or you'll end up with invalid JSON.
+		http://jsonlint.com/ is a great tool to help with validating files.</p>",
+	"display_mode" : "single",
+	"data_download_url" : {
+		"url" : "https://github.com/QualityWatch/Quality-Watch/chart/download/901c1158cb965904bb4909bfdacfc839.xlsx",
+		"title" : "Download the data for this chart"
+	},
+	"data_source" : "eg: The Nuffield Trust"
+}
