@@ -13,6 +13,7 @@ Structure of repository:
 
 * Entity identifiers must be unique.
 * The website will pull changes from the master branch.
+* If maps will support downloads, these will be in the format outlined above.
 
 ## Sample data
 
