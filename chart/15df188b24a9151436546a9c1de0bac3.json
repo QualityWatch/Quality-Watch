@@ -1,0 +1,12 @@
+{
+	"chart_identifier" : "15df188b24a9151436546a9c1de0bac3",
+	"chart_title" : "Cost of prescription items in the UK",
+	"chart_analysis_commentary" : "<p>Your HTML markup can go in here. Be sure to escape \"double-quotes\" with a backslash, or you'll end up with invalid JSON.
+		http://jsonlint.com/ is a great tool to help with validating files.</p>",
+	"display_mode" : "double",
+	"data_download_url" : {
+		"url" : "https://github.com/QualityWatch/Quality-Watch/chart/download/15df188b24a9151436546a9c1de0bac3.csv",
+		"title" : "Download the data for this chart"
+	},
+	"data_source" : "eg: The Nuffield Trust"
+}
