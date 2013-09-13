@@ -1,7 +1,7 @@
 {
-	"map_identifier" : "2e90f46644e836be07b6bde540e2fa3a",
-	"map_title" : "Variation in NHS spending on independent sector providers",
-	"map_analysis_commentary" : "<p>Your HTML markup can go in here. Be sure to escape \"double-quotes\" with a backslash, or you'll end up with invalid JSON.
+	"import_id" : "2e90f46644e836be07b6bde540e2fa3a",
+	"title" : "Variation in NHS spending on independent sector providers",
+	"analysis_commentary" : "<p>Your HTML markup can go in here. Be sure to escape \"double-quotes\" with a backslash, or you'll end up with invalid JSON.
 		http://jsonlint.com/ is a great tool to help with validating files.</p>",
 	"data_source" : "eg: The Nuffield Trust"
 }
