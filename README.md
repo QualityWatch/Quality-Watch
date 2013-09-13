@@ -8,7 +8,6 @@ Structure of repository:
     chart/download/<import_id>.<extension>
     map/<import_id>.json
     map/visualisation/<import_id>[.N].js
-    map/download/<import_id>.<extension>
 
 * File import ids must be unique.
   * A suggestion might be an md5 hash of the chart/map title.
