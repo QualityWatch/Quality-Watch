@@ -14,6 +14,8 @@ Structure of repository:
   http://www.miraclesalad.com/webtools/md5.php is a useful tool for this purpose.
   * Please avoid spaces or dot (.) separators in the filename, as it may interfere
     with how visualisations files are processed.
+* Ensure that JSON files validate by checking on http://jsonlint.com
+  * Escape characters such as double quotes or forward slashes with a preceding backslash.
 * The website will pull changes from the master branch.
 * If maps will support downloads, these will be in the format outlined above.
 
