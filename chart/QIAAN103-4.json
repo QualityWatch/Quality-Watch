@@ -1,7 +1,7 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 13:30:45 using v0.9",
+"_comment" : "Created by ianb on 03/10/2013 16:39:06 using v0.9",
 "import_id" : "QIAAN103-4",
-"title" : "",
+"title" : "How has the average time spent in A&E changed?",
 "analysis_commentary" : "<P>On average, the number of minutes spent in A&amp;E by all patients has increased steadily over time by roughly eight minutes, with a high of 137 minutes in March 2013. Admitted patients spend an average of 110 minutes longer in A&amp;E than non-admitted patients. The median time spent by non-admitted patients has stayed consistently around the 110 minutes. However, the median time spent by admitted patients has generally increased from 213 minutes to a high of 229 minutes in March 2013 - an increase of 16 minutes over 23 months.</P>",
 "data_download_url" : {
 "url" : "",

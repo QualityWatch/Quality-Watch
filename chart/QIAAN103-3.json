@@ -1,7 +1,7 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 13:30:42 using v0.9",
+"_comment" : "Created by ianb on 03/10/2013 16:39:03 using v0.9",
 "import_id" : "QIAAN103-3",
-"title" : "",
+"title" : "Has the pattern of breaches changed between years?",
 "analysis_commentary" : "<P>For the first 16 months of the year, the proportion of patients waiting more than four hours for a bed following a decision to admit was 75% higher in 2013 compared to 2012, and 137% higher than in 2011. There are a number of potential explanations for this including: bad weather, increased complexity of patients, possible staff shortages and disruptions caused by the roll-out of the NHS 111 urgent care phone service. After April 2013 there was a slightly higher proportion of patients waiting more than four hours for a bed compared with the same period in previous years (13% higher in 2013 compared with 2012, and 33% higher in 2013 compared with 2011), but the difference is much less stark than the start of 2013</P>",
 "data_download_url" : {
 "url" : "",

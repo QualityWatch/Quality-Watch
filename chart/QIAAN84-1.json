@@ -1,7 +1,7 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 13:36:00 using v0.9",
+"_comment" : "Created by ianb on 03/10/2013 16:44:23 using v0.9",
 "import_id" : "QIAAN84-1",
-"title" : "",
+"title" : "How many patients are affected by delayed transfers of care and how has this changed?",
 "analysis_commentary" : "<P>Despite individual monthly fluctuations, the number of patients experiencing a delayed transfer of care appears to have decreased over time from 4,940 in August 2010, to 3, 977 in July 2013. In December each year there appears to be a large decrease in the number of patients with a delayed transfer of care when compared to the previous month. This may be due to lower numbers of patients in hospital at this time, and hence less patients who can be delayed.</P>",
 "data_download_url" : {
 "url" : "",

@@ -1,7 +1,7 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 13:37:33 using v0.9",
+"_comment" : "Created by ianb on 03/10/2013 16:45:56 using v0.9",
 "import_id" : "QIAAN97-1",
-"title" : "",
+"title" : "How have NHS staff sickness rates changed?",
 "analysis_commentary" : "<P>Sickness absence is subject to marked seasonal variation, with peaks in the late autumn/winter months and subsequent reductions. Absence rates reached a maximum of 4.8% in December 2010, with a minimum of 3.7% reported in May 2011. The national rate fell from 4.38% in 2009/10 to 4.12% in 2011/12, but rose to 4.24% on average in 2012/13.</P>",
 "data_download_url" : {
 "url" : "",

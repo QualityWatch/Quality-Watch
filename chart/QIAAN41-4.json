@@ -1,7 +1,7 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 13:31:47 using v0.9",
+"_comment" : "Created by ianb on 03/10/2013 16:40:08 using v0.9",
 "import_id" : "QIAAN41-4",
-"title" : "",
+"title" : "How do admissions for falls vary by age?",
 "analysis_commentary" : "<P>In 2011/12, the rate of hospital admissions for falls decreases with age for both genders until age 30-34, when males have more admissions for falls than females. From age 30-34, rates of admission begin to increase slowly until people reach 60-64, when rates increase more steeply in females. Past the age of 60, rates of admissions for falls increase sharply, with rates for females reaching nearly double that for males.</P>",
 "data_download_url" : {
 "url" : "",

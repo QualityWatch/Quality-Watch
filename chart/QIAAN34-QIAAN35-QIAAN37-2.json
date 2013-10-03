@@ -1,7 +1,7 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 13:31:26 using v0.9",
+"_comment" : "Created by ianb on 03/10/2013 16:39:47 using v0.9",
 "import_id" : "QIAAN34-QIAAN35-QIAAN37-2",
-"title" : "",
+"title" : "How has the number of staff working extra hours changed by provider?",
 "analysis_commentary" : "<P>The increase in the number of staff reporting working extra hours (both unpaid and paid) between 2011 and 2012 was seen in 218 trusts (89% of all trusts that exist in both the 2011 and 2012 data). This may be a reflection of the anecdotal evidence that staff numbers have been reduced as the NHS tries to achieve the \'Nicholson challenge\' of saving &pound;20 billion by 2015. The change in the set of organisations where there is an increased reporting of working extra hours  ranges between &gt;0% and 13.78%.</P>",
 "data_download_url" : {
 "url" : "",

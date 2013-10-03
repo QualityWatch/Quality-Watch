@@ -1,7 +1,7 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 13:35:37 using v0.9",
+"_comment" : "Created by ianb on 03/10/2013 16:43:59 using v0.9",
 "import_id" : "QIAAN80-1",
-"title" : "",
+"title" : "How have referral to treatment times changed by pathway?",
 "analysis_commentary" : "<P>Longer-term trends for the median wait time from referral to decision to treat for admitted people has slightly increased from 2008. The median number of weeks from referral to treatment for incomplete pathways has decreased over time and has been around five weeks since January 2012. For non-admitted people, the long-term trend shows the median wait time has been decreasing overall, however, it has been increasing since Febuary 2012. We will look at this in more detail in the next chart.</P>",
 "data_download_url" : {
 "url" : "",

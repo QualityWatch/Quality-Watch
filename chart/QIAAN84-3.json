@@ -1,7 +1,7 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 13:36:07 using v0.9",
+"_comment" : "Created by ianb on 03/10/2013 16:44:30 using v0.9",
 "import_id" : "QIAAN84-3",
-"title" : "",
+"title" : "How many patients are affected by delayed transfers by the type of care received?",
 "analysis_commentary" : "<P>The overall number of patients experiencing a delayed transfer of care appears to have decreased over time. However, this appears to be mainly driven by improvements in the number of patients being effectively discharged from non-acute care.</P>",
 "data_download_url" : {
 "url" : "",

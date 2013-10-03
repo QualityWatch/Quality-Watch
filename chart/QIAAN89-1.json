@@ -1,7 +1,7 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 13:36:47 using v0.9",
+"_comment" : "Created by ianb on 03/10/2013 16:45:10 using v0.9",
 "import_id" : "QIAAN89-1",
-"title" : "",
+"title" : "How has life expectancy changed by country?",
 "analysis_commentary" : "<P>The life expectancy of all countries shown has been increasing over the past 30 years and has increased by roughly seven years. The UK increased by 7.3 years from 73.8 in 1981 to 81.1 in 2011. Despite all countries increasing, the UK still has an absolute life expectancy lower than Australia and France, but higher than the United States. </P>",
 "data_download_url" : {
 "url" : "",

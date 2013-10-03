@@ -1,7 +1,7 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 13:35:33 using v0.9",
+"_comment" : "Created by ianb on 03/10/2013 16:43:56 using v0.9",
 "import_id" : "QIAAN79-2",
-"title" : "",
+"title" : "How has the number of people waiting for cancer treatment changed?",
 "analysis_commentary" : "<P>We saw that the proportion of people receiving their first treatment within 31 days of the decision to treat has increased over time. This shows that despite the increase numbers, the proportion meeting the target over time has been constant or increasing. </P>",
 "data_download_url" : {
 "url" : "",

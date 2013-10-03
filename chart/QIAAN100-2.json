@@ -1,7 +1,7 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 13:30:28 using v0.9",
+"_comment" : "Created by ianb on 03/10/2013 16:38:49 using v0.9",
 "import_id" : "QIAAN100-2",
-"title" : "",
+"title" : "How has the number of MRSA infections changed?",
 "analysis_commentary" : "<P>From 2007, the level of hospital acquired MRSA also became a major national concern, similar to C difficile. The number of MRSA cases has reduced by 79% in the six years since this focus in 2007/08. </P>",
 "data_download_url" : {
 "url" : "",
