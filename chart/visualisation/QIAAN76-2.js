@@ -1,7 +1,6 @@
 $(function () {       
     Highcharts.theme = {
-        colors: ['#009AA6', '#E10E49', '#4F0B7B', '#6C6F70',
-            '#3FCFD5', '#E59AAA', '#B634BB', '#CECFCB'],
+        colors: ['#009AA6', '#20B4BE', '#40CED6', '#60E8EE', '#80FFFF'],
         chart: {
 
         },
@@ -64,55 +63,68 @@ $(function () {
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the number of timely antenatal assessments changed?'},
+title: {text: 'How has the proportion in paid employment changed by region?'},
 credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
-}},
-xAxis: {
+}},xAxis: {
 title: {text:''}
-, categories: ['2009-10 Q3','2009-10 Q4','2010-11 Q1','2010-11 Q2','2010-11 Q3','2010-11 Q4','2011-12 Q1','2011-12 Q2','2011-12 Q3','2011-12 Q4','2012-13 Q1']
+, categories: ['South East','London','England','Eastern','Yorkshire & Humber','South West','East Midlands','North East','North West','West Midlands']
 , labels: {
  rotation: -90
 , step: 1
 }
 },
-yAxis: [
-    {
-    
-title: {text:'Number of maternities and number <br> of people who had their first antenatal <br> appointment before 12 weeks and <br> 6 days', offset: 111}
-    , max: 180000
+yAxis: {
+title: {text:'Proportion of all adults with learning <br> difficulties who are in paid employment', offset: 87}
 , min: 0
 , labels: {
-}},
-    {
-    
-title: {text:'Ratio of maternities which had the<br>first antenatal appointment before<br>12 weeks 6 days', offset: 90}
-    , max: 1
-, min: 0
-, labels: {
-}, opposite: true},
-       
-       ],
+format: '{value:.1f}' 
+,formatter: function() {return this.value +'%';}}},
+tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Total number of maternities',
-type: 'area',
-    yAxis: 0,
-data: [140417,146945,144953,148036,152316,156551,153304,155667,153646,162062,152409]
+name: '2009/10',
+type: 'column',
+    data: [9.6,8.5,{color:'#E10E49', y:6.4},6.1,5.2,5.8,6,4.8,5.3,4.1]
 ,index: 1
 },
 {
-name: 'Maternities with antenatal appointments before 12 weeks 6 days',
-type: 'area',
-    yAxis: 0,
-data: [20266,22009,24878,11901,11028,13093,14298,8671,11238,8170,13997]
+name: '2010/11',
+type: 'column',
+    data: [9.6,8.6,{color:'#E35479', y:6.6},6,6.3,5.7,5.3,5.7,4.9,5.5]
 ,index: 2
 },
 {
-name: 'Ratio of maternities ',
-type: 'line',
-    yAxis: 1,
-data: [0.87,0.87,0.85,0.93,0.93,0.92,0.91,0.95,0.93,0.95,0.92]
+name: '2011/12',
+type: 'column',
+    data: [9.6,9.3,{color:'#E59AA9', y:7.1},7.2,6.8,5.8,5.8,5.7,5.4,6.3]
+,index: 3
+},
+{
+name: '2012/13',
+type: 'column',
+    data: [10.5,9.3,{color:'#E7E0D9', y:7.2},6.5,6.6,7.3,5.3,5.5,5.3,5.6]
+,index: 4
 }
 ]
 });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

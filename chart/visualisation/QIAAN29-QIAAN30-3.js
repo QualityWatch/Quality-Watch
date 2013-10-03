@@ -64,55 +64,33 @@ $(function () {
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the number of timely antenatal assessments changed?'},
+title: {text: 'How has the proportion of carers finding easy to access information vary by region?'},
 credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2009-10 Q3','2009-10 Q4','2010-11 Q1','2010-11 Q2','2010-11 Q3','2010-11 Q4','2011-12 Q1','2011-12 Q2','2011-12 Q3','2011-12 Q4','2012-13 Q1']
+, categories: ['North East','Yorkshire and the Humber','South West','West Midlands','North West','England','East Midlands','South East','Eastern','London']
 , labels: {
  rotation: -90
 , step: 1
 }
 },
-yAxis: [
-    {
-    
-title: {text:'Number of maternities and number <br> of people who had their first antenatal <br> appointment before 12 weeks and <br> 6 days', offset: 111}
-    , max: 180000
-, min: 0
+yAxis: {
+title: {text:'Proportion of carers who found it <br> very or fairly easy to find information <br> and advice about support, services <br> or benefits (2012/13)', offset: 111}
+, max: 85
+, min: 50
 , labels: {
-}},
-    {
-    
-title: {text:'Ratio of maternities which had the<br>first antenatal appointment before<br>12 weeks 6 days', offset: 90}
-    , max: 1
-, min: 0
-, labels: {
-}, opposite: true},
-       
-       ],
+format: '{value:.1f}' 
+,formatter: function() {return this.value +'%';}}},
+tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Total number of maternities',
-type: 'area',
-    yAxis: 0,
-data: [140417,146945,144953,148036,152316,156551,153304,155667,153646,162062,152409]
+name: '2012/13',
+type: 'column',
+data: [74.7,72.3,71,70.4,70,{color:'#E10E49',y:69},67.6,67.5,65.9,63.8]
 ,index: 1
-},
-{
-name: 'Maternities with antenatal appointments before 12 weeks 6 days',
-type: 'area',
-    yAxis: 0,
-data: [20266,22009,24878,11901,11028,13093,14298,8671,11238,8170,13997]
-,index: 2
-},
-{
-name: 'Ratio of maternities ',
-type: 'line',
-    yAxis: 1,
-data: [0.87,0.87,0.85,0.93,0.93,0.92,0.91,0.95,0.93,0.95,0.92]
 }
 ]
 });
 });
+
