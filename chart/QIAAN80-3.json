@@ -1,0 +1,11 @@
+{
+"_comment" : "Created by ianb on 03/10/2013 13:35:43 using v0.9",
+"import_id" : "QIAAN80-3",
+"title" : "",
+"analysis_commentary" : "<P>Longer-term trends for the 95th percentile wait time from referral to decision to treat for admitted people has generally increased since 2008. In 2008, the 18-week target was introduced, however, the 95th percentile has never moved below 19.3 weeks. The 95th percentile from referral to treatment for incomplete pathways has decreased over time and, since August 2012, has levelled at about 18.6 weeks. For non-admitted people, the long-term trend shows the 95th percentile has been decreasing overall and has always been below 18 weeks since the target was introduced. </P>",
+"data_download_url" : {
+"url" : "",
+"title" : ""
+},
+"data_source" : "NHS England, Referral to Treatment waiting times"
+}

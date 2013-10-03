@@ -1,0 +1,11 @@
+{
+"_comment" : "Created by ianb on 03/10/2013 13:35:57 using v0.9",
+"import_id" : "QIAAN82-1",
+"title" : "",
+"analysis_commentary" : "<P>The proportion of calls being abandoned has remained consistently very low, around 1.3%. However, there has been a very slight increase over time. The proportion peaked at 2.3% twice in August 2012 and December 2012. There is an increased volume of calls in December 2012 (around 131, 120 calls above the mean number over the time period), which may partially explain this peak, but no peak to this extent is seen in August 2012 (around 18,225 calls above the mean number over the time period).</P>",
+"data_download_url" : {
+"url" : "",
+"title" : ""
+},
+"data_source" : "NHS England, Ambulance Quality Indicators: System Indicators"
+}

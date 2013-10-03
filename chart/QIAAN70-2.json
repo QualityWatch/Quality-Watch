@@ -1,0 +1,11 @@
+{
+"_comment" : "Created by ianb on 03/10/2013 13:34:29 using v0.9",
+"import_id" : "QIAAN70-2",
+"title" : "",
+"analysis_commentary" : "<P>The overall trend for active referrals who have waited more than 28 days from referral to first treatment/first therapeutic session (at the end of the reporting period), when compared to the number of referrals in the reporting period, has increased over the two years from April 2011. The numerator is not a direct subset of the denominator in this measure and so was only a proxy for waiting times for the IAPT programme. Waiting times could have increased as the number of referrals (denominator) decreased, however, in the time period covered there was an increase in the number of referrals quarter on quarter (apart from 2012/13 Q2, where there was a decrease in the number of referrals, which may contribute to the increase at that point. However, modelling for no increase here indicates that there is still an upward trend at that point). Therefore, what we see here is real and there was a larger proportion of patients who waited longer. The increase in referrals may be the driver for increase in the number of active referrals who waited more than 28 days from referral to first treatment, as the system had more pressure to see more people.</P>",
+"data_download_url" : {
+"url" : "",
+"title" : ""
+},
+"data_source" : "Health &amp; Social Care Information Centre, Improving Access to Psychological Therapies Data Set"
+}

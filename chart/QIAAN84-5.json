@@ -1,0 +1,11 @@
+{
+"_comment" : "Created by ianb on 03/10/2013 13:36:14 using v0.9",
+"import_id" : "QIAAN84-5",
+"title" : "",
+"analysis_commentary" : "<P>A decrease in the number of patients delayed over time can be seen when either NHS or social care organisations, or both, are responsible for the delay. However, social care organisations appear to have improved the discharge interface the most, as there was a 39% decrease in the number of patients experiencing a delay in discharge between August 2010 (1,723 patients) and July 2013 (1,051 patients), when attributable to social care organisations. This is compared to a 9% decrease when attributable to NHS organisations, and a 7% decrease when attributable to both.</P>",
+"data_download_url" : {
+"url" : "",
+"title" : ""
+},
+"data_source" : "NHS England, Delayed transfer of care"
+}

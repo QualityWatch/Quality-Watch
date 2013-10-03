@@ -1,0 +1,11 @@
+{
+"_comment" : "Created by ianb on 03/10/2013 14:42:36 using v0.9",
+"import_id" : "QIAAN31-3",
+"title" : "How have rates of timely antenatal assessments changed by region?",
+"analysis_commentary" : "<P>Although there is some variation between years, on average London has the lowest ratio of maternities with the first antenatal appointment within 12 weeks and six days of all the regions, and the South West has the highest. </P>",
+"data_download_url" : {
+"url" : "",
+"title" : ""
+},
+"data_source" : "Health &amp; Social Care Information Centre, Maternity (Vital signs)"
+}

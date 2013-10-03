@@ -1,0 +1,11 @@
+{
+"_comment" : "Created by ianb on 03/10/2013 13:35:40 using v0.9",
+"import_id" : "QIAAN80-2",
+"title" : "",
+"analysis_commentary" : "<P>The median wait time from referral to decision to treat for admitted people  has increased in the past 12 months by 0.3 weeks. The median number of weeks from referral to treatment for incomplete pathways has remained around 5.7 weeks for the past 12 months. For non-admitted people, however, the median wait time has increased from 4.2 weeks in June 2012 to 5.2 weeks in June 2013 &ndash; this is an increase of one week in a year. </P>",
+"data_download_url" : {
+"url" : "",
+"title" : ""
+},
+"data_source" : "NHS England, Referral to Treatment waiting times"
+}

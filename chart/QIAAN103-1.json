@@ -1,0 +1,11 @@
+{
+"_comment" : "Created by ianb on 03/10/2013 13:30:35 using v0.9",
+"import_id" : "QIAAN103-1",
+"title" : "",
+"analysis_commentary" : "<P>Overall, the proportion of people experiencing long waits for beds (over four hours) once a decision to admit has been made rose between November 2010 and July 2013. In the first half (January to June) of 2013, 105,466 patients waited over four hours for a bed following a decision to admit. The period between January and April 2013 saw particularly high levels of patients waiting over four hours - 5.07% of all emergency admissions during this period, compared with an overall average of 2.22% for the preceding 26 months. The proportion waiting over four hours then dropped sharply after April 2013 (from May to mid-July 2013), with an average of 2.05% of emergency admissions waiting over four hours for a bed.</P>",
+"data_download_url" : {
+"url" : "",
+"title" : ""
+},
+"data_source" : "NHS England, A&amp;E Waiting Times and Activity"
+}
