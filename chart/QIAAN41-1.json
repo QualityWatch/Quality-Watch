@@ -1,11 +1,11 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 16:39:57 using v0.9",
+"_comment" : "Created by ianb on 03\/10\/2013 16:39:57 using v0.9",
 "import_id" : "QIAAN41-1",
 "title" : "How have admissions for falls changed?",
-"analysis_commentary" : "<P>In 2011/12, the rate of hospital admissions for falls in people aged 65 and over was 1,663 per 100,000 (standardised for age and sex). Although this rate has been climbing for many years, this increase is slight and appears to have slowed recently. In the period between April 2006 and March 2010, falls increased by nine admissions per 100,000 per month, whereas in the period between April 2010 and December 2012, the rates increased by one admission per 100,000 per month. </P>",
+"analysis_commentary" : "<P>In 2011\/12, the rate of hospital admissions for falls in people aged 65 and over was 1,663 per 100,000 (standardised for age and sex). Although this rate has been climbing for many years, this increase is slight and appears to have slowed recently. In the period between April 2006 and March 2010, falls increased by nine admissions per 100,000 per month, whereas in the period between April 2010 and December 2012, the rates increased by one admission per 100,000 per month. </P>",
 "data_download_url" : {
 "url" : "",
 "title" : ""
 },
-"data_source" : "Health &amp; Social Care Information Centre, Hospital Episode Statistics (Copyright © 2013, Re-used with the permission of the Health &amp; Social Care Information Centre. All rights reserved)"
+"data_source" : "Health &amp; Social Care Information Centre, Hospital Episode Statistics (Copyright ï¿½ 2013, Re-used with the permission of the Health &amp; Social Care Information Centre. All rights reserved)"
 }
