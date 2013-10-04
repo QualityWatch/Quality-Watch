@@ -1,0 +1,11 @@
+{
+"_comment" : "Created by ianb on 04\/10\/2013 13:03:06 using v0.9",
+"import_id" : "QIAAN81-1",
+"title" : "How has the proportion of people receiving diagnostic tests within 6 and 13 weeks changed?",
+"analysis_commentary" : "<P>The Department of Health introduced the six-week diagnostic wait as a target from March 2008 with the aim of achieving the government's standard referral to treatment wait of 18 weeks by December 2008, in order  to ensure people would not be waiting longer than six weeks for a diagnostic test following referral from a GP. The proportion of tests which happened after six weeks or 13 weeks has fallen dramatically and have been largely consistent since March 2008 when the six-week target was introduced. However, there was an increase for six+ weeks around May 2011. In June 2010, central performance management of targets was relaxed and this may account for the increase we see here in the following months.  <\/P>",
+"data_download_url" : {
+"url" : "",
+"title" : ""
+},
+"data_source" : "NHS England, Diagnostic waiting times"
+}

@@ -1,0 +1,11 @@
+{
+"_comment" : "Created by ianb on 04\/10\/2013 13:02:42 using v0.9",
+"import_id" : "QIAAN76-4",
+"title" : "How has the proportion in paid employment changed by provider?",
+"analysis_commentary" : "<P>In 2012\/13, 48 providers had less adults with learning disabilities in employment compared to 2011\/12. For the majority of providers, this wasn't much of a decrease. However, for 20 providers this was a decrease of 10 people or more. One provider had 85 fewer adults in employment compared to the previous year. This shows that despite there being little change in the national proportion, there is variation among the providers.<\/P>",
+"data_download_url" : {
+"url" : "",
+"title" : ""
+},
+"data_source" : "Health &amp; Social Care Information Centre, Adult Social Care - Combined Activity Return (ASC-CAR)"
+}
