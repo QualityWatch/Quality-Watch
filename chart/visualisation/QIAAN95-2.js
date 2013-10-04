@@ -1,4 +1,4 @@
-/* Created by ianb on 03/10/2013 16:45:42 using v0.9 */
+/* Created by ianb on 03/10/2013 16:45:42 using v0.9*/
 $(function () {       
     Highcharts.theme = {
         colors: ['#009AA6', '#E10E49', '#4F0B7B', '#6C6F70',
@@ -66,7 +66,7 @@ title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion of cancelled operations changed?'},
-credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: 'ï¿½ Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
