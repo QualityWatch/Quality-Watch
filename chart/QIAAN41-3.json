@@ -1,11 +1,11 @@
 {
-"_comment" : "Created by ianb on 03/10/2013 16:40:04 using v0.9",
+"_comment" : "Created by ianb on 03\/10\/2013 16:40:04 using v0.9",
 "import_id" : "QIAAN41-3",
 "title" : "How have admissions for falls changed for older people?",
-"analysis_commentary" : "<P>The rate of hospital admissions for falls increases sharply with age. This is demonstrated by comparing the rates of admission for falls in people aged 65 to 79 with those for people aged 80 and over. In 2011/12, these were 939 per 100,000 and 4,923 per 100,000, respectively - five times greater. </P>",
+"analysis_commentary" : "<P>The rate of hospital admissions for falls increases sharply with age. This is demonstrated by comparing the rates of admission for falls in people aged 65 to 79 with those for people aged 80 and over. In 2011\/12, these were 939 per 100,000 and 4,923 per 100,000, respectively - five times greater. </P>",
 "data_download_url" : {
 "url" : "",
 "title" : ""
 },
-"data_source" : "Health &amp; Social Care Information Centre, Hospital Episode Statistics (Copyright © 2013, Re-used with the permission of the Health &amp; Social Care Information Centre. All rights reserved)"
+"data_source" : "Health &amp; Social Care Information Centre, Hospital Episode Statistics (Copyright ï¿½ 2013, Re-used with the permission of the Health &amp; Social Care Information Centre. All rights reserved)"
 }
