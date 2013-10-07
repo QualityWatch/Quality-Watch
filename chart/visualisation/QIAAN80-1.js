@@ -1,67 +1,5 @@
-/* Created by ianb on 03/10/2013 16:43:59 using v0.9 */
-$(function () {       
-    Highcharts.theme = {
-        colors: ['#009AA6', '#E10E49', '#4F0B7B', '#6C6F70',
-            '#3FCFD5', '#E59AAA', '#B634BB', '#CECFCB'],
-        chart: {
-
-        },
-        title: {
-            style: {
-                color: '#000000',
-                font: '"Proxima Nova", Verdana'
-            }
-        },
-
-        yAxis: {
-            gridLineWidth: 1,
-            gridLineColor: '#CECFCB',
-            title: {
-                style: {
-                    color: '#000000',
-                    font: '"Proxima Nova", Verdana',
-                   fontWeight: ''
-                }
-            },
-            labels: {
-                style: {
-                    color: '#000000',
-                    font: '"Proxima Nova", Verdana'
-                }
-            }            
-        },
-
-        xAxis: {
-            gridLineWidth: 1,            
-            gridLineColor: '#CECFCB',
-            title: {
-                style: {
-                    color: '#000000',
-                    font: '"Proxima Nova", Verdana'
-                }
-            },
-            labels: {
-                style: {
-                    color: '#000000',
-                    font: '"Proxima Nova", Verdana'
-                }
-            } 
-        },
-
-        legend: {
-            itemStyle: {
-                color: '#000000',
-                font: '"Proxima Nova", Verdana'
-            },
-            itemHoverStyle: {
-                color: 'gray'
-            }
-        }
-    };
-
-    // Apply the theme
-    Highcharts.setOptions(Highcharts.theme);
- $('#container').highcharts({
+/* Created by ianb on 07/10/2013 13:35:24 using v0.9 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -100,6 +38,5 @@ data: [null,null,null,null,14.3,13.4,13.2,13.3,14.3,12.3,10.5,9.8,9,8.1,7.4,6.9,
 ,index: 3
 }
 ]
-});
-});
+}
 

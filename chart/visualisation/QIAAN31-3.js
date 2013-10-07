@@ -1,65 +1,4 @@
-$(function () {       
-    Highcharts.theme = {
- colors: ['#009AA6', '#20B4BE', '#40CED6', '#60E8EE','#80FFFF'],
-        chart: {
-
-        },
-        title: {
-            style: {
-                color: '#000000',
-                font: '""Proxima Nova"", Verdana'
-            }
-        },
-
-        yAxis: {
-            gridLineWidth: 1,
-            gridLineColor: '#CECFCB',
-            title: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana',
-                   fontWeight: ''
-                }
-            },
-            labels: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana'
-                }
-            }            
-        },
-
-        xAxis: {
-            gridLineWidth: 1,            
-            gridLineColor: '#CECFCB',
-            title: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana'
-                }
-            },
-            labels: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana'
-                }
-            } 
-        },
-
-        legend: {
-            itemStyle: {
-                color: '#000000',
-                font: '""Proxima Nova"", Verdana'
-            },
-            itemHoverStyle: {
-                color: 'gray'
-            }
-        }
-    };
-
-    // Apply the theme
-    Highcharts.setOptions(Highcharts.theme);
- $('#container').highcharts({
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -106,9 +45,7 @@ type: 'column',
 ,index: 4
 }
 ]
-});
-});
-
+}
 
 
 

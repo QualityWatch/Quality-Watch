@@ -1,66 +1,4 @@
-$(function () {       
-    Highcharts.theme = {
-        colors: ['#009AA6', '#E10E49', '#4F0B7B', '#6C6F70',
-            '#3FCFD5', '#E59AAA', '#B634BB', '#CECFCB'],
-        chart: {
-
-        },
-        title: {
-            style: {
-                color: '#000000',
-                font: '""Proxima Nova"", Verdana'
-            }
-        },
-
-        yAxis: {
-            gridLineWidth: 1,
-            gridLineColor: '#CECFCB',
-            title: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana',
-                   fontWeight: ''
-                }
-            },
-            labels: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana'
-                }
-            }            
-        },
-
-        xAxis: {
-            gridLineWidth: 1,            
-            gridLineColor: '#CECFCB',
-            title: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana'
-                }
-            },
-            labels: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana'
-                }
-            } 
-        },
-
-        legend: {
-            itemStyle: {
-                color: '#000000',
-                font: '""Proxima Nova"", Verdana'
-            },
-            itemHoverStyle: {
-                color: 'gray'
-            }
-        }
-    };
-
-    // Apply the theme
-    Highcharts.setOptions(Highcharts.theme);
- $('#container').highcharts({
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -97,5 +35,4 @@ credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href:
 
             ], index: 1
         }]
-    });
-});
+    }

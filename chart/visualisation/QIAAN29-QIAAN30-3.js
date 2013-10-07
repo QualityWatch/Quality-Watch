@@ -1,66 +1,4 @@
-$(function () {       
-    Highcharts.theme = {
-        colors: ['#009AA6', '#E10E49', '#4F0B7B', '#6C6F70',
-            '#3FCFD5', '#E59AAA', '#B634BB', '#CECFCB'],
-        chart: {
-
-        },
-        title: {
-            style: {
-                color: '#000000',
-                font: '""Proxima Nova"", Verdana'
-            }
-        },
-
-        yAxis: {
-            gridLineWidth: 1,
-            gridLineColor: '#CECFCB',
-            title: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana',
-                   fontWeight: ''
-                }
-            },
-            labels: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana'
-                }
-            }            
-        },
-
-        xAxis: {
-            gridLineWidth: 1,            
-            gridLineColor: '#CECFCB',
-            title: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana'
-                }
-            },
-            labels: {
-                style: {
-                    color: '#000000',
-                    font: '""Proxima Nova"", Verdana'
-                }
-            } 
-        },
-
-        legend: {
-            itemStyle: {
-                color: '#000000',
-                font: '""Proxima Nova"", Verdana'
-            },
-            itemHoverStyle: {
-                color: 'gray'
-            }
-        }
-    };
-
-    // Apply the theme
-    Highcharts.setOptions(Highcharts.theme);
- $('#container').highcharts({
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -91,6 +29,4 @@ data: [74.7,72.3,71,70.4,70,{color:'#E10E49',y:69},67.6,67.5,65.9,63.8]
 ,index: 1
 }
 ]
-});
-});
-
+}
