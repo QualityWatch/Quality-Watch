@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 03/10/2013 16:39:23 using v0.9",
-"import_id" : "QIAAN28-3",
-"title" : "How has the percentage of quitters changed by quarter?",
-"analysis_commentary" : "<P>Quarterly data reveal that quarter four of each year sees the highest rates of quitters. Quarter four corresponds to January to March, which shows that there is a higher rate of people quitting at the start of each year, suggesting that seasonal motivation is having a big impact on the proportion of quitters.</P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Health &amp; Social Care Information Centre, Statistics on NHS Stop Smoking Services in  England"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:47:24 using v0.9","import_id" : "QIAAN28-3","title" : "How has the percentage of quitters changed by quarter?","analysis_commentary" : "<P>Quarterly data reveal that quarter four of each year sees the highest rates of quitters. Quarter four corresponds to January to March, which shows that there is a higher rate of people quitting at the start of each year, suggesting that seasonal motivation is having a big impact on the proportion of quitters.<\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Health & Social Care Information Centre, Statistics on NHS Stop Smoking Services in  England"}

@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:35:36 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:52:09 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have the longest referral to treatment times changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -45,4 +44,3 @@ data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,nul
 }
 ]
 }
-

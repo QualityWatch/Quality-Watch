@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:34:34 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:51:35 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion in paid employment changed by hours worked?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -14,6 +13,7 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Percentage of employed adults with <br> learning difficulties ', offset: 87}
+, max: 100
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -52,4 +52,3 @@ data: [15.7,14.8,14.1,12]
 }
 ]
 }
-

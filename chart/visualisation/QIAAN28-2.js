@@ -1,13 +1,12 @@
-/* Created by ianb on 07/10/2013 13:25:45 using v0.9 */
-{
+ï»¿/* Created by ianb on 08/10/2013 13:47:20 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How is the amount spent per smoker related to the percentage of quitters?'},
-credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: 'Â© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:'Cost per quitter (£)'}
+title: {text:'Cost per quitter (Â£)'}
 , labels: {
 }
 },
@@ -32,4 +31,3 @@ data: [[120, 0.55],[269, 0.49]]
 }
 ]
 }
-

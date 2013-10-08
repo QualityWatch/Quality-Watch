@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:34:16 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:51:25 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'Why are patients exiting drug treatment and how has this changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -71,4 +70,3 @@ data: [null,null,null,null,37.2,31.5,27.8]
 }
 ]
 }
-

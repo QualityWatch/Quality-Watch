@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:34:52 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:51:45 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion of older people living at home after discharge changed by provider?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:'Proportion of older people (over 65) who are still at home 91 days after discharge <br> from hospital into reablement/rehabilitation services, 2011/2012', offset: 27}
@@ -35,4 +34,3 @@ data: [[0.7,0.7],[1.4,1.4],[2,2],[2.7,2.7],[3.4,3.4],[4.1,4.1],[4.8,4.8],[5.4,5.
 }
 ]
 }
-

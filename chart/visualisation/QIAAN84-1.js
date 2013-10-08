@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:36:07 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:52:26 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How many patients are affected by delayed transfers of care and how has this changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -35,4 +34,3 @@ data: [[0, 4433.7],[35, 3848.9]]
 }
 ]
 }
-

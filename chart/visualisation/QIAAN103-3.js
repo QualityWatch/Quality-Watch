@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:25:13 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:47:03 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'Has the pattern of breaches changed between years?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -41,4 +40,3 @@ data: [5.8,4.7,3.2,4.3,4.8,4.3,4.5,4.5,5.8,6.1,5.8,5.4,4,6.9,7.1,5.4,3.5,2.1,2.3
 }
 ]
 }
-

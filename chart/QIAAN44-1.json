@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 03/10/2013 16:40:27 using v0.9",
-"import_id" : "QIAAN44-1",
-"title" : "How has the proportion of respondents reporting poor care changed?",
-"analysis_commentary" : "<P>Despite the lack of comparability with the data, the proportion of people feeling that their care was poor or very poor has consistently been around 9% for all years, suggesting that patients have been satisfied with their care.</P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Care Quality Commission, Community Mental Health Survey"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:48:30 using v0.9","import_id" : "QIAAN44-1","title" : "How has the proportion of respondents reporting poor care changed?","analysis_commentary" : "<P>Despite the lack of comparability with the data, the proportion of people feeling that their care was poor or very poor has consistently been around 9% for all years, suggesting that patients have been satisfied with their care.<\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Care Quality Commission, Community Mental Health Survey"}

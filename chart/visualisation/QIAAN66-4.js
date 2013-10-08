@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:31:40 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:50:34 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have HPV vaccination rates in teenage girls changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -41,4 +40,3 @@ data: [80.1,76.4,84.2,86.8,71.8,80.8]
 }
 ]
 }
-

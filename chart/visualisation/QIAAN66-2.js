@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:31:24 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:50:26 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have MMR vaccination rates by a child\'s 2nd birthday changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -29,4 +28,3 @@ data: [90,92,91,91,92,92,91,88,88,87,84,82,80,81,84,85,85,85,88,89,91.2]
 }
 ]
 }
-

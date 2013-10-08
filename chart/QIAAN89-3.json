@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 03/10/2013 16:45:17 using v0.9",
-"import_id" : "QIAAN89-3",
-"title" : "How has life expectancy at age 65 changed?",
-"analysis_commentary" : "<P>Life expectancy at birth can be sensitive to high infant mortality and deaths in young adults, so we also look at the life expectancy of males and females at 65. Females still have a higher life expectancy than males &ndash; this was a difference of 2.6 years in 2011 &ndash; which is much less than the difference of four years for the life expectancy at birth rates. Life expectancy at 65 has also increased over the last 30 years, this was by 4.3 years for females and 5.6 years for males.</P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Office of National Statistics, Health Data 2013"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:53:20 using v0.9","import_id" : "QIAAN89-3","title" : "How has life expectancy at age 65 changed?","analysis_commentary" : "<P>Life expectancy at birth can be sensitive to high infant mortality and deaths in young adults, so we also look at the life expectancy of males and females at 65. Females still have a higher life expectancy than males &ndash; this was a difference of 2.6 years in 2011 &ndash; which is much less than the difference of four years for the life expectancy at birth rates. Life expectancy at 65 has also increased over the last 30 years, this was by 4.3 years for females and 5.6 years for males.<\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Office of National Statistics, Health Data 2013"}

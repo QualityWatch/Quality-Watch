@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:28:06 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:48:37 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion of respondents not able to contact their care coordinator changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -27,4 +26,3 @@ data: [4,4,4]
 }
 ]
 }
-

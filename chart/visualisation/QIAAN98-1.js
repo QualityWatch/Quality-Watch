@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:39:11 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:54:03 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the number of mixed-sex accommodation breaches changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -28,4 +27,3 @@ data: [11802,8708,8031,5466,2236,1908,1939,1075,1083,1063,1236,937,907,629,581,5
 }
 ]
 }
-

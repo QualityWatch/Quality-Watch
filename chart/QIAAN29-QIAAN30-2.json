@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 03/10/2013 16:39:33 using v0.9",
-"import_id" : "QIAAN29-QIAAN30-2",
-"title" : "How has the proportion of carers feeling involved changed by age?",
-"analysis_commentary" : "<P>Carers aged 25 to 34 has the lowest proportion who felt involved or consulted in both years the survey was conducted and the general trend increased with age in both years. </P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Health &amp; Social Care Information Centre,  Personal Social Services Survey of Adult Carers in England"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:47:34 using v0.9","import_id" : "QIAAN29-QIAAN30-2","title" : "How has the proportion of carers feeling involved changed by age?","analysis_commentary" : "<P>Carers aged 25 to 34 has the lowest proportion who felt involved or consulted in both years the survey was conducted and the general trend increased with age in both years. <\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Health & Social Care Information Centre,  Personal Social Services Survey of Adult Carers in England"}

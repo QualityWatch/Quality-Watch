@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:34:10 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:51:21 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have rates of community VTE changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -29,4 +28,3 @@ data: [0.378,0.402,0.43,0.356,0.372,0.437,0.338,0.389,0.34,0.408,0.341,0.298,0.3
 }
 ]
 }
-

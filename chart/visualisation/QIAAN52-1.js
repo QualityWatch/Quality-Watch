@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:28:38 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:48:55 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How long did outpatients say they had to wait for an appointment and how has this changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -71,4 +70,3 @@ data: [0,0,6]
 }
 ]
 }
-

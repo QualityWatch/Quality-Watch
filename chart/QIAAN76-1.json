@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 03/10/2013 16:43:28 using v0.9",
-"import_id" : "QIAAN76-1",
-"title" : "How has the proportion of adults with learning disabilities in paid employment changed?",
-"analysis_commentary" : "<P>The proportion of adults with learning disabilities who are in paid employment has increased. Since in 2008/09, data were only collected for half a year so it is more realistic to look at the change from 2009/10, which was 6.4%, to 2011/12, which was 7.2%; an increase of 0.8%.</P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Health &amp; Social Care Information Centre, Adult Social Care - Combined Activity Return (ASC-CAR)"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:51:32 using v0.9","import_id" : "QIAAN76-1","title" : "How has the proportion of adults with learning disabilities in paid employment changed?","analysis_commentary" : "<P>The proportion of adults with learning disabilities who are in paid employment has increased. Since in 2008\/09, data were only collected for half a year so it is more realistic to look at the change from 2009\/10, which was 6.4%, to 2011\/12, which was 7.2%; an increase of 0.8%.<\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Health & Social Care Information Centre, Adult Social Care - Combined Activity Return (ASC-CAR)"}

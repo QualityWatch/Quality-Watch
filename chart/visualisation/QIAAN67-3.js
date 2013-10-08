@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:32:06 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:50:47 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has placement to stroke beds changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -22,7 +21,7 @@ format: '{value:.3f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series1',
+name: 'Arrived at stroke bed within 4 hours',
 type: 'line',
 data: [54,58,60,56,63,66,65]
 ,index: 1
@@ -30,9 +29,8 @@ data: [54,58,60,56,63,66,65]
 {
 type: 'line',
 marker: {fillColor: 'none', lineColor: null },
-name: 'Series1 trendline',
+name: 'Arrived at stroke bed within 4 hours trendline',
 data: [[0, 52.857],[6, 64]]
 }
 ]
 }
-

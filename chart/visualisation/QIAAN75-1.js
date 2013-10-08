@@ -1,9 +1,9 @@
-{
+ï»¿{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'What do staff say about experiencing violence from patients or relatives?'},
-credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: 'Â© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},xAxis: {
             title: {
                 text: ''
@@ -13,7 +13,7 @@ credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href:
         },
         yAxis: {
             title: {
-                text: 'Un-weighted percentage of staff <br> reporting that they experienced <br> physical violence from patients/relatives <br> ± SEM',
+                text: 'Un-weighted percentage of staff <br> reporting that they experienced <br> physical violence from patients/relatives <br> Â± SEM',
                 offset: 111
             },
             labels: {

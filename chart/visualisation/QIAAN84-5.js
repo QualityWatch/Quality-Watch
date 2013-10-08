@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:36:33 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:52:40 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'Which organisations are responsible for the number of patients delayed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -16,23 +15,45 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Number of Patients with a Delayed <br> Transfer of Care', offset: 87}
-, min: 3000
 , labels: {
 format: '{value:.1f}' 
 }},
 series:[
 {
-name: 'Total',
+name: 'NHS',
 type: 'line',
-data: [4940,5004,4588,4409,3861,4597,4404,4170,3910,4056,4137,4228,4144,4165,4150,4165,3617,4094,4007,4028,3954,3857,4086,4031,3961,4102,4115,3894,3448,4188,4009,4052,4043,4200,3895,3977]
+data: [2937,3035,2741,2644,2379,2860,2666,2604,2403,2447,2534,2523,2543,2615,2596,2592,2272,2581,2504,2528,2556,2469,2705,2664,2558,2687,2709,2581,2250,2746,2598,2737,2713,2774,2596,2666]
 ,index: 1
 },
 {
 type: 'line',
 marker: {fillColor: 'none', lineColor: null },
-name: 'Total trendline',
-data: [[0, 4433.7],[35, 3848.9]]
+name: 'NHS trendline',
+data: [[0, 2637.8],[35, 2587.9]]
+},
+{
+name: 'Social Care',
+type: 'line',
+data: [1723,1626,1527,1502,1219,1458,1450,1284,1228,1325,1323,1404,1303,1280,1267,1257,1042,1163,1212,1171,1141,1123,1086,1072,1113,1174,1131,1072,965,1175,1153,1077,1107,1174,1048,1051]
+,index: 2
+},
+{
+type: 'line',
+marker: {fillColor: 'none', lineColor: null },
+name: 'Social Care trendline',
+data: [[0, 1489.3],[35, 1006.4]]
+},
+{
+name: 'Both',
+type: 'line',
+data: [280,343,320,263,263,279,288,282,279,284,280,301,298,270,287,316,303,350,291,329,257,265,295,295,290,241,275,241,233,267,258,238,223,252,251,260]
+,index: 3
+},
+{
+type: 'line',
+marker: {fillColor: 'none', lineColor: null },
+name: 'Both trendline',
+data: [[0, 306.6],[35, 254.5]]
 }
 ]
 }
-

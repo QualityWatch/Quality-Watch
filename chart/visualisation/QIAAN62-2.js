@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:30:44 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:50:04 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion of social care users who feel safe changed by age?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -35,4 +34,3 @@ data: [61.3,67]
 }
 ]
 }
-

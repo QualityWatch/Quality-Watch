@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:27:48 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:48:26 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How do employment rates vary by age?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -35,4 +34,3 @@ data: [33.5,61.4,78,79.7,80,81.6,82,79.8,70.9,45.2]
 }
 ]
 }
-

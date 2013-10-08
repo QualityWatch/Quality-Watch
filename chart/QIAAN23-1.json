@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 04\/10\/2013 14:10:19 using v0.9",
-"import_id" : "QIAAN23-1",
-"title" : "What do staff say about violence they experience from colleagues and managers?",
-"analysis_commentary" : "<P>Overall, the percentage of staff who said they had experienced physical violence from colleagues or managers in the previous 12 months is very low and stays fairly static over time at around 1%. Between 2003 and 2009, staff consistently reported more experiences of physical violence from other colleagues than from direct line managers.Although there appears to be a more than two-fold increase in the percentage of staff who said they'd experienced physical violence from colleagues or managers between 2011 and 2012 (1.09% in 2011 to 2.83% in 2012), the way that respondents could answer that question changed in 2012, so that it made it more sensitive. This means that 2012 cannot be compared to previous years. This is similar for a series of questions around staff experiencing violence, bullying and harassment, both from other staff and patients, and these have therefore not been analysed at this time.<\/P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Department of Health, Survey of NHS Staff"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:47:14 using v0.9","import_id" : "QIAAN23-1","title" : "What do staff say about violence they experience from colleagues and managers?","analysis_commentary" : "<P>Overall, the percentage of staff who said they had experienced physical violence from colleagues or managers in the previous 12 months is very low and stays fairly static over time at around 1%. Between 2003 and 2009, staff consistently reported more experiences of physical violence from other colleagues than from direct line managers. Although there appears to be a more than two-fold increase in the percentage of staff who said they'd experienced physical violence from colleagues or managers between 2011 and 2012 (1.09% in 2011 to 2.83% in 2012), the way that respondents could answer that question changed in 2012, so that it made it more sensitive. This means that 2012 cannot be compared to previous years. This is similar for a series of questions around staff experiencing violence, bullying and harassment, both from other staff and patients, and these have therefore not been analysed at this time.<\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Department of Health, Survey of NHS Staff"}

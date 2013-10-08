@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:26:37 using v0.9 */
-{
+ï»¿/* Created by ianb on 08/10/2013 13:47:48 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'What do staff say about working extra hours and how has this changed?'},
-credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: 'Â© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -13,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Un-weighted percentage of staff <br> reporting that they worked extra <br> hours (paid and un-paid) ± SEM', offset: 99}
+title: {text:'Un-weighted percentage of staff <br> reporting that they worked extra <br> hours (paid and un-paid) Â± SEM', offset: 99}
 , max: 100
 , min: 0
 , labels: {
@@ -27,4 +26,3 @@ data: [76.33,71.41,71.18,70.06,66.3,66.21,65.06,65.33,65.19,70.28]
 }
 ]
 }
-

@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:37:51 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:53:20 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has life expectancy at age 65 changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -33,4 +32,3 @@ data: [13,13,13.2,13.2,13.3,13.4,13.7,13.8,13.8,14,14.1,14.3,14.2,14.7,14.6,14.9
 }
 ]
 }
-

@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:25:52 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:47:24 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the percentage of quitters changed by quarter?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -31,4 +30,3 @@ data: [53,54,57,59,54,54,57,59,53,52,55,58,50,51,53,56,51,50,52,53,49,49,51,51,4
 }
 ]
 }
-

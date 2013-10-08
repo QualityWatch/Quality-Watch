@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:26:38 using v0.9 */
-{
+ï»¿/* Created by ianb on 08/10/2013 13:47:49 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the number of staff feeling pressured to work when unwell changed by sector?'},
-credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: 'Â© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -13,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Un-weighted percentage of staff <br> reporting feeling pressure to attend <br> work when feeling unwell in last <br> 3 months ± SEM', offset: 111}
+title: {text:'Un-weighted percentage of staff <br> reporting feeling pressure to attend <br> work when feeling unwell in last <br> 3 months Â± SEM', offset: 111}
 , max: 40
 , min: 0
 , labels: {
@@ -45,4 +44,3 @@ data: [0,0,21.81,26.16]
 }
 ]
 }
-

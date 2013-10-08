@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:38:05 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:53:27 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has health expenditure per head changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -18,7 +17,7 @@ yAxis: {
 title: {text:'Total expenditure in UK on health/capita <br> (US$ PPP) 2011 ', offset: 87}
 , labels: {
 format: '{value:.2f}' 
-}},
+,formatter: function() {return '$'+this.value;}}},
 series:[
 {
 name: 'United Kingdom',
@@ -52,4 +51,3 @@ data: [715.08,747.58,794.48,847.01,921.07,992.35,1037.2,1090.7,1143.6,1207.3,128
 }
 ]
 }
-

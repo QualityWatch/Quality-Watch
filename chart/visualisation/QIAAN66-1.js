@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:31:17 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:50:22 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'Are children vaccinated before their 1st birthday and how has this changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -73,4 +72,3 @@ data: [null,null,null,null,null,null,83.7,91.3,92.9,93.6,94.2]
 }
 ]
 }
-

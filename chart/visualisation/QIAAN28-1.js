@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:25:39 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:47:17 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the percentage of smokers quitting changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -37,4 +36,3 @@ data: [[0, 56.3],[10, 49.7]]
 }
 ]
 }
-

@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:30:13 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:49:48 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have the perceptions of people feeling involved in their inpatient care changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -42,4 +41,3 @@ data: [10,11,11,10,11,11,11,10]
 }
 ]
 }
-

@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 03/10/2013 16:45:03 using v0.9",
-"import_id" : "QIAAN88-1",
-"title" : "How has the proportion of category A calls attended within 8 minutes changed?",
-"analysis_commentary" : "<P>For the completed financial years 2011/12 and 2012/13, the service managed to successfully meet the 75% target, although there have been six occasions where the target has not been met within an individual month (out of a total of 28 complete months of data), usually between December and March. Between 2010/11 and 2011/12 there was a slight decrease in the proportion of category A calls being reached within eight minutes, from 76.1% to 75.5%. The large drop observed in December 2012, where only 70.8% of calls were met, is attributable to a single trust failing to reach the standard. </P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "NHS England, Ambulance Quality Indicators: System Indicators"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:53:06 using v0.9","import_id" : "QIAAN88-1","title" : "How has the proportion of category A calls attended within 8 minutes changed?","analysis_commentary" : "<P>For the completed financial years 2011\/12 and 2012\/13, the service managed to successfully meet the 75% target, although there have been six occasions where the target has not been met within an individual month (out of a total of 28 complete months of data), usually between December and March. Between 2010\/11 and 2011\/12 there was a slight decrease in the proportion of category A calls being reached within eight minutes, from 76.1% to 75.5%. The large drop observed in December 2012, where only 70.8% of calls were met, is attributable to a single trust failing to reach the standard. <\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "NHS England, Ambulance Quality Indicators: System Indicators"}

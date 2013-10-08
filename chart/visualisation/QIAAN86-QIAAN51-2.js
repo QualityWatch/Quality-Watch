@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:37:06 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:52:57 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How does the way inpatients rate the care they receive vary?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:'Patient response: 0 (I had a very poor experience) to 10 (I had a very good experience)'}
@@ -27,4 +26,3 @@ data: [1,1,1,2,2,5,6,12,24,20,25]
 }
 ]
 }
-

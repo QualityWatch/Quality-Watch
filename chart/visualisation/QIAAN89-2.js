@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:37:45 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:53:17 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has life expectancy changed by gender?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -39,4 +38,3 @@ data: [76.8,77,77.3,77.4,77.6,77.7,78,78.1,78.1,78.5,78.7,79,78.9,79.5,79.3,79.5
 }
 ]
 }
-

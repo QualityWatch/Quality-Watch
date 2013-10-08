@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:35:48 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:52:16 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion of people receiving diagnostic tests within 6 and 13 weeks changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -35,4 +34,3 @@ data: [29.27,27.68,25.16,25.4,24.26,24.28,23.12,23.88,23.13,24.81,22.86,23.5,21.
 }
 ]
 }
-

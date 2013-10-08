@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:33:46 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:51:08 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have rates of community pressure ulcers changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -29,4 +28,3 @@ data: [8.8,8.8,8.3,7.5,7.3,6.9,6.5,6,6,6,6.3,5.9,6.3]
 }
 ]
 }
-

@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:30:51 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:50:08 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'What do services users say about how satisfied they are with services?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -33,4 +32,3 @@ data: [null,62.8,63.7]
 }
 ]
 }
-

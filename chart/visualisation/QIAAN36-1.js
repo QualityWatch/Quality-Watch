@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:26:50 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:47:56 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'What do staff say about support from their managers and how has it changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -28,4 +27,3 @@ data: [3.6,3.6,3.7,3.7,3.7,3.6]
 }
 ]
 }
-

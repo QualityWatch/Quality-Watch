@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:25:00 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:46:57 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have breaches of the four hour target changed by week?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -35,4 +34,3 @@ data: [[0, 1.7],[147, 3.3]]
 }
 ]
 }
-

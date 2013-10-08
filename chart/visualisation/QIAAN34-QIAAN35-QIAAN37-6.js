@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:26:39 using v0.9 */
-{
+ï»¿/* Created by ianb on 08/10/2013 13:47:49 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'What do staff say about being ill with work related stress and how has this changed?'},
-credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: 'Â© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -13,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Un-weighted percentage of staff <br> reporting that they had been ill <br> due to work related stress ± SEM', offset: 99}
+title: {text:'Un-weighted percentage of staff <br> reporting that they had been ill <br> due to work related stress Â± SEM', offset: 99}
 , max: 50
 , labels: {
 }},
@@ -26,4 +25,3 @@ data: [35.1,34.47,32.45,32.71,28.06,28.31,29.11,30.05,38.16]
 }
 ]
 }
-

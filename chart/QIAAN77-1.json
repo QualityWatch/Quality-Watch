@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 03/10/2013 16:43:38 using v0.9",
-"import_id" : "QIAAN77-1",
-"title" : "How has the proportion of older people living at home after discharge changed?",
-"analysis_commentary" : "<P>The proportion of older people who are still at home 91 days after discharge from hospital into reablement/rehabilitation services has not changed much over time, remaining around 82% since 2009/10.</P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Health &amp; Social Care Information Centre, Adult Social Care - Combined Activity Return (ASC-CAR)"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:51:42 using v0.9","import_id" : "QIAAN77-1","title" : "How has the proportion of older people living at home after discharge changed?","analysis_commentary" : "<P>The proportion of older people who are still at home 91 days after discharge from hospital into reablement\/rehabilitation services has not changed much over time, remaining around 82% since 2009\/10.<\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Health & Social Care Information Centre, Adult Social Care - Combined Activity Return (ASC-CAR)"}

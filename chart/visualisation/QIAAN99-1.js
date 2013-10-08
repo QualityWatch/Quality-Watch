@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:39:23 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:54:10 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have NHS staff numbers changed by staff type?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -59,4 +58,3 @@ data: [0,4.6,9.1,12.8,12.3,11.6,15.1,20.4,22.7,20.9,20.7]
 }
 ]
 }
-

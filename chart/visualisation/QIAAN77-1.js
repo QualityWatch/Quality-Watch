@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:34:46 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:51:42 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion of older people living at home after discharge changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -29,4 +28,3 @@ data: [78.2,81.2,81.9,82.7,81.5]
 }
 ]
 }
-

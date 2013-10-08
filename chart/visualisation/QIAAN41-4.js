@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:27:15 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:48:09 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How do admissions for falls vary by age?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -36,4 +35,3 @@ data: [609.9,491.8,389.6,209.8,100.1,111.4,107.3,113.6,138.1,156,188.6,269.7,359
 }
 ]
 }
-

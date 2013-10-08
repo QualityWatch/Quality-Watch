@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 03/10/2013 16:43:04 using v0.9",
-"import_id" : "QIAAN71-QIAAN72-2",
-"title" : "How have rates of community pressure ulcers changed?",
-"analysis_commentary" : "<P>Incidence of pressure ulcers in community settings decreased from 8.8% of sampled patients in April 2012 to 6.3% of patients in April 2013. Incidence of type 2,3 or 4 pressure ulcers are higher in community settings, with an average of 6.7% of all sampled patients having an ulcer recorded in the time period, compared to 5.0% in acute.</P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Health &amp; Social Care Information Centre, NHS Safety Thermometer"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:51:08 using v0.9","import_id" : "QIAAN71-QIAAN72-2","title" : "How have rates of community pressure ulcers changed?","analysis_commentary" : "<P>Incidence of pressure ulcers in community settings decreased from 8.8% of sampled patients in April 2012 to 6.3% of patients in April 2013. Incidence of type 2,3 or 4 pressure ulcers are higher in community settings, with an average of 6.7% of all sampled patients having an ulcer recorded in the time period, compared to 5.0% in acute.<\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Health & Social Care Information Centre, NHS Safety Thermometer"}

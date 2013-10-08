@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:31:09 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:50:18 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion of people who found it easy to access information changed by age?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -35,4 +34,3 @@ data: [70.8,75.9]
 }
 ]
 }
-

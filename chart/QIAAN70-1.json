@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 03/10/2013 16:42:48 using v0.9",
-"import_id" : "QIAAN70-1",
-"title" : "How many people with depression/anxiety disorders access services and has this changed?",
-"analysis_commentary" : "<P>The access rate of people with anxiety and/or depression to IAPT services was 2.5% in 2012/13 Q4. This was a slight increase from 2.0%, when the data was initially collected in 2011/12 Q1. This relates to nearly 31,000 extra individuals a quarter with anxiety and/or depression receiving IAPT services.</P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Health &amp; Social Care Information Centre, Improving Access to Psychological Therapies Data Set"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:50:52 using v0.9","import_id" : "QIAAN70-1","title" : "How many people with depression\/anxiety disorders access services and has this changed?","analysis_commentary" : "<P>The access rate of people with anxiety and\/or depression to IAPT services was 2.5% in 2012\/13 Q4. This was a slight increase from 2.0%, when the data was initially collected in 2011\/12 Q1. This relates to nearly 31,000 extra individuals a quarter with anxiety and\/or depression receiving IAPT services.<\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Health & Social Care Information Centre, Improving Access to Psychological Therapies Data Set"}

@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 03/10/2013 16:39:47 using v0.9",
-"import_id" : "QIAAN34-QIAAN35-QIAAN37-3",
-"title" : "What do staff say about feeling pressured to work when unwell and how has this changed?",
-"analysis_commentary" : "<P>In 2009, just over one fifth of staff reported that they felt pressure to attend work when feeling unwell in the previous three months. Subsequently, there has been a year-on-year increase in staff reporting feeling pressure to work when feeling unwell, rising to 27% in 2012. Between 2011 and 2012, the change is greater than observed between previous years, with a 5 percentage point increase; compared to less than 1 percentage point increases between the previous years.</P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Department of Health, Survey of NHS staff"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:47:48 using v0.9","import_id" : "QIAAN34-QIAAN35-QIAAN37-3","title" : "What do staff say about feeling pressured to work when unwell and how has this changed?","analysis_commentary" : "<P>In 2009, just over one fifth of staff reported that they felt pressure to attend work when feeling unwell in the previous three months. Subsequently, there has been a year-on-year increase in staff reporting feeling pressure to work when feeling unwell, rising to 27% in 2012. Between 2011 and 2012, the change is greater than observed between previous years, with a 5 percentage point increase; compared to less than 1 percentage point increases between the previous years.<\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Department of Health, Survey of NHS staff"}

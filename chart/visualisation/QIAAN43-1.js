@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:27:31 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:48:18 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have employment rates changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -35,4 +34,3 @@ data: [73.3,73,72.4,73.1,73.3,72.3,72.8,72.9,72.6,73,70.9,71.2,71.1,71.7,70.6,71
 }
 ]
 }
-

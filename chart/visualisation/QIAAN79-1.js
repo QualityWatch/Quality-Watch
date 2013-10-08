@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:35:11 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:51:55 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have waiting times for cancer treatment changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -43,4 +42,3 @@ data: [99.2,99.4,99.5,99.7,99.5,99.7,99.6,99.7,99.6,99.7,99.8,99.8,99.7,99.6,99.
 }
 ]
 }
-

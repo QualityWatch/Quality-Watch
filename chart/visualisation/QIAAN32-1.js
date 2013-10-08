@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:26:30 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:47:44 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion of women screened changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -37,4 +36,3 @@ data: [74.3,74,73.5,72.9,72.8,72.5,72.5,74.7,75.5,75,74.8]
 }
 ]
 }
-

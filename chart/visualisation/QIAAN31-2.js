@@ -1,9 +1,9 @@
-{
+﻿{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the number of timely antenatal assessments changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -35,14 +35,14 @@ series:[
 name: 'Total number of maternities',
 type: 'area',
     yAxis: 0,
-data: [140417,146945,144953,148036,152316,156551,153304,155667,153646,162062,152409]
+data: [160683,168954,169831,159937,163344,169644,167602,164338,164884,170232,166406]
 ,index: 1
 },
 {
 name: 'Maternities with antenatal appointments before 12 weeks 6 days',
 type: 'area',
     yAxis: 0,
-data: [20266,22009,24878,11901,11028,13093,14298,8671,11238,8170,13997]
+data: [140417,146945,144953,148036,152316,156551,153304,155667,153646,162062,152409]
 ,index: 2
 },
 {

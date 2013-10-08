@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:38:58 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:53:55 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion of people dying in their usual residence changed by region?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -89,4 +88,3 @@ data: [42.6,42.8,42.9,43.3,43.6,43.9,44.1,44.4,45.2,45.7,46.5,47.1,47.3,48.1,48.
 }
 ]
 }
-

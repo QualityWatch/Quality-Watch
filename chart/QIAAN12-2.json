@@ -1,8 +1,12 @@
-{
+﻿{
 "_comment" : "Created by ianb on 01/10/2013 14:48:04 using v0.9",
 "import_id" : "QIAAN12-2",
 "title" : "How do overall number of medication safety incidents reported change by sector?",
-"analysis_commentary" : "<P>There was an increase in the overall number of medication patient safety incidents reported in both acute and mental health trusts between April 2010 and September 2011. However, when compared to a similar time period, there is not an equivalent increase in the rate of incidents that cause severe harm or death. This suggests that the decrease in rate is real (assuming no meaningful population changes) and could either be a product of: 1. a decrease in actual incidents that cause severe harm or death2. a decrease in the rate of classifying medical errors as causing severe harm or death in favour of lower harm categories3. a combination of both.</P>",
+"analysis_commentary" : "<P>There was an increase in the overall number of medication patient safety incidents reported in both acute and mental health trusts between April 2010 and September 2011. However, when compared to a similar time period, there is not an equivalent increase in the rate of incidents that cause severe harm or death. This suggests that the decrease in rate is real (assuming no meaningful population changes) and could either be a product of: 
+<ol> 
+<li>1. a decrease in actual incidents that cause severe harm or death </li>
+<li>2. a decrease in the rate of classifying medical errors as causing severe harm or death in favour of lower harm categories</li>
+<li>3. a combination of both.</li></ol></P>",
 "data_download_url" : {
 "url" : "",
 "title" : ""

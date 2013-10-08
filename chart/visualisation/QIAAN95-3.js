@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:38:45 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:53:48 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the number of patients not treated 28 days after a cancelled operation changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -35,4 +34,3 @@ data: [[0, 18.2],[76, 3.7]]
 }
 ]
 }
-

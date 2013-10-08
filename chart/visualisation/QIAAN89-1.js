@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:37:38 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:53:13 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has life expectancy changed by country?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -51,4 +50,3 @@ data: [74.1,74.5,74.6,74.7,74.7,74.7,74.9,74.9,75.1,75.3,75.5,75.7,75.5,75.7,75.
 }
 ]
 }
-

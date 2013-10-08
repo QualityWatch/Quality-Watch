@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:27:03 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:48:02 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How do admissions for falls vary by deprivation?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -28,4 +27,3 @@ data: [1346.3,1443.6,1515.2,1515.2,1607.7,1660.3,1783.7,1929.6,2028.5,2218.9]
 }
 ]
 }
-

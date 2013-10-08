@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:38:24 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:53:37 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the rate of VTE risk assessment changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -42,4 +41,3 @@ data: [80.2,73.8,80.8,80.2,95.2,94.4,95.1,95.9,97.8,98.1,98.5,98]
 }
 ]
 }
-

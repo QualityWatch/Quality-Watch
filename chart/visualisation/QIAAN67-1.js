@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:31:53 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:50:41 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has compliance with good practice changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -81,4 +80,3 @@ data: [null,null,60,72,82]
 }
 ]
 }
-

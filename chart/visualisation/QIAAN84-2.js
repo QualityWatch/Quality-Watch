@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:36:14 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:52:30 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How many days in total are patients delayed and how has this changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -15,24 +14,24 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Number of Patients with a Delayed <br> Transfer of Care', offset: 87}
-, min: 3000
+title: {text:'Total number of delayed days'}
+, max: 130000
+, min: 100000
 , labels: {
 format: '{value:.1f}' 
 }},
 series:[
 {
-name: 'Total',
+name: 'total',
 type: 'line',
-data: [4940,5004,4588,4409,3861,4597,4404,4170,3910,4056,4137,4228,4144,4165,4150,4165,3617,4094,4007,4028,3954,3857,4086,4031,3961,4102,4115,3894,3448,4188,4009,4052,4043,4200,3895,3977]
+data: [109918,115855,113246,113091,116466,114346,112386,123130,108064,113364,117075,115517,117297,117194,116878,114705,112096,111934,109532,119736,108482,119331,110348,117200,120094,114264,116881,116169,107652,125690,109240,118186,112994,120233,113086,112283]
 ,index: 1
 },
 {
 type: 'line',
 marker: {fillColor: 'none', lineColor: null },
-name: 'Total trendline',
-data: [[0, 4433.7],[35, 3848.9]]
+name: 'total trendline',
+data: [[0, 114165.8],[35, 115426.8]]
 }
 ]
 }
-

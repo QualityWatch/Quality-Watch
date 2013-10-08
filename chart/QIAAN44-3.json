@@ -1,11 +1,1 @@
-{
-"_comment" : "Created by ianb on 03/10/2013 16:40:34 using v0.9",
-"import_id" : "QIAAN44-3",
-"title" : "How has the proportion of respondents not able to contact their care coordinator changed?",
-"analysis_commentary" : "<P>The proportion of people who felt they could not contact their care coordinator if they had a problem has remained very low at 4.0% every year. </P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Care Quality Commission, Community Mental Health Survey"
-}
+﻿{"_comment" : "Created by ianb on 08\/10\/2013 13:48:37 using v0.9","import_id" : "QIAAN44-3","title" : "How has the proportion of respondents not able to contact their care coordinator changed?","analysis_commentary" : "<P>The proportion of people who felt they could not contact their care coordinator if they had a problem has remained very low at 4.0% every year. <\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Care Quality Commission, Community Mental Health Survey"}

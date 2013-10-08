@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:36:20 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:52:33 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How many patients are affected by delayed transfers by the type of care received?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -16,23 +15,34 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Number of Patients with a Delayed <br> Transfer of Care', offset: 87}
-, min: 3000
+, min: 1000
 , labels: {
 format: '{value:.1f}' 
 }},
 series:[
 {
-name: 'Total',
+name: 'Acute',
 type: 'line',
-data: [4940,5004,4588,4409,3861,4597,4404,4170,3910,4056,4137,4228,4144,4165,4150,4165,3617,4094,4007,4028,3954,3857,4086,4031,3961,4102,4115,3894,3448,4188,4009,4052,4043,4200,3895,3977]
+data: [2559,2647,2513,2352,1995,2563,2460,2290,2144,2273,2318,2350,2320,2340,2337,2402,2026,2474,2363,2400,2355,2311,2556,2377,2405,2492,2530,2383,2040,2545,2505,2518,2538,2592,2356,2461]
 ,index: 1
 },
 {
 type: 'line',
 marker: {fillColor: 'none', lineColor: null },
-name: 'Total trendline',
-data: [[0, 4433.7],[35, 3848.9]]
+name: 'Acute trendline',
+data: [[0, 2344.8],[35, 2433]]
+},
+{
+name: 'Non-Acute',
+type: 'line',
+data: [2381,2357,2075,2057,1866,2034,1944,1880,1766,1783,1819,1878,1824,1825,1813,1763,1591,1620,1644,1628,1599,1546,1530,1654,1556,1610,1585,1511,1408,1643,1504,1534,1505,1608,1539,1516]
+,index: 2
+},
+{
+type: 'line',
+marker: {fillColor: 'none', lineColor: null },
+name: 'Non-Acute trendline',
+data: [[0, 2089],[35, 1415.9]]
 }
 ]
 }
-

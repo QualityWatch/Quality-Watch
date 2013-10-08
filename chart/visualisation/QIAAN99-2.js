@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:39:30 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:54:13 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the number of nurses changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -27,4 +26,3 @@ data: [307749,309930,311302,310501,310991,311409,311787,310805,310793,310647,309
 }
 ]
 }
-

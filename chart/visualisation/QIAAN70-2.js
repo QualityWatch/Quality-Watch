@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:32:19 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:50:55 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have waiting times for IAPT services changed?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -33,4 +32,3 @@ data: [[0, 0.39],[7, 0.46]]
 }
 ]
 }
-

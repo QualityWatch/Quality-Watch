@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:35:05 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:51:52 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has waiting times after an urgent referral changed by cancer type?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:'Type of cancer'}
@@ -49,4 +48,3 @@ data: [93.5,94.8,95,95,94.6,96.4,96,96.2,96.4,96,97.2,97.6,96.8,97,97.8]
 }
 ]
 }
-

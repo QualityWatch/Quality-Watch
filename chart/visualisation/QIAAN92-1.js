@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:38:18 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:53:34 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has mortality amenable to health care changed by gender?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
@@ -39,4 +38,3 @@ data: [202.92,188.12,185.4,179.43,171.01,164.18,152.68,149.44,137.06,131.38,126.
 }
 ]
 }
-

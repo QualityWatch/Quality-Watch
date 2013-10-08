@@ -1,10 +1,9 @@
-/* Created by ianb on 07/10/2013 13:34:40 using v0.9 */
-{
+﻿/* Created by ianb on 08/10/2013 13:51:38 using v0.9 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion in paid employment changed by provider?'},
-credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:'Provider'}
@@ -20,11 +19,10 @@ title: {text:'The change in number of adults with <br> learning disabilities in 
 }},
 series:[
 {
-name: 'Series2',
+name: 'Adults in paid employment',
 type: 'line',
 data: [-85,-55,-55,-45,-35,-30,-30,-25,-20,-20,-15,-15,-15,-15,-15,-15,-15,-15,-15,-15,-10,-10,-10,-10,-10,-10,-10,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,10,10,10,10,10,10,10,10,10,10,15,15,15,15,15,15,15,15,15,15,20,20,20,20,20,20,25,25,25,25,30,35,35,35,35,40,45,50,75,90]
 ,index: 1
 }
 ]
 }
-
