@@ -1,9 +1,9 @@
-﻿{
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion of staff feeling under pressure to work when unwell changed?'},
-credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+title: {text: 'How has the proprtion of staff feeling under pressure to work when unwell changed?'},
+credits: {enabled: true, text: '� Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},xAxis: {
             title: {
                 text: ''
@@ -13,7 +13,7 @@ credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href
         },
         yAxis: {
             title: {
-                text: 'Un-weighted percentage of staff <br> reporting feeling pressure to attend <br> work when feeling unwell in last <br> 3 months ± SEM',
+                text: 'Un-weighted percentage of staff <br> reporting feeling pressure to attend <br> work when feeling unwell in last <br> 3 months � SEM',
                 offset: 111
             },
             max: 40,

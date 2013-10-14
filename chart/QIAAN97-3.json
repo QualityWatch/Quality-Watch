@@ -1,11 +1,1 @@
-﻿{
-"_comment" : "Created by ianb on 01/10/2013 14:48:04 using v0.9",
-"import_id" : "QIAAN97-3",
-"title" : "How did NHS staff sickness rates vary by region?",
-"analysis_commentary" : "<P>There is regional variation in sickness absence rates: between April 2009 and March 2013, the North East had the highest sickness absence rate, with 4.7% of staff ill on an average day. London showed the lowest rate over this period, with 3.5% of staff ill on an average day.</P>",
-"data_download_url" : {
-"url" : "",
-"title" : ""
-},
-"data_source" : "Health &amp; Social Care Information Centre, Sickness Absence Rates in the NHS. Department of health, Survey of NHS staff"
-}
+{"_comment" : "Created by ianb on 14\/10\/2013 11:52:35 using v0.9","import_id" : "QIAAN97-3","title" : "How did NHS staff sickness rates vary by region?","analysis_commentary" : "<P>There is regional variation in sickness absence rates: between April 2009 and March 2013, the North East had the highest sickness absence rate, with 4.7% of staff ill on an average day. London showed the lowest rate over this period, with 3.5% of staff ill on an average day.<\/P>","data_download_url" : {"url" : "","title" : ""},"data_source" : "Health & Social Care Information Centre, Sickness Absence Rates in the NHS. Department of health, Survey of NHS staff"}
