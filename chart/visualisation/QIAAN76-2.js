@@ -3,7 +3,7 @@ title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion in paid employment changed by region?'},
-credits: {enabled: true, text: '&copy; Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},xAxis: {
 title: {text:''}
 , categories: ['South East','London','England','Eastern','Yorkshire & Humber','South West','East Midlands','North East','North West','West Midlands']

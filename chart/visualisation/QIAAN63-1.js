@@ -3,7 +3,7 @@ title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'What do services users say about how satisfied they are with services?'},
-credits: {enabled: true, text: '&copy; Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}

@@ -3,7 +3,7 @@ title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the number of patients not treated 28 days after a cancelled operation changed?'},
-credits: {enabled: true, text: '&copy; Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}

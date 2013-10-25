@@ -3,7 +3,7 @@ title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How is the amount spent per smoker related to the percentage of quitters?'},
-credits: {enabled: true, text: '&copy; Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: '© Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:'Cost per quitter (£)'}

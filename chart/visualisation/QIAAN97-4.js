@@ -3,7 +3,7 @@ title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How did NHS staff sickness rates vary by staff type?'},
-credits: {enabled: true, text: '&copy; Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
+credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},xAxis: {
 title: {text:''}
 , categories: ['Nursing, Midwifery and Health Visiting Learners','Medical and Dental Staff','Healthcare Scientists','Scientific, Therapeutic and Technical Staff','Administration and Estates ','England','Nursing, Midwifery and Health Visiting Staff','Ambulance Staff','Healthcare Assistants and Other Support Staff']
