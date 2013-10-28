@@ -1,0 +1,22 @@
+{
+"_comment" : "Created by ianb on 01/10/2013 14:48:04 using v0.9",
+"import_id" : "QIAAN102-1",
+"title" : "Do mortality rates for people with serious mental health illness differ to the population?",
+"analysis_commentary" : "
+<table border ="1">
+<tr>
+<th><th>3 years ending <th> General population DSR <th> Mental health DSR <th> Indicator value <th> Excess mortality lower CI <th> Excess mortality upper CI </tr>
+<tr><td rowspan=3> Female <td>2011 <td>321.1 <td>1,050.60 <td>729.5 <td>699.1 <td>760 </tr>
+<tr><td>2010<td> 321<td> 1,015.70<td> 694.7<td> 664.5<td> 724.9</tr>
+<tr><td>2009<td>335.7<td>1,091.70<td>756<td>724.1<td>788</tr>
+<tr><td rowspan=3>Male<td>2011<td>483.3<td>1,598.00<td>1,114.70<td>1075.7<td>1153.6</tr>
+<tr><td>2010<td>487.8<td>1,577.90<td>1,090.10<td>1051<td>1129.3</tr>
+<tr><td>2009<td>503.7<td>1,643.30<td>1,139.70<td>1098.9<td>1180.5</tr>
+</table>
+<P>The difference in mortality rates between the general population and  people under 75 years with serious mental illness is large; being over three times as high as the rest of the population. There has been little progress to reduce this gap over the time period measured.</P>",
+"data_download_url" : {
+"url" : "",
+"title" : ""
+},
+"data_source" : "Health & Social Care Information Centre, NHS Outcomes Framework indicator portal"
+}
