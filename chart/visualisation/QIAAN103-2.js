@@ -14,7 +14,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of patients waiting less <br> than four hours in major A&E', offset: 87}
+title: {text:'Percentage of patients waiting more <br> than four hours in major A&E', offset: 87}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
