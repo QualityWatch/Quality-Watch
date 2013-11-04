@@ -12,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Proportion of people who found it <br> very or fairly easy to find information <br> about social care services', offset: 99}
+title: {text:'Proportion of people who use <br> social care services and <br> feel as safe as they wanted', offset: 99}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -21,13 +21,13 @@ series:[
 {
 name: 'Unweighted data',
 type: 'column',
-data: [55]
+data: [62.4]
 ,index: 1
 },
 {
 name: 'Weighted data',
 type: 'column',
-data: [null,73.8,74]
+data: [null,63.8,65]
 ,index: 2
 }
 ]
