@@ -13,7 +13,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
         },
         yAxis: {
             title: {
-                text: 'Un-weighted percentage of staff <br> reporting that they experienced <br> physical violence from patients/relatives <br> ± SEM',
+                text: 'Un-weighted percentage of staff <br> reporting that they experienced <br> physical violence from patients/relatives <br> plus or minus SEM',
                 offset: 111
             },
             labels: {
