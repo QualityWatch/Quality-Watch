@@ -13,7 +13,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
         },
         yAxis: {
             title: {
-                text: 'Un-weighted percentage of staff <br> reporting feeling pressure to attend <br> work when feeling unwell in last <br> 3 months ± SEM',
+                text: 'Un-weighted percentage of staff <br> reporting feeling pressure to attend <br> work when feeling unwell in last <br> 3 months plus or minus SEM',
                 offset: 111
             },
             max: 40,
