@@ -12,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Un-weighted percentage of staff <br> reporting that they had been ill <br> due to work related stress ± SEM', offset: 99}
+title: {text:'Un-weighted percentage of staff <br> reporting that they had been ill <br> due to work related stress plus or minus SEM', offset: 99}
 , max: 50
 , labels: {
 }},
