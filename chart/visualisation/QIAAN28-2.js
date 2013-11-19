@@ -6,7 +6,7 @@ title: {text: 'How is the amount spent per smoker related to the percentage of q
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:'Cost per quitter (£)'}
+title: {text:'Cost per quitter (GBP)'}
 , labels: {
 }
 },
