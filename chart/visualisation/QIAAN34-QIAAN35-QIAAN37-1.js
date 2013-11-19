@@ -12,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Un-weighted percentage of staff <br> reporting that they worked extra <br> hours (paid and un-paid) ± SEM', offset: 99}
+title: {text:'Un-weighted percentage of staff <br> reporting that they worked extra <br> hours (paid and un-paid) plus or minus SEM', offset: 99}
 , max: 100
 , min: 0
 , labels: {
