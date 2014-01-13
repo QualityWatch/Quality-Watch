@@ -6,7 +6,7 @@ title: {text: 'How does the way inpatients rate the care they receive vary?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:'Patient response: 0 (I had a very poor experience) to 10 (I had a very good experience)'}
+title: {text:'Patient response: 0 (I had a very poor experience) to 10 <br> (I had a very good experience)'}
 , categories: [0,1,2,3,4,5,6,7,8,9,10]
 , labels: {
 }
