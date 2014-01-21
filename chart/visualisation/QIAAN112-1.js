@@ -1,4 +1,4 @@
-{
+    {
         title: {
             text: ''
         },
@@ -27,50 +27,47 @@
                 step: 1
             }
         },
-        yAxis: [
-            
-                    {
-                       title: {
-                text: 'Directly standardised rate per 100,000 <br> population'
-            },  opposite: true
-        },
-            
-            {
+        yAxis: [{ min: 0,
             title: {
                 text: 'Admissions for fracture of neck of femur'
+            }
+                }, { min: 0, 
+            title: { offset: 50,
+                text: 'Directly standardised rate per 100,000 <br> population'
             },
-            labels: {}
+            opposite: true
         }
+                
 
-]
-
-        ,
+        ],
         series: [{
-            name: 'No. of hip fractures',
-            type: 'line',
-            data: [46495, 49237, 49273, 49154, 49850, 50178, 51757, 51229, 53484, 53694],
-            index: 1
-        }, {
             name: 'Directly standardised fracture rate',
             type: 'line',
-            data: [432.84, 453.49, 453.52, 447.85, 448.04, 443.66, 450.07, 441.13, 455.43, 448.96],
-            yaxis: 1,
-            index: 2
+            yAxis: 1,
+            data: [432.84, 453.49, 453.52, 447.85, 448.04, 443.66, 450.07, 441.13, 455.43, 448.96]
         }, {
             name: 'error',
             type: 'errorbar',
+            yAxis: 1,
             data: [
-                [4.22, 4.25],
-                [4.31, 4.33],
-                [4.3, 4.33],
-                [4.25, 4.28],
-                [4.21, 4.24],
-                [4.15, 4.18],
-                [4.15, 4.17],
-                [4.08, 4.1],
-                [4.11, 4.14],
-                [4.04, 4.07]
-            ],
-            yaxis: 1
-        }]
+                [null, null],
+                [null, null],
+                [null, null],
+                [null, null],
+                [null, null],
+                [null, null],
+                [null, null],
+                [null, null],
+                [null, null],
+                [null, null]
+            ]
+        }, {
+            name: 'No. of hip fractures',
+            type: 'line',
+            data: [46495, 49237, 49273, 49154, 49850, 50178, 51757, 51229, 53484, 53694]
+        }
+
+        ]
     }
+
+
