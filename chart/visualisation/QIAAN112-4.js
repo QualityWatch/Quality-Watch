@@ -13,15 +13,16 @@ title: {text:''}
 , step: 1
 }
 },
-    yAxis: [{opposite: true, 
-title: {text:'Directly standardised readmission rate per 1,000 admissions', offset: 87}
+    yAxis: [
+        {
+title: {text:'Readmissions within 28 days following <br> Fractured Neck of Fenur discharge', offset: 87}
 , min: 0
 , labels: {
 format: '{value:.1f}' 
 }},
-        {
-title: {text:'Readmissions within 28 days following <br> Fractured Neck of Fenur discharge', offset: 87}
-, min: 2000
+    {opposite: true, 
+title: {text:'Directly standardised readmission rate <br> per 1,000   admissions', offset: 87}
+, min: 0
 , labels: {
 format: '{value:.1f}' 
 }}],
@@ -35,11 +36,13 @@ data: [3658,4115,4319,4513,4965,5091,5284,5450,5894,6180]
 {
 name: 'Directly standardised 28-day readmission rate',
 type: 'line',
+    yAxis: 1,
 data: [80.3,84.1,86.9,91.8,98.7,101.1,101.9,104.9,108.6,113.4]
 ,index: 1
 }, {
             name: 'error',
             type: 'errorbar',
+    yAxis: 1,
             data: [
 [77.69,82.91],
 [81.53,86.7],
@@ -56,4 +59,3 @@ data: [80.3,84.1,86.9,91.8,98.7,101.1,101.9,104.9,108.6,113.4]
         }
 ]
 }
-	
