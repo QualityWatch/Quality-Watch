@@ -13,18 +13,11 @@ title: {text:''}
 , step: 1
 }
 },
-    yAxis: [{opposite: true,
-title: {text:'Directly standardised mortality rate <br> per 1,000 admissions', offset: 87}
-, min: 50
-, labels: {
-format: '{value:.1f}' 
-}},
-       {
-title: {text:'Deaths within 30 days following <br> hip fracture  admission', offset: 87}
-, min: 3000
-, labels: {
-format: '{value:.1f}' 
-}}
+    yAxis: [
+        {min: 0,
+title: {text:'Deaths within 30 days following <br> hip fracture  admission', offset: 87}},
+        {opposite: true, min: 0,
+title: {text:'Directly standardised mortality rate <br> per 1,000 admissions', offset: 87}}
        ]
     
     ,
@@ -32,18 +25,19 @@ series:[
 {
 name: 'Deaths within 30 days',
 type: 'line',
-    yaxis: 1,
 data: [4433,4986,5244,5193,5328,5176,5234,4828,4538,4344]
 ,index: 1
 },
 {
 name: 'Directly standardised 30-day mortality rate',
 type: 'line',
+    yAxis:1,
 data: [97.3,101.3,105.3,104.9,103.5,99.7,97,88.5,79.1,74.9]
-,index: 1
+
 }, {
             name: 'error',
             type: 'errorbar',
+    yAxis: 1,
             data: [
 [94.43,100.18],
 [98.47,104.11],
@@ -59,4 +53,4 @@ data: [97.3,101.3,105.3,104.9,103.5,99.7,97,88.5,79.1,74.9]
             ]
         }
 ]
-}
+}    
