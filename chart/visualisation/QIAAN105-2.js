@@ -62,7 +62,7 @@ plotOptions: {column: {stacking: 'normal',}},
             data: [12.8, 14.6, {y: 15.2, color:'rgba(108,111,112, 0.5)'}],
             index: 1
         }, {
-            name: 'Can`t remember ',
+            name: 'Can\'t remember ',
             type: 'column',
             data: [3.3, 3.3, {y: 3.3, color:'rgba(63,207,213, 0.5)'}],
             index: 0
