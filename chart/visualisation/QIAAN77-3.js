@@ -1,4 +1,4 @@
-/* Created by ianb on 14/10/2013 11:43:47 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:59:28 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -6,7 +6,7 @@ title: {text: 'How has the proportion of older people living at home after disch
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:'Proportion of older people (over 65) who are still at home 91 days after discharge <br> from hospital into reablement/rehabilitation services, 2011/2012', offset: 27}
+title: {text:'Proportion of older people (over 65) who are still at home 91 <br> days after discharge from hospital into reablement/rehabilitation <br> services, 2011/2012', offset: 39}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}

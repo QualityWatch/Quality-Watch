@@ -1,4 +1,4 @@
-/* Created by ianb on 14/10/2013 11:45:00 using v0.9 */{
+/* Created by EFisher on 24/01/2014 17:01:44 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -6,7 +6,7 @@ title: {text: 'How does the way inpatients rate the care they receive vary?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:'Patient response: 0 (I had a very poor experience) to 10 <br> (I had a very good experience)'}
+title: {text:'Patient response: 0 (I had a very poor experience) to 10 (I had <br> a very good experience)', offset: 27}
 , categories: [0,1,2,3,4,5,6,7,8,9,10]
 , labels: {
 }

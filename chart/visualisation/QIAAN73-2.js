@@ -1,4 +1,4 @@
-/* Created by ianb on 14/10/2013 11:43:29 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:58:38 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -12,12 +12,12 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of service users and <br> their reason reason for exiting <br> alcohol treatment', offset: 99}
+title: {text:'Percentage of service users and <br> their reason for exiting alcohol <br> treatment', offset: 99}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-series:[
+legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
 name: 'Successful Completion',
 type: 'line',
@@ -26,31 +26,31 @@ data: [50,null,null,null]
 },
 {
 name: 'Dropped Out/Left',
-type: 'line',
+visible: false,type: 'line',
 data: [29,null,null,null]
 ,index: 2
 },
 {
 name: 'Other',
-type: 'line',
+visible: false,type: 'line',
 data: [20,null,null,null]
 ,index: 3
 },
 {
 name: 'Successful Completion',
-type: 'line',
+visible: false,type: 'line',
 data: [null,48,54,57.1]
 ,index: 4
 },
 {
 name: 'Dropped Out/Left',
-type: 'line',
+visible: false,type: 'line',
 data: [null,33,30,28.1]
 ,index: 5
 },
 {
 name: 'Other',
-type: 'line',
+visible: false,type: 'line',
 data: [null,19,17,15]
 ,index: 6
 }

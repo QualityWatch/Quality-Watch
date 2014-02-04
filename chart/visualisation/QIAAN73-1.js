@@ -1,4 +1,4 @@
-/* Created by ianb on 14/10/2013 11:43:25 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:58:35 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,12 +14,12 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of service users and <br> their reason reason for exiting <br> drug treatment', offset: 99}
+title: {text:'Percentage of service users and <br> their reason for exiting drug treatment', offset: 87}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-series:[
+legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
 name: '% Completed free of dependency',
 type: 'line',
@@ -28,43 +28,43 @@ data: [20.7,25.2,31.2,40.7,null,null,null]
 },
 {
 name: '% Transferred - not in custody',
-type: 'line',
+visible: false,type: 'line',
 data: [null,null,null,null,14.9,14.5,13.5]
 ,index: 2
 },
 {
 name: '% Transferred - in custody',
-type: 'line',
+visible: false,type: 'line',
 data: [null,null,null,null,8.4,10.6,11.3]
 ,index: 3
 },
 {
 name: '% Referred on (old code)',
-type: 'line',
+visible: false,type: 'line',
 data: [10.5,14,17.7,15,null,null,null]
 ,index: 4
 },
 {
 name: '% Incomplete (including not known)',
-type: 'line',
+visible: false,type: 'line',
 data: [68.7,60.8,51.1,44.3,null,null,null]
 ,index: 5
 },
 {
 name: '% Completed free of dependency',
-type: 'line',
+visible: false,type: 'line',
 data: [null,null,null,null,37.8,43,47.4]
 ,index: 6
 },
 {
 name: '% Referred on (old code)',
-type: 'line',
+visible: false,type: 'line',
 data: [null,null,null,null,1.7,0.4,0]
 ,index: 7
 },
 {
 name: '% Incomplete (including not known)',
-type: 'line',
+visible: false,type: 'line',
 data: [null,null,null,null,37.2,31.5,27.8]
 ,index: 8
 }
