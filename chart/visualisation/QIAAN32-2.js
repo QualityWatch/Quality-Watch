@@ -1,8 +1,8 @@
-/* Created by EFisher on 24/01/2014 16:53:47 using v2.0 */{
+/* Created by EFisher on 24/01/2014 16:53:48 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion of women screened changed?'},
+title: {text: 'How has the proportion of women having a cervical screening changed by age?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -14,25 +14,29 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of women in a population <br> eligible for screening who were <br> screened adequately', offset: 99}
-, max: 80
-, min: 60
+title: {text:'Percentage of women in a population <br> eligible for cervical screening <br> who were screened adequately', offset: 99}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Breast cancer screening coverage of women (53 - 70)',
+name: 'Cervical screening coverage of women within 3.5 years (25 - 49)',
 type: 'line',
-data: [63.5,63.9,65.3,67.7,71.3,73.8,75.9,76.5,76.9,77.2,77]
+data: [71.7,71.2,70.6,69.6,69.6,69.2,69.3,72.5,74,73.7,73.5]
 ,index: 1
+},
+{
+name: 'Cervical screening coverage of women within 5 years (50 - 64)',
+type: 'line',
+data: [81,81,80.8,81,80.7,80.5,80.3,80,78.9,78,77.8]
+,index: 2
 },
 {
 name: 'Cervical screening coverage of women (25-64)',
 type: 'line',
 data: [74.3,74,73.5,72.9,72.8,72.5,72.5,74.7,75.5,75,74.8]
-,index: 2
+,index: 3
 }
 ]
 }

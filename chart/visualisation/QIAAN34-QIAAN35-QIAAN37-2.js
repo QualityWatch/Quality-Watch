@@ -1,4 +1,4 @@
-/* Created by ianb on 14/10/2013 11:39:46 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:53:52 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -6,12 +6,12 @@ title: {text: 'How has the number of staff working extra hours changed by provid
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:'Un-weighted percentage of staff reporting that they work ed extra hours (paid and <br> un-paid) 2011 (providers ranked by 2011 result)', offset: 27}
+title: {text:'Un-weighted percentage of staff reporting that they work Ed extra <br> hours (paid and un-paid) 2011 (providers ranked by 2011 result)', offset: 27}
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Un-weighted percentage of staff <br> reporting that they work ed extra <br> hours (paid and un-paid) 2012', offset: 99}
+title: {text:'Un-weighted percentage of staff <br> reporting that they worked extra <br> hours (paid and un-paid) 2012', offset: 99}
 , labels: {
 }},
 series:[

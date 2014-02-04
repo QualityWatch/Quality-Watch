@@ -1,8 +1,8 @@
-/* Created by ianb on 14/10/2013 11:38:55 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:53:01 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How have breaches of the four hour target changed since 2003?'},
+title: {text: 'How has the proportion exceeding the four-hour target changed since 2003?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {

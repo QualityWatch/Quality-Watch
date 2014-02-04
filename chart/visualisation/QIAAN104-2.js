@@ -1,4 +1,4 @@
-/* Created by ianb on 17/01/2014 17:26:13 using v2.0 */{
+/* Created by EFisher on 24/01/2014 17:05:21 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {

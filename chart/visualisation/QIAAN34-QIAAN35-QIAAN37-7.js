@@ -1,4 +1,4 @@
-/* Created by ianb on 14/10/2013 11:39:48 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:53:58 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -6,7 +6,7 @@ title: {text: 'How has the number of staff being ill with work related stress ch
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:'Un-weighted percentage of staff reporting that they had been ill due to work related <br> stress in2011 (providers ranked by 2011 result)', offset: 27}
+title: {text:'Un-weighted percentage of staff reporting that they had been ill <br> due to work related stress in2011 (providers ranked by 2011 result)', offset: 27}
 , labels: {
 }
 },

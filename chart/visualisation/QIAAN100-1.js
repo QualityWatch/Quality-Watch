@@ -1,8 +1,8 @@
-/* Created by ianb on 14/10/2013 11:38:43 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:52:46 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the number of Clostridium difficile changed?'},
+title: {text: 'How has the frequency of reported Clostridium difficile infections changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
