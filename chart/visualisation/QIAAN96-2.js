@@ -1,4 +1,4 @@
-/* Created by ianb on 14/10/2013 11:46:00 using v0.9 */{
+/* Created by EFisher on 24/01/2014 17:04:10 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -19,7 +19,7 @@ title: {text:'Proportion of deaths in usual place <br> of residence', offset: 87
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-series:[
+legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
 name: 'London',
 type: 'line',
@@ -28,61 +28,61 @@ data: [30,30.3,30.4,30.4,30.5,30.9,31.5,32.2,33.1,34.1,34.3,34.7,34.9,35,35.3,35
 },
 {
 name: 'North West',
-type: 'line',
+visible: false,type: 'line',
 data: [35.5,35.8,35.8,36,36.5,36.8,37.1,37.4,37.7,38.2,38.6,39.2,39.7,40.3,40.8,40.9,41.2,41.2]
 ,index: 2
 },
 {
 name: 'West Midlands',
-type: 'line',
+visible: false,type: 'line',
 data: [37.1,37.4,37.4,37.8,37.7,37.9,38,38.1,38.8,39,39.3,39.6,39.7,40.2,40.7,41.3,41.6,41.9]
 ,index: 3
 },
 {
 name: 'North East',
-type: 'line',
+visible: false,type: 'line',
 data: [37.7,37.4,37.2,37.5,37.4,37.6,37.8,38.3,38.5,39.1,39.5,39.9,40.6,41.4,42.5,43,43.2,43.3]
 ,index: 4
 },
 {
 name: 'England',
-type: 'line',
+visible: false,type: 'line',
 data: [37.9,38.1,38.1,38.2,38.3,38.4,38.8,39.2,39.8,40.3,40.7,41.3,41.8,42.4,42.9,43.3,43.7,43.9]
 ,index: 5
 },
 {
 name: 'Yorkshire and the Humber',
-type: 'line',
+visible: false,type: 'line',
 data: [38.6,38.4,38,38,37.9,38.1,38.6,38.9,39.5,39.9,40.2,40.9,41.4,41.9,42.4,43.1,43.7,44.1]
 ,index: 6
 },
 {
 name: 'East Midlands',
-type: 'line',
+visible: false,type: 'line',
 data: [39.4,39.8,39.5,39.4,39.7,39.5,40,40.2,40.8,41.3,41.6,42.3,42.9,43.4,43.9,44,44.1,44.3]
 ,index: 7
 },
 {
 name: 'East of England',
-type: 'line',
+visible: false,type: 'line',
 data: [39.9,40.2,40.3,40.2,40.3,40.1,40.4,40.8,41.6,42.6,43.3,43.9,44.5,45.2,45.8,46.2,46.7,46.8]
 ,index: 8
 },
 {
 name: 'South Central ',
-type: 'line',
+visible: false,type: 'line',
 data: [40,40.2,39.9,40.1,40.2,40.4,41.2,41.5,42,42.2,42.4,43.2,43.7,44.7,45.5,45.6,45.6,45.6]
 ,index: 9
 },
 {
 name: 'South East Coast ',
-type: 'line',
+visible: false,type: 'line',
 data: [40,40.3,40.3,40.4,40,40.2,40.5,40.7,41.3,41.7,42.1,42.7,43.4,44.2,45.1,45.8,46.4,46.9]
 ,index: 10
 },
 {
 name: 'South West',
-type: 'line',
+visible: false,type: 'line',
 data: [42.6,42.8,42.9,43.3,43.6,43.9,44.1,44.4,45.2,45.7,46.5,47.1,47.3,48.1,48.3,48.7,49.3,49.6]
 ,index: 11
 }

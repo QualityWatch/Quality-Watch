@@ -1,4 +1,4 @@
-/* Created by ianb on 14/10/2013 11:46:14 using v0.9 */{
+/* Created by EFisher on 24/01/2014 17:05:04 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -19,7 +19,7 @@ title: {text:'Percentage increase in numbers of <br> full time equivalent for ma
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-series:[
+legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
 name: 'GPs',
 type: 'line',
@@ -28,31 +28,31 @@ data: [0,3.2,6.4,9.4,14.5,15.7,16.8,23.8,20.9,21.1,23]
 },
 {
 name: 'All doctors',
-type: 'line',
+visible: false,type: 'line',
 data: [0,5.1,12.4,17.5,22.5,24.5,29,36.2,36.4,38.3,40.4]
 ,index: 2
 },
 {
 name: 'Nursing staff',
-type: 'line',
+visible: false,type: 'line',
 data: [0,3.8,7.2,10,10.8,10.1,12,14.4,15.5,14.6,14.1]
 ,index: 3
 },
 {
 name: 'Scientific, therapeutic & technical staff',
-type: 'line',
+visible: false,type: 'line',
 data: [0,4.6,10.4,15.1,16.4,19,23.9,30.2,33.5,33.9,35]
 ,index: 4
 },
 {
 name: 'NHS infrastructure support',
-type: 'line',
+visible: false,type: 'line',
 data: [0,6.3,12.7,17.8,12.6,11.9,18.4,28.3,27.6,20.1,17.8]
 ,index: 5
 },
 {
 name: 'Total',
-type: 'line',
+visible: false,type: 'line',
 data: [0,4.6,9.1,12.8,12.3,11.6,15.1,20.4,22.7,20.9,20.7]
 ,index: 6
 }
