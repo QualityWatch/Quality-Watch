@@ -1,8 +1,8 @@
-/* Created by ianb on 14/10/2013 11:42:38 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:57:35 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How have influenza vaccination rates in over 65 year olds changed?'},
+title: {text: 'How have influenza vaccination rates in over-65-year-olds changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {

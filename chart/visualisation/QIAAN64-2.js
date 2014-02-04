@@ -1,8 +1,8 @@
-/* Created by ianb on 14/10/2013 11:42:18 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:57:16 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion of people who found it easy to access information changed by age?'},
+title: {text: 'Has the proportion of people who found it easy to access information about social care changed by age?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {

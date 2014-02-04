@@ -1,8 +1,8 @@
-/* Created by ianb on 14/10/2013 11:40:28 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:54:53 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion of respondents reporting poor care changed?'},
+title: {text: 'Has the perceptions of the quality of care for community mental health services changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {

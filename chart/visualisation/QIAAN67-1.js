@@ -1,4 +1,4 @@
-/* Created by ianb on 14/10/2013 11:42:41 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:57:46 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -17,7 +17,7 @@ title: {text:'Percentage compliance against indicator '}
 format: '{value:.2f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-series:[
+legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
 name: 'Treated for 90% of stay in stroke unit',
 type: 'line',
@@ -26,55 +26,55 @@ data: [null,null,51,58,60]
 },
 {
 name: 'Screened for swallowing disorders within 24 hours',
-type: 'line',
+visible: false,type: 'line',
 data: [64,63,66,72,83]
 ,index: 2
 },
 {
 name: 'Brain scan within 24 hours',
-type: 'line',
+visible: false,type: 'line',
 data: [58,59,42,59,70]
 ,index: 3
 },
 {
 name: 'Aspirin by 48 hours',
-type: 'line',
+visible: false,type: 'line',
 data: [65,68,71,85,93]
 ,index: 4
 },
 {
 name: 'Physiotherapy assessment within 72 hours',
-type: 'line',
+visible: false,type: 'line',
 data: [59,63,71,84,91]
 ,index: 5
 },
 {
-name: 'Asessment by occupational therapist within 4 days',
-type: 'line',
+name: 'Assessment by occupational therapist within 4 days',
+visible: false,type: 'line',
 data: [null,null,49,66,83]
 ,index: 6
 },
 {
 name: 'Weighed at least once',
-type: 'line',
+visible: false,type: 'line',
 data: [49,52,57,72,85]
 ,index: 7
 },
 {
 name: 'Mood assessed by discharge',
-type: 'line',
+visible: false,type: 'line',
 data: [52,47,55,65,80]
 ,index: 8
 },
 {
 name: 'Rehabilitation goals agreed',
-type: 'line',
+visible: false,type: 'line',
 data: [61,68,76,86,94]
 ,index: 9
 },
 {
 name: 'Average for 9 indicators',
-type: 'line',
+visible: false,type: 'line',
 data: [null,null,60,72,82]
 ,index: 10
 }

@@ -1,4 +1,4 @@
-/* Created by ianb on 14/10/2013 11:40:34 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:54:56 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -12,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'The proportion of people who felt <br> they could not contact their care <br> co-ordinator if they have a problem', offset: 99}
+title: {text:'The proportion of people who felt <br> they could not contact their care <br> coordinator if they have a problem', offset: 99}
 , labels: {
 format: '{value:.2f}' 
 ,formatter: function() {return this.value +'%';}}},

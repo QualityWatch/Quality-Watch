@@ -1,8 +1,8 @@
-/* Created by ianb on 14/10/2013 11:42:22 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:57:26 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Are children vaccinated before their 1st birthday and how has this changed?'},
+title: {text: 'Are children vaccinated before their first birthday and how has this changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -21,7 +21,7 @@ title: {text:'Percentage of children immunised <br> by their first birthday', of
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-series:[
+legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
 name: 'Diphtheria & Tetanus & Polio & Pertussis & Hib',
 type: 'line',
@@ -30,43 +30,43 @@ data: [null,null,null,null,null,91.1,91.3,92,93.6,94.2,94.7]
 },
 {
 name: 'Diphtheria',
-type: 'line',
+visible: false,type: 'line',
 data: [90.7,90.9,90.9,90.1,91.4,null,null,null,null,null,null]
 ,index: 2
 },
 {
 name: 'Tetanus',
-type: 'line',
+visible: false,type: 'line',
 data: [90.7,90.9,90.9,90.1,91.3,null,null,null,null,null,null]
 ,index: 3
 },
 {
 name: 'Polio',
-type: 'line',
+visible: false,type: 'line',
 data: [90.5,90.8,90.9,90,91.3,null,null,null,null,null,null]
 ,index: 4
 },
 {
 name: 'Pertussis',
-type: 'line',
+visible: false,type: 'line',
 data: [90.2,90.5,90.6,89.9,91.4,null,null,null,null,null,null]
 ,index: 5
 },
 {
 name: 'Hib',
-type: 'line',
+visible: false,type: 'line',
 data: [90.5,90.7,90.8,89.9,91.3,null,null,null,null,null,null]
 ,index: 6
 },
 {
 name: 'Meningococcal group C',
-type: 'line',
+visible: false,type: 'line',
 data: [89.1,90,90.2,89.6,90.9,91,90.3,91.2,92.7,93.4,93.9]
 ,index: 7
 },
 {
 name: 'Pneumococcal Disease (PCV)',
-type: 'line',
+visible: false,type: 'line',
 data: [null,null,null,null,null,null,83.7,91.3,92.9,93.6,94.2]
 ,index: 8
 }

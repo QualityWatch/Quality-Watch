@@ -1,8 +1,8 @@
-/* Created by ianb on 14/10/2013 11:40:31 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:54:55 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion of respondents reporting lack of support changed by support type?'},
+title: {text: 'Have there been changes in support for community mental health service users?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -33,7 +33,7 @@ data: [43,43]
 ,index: 2
 },
 {
-name: 'Finding or keeping accomodation',
+name: 'Finding or keeping accommodation',
 type: 'column',
 data: [38,37]
 ,index: 3

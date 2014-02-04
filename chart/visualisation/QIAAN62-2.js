@@ -1,4 +1,4 @@
-/* Created by ianb on 14/10/2013 11:42:04 using v0.9 */{
+/* Created by EFisher on 24/01/2014 16:56:53 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -12,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Proportion of people who use  social <br> care servicesand feel as safe as <br> they wanted ', offset: 99}
+title: {text:'Proportion of people who use  social <br> care services and feel as safe as <br> they wanted ', offset: 99}
 , max: 90
 , min: 50
 , labels: {
