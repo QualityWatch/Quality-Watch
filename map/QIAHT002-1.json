@@ -1,6 +1,6 @@
 {
 	"import_id" : "QIAHT002-1",
 	"title" : "What is the average distance from home to hospital for emergency admissions?",
-	"analysis_commentary" : "<p>Some commentary for the map would go here.</p>",
-	"data_source" : "The Nuffield Trust"
+	"analysis_commentary" : "<p>In 2011/12 the average distance from a patient’s home to the hospital in which they received an emergency admission was 8.7 km. This has risen slightly from 8.3 km in 2001/02. The average distance varied substantially across the country from Camden in London with an average of 2.5 km, to Eden District in Cumbria with an average of 34.2 km.</p>",
+	"data_source" : "Health & Social Care Information Centre, Hospital Episode Statistics (Copyright 2013, Re-used with the permission of the Health & Social Care Information Centre. All rights reserved)"
 }
