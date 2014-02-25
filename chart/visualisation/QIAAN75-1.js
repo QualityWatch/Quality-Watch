@@ -42,7 +42,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
                 [6.4,6.9]
             ]        },
         {
-            name: 'Mental health & learning disability trusts',
+            name: 'Mental health & learning disability (MH&LD) trusts',
             type: 'column',
             data: [21.5, 19.4, 18.1, 15, 12.8, null]
         }, 
@@ -71,7 +71,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
             data: [null, null, null, null, null, 20]
         },
         {
-            name: 'Mental health & learning disability trusts (after question change) 95% confidence interval',
+            name: 'MH&LD trusts (after question change) 95% confidence interval',
             type: 'errorbar',
             data: [null, null, null, null, null, [19.5,20.4]
 ]

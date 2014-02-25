@@ -1,8 +1,8 @@
-/* Created by ianb on 14/10/2013 11:39:46 using v0.9 */{
+﻿/* Created by Ian on 14/02/2014 10:59:19 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'What do staff say about working extra hours and how has this changed?'},
+title: {text: 'How frequently do staff report working extra hours?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -23,6 +23,21 @@ name: 'Key finding 5: Staff working extra hours',
 type: 'column',
 data: [76.33,71.41,71.18,70.06,66.3,66.21,65.06,65.33,65.19,70.28]
 ,index: 1
+},
+    {
+name: 'Error',
+type: 'errorbar',
+data: [[76.12,76.54],
+[71.17,71.65],
+[71.18,71.18],
+[70.06,70.06],
+[66.3,66.3],
+[66.21,66.21],
+[64.74,65.38],
+[65,65.66],
+[64.83,65.55],
+[69.94,70.63]
+]
 }
 ]
 }

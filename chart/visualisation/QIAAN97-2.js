@@ -20,10 +20,10 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
             labels: {}
         },
         series: [{
-            name: 'Key finding 20: Staff feeling pressure to attend work when feeling unwell in last 3 months',
+            name: 'Staff feeling pressure to attend work when feeling unwell',
             type: 'column',
             data: [21.52, 22.26, 22.52, 27.01],
-            index: 2
+            index: 1
         }, {
             name: '95 confidence interval',
 			type: 'errorbar',
@@ -33,6 +33,6 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 [21.91,23.12],
 [26.36,27.66]
 
-            ], index: 1
+            ]
         }]
     }

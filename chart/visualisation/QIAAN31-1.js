@@ -25,7 +25,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
             labels: {}
         },
         series: [{
-            name: 'Ratio of maternities which had the first antenatal appointment before 12 weeks and 6 days',
+            name: 'Ratio of maternities which had the first antenatal <br> appointment before 12 weeks and 6 days',
             type: 'line',
             data: [0.87, 0.87, 0.85, 0.93, 0.93, 0.92, 0.91, 0.95, 0.93, 0.95, 0.92]
         }, {
@@ -55,7 +55,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
                 fillColor: 'none',
                 lineColor: null
             },
-            name: 'Ratio of maternities which had the first antenatal appointment before 12 weeks and 6 days trendline',
+            name: 'Trendline',
             data: [
                 [0, 0.87],
                 [10, 0.94]
