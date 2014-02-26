@@ -1,4 +1,7 @@
 {
+        legend: {
+            enabled: false
+        },
         title: {
             text: ''
         },
