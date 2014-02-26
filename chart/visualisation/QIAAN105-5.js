@@ -1,5 +1,8 @@
 {
-title: {text:''},
+legend: {
+            enabled: false
+        },
+        title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How did patients describe their overall experience of making an appointment?'},
