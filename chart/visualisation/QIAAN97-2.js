@@ -20,7 +20,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
             labels: {}
         },
         series: [{
-            name: 'Staff feeling pressure to attend work when feeling unwell',
+            name: 'Staff feeling pressure to attend work <br> when feeling unwell',
             type: 'column',
             data: [21.52, 22.26, 22.52, 27.01],
             index: 1
