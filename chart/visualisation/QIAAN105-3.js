@@ -1,5 +1,8 @@
 {
-title: {text:''},
+        legend: {
+            enabled: false
+        },
+        title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How convenient did patients find the appointment they were able to get?'},
