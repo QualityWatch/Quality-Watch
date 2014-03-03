@@ -1,4 +1,4 @@
-/* Created by EFisher on 24/01/2014 16:54:55 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:19:58 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011','2012']
+, categories: ['2011','2012','1905']
 , labels: {
 }
 },
@@ -23,31 +23,31 @@ series:[
 {
 name: 'Care responsibilities',
 type: 'column',
-data: [35,39]
+data: [35,39,39]
 ,index: 1
 },
 {
 name: 'Finding or keeping work',
 type: 'column',
-data: [43,43]
+data: [43,44,43]
 ,index: 2
-},
-{
-name: 'Finding or keeping accommodation',
-type: 'column',
-data: [38,37]
-,index: 3
 },
 {
 name: 'Financial advice or benefits',
 type: 'column',
-data: [38,37]
+data: [38,37,39]
+,index: 3
+},
+{
+name: 'Finding or keeping accommodation',
+type: 'column',
+data: [38,38,40]
 ,index: 4
 },
 {
 name: 'Physical health needs',
 type: 'column',
-data: [31,36]
+data: [31,36,37]
 ,index: 5
 }
 ]

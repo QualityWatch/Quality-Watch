@@ -1,4 +1,4 @@
-/* Created by EFisher on 24/01/2014 16:53:20 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:18:27 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +14,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of adults on the NHS <br> stop smoking  who quit smoking after <br> 4 weeks', offset: 99}
+title: {text:'Percentage of adults on the NHS <br> stop smoking who quit smoking after <br> 4 weeks', offset: 99}
 , max: 60
 , min: 0
 , labels: {

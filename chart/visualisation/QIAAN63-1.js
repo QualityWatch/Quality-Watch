@@ -1,4 +1,4 @@
-/* Created by EFisher on 24/01/2014 16:57:02 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:22:02 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -19,14 +19,14 @@ format: '{value:.3f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Unwweighted data',
-type: 'line',
+name: 'Unweighted data',
+type: 'column',
 data: [61.7,null,null]
 ,index: 1
 },
 {
 name: 'Weighted data',
-type: 'line',
+type: 'column',
 data: [null,62.8,63.7]
 ,index: 2
 }

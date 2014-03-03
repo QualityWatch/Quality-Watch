@@ -1,16 +1,14 @@
-/* Created by EFisher on 24/01/2014 16:54:53 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:19:55 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Has the perceptions of the quality of care for community mental health services changed?'},
+title: {text: 'Have the perceptions of the quality of care for community mental health services changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2004','2005','2006','2007','2008','2009','2010','2011','2012']
+, categories: [2004,2005,2006,2007,2008,2009,2010,2011,2012]
 , labels: {
- rotation: -90
-, step: 1
 }
 },
 yAxis: {

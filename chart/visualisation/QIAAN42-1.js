@@ -21,7 +21,7 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Percentage of discharges from hopsital that result <br> in emergency readmissions within 30 days',
+name: 'Percentage of discharges from hopsital that <br> result in emergency readmissions within 30 days',
 type: 'column',
 data: [9.4,9.5,9.8,10.2,10.6,10.8,11,11.3,11.6,11.8]
 ,index: 1

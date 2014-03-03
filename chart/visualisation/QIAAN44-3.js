@@ -1,4 +1,4 @@
-/* Created by EFisher on 24/01/2014 16:54:56 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:20:00 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2010','2011','2012']
+, categories: ['2010','2011','2012','2013']
 , labels: {
 }
 },
@@ -19,9 +19,9 @@ format: '{value:.2f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Can you contact your care co-ordinator',
+name: 'No',
 type: 'column',
-data: [4,4,4]
+data: [4,4,4,4]
 ,index: 1
 }
 ]

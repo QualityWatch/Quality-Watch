@@ -1,13 +1,13 @@
-/* Created by EFisher on 24/01/2014 16:53:01 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:18:09 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion exceeding the four-hour target changed since 2003?'},
+title: {text: 'How have breaches of the four hour target changed each quarter?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Jan 2003','Apr 2003','Jul 2003','Oct 2003','Jan 2004','Apr 2004','Jul 2004','Oct 2004','Jan 2005','Apr 2005','Jul 2005','Oct 2005','Jan 2006','Apr 2006','Jul 2006','Oct 2006','Jan 2007','Apr 2007','Jul 2007','Oct 2007','Jan 2008','Apr 2008','Jul 2008','Oct 2008','Jan 2009','Apr 2009','Jul 2009','Oct 2009','Jan 2010','Apr 2010','Jul 2010','Oct 2010','Jan 2011','Apr 2011','May 2011','Jun 2011','Jul 2011','Aug 2011','Sep 2011','Oct 2011','Nov 2011','Dec 2011','Jan 2012','Feb 2012','Mar 2012','Apr 2012','May 2012','Jun 2012','Jul 2012','Aug 2012','Sep 2012','Oct 2012','Nov 2012','Dec 2012','Jan 2013','Feb 2013','Mar 2013','Apr 2013','May 2013','Jun 2013','Jul 2013','Aug 2013']
+, categories: ['2004/05 Q1','2004/05 Q2','2004/05 Q3','2004/05 Q4','2005/06 Q1','2005/06 Q2','2005/06 Q3','2005/06 Q4','2006/07 Q1','2006/07 Q2','2006/07 Q3','2006/07 Q4','2007/08 Q1','2007/08 Q2','2007/08 Q3','2007/08 Q4','2008/09 Q1','2008/09 Q2','2008/09 Q3','2008/09 Q4','2009/10 Q1','2009/10 Q2','2009/10 Q3','2009/10 Q4','2010/11 Q1','2010/11 Q2','2010/11 Q3','2010/11 Q4','2011/12 Q1','2011/12 Q2','2011/12 Q3','2011/12 Q4','2012/13 Q1','2012/13 Q2','2012/13 Q3','2012/13 Q4','2013/14 Q1','2013/14 Q2','2013/14 Q3']
 , labels: {
  rotation: -90
 , step: 2
@@ -16,26 +16,26 @@ title: {text:''}
 yAxis: {
 title: {text:'Percentage of patients waiting more <br> than four hours in major A&E', offset: 87}
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.2f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Percentage',
+name: 'Percentage exceeding 4 hours',
 type: 'line',
-data: [17.6,12.7,11.9,11.7,9.4,6.9,5.4,4.2,3.6,2.4,1.7,2.4,3.4,2.3,2.1,2.4,3.2,2.4,2.3,3.7,3.5,2.4,1.9,3.6,3.2,2,1.9,3.2,3.1,2.3,3,5.3,5.2,4.7,4.4,4.4,3.6,3.9,4.7,5.1,5.1,6.3,6.4,7.5,5.2,5.5,4.8,4.9,4.4,4.5,4.9,5.6,5.9,8,8.1,8.6,9.7,9.9,5.2,4.6,5,5.7]
+data: [6.87,5.4,4.2,3.57,2.38,1.68,2.44,3.43,2.27,2.1,2.41,3.22,2.4,2.3,3.66,3.54,2.37,1.9,3.57,3.24,2.03,1.87,3.18,3.1,2.35,2.98,5.28,5.17,4.44,4.1,5.51,6.32,5.09,4.61,6.46,8.86,6.56,5.65,6.55]
 ,index: 1
 },
 {
 name: 'Old target (2%)',
 type: 'line',
-data: [null,null,null,null,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
+data: [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
 ,index: 2
 },
 {
 name: 'New target (5%)',
 type: 'line',
-data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]
+data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,5,5,5,5,5,5,5,5,5,5,5,5,5,5]
 ,index: 3
 }
 ]

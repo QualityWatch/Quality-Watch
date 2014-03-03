@@ -1,4 +1,4 @@
-/* Created by EFisher on 24/01/2014 16:57:48 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:22:47 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -19,7 +19,7 @@ format: '{value:.2f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'High risk TIA Outpatients  (investigated same day)',
+name: 'High risk TIA Outpatients (investigated same day)',
 type: 'line',
 data: [18,47]
 ,index: 1
@@ -31,13 +31,13 @@ data: [56,59]
 ,index: 2
 },
 {
-name: 'High risk TIA Inpatients  (investigated same day)',
+name: 'High risk TIA Inpatients (investigated same day)',
 type: 'line',
 data: [40,59]
 ,index: 3
 },
 {
-name: 'Low risk TIA Inpatients  (investigated within a week)',
+name: 'Low risk TIA Inpatients (investigated within a week)',
 type: 'line',
 data: [22,14]
 ,index: 4

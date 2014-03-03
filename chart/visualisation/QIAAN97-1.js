@@ -1,4 +1,4 @@
-/* Created by EFisher on 24/01/2014 17:04:23 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:29:16 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['April 2009','May 2009','June 2009','July 2009','August 2009','September 2009','October 2009','November 2009','December 2009','January 2010','February 2010','March 2010','April 2010','May 2010','June 2010','July 2010','August 2010','September 2010','October 2010','November 2010','December 2010','January 2011','February 2011','March 2011','April 2011','May 2011','June 2011','July 2011','August 2011','September 2011','October 2011','November 2011','December 2011','January 2012','February 2012','March 2012','April 2012','May 2012','June 2012','July 2012','August 2012','September 2012','October 2012','November 2012 ','December 2012','January 2013','February 2013','March 2013']
+, categories: ['Apr 2009','May 2009','Jun 2009','Jul 2009','Aug 2009','Sep 2009','Oct 2009','Nov 2009','Dec 2009','Jan 2010','Feb 2010','Mar 2010','Apr 2010','May 2010','Jun 2010','Jul 2010','Aug 2010','Sep 2010','Oct 2010','Nov 2010','Dec 2010','Jan 2011','Feb 2011','Mar 2011','Apr 2011','May 2011','Jun 2011','Jul 2011','Aug 2011','Sep 2011','Oct 2011','Nov 2011','Dec 2011','Jan 2012','Feb 2012','Mar 2012','Apr 2012','May 2012','Jun 2012','Jul 2012','Aug 2012','Sep 2012','Oct 2012','Nov 2012','Dec 2012','Jan 2013','Feb 2013','Mar 2013','Apr 2013','May 2013','Jun 2013','Jul 2013','Aug 2013','Sep 2013']
 , labels: {
  rotation: -90
 , step: 2
@@ -16,21 +16,21 @@ title: {text:''}
 yAxis: {
 title: {text:'NHS National Staff Absence Rate'}
 , labels: {
-format: '{value:.2f}' 
+format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
 name: 'sickness absence rate',
 type: 'line',
-data: [3.99,4.05,4.12,4.7,4.21,4.12,4.59,4.65,4.69,4.71,4.48,4.25,3.93,3.82,3.94,3.99,3.82,4.11,4.2,4.37,4.83,4.7,4.12,3.9,3.73,3.69,3.9,3.97,3.92,4.03,4.25,4.42,4.39,4.46,4.48,4.18,4,4.12,3.93,4.15,4,4.03,4.4,4.49,4.61,4.72,4.33,4.08]
+data: [4,4,4.1,4.7,4.3,4.2,4.7,4.8,4.6,4.8,4.4,4.2,3.9,3.9,3.9,4,3.8,4.1,4.3,4.4,5,4.7,4.1,3.9,3.7,3.7,3.9,4,3.9,4,4.2,4.4,4.4,4.5,4.5,4.2,4,4.1,3.9,4.1,4,4,4.4,4.5,4.6,4.7,4.3,4.1,4,3.8,3.8,3.9,3.8,3.9]
 ,index: 1
 },
 {
 type: 'line',
 marker: {fillColor: 'none', lineColor: null },
 name: 'sickness absence rate trendline',
-data: [[0, 4.23],[47, 4.21]]
+data: [[0, 4.3],[53, 4.1]]
 }
 ]
 }

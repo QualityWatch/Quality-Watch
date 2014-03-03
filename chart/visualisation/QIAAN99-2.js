@@ -1,4 +1,4 @@
-/* Created by EFisher on 24/01/2014 17:05:07 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:29:58 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,21 +7,22 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Sep 2009','Oct 2009','Nov 2009','Dec 2009','Jan 2010','Feb 2010','Mar 2010','Apr 2010','May 2010','Jun 2010','Jul 2010','Aug 2010','Sep 2010','Oct 2010','Nov 2010','Dec 2010','Jan 2011','Feb 2011','Mar 2011','Apr 2011','May 2011','Jun 2011','Jul 2011','Aug 2011','Sep 2011','Oct 2011','Nov 2011','Dec 2011','Jan 2012','Feb 2012','Mar 2012','Apr 2012','May 2012','Jun 2012','Jul 2012','Aug 2012','Sep 2012','Oct 2012','Nov 2012','Dec 2012','Jan 2013','Feb 2013','Mar 2013','Apr 2013','May 2013']
+, categories: ['Sep 09','Oct 09','Nov 09','Dec 09','Jan 10','Feb 10','Mar 10','Apr 10','May 10','Jun 10','Jul 10','Aug 10','Sep 10','Oct 10','Nov 10','Dec 10','Jan 11','Feb 11','Mar 11','Apr 11','May 11','Jun 11','Jul 11','Aug 11','Sep 11','Oct 11','Nov 11','Dec 11','Jan 12','Feb 12','Mar 12','Apr 12','May 12','Jun 12','Jul 12','Aug 12','Sep 12','Oct 12','Nov 12','Dec 12','Jan 13','Feb 13','Mar 13','Apr 13','May 13','Jun 13','Jul 13','Aug 13','Sep 13','Oct 13']
 , labels: {
  rotation: -90
 , step: 2
 }
 },
 yAxis: {
-title: {text:'Number of qualified nursing, midwifery <br> & health visiting staff', offset: 87}
+title: {text:'Number of qualified nursing full <br> time equivalents (FTEs)', offset: 87}
 , labels: {
+format: '{value:.1f}' 
 }},
 series:[
 {
-name: 'Qualified nursing, midwifery & health visiting staff',
+name: 'Qualified nursing staff ',
 type: 'line',
-data: [307749,309930,311302,310501,310991,311409,311787,310805,310793,310647,309836,308729,309139,310647,311493,310612,310989,310783,310519,308789,308685,308138,307243,306031,306346,307825,308600,307829,308199,308100,307947,307245,306999,306278,305578,304566,305060,307545,308822,307982,308483,308802,308895,307754,307634]
+data: [307748.8,309930.2,311302.5,310501.1,310990.8,311409.4,311787.4,310805.4,310793.4,310646.9,309835.9,308729.1,309138.9,310646.8,311493.2,310612.3,310989.3,310782.6,310519.4,308789.4,308684.8,308138.2,307242.7,306030.8,306345.8,307825,308599.9,307829.4,308199.1,308100,307947.1,307245.2,306999.1,306278,305577.7,304565.7,305059.7,307544.8,308821.5,307982,308482.9,308802.1,308895,307753.8,307634,307492.4,306934.7,306024.7,307692,310924]
 ,index: 1
 }
 ]

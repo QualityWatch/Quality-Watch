@@ -1,4 +1,4 @@
-/* Created by EFisher on 24/01/2014 16:54:46 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:19:51 using v2.0 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['16 to 19 ','20 to 24 ','25  to 29 ','30 to 34 ','35 to 39 ','40 to 44 ','45 to 49 ','50 to 54 ','55 to 59 ','60 to 64 ']
+, categories: ['16 to 19 ','20 to 24 ','25 to 29 ','30 to 34 ','35 to 39 ','40 to 44 ','45 to 49 ','50 to 54 ','55 to 59 ','60 to 64 ']
 , labels: {
  rotation: -90
 , step: 1
