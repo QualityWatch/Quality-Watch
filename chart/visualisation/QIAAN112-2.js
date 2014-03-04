@@ -25,7 +25,6 @@ series:[
 name: 'Surgery within 24h of admission',
 type: 'line',
 data: [56.6,54.9,52.3,52.4,51.2,51.8,52.7,55.2,58.7,67]
-,index: 1
 }, {
             name: 'error24h',
             type: 'errorbar',
@@ -46,7 +45,6 @@ data: [56.6,54.9,52.3,52.4,51.2,51.8,52.7,55.2,58.7,67]
 name: 'Surgery within 48h of admission',
 type: 'line',
 data: [73.3,71.4,69.3,69.9,69,70,72,74.1,77.7,83.2]
-,index: 2
 }, {
             name: 'error48h',
             type: 'errorbar',

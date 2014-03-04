@@ -1,4 +1,5 @@
 {
+legend: {enabled: false},
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -26,7 +27,6 @@ series:[
 name: 'Series1',
 type: 'line',
 data: [16.5,16.9,15.6,15.1,14.4,14.4,14,13.5,13.2,12.7]
-,index: 1
 }, {
             name: 'error',
             type: 'errorbar',

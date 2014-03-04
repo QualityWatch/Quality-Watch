@@ -1,11 +1,8 @@
 {
-        legend: {
-            enabled: false
-        },
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How convenient did patients find the appointment they were able to get?'},
+title: {text: 'What are patients\' overall experiences of out-of hours GP services?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -15,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of patients who said <br> the appointment they were able to <br> get was convenient', offset: 99}
+title: {text:'Percentage of patients who said <br> that their overall experience of <br>  out-of hours GP services were good', offset: 99}
 , max: 100
 , min: 0
 , labels: {
@@ -26,15 +23,13 @@ series:[
 {
 name: 'Series1',
 type: 'column',
-data: [93.3,92.5,{y:92.2, color: 'rgba(0,154,166,0.5)'}]
-}, {
-            name: 'Error bars',
-            type: 'errorbar',
-            data: [
-[93.24,93.38],
-[92.41,92.57],
-[92.08,92.25]
-            ]
-        }
+data: [70.9,70.2,{y: 67.5, color: '#3FCFD5'}]
+},
+    {name: 'Error', type: 'errorbar', data: [
+[70.52,71.21],
+[69.85,70.57],
+[67.14,67.91]
+    
+    ]}
 ]
 }

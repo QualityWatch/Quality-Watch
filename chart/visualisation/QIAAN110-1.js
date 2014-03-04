@@ -1,11 +1,9 @@
 {
-        legend: {
-            enabled: false
-        },
+    legend: {enabled: false},
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How convenient did patients find the appointment they were able to get?'},
+title: {text: 'What are patients\' overall experiences of their GP surgeries?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -15,7 +13,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of patients who said <br> the appointment they were able to <br> get was convenient', offset: 99}
+title: {text:'Percentage of patients who said <br> that their overall experience of <br> GP surgery was good', offset: 99}
 , max: 100
 , min: 0
 , labels: {
@@ -26,15 +24,13 @@ series:[
 {
 name: 'Series1',
 type: 'column',
-data: [93.3,92.5,{y:92.2, color: 'rgba(0,154,166,0.5)'}]
-}, {
-            name: 'Error bars',
-            type: 'errorbar',
-            data: [
-[93.24,93.38],
-[92.41,92.57],
-[92.08,92.25]
-            ]
-        }
+    data: [88.3,86.7,{y:86.2, color:'#3FCFD5'}]
+},
+    {name: 'Error', type: 'errorbar', data: [
+[88.19,88.36],
+[86.65,86.83],
+[86.08,86.28]
+    
+    ]}
 ]
 }

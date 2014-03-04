@@ -38,7 +38,6 @@ name: 'Directly standardised 28-day readmission rate',
 type: 'line',
     yAxis: 1,
 data: [80.3,84.1,86.9,91.8,98.7,101.1,101.9,104.9,108.6,113.4]
-,index: 1
 }, {
             name: 'error',
             type: 'errorbar',

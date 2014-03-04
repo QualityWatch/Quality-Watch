@@ -1,4 +1,7 @@
 {
+legend: {
+            enabled: false
+        },
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -23,7 +26,6 @@ series:[
 name: 'Series1',
 type: 'column',
 data: [79.1,76.3,{y:75.5, color: 'rgba(0,154,166,0.5)'}]
-,index: 1
 }, {
             name: 'Error bars',
             type: 'errorbar',

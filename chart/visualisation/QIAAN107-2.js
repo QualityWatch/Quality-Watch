@@ -1,5 +1,8 @@
     {
-        title: {
+        legend: {
+            enabled: false
+        },
+title: {
             text: ''
         },
         credits: {
@@ -46,8 +49,7 @@
             data: [79.7, 79.1, {
                 y: 76.2,
                 color: 'rgba(0,154,166,0.5)'
-            }],
-            index: 1
+            }]
         }, {
             name: 'error',
             type: 'errorbar',

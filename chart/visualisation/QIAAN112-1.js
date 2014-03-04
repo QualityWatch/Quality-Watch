@@ -50,16 +50,16 @@
             type: 'errorbar',
             yAxis: 1,
             data: [
-                [null, null],
-                [null, null],
-                [null, null],
-                [null, null],
-                [null, null],
-                [null, null],
-                [null, null],
-                [null, null],
-                [null, null],
-                [null, null]
+[428.615,437.094],
+[449.182,457.823],
+[449.214,457.851],
+[443.598,452.131],
+[443.83,452.282],
+[439.505,447.837],
+[445.921,454.24],
+[437.049,445.23],
+[451.315,459.565],
+[444.923,453.031]
             ]
         }, {
             name: 'No. of hip fractures',

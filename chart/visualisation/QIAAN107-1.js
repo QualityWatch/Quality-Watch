@@ -1,4 +1,5 @@
         {
+legend: {enabled: false},
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -26,7 +27,6 @@ data: [58,57.6,{
                 y: 56.5,
                 color: 'rgba(0,154,166,0.5)'
             }]
-,index: 1
 }, {
         name: 'error',
         type: 'errorbar',

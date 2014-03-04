@@ -1,5 +1,8 @@
 {
-        title: {
+        legend: {
+            enabled: false
+        },
+title: {
             text: ''
         },
         credits: {
@@ -46,8 +49,7 @@
         series: [{
             name: 'Series1',
             type: 'column',
-            data: [64.7, 66.6, 78, 75, 73.9],
-            index: 1
+            data: [64.7, 66.6, 78, 75, 73.9]
         }, {
             name: 'Error bars',
             type: 'errorbar',

@@ -26,7 +26,6 @@ series:[
 name: 'Deaths within 30 days',
 type: 'line',
 data: [4433,4986,5244,5193,5328,5176,5234,4828,4538,4344]
-,index: 1
 },
 {
 name: 'Directly standardised 30-day mortality rate',
