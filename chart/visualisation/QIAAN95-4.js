@@ -1,6 +1,7 @@
 /* Created by EFisher on 25/02/2014 18:28:48 using v2.0 */
 {
 title: {text:''},
+legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'What is the regional variation in rates of cancelled elective operations in 2012/13?'},
