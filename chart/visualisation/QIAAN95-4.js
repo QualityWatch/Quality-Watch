@@ -1,4 +1,5 @@
-/* Created by EFisher on 25/02/2014 18:28:48 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:28:48 using v2.0 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Rate of cancelled elective operations <br> per 1,000 \'elective\' admissions', offset: 87}
+title: {text:'Rate of cancelled elective <br> operations per 1,000 elective <br> admissions', offset: 87}
 , max: 10
 , labels: {
 format: '{value:.1f}' 
