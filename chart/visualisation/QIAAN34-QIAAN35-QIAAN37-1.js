@@ -1,4 +1,5 @@
-﻿/* Created by Ian on 14/02/2014 10:59:19 using v2.0 */{
+﻿/* Created by Ian on 14/02/2014 10:59:19 using v2.0 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -22,7 +23,6 @@ series:[
 name: 'Key finding 5: Staff working extra hours',
 type: 'column',
 data: [76.33,71.41,71.18,70.06,66.3,66.21,65.06,65.33,65.19,70.28]
-,index: 1
 },
     {
 name: 'Error',
