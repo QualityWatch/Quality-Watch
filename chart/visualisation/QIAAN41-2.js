@@ -1,4 +1,5 @@
-/* Created by EFisher on 25/02/2014 18:19:22 using v2.0 */{
+/* Created by EFisher on 25/02/2014 18:19:22 using v2.0 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -23,7 +24,6 @@ series:[
 name: '2011/12',
 type: 'column',
 data: [1346.3,1443.6,1515.2,1515.2,1607.7,1660.3,1783.7,1929.6,2028.5,2218.9]
-,index: 1
 }
 ]
 }
