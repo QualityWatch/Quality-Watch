@@ -22,8 +22,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
         series: [{
             name: 'Staff feeling pressure to attend work when feeling unwell',
             type: 'column',
-            data: [21.52, 22.26, 22.52, 27.01],
-            index: 1
+            data: [21.52, 22.26, 22.52, 27.01]
         }, {
             name: '95 confidence interval',
 			type: 'errorbar',
