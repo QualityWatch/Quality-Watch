@@ -1,5 +1,6 @@
 {
 title: {text:''},
+legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'Are GPs open at times that are convenient and are patients satisfied with this?'},
@@ -25,7 +26,6 @@ series:[
 name: 'Series1',
 type: 'column',
 data: [79.4,78.3,81,79.6,{y:78.6, color: 'rgba(0,154,166,0.5)'}]
-,index: 1
 }, {
             name: 'Error bars',
             type: 'errorbar',
