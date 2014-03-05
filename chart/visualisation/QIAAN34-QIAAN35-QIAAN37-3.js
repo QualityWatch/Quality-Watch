@@ -1,4 +1,5 @@
-﻿/* Created by Ian on 14/02/2014 11:20:56 using v2.0 */{
+﻿/* Created by Ian on 14/02/2014 11:20:56 using v2.0 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -21,7 +22,6 @@ series:[
 name: 'percentage of staff',
 type: 'column',
 data: [21.52,22.26,22.52,27.01]
-,index: 1
 },  {
 name: 'Error',
 type: 'errorbar',
