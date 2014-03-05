@@ -49,8 +49,7 @@
             data: [88.1, 87.4, 86.6, 86, {
                 y: 85.8,
                 color: 'rgba(0,154,166,0.5)'
-            }],
-            index: 1
+            }]
         }, {
             name: 'GP error',
             type: 'errorbar',
@@ -69,8 +68,7 @@
             data: [81, 76.7, 81.2, 81.1, {
                 y: 81,
                 color: 'rgba(225,14,73,0.5)'
-            }],
-            index: 2
+            }]
         }]
     }, {
         name: 'Nurse error',
