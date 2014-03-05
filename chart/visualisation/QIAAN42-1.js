@@ -14,17 +14,16 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of discharges from hopsital <br> that result in emergency readmissions <br> within 30 days', offset: 99}
+title: {text:'Percentage of discharges from hospital <br> that result in emergency readmissions <br> within 30 days', offset: 99}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Percentage of discharges from hopsital that <br> result in emergency readmissions within 30 days',
+name: 'Percentage of discharges from hospital that <br> result in emergency readmissions within 30 days',
 type: 'column',
 data: [9.4,9.5,9.8,10.2,10.6,10.8,11,11.3,11.6,11.8]
-,index: 1
 },
     {name: 'error bars',
      type: 'errorbar',
