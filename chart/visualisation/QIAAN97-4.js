@@ -2,27 +2,33 @@
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How did NHS staff sickness rates vary by staff type?'},
+title: {text: 'How has the proportion of staff feeling under pressure to work when unwell changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
-}},xAxis: {
+}},
+xAxis: {
 title: {text:''}
-, categories: ['Nursing, Midwifery and Health Visiting Learners','Medical and Dental Staff','Healthcare Scientists','Scientific, Therapeutic and Technical Staff','Administration and Estates ','England','Nursing, Midwifery and Health Visiting Staff','Ambulance Staff','Healthcare Assistants and Other Support Staff']
+, categories: [2009,2010,2011,2012]
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Average daily sickness absence rate <br> (April 2009 - March 2013)', offset: 87}
+title: {text:'Un-weighted percentage of staff <br> reporting feeling pressure to attend <br> work when feeling unwell in last <br> 3 months ± SEM', offset: 111}
+, max: 40
 , labels: {
-format: '{value:.2f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+}},
 series:[
 {
-name: 'Sicness absence rate',
-type: 'bar',
-data: [1.16,1.2,3.35,3.39,3.6,{color: '#E10E49', y:4.22}
-,5.08,6.23,6.3]
-,index: 1
-}
+name: 'Key finding 20: Staff feeling pressure to attend work when feeling unwell in last 3 months',
+type: 'column',
+data: [21.52,22.26,22.52,27.01]
+},
+    {name: 'Error',
+     type: 'errorbar',
+     data:[
+         [21.00,22.04],
+[21.72,22.79],
+[21.91,23.12],
+[26.36,27.66]
+     ]}
 ]
 }
