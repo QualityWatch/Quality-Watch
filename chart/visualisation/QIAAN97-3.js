@@ -2,26 +2,28 @@
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How did NHS staff sickness rates vary by region?'},
+title: {text: 'How did NHS staff sickness rates vary by staff type?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['London','Special Health Authorities','South Central','South East Coast','East of England','South West','England','West Midlands','East Midlands','Yorkshire and the Humber','North West','North East']
+, categories: ['Nursing, Midwifery and Health Visiting Learners','Medical and Dental Staff','Healthcare Scientists','Scientific, Therapeutic and Technical Staff','Administration and Estates 
+
+','England','Nursing, Midwifery and Health Visiting Staff','Healthcare Assistants and Other Support Staff','Ambulance Staff']
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Average daily sickness absence rate <br> (April 2009 - March 2013)', offset: 87}
+title: {text:'Average daily sickness absence rate <br> (January 2010 - September 2013)', offset: 87}
 , labels: {
-format: '{value:.2f}' 
+format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-type: 'bar',
 name: 'Sickness absence rate',
-data: [3.54,3.64,3.77,3.92,4.13,4.18,{color: '#E10E49', y:4.22},4.46,4.5,4.55,4.66,4.69]
+type: 'bar',
+    data: [1.1,1.2,3.3,3.3,3.5,{y: 4.2, color: '#E10E49'},5,6.2,6.2]
 ,index: 1
 }
 ]
