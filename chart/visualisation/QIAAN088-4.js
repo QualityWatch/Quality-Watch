@@ -1,5 +1,4 @@
-/* Created by EFisher on 25/02/2014 18:26:53 using v2.0 */
-{
+/* Created by EFisher on 26/03/2014 16:56:03 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,35 +6,38 @@ title: {text: 'Is the number of calls responsible for the standard breach in the
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:'Number of Category A calls'}
+title: {text:''}
+, categories: ['Jun 2012','Jul 2012','Aug 2012','Sep 2012','Oct 2012','Nov 2012','Dec 2012','Jan 2013','Feb 2013','Mar 2013','Apr 2013','May 2013','Jun 2013','Jul 2013','Aug 2013','Sep 2013','Oct 2013','Nov 2013','Dec 2013']
 , labels: {
-format: '{value:.1f}' 
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
-title: {text:'Proportion of calls responded to <br> within 8 minutes', offset: 87}
+title: {text:'Number of trusts '}
+, max: 14
 , labels: {
-format: '{value:.1f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+}},
 series:[
 {
-name: 'Indivdual month',
-type: 'scatter',
-data: [[213373,77.4],[221893,77.3],[214531,78],[213229,75.8],[227030,76.4],[224718,75.9],[257070,70.8],[236884,75.6],[215693,75.3],[248295,73.8],[232057,75.7],[232280,77.5],[221154,76.8],[236479,73.7],[229128,75.1],[224220,73.5],[240958,73.3],[237663,73],[261891,71.7]]
+name: 'meeting the 8 minute target for responding to category A calls
+',
+type: 'column',
+data: [11,11,12,10,11,9,2,8,6,4,8,10,9,4,5,5,5,3,5]
 ,index: 1
 },
 {
-type: 'line',
-marker: {fillColor: 'none', lineColor: null },
-name: 'Indivdual month trendline',
-data: [[213229, 77.1],[261891, 71.5]]
+name: 'breaching the 8 minute target for responding to category A calls
+',
+type: 'column',
+data: [1,1,0,2,1,3,10,4,5,7,3,1,2,7,6,6,6,8,6]
+,index: 2
 },
 {
-name: 'A8 standard',
+name: 'National breach',
 type: 'scatter',
-data: [[200000,75],[210000,75],[220000,75],[230000,75],[240000,75],[250000,75],[260000,75],[270000,75]]
-,index: 2
+data: [[41244,13],[41334,13],[41456,13],[41518,13],[41548,13],[41579,13],[41609,13]]
+,index: 1
 }
 ]
 }

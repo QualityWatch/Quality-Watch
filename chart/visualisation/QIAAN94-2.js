@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2006/07 ','2007/08','2008/09','2009/10','2010/11','2011/12']
+, categories: ['2006/07 ','2007/08','2008/09','2009/10','2010/11','2011/12','2012/13']
 , labels: {
  rotation: -90
 , step: 1
@@ -25,9 +25,8 @@ series:[
 {
 name: 'Proportion of indicator points achieved',
 type: 'column',
-data: [96.4,97.6,98.2,98.1,98.7,98.7]
+data: [96.4,97.6,98.2,98.1,98.7,98.7,97.2]
 ,index: 1
 }
 ]
 }
-

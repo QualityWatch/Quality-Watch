@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Nursing, Midwifery and Health Visiting Learners','Medical and Dental Staff','Healthcare Scientists','Scientific, Therapeutic and Technical Staff','Administration and Estates','England','Nursing, Midwifery and Health Visiting Staff','Healthcare Assistants and Other Support Staff','Ambulance Staff']
+, categories: ['Nursing, Midwifery and Health Visiting Learners','Medical and Dental Staff','Healthcare Scientists','Scientific, Therapeutic and Technical Staff','Administration and Estates ','England','Nursing, Midwifery and Health Visiting Staff','Healthcare Assistants and Other Support Staff','Ambulance Staff']
 , labels: {
 }
 },

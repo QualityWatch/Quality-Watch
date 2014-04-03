@@ -9,7 +9,8 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 xAxis: {
 title: {text:''}
 , categories: ['2009/10','2010/11','2011/12','2012/13','Jan - Sept 2013']
-, labels: { step: 1
+, labels: {
+ step: 1
 }
 },
 yAxis: {

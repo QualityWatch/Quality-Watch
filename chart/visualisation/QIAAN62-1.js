@@ -1,4 +1,4 @@
-{
+﻿{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,46 +7,26 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2010/11', '2011/12', '2012/13']
+, categories: ['2010-11','2011-12','2012-13']
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Proportion of people who use <br> social care services and <br> feel as safe as they wanted', offset: 99}
+title: {text:'Proportion of people who use services <br> who feel safe', offset: 87}
+, max: 80
+, min: 40
 , labels: {
-format: '{value:.1f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+format: '{value:.2f}' 
+}},
 series:[
 {
-name: 'Unweighted data',
+name: 'England',
 type: 'column',
-data: [62.4]
-,index: 1
+data: [62.4,63.8,65.1]
 },
-{
-name: 'Weighted data',
-type: 'column',
-data: [null,63.8,65]
-,index: 2
-}
+    {name: 'Eng err',
+     type: 'errorbar',
+     data: [[61.9,62.9],[63.3,64.3],[64.7,65.5]
+     ]}
 ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

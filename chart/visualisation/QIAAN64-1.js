@@ -1,4 +1,4 @@
-/* Created by EFisher on 25/02/2014 18:22:13 using v2.0 */{
+﻿{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,28 +7,26 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2010/11','2011/12','2012/13']
+, categories: ['2010-11','2011-12','2012-13']
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Proportion of people who found it <br> very or fairly easy to find information <br> about social care services', offset: 99}
+title: {text:'Proportion of people who use services <br> and carers who find it easy to find <br> information about services', offset: 99}
+, max: 80
+, min: 50
 , labels: {
 format: '{value:.2f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+}},
 series:[
 {
-name: 'Unweighted data',
-type: 'line',
-data: [55,null,null]
-,index: 1
+name: 'England',
+type: 'column',
+data: [74.2,73.8,71.4]
 },
-{
-name: 'Weighted data',
-type: 'line',
-data: [null,73.8,74]
-,index: 2
-}
+    {name: 'Eng err',
+     type: 'errorbar',
+     data: [[73.5,74.7], [73.3,74.3],null]}
 ]
-}
+
+    }

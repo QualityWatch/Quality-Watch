@@ -1,36 +1,32 @@
-/* Created by EFisher on 25/02/2014 18:21:53 using v2.0 */{
+﻿        {
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion of social care users who feel safe changed by age?'},
+title: {text: 'What proportion of people feel their service makes them feel safe?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['18 to 64','65 and over']
+, categories: ['2011-12','2012-13']
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Proportion of people who use social <br> care services and feel as safe as <br> they wanted ', offset: 99}
-, max: 90
-, min: 50
+title: {text:'Proportion of people who use services <br> who say that those services have <br> made them feel safe and secure', offset: 99}
+, max: 80
+, min: 40
 , labels: {
-format: '{value:.1f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+format: '{value:.2f}' 
+}},
 series:[
 {
-name: '2011-12',
+name: 'England',
 type: 'column',
-data: [60.6,65.6]
-,index: 1
-},
-{
-name: '2012-13',
-type: 'column',
-data: [61.3,67]
-,index: 2
+data: [75.5,78.1]
 }
+        ,{name: 'Eng err',
+        type: 'errorbar',
+        data: [[75.1,75.9],[77.7,78.5]        
+        ]}
 ]
 }
