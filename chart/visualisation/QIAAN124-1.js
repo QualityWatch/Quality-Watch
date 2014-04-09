@@ -1,4 +1,5 @@
-/* Created by EFisher on 26/03/2014 17:23:36 using v2.1 */{
+/* Created by EFisher on 26/03/2014 17:23:36 using v2.1 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -19,13 +20,13 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series4',
+name: 'Pre-2011',
 type: 'column',
 data: [59,null,null]
 ,index: 1
 },
 {
-name: 'Series5',
+name: 'Post-2011',
 type: 'column',
 data: [null,70,73.5]
 ,index: 2
