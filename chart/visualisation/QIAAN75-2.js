@@ -17,7 +17,7 @@ title: {text:'Un-weighted percentage of staff <br> reporting that they experienc
 }},
 series:[
 {
-name: 'England',
+name: 'All',
 type: 'column',
 data: [11.26,10.67,9.54,7.08,6.65,null,15.46,14.59]
 },
