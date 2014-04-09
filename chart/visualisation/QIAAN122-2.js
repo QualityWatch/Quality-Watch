@@ -12,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Five-year survival estimates for <br> adults (aged 15–99 years) in England <br> diagnosed 2007–2011 and followed <br> up to 2012', offset: 111}
+title: {text:'Five-year survival estimates for <br> adults (aged 15-99 years) in England <br> diagnosed 2007-2011 and followed <br> up to 2012', offset: 20}
 , max: 100
 , labels: {
 format: '{value:.2f}' 
