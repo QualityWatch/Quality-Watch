@@ -1,4 +1,5 @@
-/* Created by EFisher on 26/03/2014 17:22:40 using v2.1 */{
+/* Created by EFisher on 26/03/2014 17:22:40 using v2.1 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -20,7 +21,7 @@ format: '{value:.2f}'
 }},
 series:[
 {
-name: 'England',
+name: 'All',
 type: 'column',
 data: [8.1]
 ,index: 1
