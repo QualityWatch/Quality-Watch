@@ -2,7 +2,7 @@
 
 {
   "width": 784, "height": 551,
-  "boundaries": "PCT",
+  "boundaries": "pct",
   "borderWidth": 1,
   "borderColour": "#9fa2a3",
   "legendTitle": "What is the average number of antidepressant prescriptions a year per 1,000 population?",
