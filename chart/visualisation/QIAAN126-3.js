@@ -1,4 +1,4 @@
-/* Created by ianb on 07/05/2014 13:26:08 using v2.1 */{
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -12,35 +12,69 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage change in numbers of <br> whole time equivalent', offset: 87}
+title: {text:'Percentage of jobs'}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
+plotOptions: {column: {stacking: 'normal',}},
 series:[
 {
-name: 'Direct care',
-type: 'line',
-data: [0,-6.1,-17.9]
-,index: 1
+name: 'Residential',
+type: 'column',
+data: [23.9,22.2,21.8]
+,index: 4
 },
 {
-name: 'Manager, Supervisor',
-type: 'line',
-data: [0,-4.5,-12.5]
-,index: 2
-},
-{
-name: 'Professional',
-type: 'line',
-data: [0,1.7,3.3]
+name: 'Day',
+type: 'column',
+data: [10.2,9.8,10.9]
 ,index: 3
 },
 {
+name: 'Domiciliary (home care)',
+type: 'column',
+data: [14.5,12.7,14.1]
+,index: 2
+},
+{
+name: 'Community',
+type: 'column',
+data: [31.7,34.9,32.7]
+,index: 1
+},
+{
 name: 'Other',
-type: 'line',
-data: [0,-6.5,-14]
-,index: 4
+type: 'column',
+data: [19.6,20.3,20.5]
+,index: 0
 }
 ]
 }
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
