@@ -11,7 +11,6 @@
   "descriptionPrefix": "Anitdepressant perscriptions per 1,000 population: ",
   "descriptionSuffix": " items",
   "styles": [
-    {"max": 50, "fillColour": "#55504C", "label": "No data"},
     {"max": 141, "fillColour": "#CEC6E1", "label": "50 to 141 items"},
     {"max": 185, "fillColour": "#A897C7", "label": "141 to 185 items"},
     {"max": 225, "fillColour": "#6E4F9E", "label": "185 to 225 items"},
@@ -162,20 +161,13 @@
 "5QQ" : 193,
 "5QR" : 303,
 "5QT" : 249,
-"5P3" : 146,
-"5P4" : 146,
-"5QW" : 165,
-"5ZT" : 0,
-"5ZU" : 0,
-"5ZW" : 0,
-"5ZX" : 0,
-"5ZZ" : 0,
-"5CC" : 0,
-"TAC" : 0,
-"TAK" : 0,
-"TAL" : 0,
-"TAM" : 0,
-"TAN" : 0
+"5QV" : 146,
+"TAC" : 263,
+"TAK" : 128,
+"TAL" : 216,
+"5CC" : 165,
+"TAN" : 194,
+"TAP" : 201
   }
 }
 
