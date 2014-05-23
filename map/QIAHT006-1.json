@@ -1,8 +1,6 @@
 {
 	"import_id" : "QIAHT006-1",
-	"title" : "How many anti-depressents are prescribed per 1,000 population?",
-	"analysis_commentary" : "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod 
-
-tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>",
-	"data_source" : "ADD data SOURCE"
+	"title" : "Rate of antidepressant prescribing across England",
+	"analysis_commentary" : "<p>The rate of antidepressant prescriptions per person varied widely across different primary care trusts (PCTs). Between October and December 2012, 15 PCTs prescribed between 50 and 100 items per 1,000 people, whereas 19 PCTs prescribed over 250 items per 1,000 people. One PCT (NHS Blackpool) prescribed 331 items per 1,000 people. This map shows that PCTs with the lowest rate per person in 2012/13 are almost all located in and around London (all of the PCTs within the M25 are in the lowest quartile) while the PCTs in the upper quartile appear to be largely in the north (29 of the 37 PCTs .</p>",
+	"data_source" : "Health and Social Care Information Centre (HSCIC) Prescribing by GP practice, October to December 2012"
 }
