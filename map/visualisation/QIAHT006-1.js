@@ -8,11 +8,11 @@
   "legendTitle": "How does the rate of antidepressant prescribing change across England?",
   "tabTitle": "Quarter 3 - 2012/13",
   "opacity":0.8,
-  "descriptionPrefix": "Anitdepressant perscriptions per 1,000 population: ",
+  "descriptionPrefix": "Antidepressant prescriptions per 1,000 population: ",
   "descriptionSuffix": " items",
   "styles": [
-    {"max": 141, "fillColour": "#CEC6E1", "label": "50 to 141 items"},
-    {"max": 185, "fillColour": "#A897C7", "label": "141 to 185 items"},
+    {"max": 141, "fillColour": "#CEC6E1", "label": "70 to 142 items"},
+    {"max": 185, "fillColour": "#A897C7", "label": "142 to 185 items"},
     {"max": 225, "fillColour": "#6E4F9E", "label": "185 to 225 items"},
     {"max": 350, "fillColour": "#4F0B7B", "label": "225 to 350 items"}
   ],
@@ -168,7 +168,7 @@
 "TAL" : 216,
 "TAM" : 165,
 "TAN" : 194,
-"TAP" : 201
+"5CC" : 201
   }
 }
 
