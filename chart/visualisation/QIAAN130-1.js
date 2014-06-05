@@ -1,4 +1,5 @@
-/* Created by ianb on 29/05/2014 15:06:42 using v2.1 */{
+/* Created by ianb on 29/05/2014 15:06:42 using v2.1 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -21,7 +22,7 @@ format: '{value:.3f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series1',
+name: 'Prevalence',
 type: 'line',
 data: [2.4,2.943,4.1,4.266,4.256,4.3,4.253]
 ,index: 1
