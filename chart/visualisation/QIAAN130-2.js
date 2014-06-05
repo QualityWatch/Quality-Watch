@@ -1,4 +1,5 @@
-/* Created by ianb on 29/05/2014 15:06:48 using v2.1 */{
+/* Created by ianb on 29/05/2014 15:06:48 using v2.1 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -27,7 +28,7 @@ data: [86.92,74,73.31,73.93,74.22,75.14,76.16]
 ,index: 1
 },
 {
-name: 'With hypertension and proteinuria and treated with an angiotensin converting enzyme inhibitor or angiotensin receptor blocker',
+name: 'With hypertension and proteinuria and treated with <br> an angiotensin converting enzyme inhibitor <br> or angiotensin receptor blocker',
 type: 'line',
 data: [null,null,87.3,91.79,90.45,89.51,89.26]
 ,index: 2
