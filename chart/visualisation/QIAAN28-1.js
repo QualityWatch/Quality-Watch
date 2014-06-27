@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 16:39:11 using v2.1 */{
+/* Created by ianb on 27/06/2014 16:15:00 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2001/02','2002/03','2003/04','2004/05','2005/06','2006/07','2007/08','2008/09','2009/10','2010/11','2011/12']
+, categories: ['2003/04','2004/05','2005/06','2006/07','2007/08','2008/09','2009/10','2010/11','2011/12','2012/13']
 , labels: {
  rotation: -90
 , step: 1
@@ -16,23 +16,17 @@ title: {text:''}
 yAxis: {
 title: {text:'Percentage of adults on the NHS <br> stop smoking who quit smoking after <br> 4 weeks', offset: 99}
 , max: 60
-, min: 0
+, min: 40
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Successful quitters ',
+name: 'Successful quitters',
 type: 'line',
-data: [52.7,52.8,57,56,55,53,52,50,49,49,49]
+data: [56.7,56.3,54.7,53.3,51.6,50.2,49.4,48.7,49.1,51.6]
 ,index: 1
-},
-{
-type: 'line',
-marker: {fillColor: 'none', lineColor: null },
-name: 'Successful quitters  trendline',
-data: [[0, 56.3],[10, 49.7]]
 }
 ]
 }

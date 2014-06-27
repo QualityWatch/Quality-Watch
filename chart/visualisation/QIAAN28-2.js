@@ -1,36 +1,35 @@
-/* Created by EFisher on 26/03/2014 16:39:12 using v2.1 */{
+/* Created by ianb on 27/06/2014 16:15:01 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How is the amount spent per smoker related to the percentage of quitters?'},
+title: {text: 'How has the absolute number of adults joining NHS stop smoking services changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:'Cost per quitter (£)'}
+title: {text:''}
+, categories: ['2003/04','2004/05','2005/06','2006/07','2007/08','2008/09','2009/10','2010/11','2011/12','2012/13']
 , labels: {
-format: '{value:.1f}' 
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
-title: {text:'Percentage of adults who quit smoking <br> within four weeks of those who set <br> a quit date (April 2003 to December <br> 2012)', offset: 111}
-, max: 70
-, min: 40
+title: {text:''}
 , labels: {
 format: '{value:.1f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+}},
 series:[
 {
-name: 'Cost per quitter compared to successful quitters',
-type: 'scatter',
-data: [[174,53],[235,54],[209,57],[138,59],[180,54],[187,54],[170,57],[129,59],[159,53],[167,52],[194,55],[171,50],[192,51],[198,53],[120,56],[152,51],[144,50],[207,52],[194,53],[215,49],[240,49],[262,51],[182,51],[227,48],[250,48],[256,50],[185,51],[230,47],[234,48],[241,49],[190,50],[207,48],[223,48],[246,50],[210,51],[226,49],[260,50],[269,52]]
-,index: 1
+name: 'Number of successful quitters',
+type: 'line',
+data: [204876,298124,329681,319720,350800,337054,373954,383548,400955,373872]
+,index: 2
 },
 {
+name: 'Number of people setting a quit date',
 type: 'line',
-marker: {fillColor: 'none', lineColor: null },
-name: 'Cost per quitter compared to successful quitters trendline',
-data: [[120, 55.5],[269, 48.5]]
+data: [361224,529567,602820,600410,680289,671259,757537,787527,816444,724247]
+,index: 1
 }
 ]
 }

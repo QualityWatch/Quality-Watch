@@ -1,62 +1,43 @@
-/* Created by EFisher on 26/03/2014 16:39:15 using v2.1 */{
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the percentage of quitters changed by age?'},
+title: {text: 'How do quit rates vary by gender and ethnicity?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2004/05','2005/06','2006/07','2007/08','2008/09','2009/10','2010/11','2011/12','2012/13 (Q1-Q3)']
+, categories: ['Pakistani','Any other white background','Any other Asian background','Indian','British','Total','Chinese','Irish','Bangladeshi','African','Any other ethnic group','Not stated','Any other mixed background','White and Asian','Caribbean','White and Black Caribbean','White and Black African','Any other Black background']
 , labels: {
  rotation: -90
 , step: 1
 }
 },
 yAxis: {
-title: {text:'Percentage of adults who quit smoking <br> within four weeks of those who set <br> a quit date ', offset: 99}
-, max: 100
-, min: 0
+title: {text:'Percentage of adults on the NHS <br> stop smoking who quit smoking after <br> 4 weeks', offset: 99}
+, min: 30
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
+series:[
 {
-name: 'Under 18',
-type: 'line',
-data: [39,40,36,37.7,39,32,32,32,33]
+name: 'Total',
+type: 'column',
+    data: [58.6,53.2,53.1,52.9,51.8,{y:51.7, color: 'rgba(0,154,166,0.5)'}, 51.5,51.3,51,50.6,49.8,49.5,49,47.2,46.7,44.7,44,42.4]
 ,index: 1
 },
 {
-name: '18-34',
-visible: false,type: 'line',
-data: [50,49,48,46.3,47,44,43,44,45]
+name: 'Males',
+type: 'column',
+    data: [59.1,53.4,54,53.1,53.4,{y:53.2,color:'rgba(225,14,73, 0.5)'}  , 52.5,51.9,50.6,52.1,50.3,50.3,50.9,47.7,47.6,46.7,44.6,45.1]
 ,index: 2
 },
 {
-name: '35-44',
-visible: false,type: 'line',
-data: [55,54,53,51.5,51,51,50,51,52]
+name: 'Females',
+type: 'column',
+    data: [56,52.9,50.1,52.1,50.4,{y:50.3,color:'rgba(79,11,123, 0.5)'}, 49.5,50.7,53.4,46.7,48.8,48.8,47.1,46.3,45.7,43.1,43.2,39.5]
 ,index: 3
-},
-{
-name: '45-59',
-visible: false,type: 'line',
-data: [59,57,55,53.3,49,52,51,51,53]
-,index: 4
-},
-{
-name: '60 and over',
-visible: false,type: 'line',
-data: [66,64,63,60.2,53,57,56,57,58]
-,index: 5
-},
-{
-name: 'All ages',
-visible: false,type: 'line',
-data: [56,55,53,51.6,50,49,49,49,50]
-,index: 6
 }
 ]
 }

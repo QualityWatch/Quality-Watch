@@ -1,8 +1,8 @@
-/* Created by ianb on 29/05/2014 14:46:29 using v2.1 */{
+/* Created by ianb on 27/06/2014 16:14:50 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How have breaches of the four hour target changed?'},
+title: {text: 'How have waits to be admitted from A&E changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
