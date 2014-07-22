@@ -1,8 +1,8 @@
-/* Created by ianb on 21/07/2014 16:45:26 using v2.1 */{
+/* Created by ianb on 21/07/2014 16:45:27 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the median time spent in A&E changed?'},
+title: {text: 'How long to people wait for treatment to begin?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -14,29 +14,21 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Median number of minutes spent in A&E'}
-, max: 230
-, min: 90
+title: {text:'Time to treatment (minutes)'}
 , labels: {
 }},
 series:[
 {
-name: 'All patients',
+name: 'Median',
 type: 'line',
-data: [129,129,125,121,128,128,127,130,128,134,130,127,127,127,126,122,127,129,131,136,131,135,137,135,127,126,128,125,129,129,131,133,130,134,136]
+data: [57,56,53,47,53,54,51,50,49,54,55,51,53,55,54,49,53,53,53,55,50,54,57,56,51,51,53,48,50,51,50,50,47,52,56]
 ,index: 1
 },
 {
-name: 'Non-admitted patients',
+name: '95th Percentile',
 type: 'line',
-data: [110,110,108,101,109,109,107,106,105,111,110,106,108,108,107,102,107,108,110,112,108,112,115,113,107,107,109,104,108,109,109,110,106,111,115]
+data: [195,191,186,182,188,189,181,188,185,192,188,189,191,194,192,181,184,184,182,192,184,185,195,200,187,180,185,182,183,180,180,184,174,183,180]
 ,index: 2
-},
-{
-name: 'Admitted patients',
-type: 'line',
-data: [213,213,209,210,215,215,215,219,220,225,218,219,217,217,215,216,219,221,221,226,226,227,229,228,215,215,217,218,221,220,220,222,223,226,223]
-,index: 3
 }
 ]
 }
