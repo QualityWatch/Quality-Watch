@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 16:44:24 using v2.1 */{
+/* Created by ianb on 01/08/2014 12:34:43 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,8 +7,10 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2005','2006','2007','2008','2009','2010','2011','2012']
+, categories: ['2005','2006','2007','2008','2009','2010','2011','2012','2013']
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
@@ -23,19 +25,19 @@ series:[
 {
 name: 'There were always or nearly always enough nurses',
 type: 'column',
-data: [58,56,56,58,59,60,58,59]
+data: [58,56,56,58,59,60,58,59,59]
 ,index: 2
 },
 {
 name: 'There were sometimes enough nurses',
 type: 'column',
-data: [31,32,32,31,30,30,31,30]
+data: [31,32,32,31,30,30,31,30,30]
 ,index: 1
 },
 {
 name: 'There were rarely or never enough nurses',
 type: 'column',
-data: [11,12,12,11,10,10,11,11]
+data: [11,12,12,11,10,10,11,11,11]
 ,index: 0
 }
 ]

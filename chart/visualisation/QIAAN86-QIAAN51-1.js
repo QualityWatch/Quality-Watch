@@ -1,8 +1,8 @@
-/* Created by EFisher on 26/03/2014 16:55:06 using v2.1 */{
+/* Created by ianb on 01/08/2014 12:39:22 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'What are inpatients perceptions about care they have received and how has this changed?'},
+title: {text: 'How did patients rate the care they received?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {

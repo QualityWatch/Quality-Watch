@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 17:14:12 using v2.1 */{
+/* Created by ianb on 01/08/2014 12:46:09 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -25,26 +25,14 @@ series:[
 {
 name: '2011/12',
 type: 'column',
-data: [74.4,73.9,73.3,72.3,71.7,69.9,67.8,66,64.7,64]
+data: [70.7,70.1,69.9,68.6,68.5,66.8,65.3,63.9,63.4,62.8]
 ,index: 1
-},
-{
-type: 'line',
-marker: {fillColor: 'none', lineColor: null },
-name: '2011/12 trendline',
-data: [[0, 76.8],[9, 65.3]]
 },
 {
 name: '2012/13',
 type: 'column',
-data: [73.3,73.1,72.7,71.6,70.9,69.4,68.2,66.4,64.9,64.3]
+data: [68.7,68.3,67.7,66.9,67.2,66,64.7,63.7,62.7,62.3]
 ,index: 2
-},
-{
-type: 'line',
-marker: {fillColor: 'none', lineColor: null },
-name: '2012/13 trendline',
-data: [[0, 75.5],[9, 65.6]]
 }
 ]
 }

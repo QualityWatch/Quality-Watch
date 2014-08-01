@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 17:13:59 using v2.1 */{
+/* Created by ianb on 01/08/2014 12:46:04 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -24,13 +24,13 @@ series:[
 {
 name: '2011/12',
 type: 'column',
-data: [57.7,57.8,62.3,66.3,72.7,78.6,77.7,74.4]
+data: [57.7,57.8,62.3,66.3,72.7,78.5,77.6,74.4]
 ,index: 1
 },
 {
 name: '2012/13',
 type: 'column',
-data: [55.9,56.3,61.4,65.2,70.9,77.8,77,73.6]
+data: [56.4,56.2,61.2,65.2,70.9,77.7,77.1,73.9]
 ,index: 2
 }
 ]

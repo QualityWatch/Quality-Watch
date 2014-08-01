@@ -1,23 +1,18 @@
 {
-  legend: {
-            enabled: false
-        },
-     
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Can patients successfully get an NHS dentistry appointment?'},
+title: {text: 'How has the successful treatment rate of non-opiate drug users changed over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011/12','2012/13','July 2013 - March 2014']
+, categories: [2010,2011,2012]
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Percentage of patients who were <br> successful in getting an NHS dental <br> appointment', offset: 99}
-, max: 100
+title: {text:'Proportion of non-opiate drug users <br> successfully completing treatment', offset: 87}
 , min: 0
 , labels: {
 format: '{value:.1f}' 
@@ -25,10 +20,11 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series1',
+name: 'Percentage',
 type: 'column',
-    data: [92.7,93.0,{y:93.0, color: '#3FCFD5'}]
-,index: 1
-}
+data: [37.5,39.5,40.2]
+}, {name: 'Error', type: 'errorbar', data: [[37.01,37.98],
+[39,39.99],
+[39.72,40.69]]}
 ]
 }

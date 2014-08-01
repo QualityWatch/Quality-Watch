@@ -1,4 +1,4 @@
-{
+    {
         legend: {
             enabled: false
         },
@@ -24,7 +24,7 @@ title: {
             title: {
                 text: ''
             },
-            categories: ['2009/10', '2010/11', '2011/12', '2012/13', 'Jan - Sept 2013'],
+            categories: ['2009/10', '2010/11', '2011/12', '2012/13', 'July 2013 - March 2014'],
             labels: {
                 rotation: -90,
                 step: 1
@@ -47,9 +47,9 @@ title: {
             valueSuffix: '%'
         },
         series: [{
-            name: 'Series1',
+            name: 'Percentage',
             type: 'column',
-            data: [64.7, 66.6, 78, 75, 73.9]
+            data: [64.7, 66.6, 78, 75, {y:72.9, color: '#3FCFD5'}]
         }, {
             name: 'Error bars',
             type: 'errorbar',
@@ -58,7 +58,7 @@ title: {
                 [66.51, 66.64],
                 [77.88, 78.09],
                 [74.88, 75.11],
-                [73.76, 74.01]
+                [72.76, 73.01]
 
             ]
         }

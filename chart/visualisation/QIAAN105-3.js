@@ -10,7 +10,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011/12','2012/13','Jan - Sept 2013']
+, categories: ['2011/12','2012/13','July 2013 - March 2014']
 , labels: {
 }
 },
@@ -26,14 +26,14 @@ series:[
 {
 name: 'Series1',
 type: 'column',
-data: [93.3,92.5,{y:92.2, color: 'rgba(0,154,166,0.5)'}]
+data: [93.3,92.5,{y:91.9, color: 'rgba(0,154,166,0.5)'}]
 }, {
             name: 'Error bars',
             type: 'errorbar',
             data: [
 [93.24,93.38],
 [92.41,92.57],
-[92.08,92.25]
+[91.82,91.99]
             ]
         }
 ]
