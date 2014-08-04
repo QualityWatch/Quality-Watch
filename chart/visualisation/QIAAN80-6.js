@@ -1,4 +1,5 @@
-/* Created by ianb on 29/05/2014 14:52:37 using v2.1 */{
+/* Created by ianb on 29/05/2014 14:52:37 using v2.1 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -36,24 +37,24 @@ data: [77.5,81.11,80.54,82.12,85.04,85.62,85.2,85.49,87.17,87.58,89.64,89.76,90.
 },
 {
 name: 'Non-admitted RTT pathways',
-visible: false,type: 'line',
+visible: true,type: 'line',
 data: [94.41,95.05,95.35,95.69,96.3,96.49,97.06,97.33,97.32,97.39,97.44,97.78,97.78,97.73,97.71,97.57,97.68,97.74,97.87,97.74,97.81,97.85,97.94,98.19,98.2,98.08,98.03,97.83,97.67,97.57,97.6,97.31,97.22,97.31,97.5,97.7,97.55,97.42,97.28,97.23,97.16,97.04,97.22,97.09,97.13,97.45,97.68,97.92,97.8,97.67,97.66,97.42,97.49,97.54,97.67,97.53,97.51,97.58,97.18,97.49,97.35,97.2,97.17,96.78,96.7,96.51,96.78,96.34,96.29,96.27]
 ,index: 3
 },
 {
-name: 'Series4',
-visible: false,type: 'line',
+name: 'Admitted target',
+visible: true,type: 'line',
 data: [90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90]
 ,index: 4
 },
 {
-name: 'Series5',
-visible: false,type: 'line',
+name: 'Non-admitted target',
+visible: true,type: 'line',
 data: [95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95,95]
 ,index: 5
 },
 {
-name: 'Incomplete RTT pathways',
+name: 'Incomplete target',
 visible: false,type: 'line',
 data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92]
 ,index: 6
