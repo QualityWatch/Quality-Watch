@@ -1,8 +1,9 @@
-/* Created by ianb on 01/08/2014 12:54:04 using v2.1 */{
+/* Created by ianb on 01/08/2014 12:54:04 using v2.1 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'What proportion of nurses leaves and joins the NHS ever month?'},
+title: {text: 'What proportion of nurses leaves and joins the NHS every month?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
