@@ -8,7 +8,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011/12','2012/13','Jan - Sept 2013']
+, categories: ['2011/12','2012/13','July 2013 - March 2014']
 , labels: {
 }
 },
@@ -21,16 +21,16 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series1',
+name: 'Percentage',
 type: 'column',
-data: [77.7,76.8,{y:75.9, color: 'rgba(0,154,166,0.5)'}]
+data: [77.7,76.8,{y:74.6, color: 'rgba(0,154,166,0.5)'}]
 }, {
             name: 'Error bars',
             type: 'errorbar',
             data: [
 [77.62,77.84],
 [76.66,76.89],
-[75.8,76.04]
+[74.47,74.72]
             ]
         }
 ]

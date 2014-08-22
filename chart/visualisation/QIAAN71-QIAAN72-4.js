@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 16:48:14 using v2.1 */{
+/* Created by ianb on 22/08/2014 12:40:39 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Apr 2012','May 2012','Jun 2012','Jul 2012','Aug 2012','Sep 2012','Oct 2012','Nov 2012','Dec 2012','Jan 2013','Feb 2013','Mar 2013','Apr 2013']
+, categories: ['Apr12','May12','Jun12','Jul12','Aug12','Sep12','Oct12','Nov12','Dec12','Jan13','Feb13','Mar13','Apr13','May13','Jun13','Jul13','Aug13','Sep13','Oct13','Nov13','Dec13','Jan14','Feb14','Mar14']
 , labels: {
  rotation: -90
 , step: 1
@@ -16,14 +16,14 @@ title: {text:''}
 yAxis: {
 title: {text:'Proportion of patients in a community <br> setting with an incidence of Venous <br> Thromboembolism (VTE)', offset: 99}
 , labels: {
-format: '{value:.3f}' 
+format: '{value:.2f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Incidence of healthcare-related VTE: community setting',
+name: 'VTE, community setting',
 type: 'line',
-data: [0.378,0.402,0.43,0.356,0.372,0.437,0.338,0.389,0.34,0.408,0.341,0.298,0.346]
+data: [0.38,0.41,0.44,0.34,0.37,0.47,0.33,0.39,0.34,0.4,0.32,0.29,0.33,0.33,0.3,0.31,0.28,0.23,0.26,0.22,0.28,0.25,0.3,0.31]
 ,index: 1
 }
 ]
