@@ -1,4 +1,5 @@
-/* Created by ianb on 07/05/2014 13:26:50 using v2.1 */{
+/* Created by ianb on 07/05/2014 13:26:50 using v2.1 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -20,13 +21,13 @@ title: {text:'Number of trusts'}
 plotOptions: {column: {stacking: 'normal',}},
 series:[
 {
-name: 'Trusts below reccomended volume',
+name: 'Trusts below recommended volume',
 type: 'column',
 data: [60,69,76,79,81,59,54,47,40,43,22,23]
 ,index: 1
 },
 {
-name: 'Trusts above or equal to reccomended volume',
+name: 'Trusts above or equal to recommended volume',
 type: 'column',
 data: [7,5,2,2,2,45,57,63,68,69,74,78]
 ,index: 0
