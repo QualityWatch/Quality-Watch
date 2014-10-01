@@ -1,8 +1,8 @@
-/* Created by ianb on 01/10/2014 11:57:20 using v2.1 */{
-title: {text:'Qualified nursing, midwifery & health visiting staff'},
+/* Created by ianb on 01/10/2014 11:57:46 using v2.1 */{
+title: {text:'Qualified ambulance staff'},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the number of nurses, midwvies, and health visitors changed?'},
+title: {text: 'How has the number of ambulance staff changed over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -14,15 +14,15 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Number of Nurses (FTE)'}
+title: {text:'Number of Ambulance Staff (FTE)'}
 , labels: {
 format: '{value:.1f}' 
 }},
 series:[
 {
-name: 'Qualified nursing, midwifery & health visiting staff',
+name: 'Qualified ambulance staff',
 type: 'line',
-data: [307748.8,309930.2,311302.5,310501.1,310990.8,311409.4,311787.4,310805.4,310793.4,310646.9,309835.9,308729.1,309138.9,310646.8,311493.2,310612.3,310989.3,310782.6,310519.4,308789.4,308684.8,308138.2,307242.7,306030.8,306345.8,307825,308599.9,307829.4,308199.1,308100,307947.1,307245.2,306999.1,306278,305577.7,304565.7,305059.7,307544.8,308821.5,307982,308482.9,308802.1,308895,307753.8,307634,307492.4,306934.7,306024.7,307692,310924,312900,312408.9,313302.3,314173.1,314801.6,314142.4,314082.4]
+data: [17234.2,17369.2,17497.7,17512.3,17668.7,17759.4,17818.9,17770.1,17727.4,17727.3,17708,17668.7,17685.9,17775.2,17806.8,17803.6,17842.4,17920.9,17896.3,17820.6,17813.5,17797.9,17770.5,17819.2,17855.1,17965.9,18013.1,17983,17964.2,17998.9,17986.1,17921.5,17869.2,17804.6,17769.3,17693.1,17755.3,17910.5,17932.7,17908.9,17917.9,17950,17884.5,17877,17847.9,17742.3,17730.8,17750.2,17814.7,17966.6,17947.2,17923.4,17888.2,17878.3,17824.9,17733.8,17675.4]
 ,index: 1
 }
 ]

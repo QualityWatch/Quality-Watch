@@ -1,5 +1,5 @@
-/* Created by EFisher on 26/03/2014 17:03:05 using v2.1 */{
-title: {text:''},
+/* Created by ianb on 01/10/2014 11:57:16 using v2.1 */{
+title: {text:'Proportional Increase in Staff Numbers versus 2002'},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'What are the long-term trends in NHS staff numbers?'},
@@ -7,63 +7,65 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012]
+, categories: [2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013]
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
-title: {text:'Percentage increase in numbers of <br> full time equivalent for major staff <br> groups', offset: 99}
+title: {text:'Percentage Change vs. 2002'}
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.3f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
-name: 'Total',
+name: 'All doctors',
 type: 'line',
-data: [0,4.6,9.1,12.8,12.3,11.6,15.1,20.4,22.7,20.9,20.7]
+data: [0,5.06,12.388,17.508,22.527,24.482,28.963,36.204,36.405,38.288,40.4,42.621]
 ,index: 1
 },
 {
-name: 'All doctors',
+name: 'Total qualified nursing staff ',
 visible: false,type: 'line',
-data: [0,5.1,12.4,17.5,22.5,24.5,29,36.2,36.4,38.3,40.4]
+data: [0,3.839,7.206,9.99,10.767,10.101,12.015,14.367,15.549,14.607,14.112,15.14]
 ,index: 2
 },
 {
-name: 'GPs',
+name: 'Qualified Allied Health Professions',
 visible: false,type: 'line',
-data: [0,3.2,6.4,9.4,14.5,15.7,16.8,23.8,20.9,21.1,23]
+data: [0,4.832,10.717,14.499,15.7,18.511,23.476,28.48,30.424,30.707,31.249,33.697]
 ,index: 3
 },
 {
-name: 'Qualified nursing staff ',
+name: 'Qualified Healthcare Scientists',
 visible: false,type: 'line',
-data: [0,3.8,7.2,10,10.8,10.1,12,14.4,15.5,14.6,14.1]
+data: [0,7.561,18.502,25.657,27.837,26.701,29.85,34.986,34.695,32.661,31.285,24.561]
 ,index: 4
 },
 {
-name: 'Scientific, therapeutic & technical staff',
+name: 'Other qualified scientific, therapeutic & technical staff',
 visible: false,type: 'line',
-data: [0,4.6,10.4,15.1,16.4,19,23.9,30.2,33.5,33.9,35]
+data: [0,1.879,3.441,7.82,8.604,13.93,20.188,29.46,37.631,40.242,44.362,47.507]
 ,index: 5
 },
 {
 name: 'Qualified ambulance staff',
 visible: false,type: 'line',
-data: [0,2.5,10.7,16.3,5,10.4,12.8,14.9,18.1,19.2,18.5]
+data: [0,2.518,10.744,16.286,4.976,10.395,12.759,14.93,18.078,19.208,18.542,18.938]
 ,index: 6
-},
-{
-name: 'Support to clinical staff',
-visible: false,type: 'line',
-data: [0,4.9,7.9,11,8.6,5.6,9.6,15.8,18.3,15.6,15]
-,index: 7
 },
 {
 name: 'NHS infrastructure support',
 visible: false,type: 'line',
-data: [0,6.3,12.7,17.8,12.6,11.9,18.4,28.3,27.6,20.1,17.8]
+data: [0,6.259,12.702,17.789,12.558,11.917,18.447,28.272,27.559,20.107,17.834,15.823]
+,index: 7
+},
+{
+name: 'Other GP practice staff',
+visible: false,type: 'line',
+data: [0,1.93,6.049,7.416,13.158,9.838,7.657,6.282,23.677,26.678,28.564,31.013]
 ,index: 8
 }
 ]

@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 16:56:03 using v2.1 */{
+/* Created by ianb on 01/10/2014 11:54:22 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -6,38 +6,26 @@ title: {text: 'Is the number of calls responsible for the standard breach in the
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:''}
-, categories: ['Jun 2012','Jul 2012','Aug 2012','Sep 2012','Oct 2012','Nov 2012','Dec 2012','Jan 2013','Feb 2013','Mar 2013','Apr 2013','May 2013','Jun 2013','Jul 2013','Aug 2013','Sep 2013','Oct 2013','Nov 2013','Dec 2013']
+title: {text:'Monthly number of category A calls'}
 , labels: {
- rotation: -90
-, step: 1
 }
 },
 yAxis: {
-title: {text:'Number of trusts '}
-, max: 14
+title: {text:'Percentage of category A calls responded <br> to within 8 minutes', offset: 87}
 , labels: {
 }},
 series:[
 {
-name: 'meeting the 8 minute target for responding to category A calls
-',
-type: 'column',
-data: [11,11,12,10,11,9,2,8,6,4,8,10,9,4,5,5,5,3,5]
-,index: 1
-},
-{
-name: 'breaching the 8 minute target for responding to category A calls
-',
-type: 'column',
-data: [1,1,0,2,1,3,10,4,5,7,3,1,2,7,6,6,6,8,6]
-,index: 2
-},
-{
-name: 'National breach',
+name: 'Month',
 type: 'scatter',
-data: [[41244,13],[41334,13],[41456,13],[41518,13],[41548,13],[41579,13],[41609,13]]
+data: [[194617,0.77],[200706,0.77],[196613,0.75],[205952,0.77],[197883,0.78],[201988,0.76],[217997,0.76],[208380,0.77],[235387,0.74],[223779,0.78],[216615,0.74],[228985,0.76],[215997,0.76],[225609,0.75],[214441,0.77],[222614,0.77],[215291,0.78],[213922,0.76],[227628,0.76],[225311,0.76],[257879,0.71],[237469,0.76],[216142,0.75],[248818,0.74],[235499,0.76],[235715,0.78],[225006,0.77],[240061,0.74],[232840,0.75],[227607,0.74],[244625,0.74],[238274,0.73],[262570,0.72],[246162,0.76],[229308,0.74],[254462,0.75],[247308,0.74],[262655,0.73],[253353,0.71],[262110,0.69]]
 ,index: 1
+},
+{
+type: 'line',
+marker: {fillColor: 'none', lineColor: null },
+name: 'Month trendline',
+data: [[194617, 0.78],[262655, 0.72]]
 }
 ]
 }

@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 16:55:54 using v2.1 */{
+/* Created by ianb on 01/10/2014 11:54:08 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -6,34 +6,48 @@ title: {text: 'How have the number of calls resulting in an emergency response c
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:'Number of Category A calls'}
+title: {text:''}
+, categories: ['Apr 2011','May 2011','Jun 2011','Jul 2011','Aug 2011','Sep 2011','Oct 2011','Nov 2011','Dec 2011','Jan 2012','Feb 2012','Mar 2012','Apr 2012','May 2012']
 , labels: {
-format: '{value:.1f}' 
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
-title: {text:'Proportion of calls responded to <br> within 8 minutes', offset: 87}
+title: {text:'Monthly number of category A calls'}
+, max: 500000
 , labels: {
-format: '{value:.1f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+}},
+plotOptions: {column: {stacking: 'normal',}},
 series:[
 {
-name: 'Indivdual month',
-type: 'scatter',
-data: [[213373,77.4],[221893,77.3],[214531,78],[213229,75.8],[227030,76.4],[224718,75.9],[257070,70.8],[236884,75.6],[215693,75.3],[248295,73.8],[232057,75.7],[232280,77.5],[221154,76.8],[236479,73.7],[229128,75.1],[224220,73.5],[240958,73.3],[237663,73],[261891,71.7]]
-,index: 1
+name: 'Number category A',
+type: 'column',
+data: [194617,200706,196613,205952,197883,201988,217997,208380,235387,223779,216615,228985,215997,225609]
+,index: 4
 },
 {
+name: 'Percentage',
 type: 'line',
-marker: {fillColor: 'none', lineColor: null },
-name: 'Indivdual month trendline',
-data: [[213229, 77.1],[261891, 71.5]]
+data: [0.77,0.77,0.75,0.77,0.78,0.76,0.76,0.77,0.74,0.78,0.74,0.76,0.76,0.75,0.77,0.77,0.78,0.76,0.76,0.76,0.71,0.76,0.75,0.74,0.76,0.78,0.77,0.74,0.75,0.74,0.74,0.73,0.72,0.76,0.74,0.75,0.74,0.73,0.71,0.69]
+,index: 4
 },
 {
-name: 'A8 standard',
-type: 'scatter',
-data: [[200000,75],[210000,75],[220000,75],[230000,75],[240000,75],[250000,75],[260000,75],[270000,75]]
+name: 'Eight minute target',
+type: 'line',
+data: [0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75]
+,index: 3
+},
+{
+name: 'Number red 1',
+type: 'column',
+data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,10453,10860,11053,11171,11117,11254,13360,11958,10841,12306,11147,10873,10207,11328,11399,10679,11156,11095,12849,11915,10763,11829,12053,12840,12439,13283]
+,index: 3
+},
+{
+name: 'Number red 2',
+type: 'column',
+data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,203988,211754,204238,202751,216511,214057,244519,225511,205301,236512,224352,224842,214799,228733,221441,216928,233469,227179,249721,234247,218545,242633,235255,249815,240914,248827]
 ,index: 2
 }
 ]

@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 17:17:13 using v2.1 */{
+/* Created by ianb on 01/10/2014 12:02:18 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2010,2011,2012,2013]
+, categories: [2010,2011,2012,2013,2014]
 , labels: {
 }
 },
@@ -21,13 +21,13 @@ series:[
 {
 name: 'On CPA',
 type: 'column',
-data: [73,73,76,75]
+data: [73,73,76,75,83]
 ,index: 1
 },
 {
 name: 'Not on CPA',
 type: 'column',
-data: [53,52,52,53]
+data: [53,52,52,53,69]
 ,index: 2
 }
 ]

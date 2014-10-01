@@ -1,8 +1,8 @@
-/* Created by EFisher on 26/03/2014 16:42:02 using v2.1 */{
+/* Created by ianb on 01/10/2014 11:47:46 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Perceptions of the quality of care for community mental health services in 2013'},
+title: {text: 'Perceptions of the quality of care for community mental health services in 2013 and 2014'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -19,10 +19,16 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series2',
+name: '2013',
 type: 'column',
 data: [2,2,2,4,4,10,8,14,20,15,18]
 ,index: 1
+},
+{
+name: '2014',
+type: 'column',
+data: [2,2,3,4,4,10,8,14,20,14,18]
+,index: 2
 }
 ]
 }

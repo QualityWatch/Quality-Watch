@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 16:42:05 using v2.1 */{
+/* Created by ianb on 01/10/2014 11:47:47 using v2.1 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,8 +7,10 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011','2012','1905']
+, categories: ['Care responsibilities','Finding or keeping work','Finding or keeping accommodation','Financial advice or benefits','Physical health needs']
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
@@ -21,34 +23,28 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Care responsibilities',
+name: '2011',
 type: 'column',
-data: [35,39,39]
+data: [35,43,38,38,31]
 ,index: 1
 },
 {
-name: 'Finding or keeping work',
+name: '2012',
 type: 'column',
-data: [43,44,43]
+data: [39,44,38,37,36]
 ,index: 2
 },
 {
-name: 'Financial advice or benefits',
+name: '2013',
 type: 'column',
-data: [38,37,39]
+data: [39,43,40,39,37]
 ,index: 3
 },
 {
-name: 'Finding or keeping accommodation',
+name: '2014',
 type: 'column',
-data: [38,38,40]
+data: [null,44,42,43,35]
 ,index: 4
-},
-{
-name: 'Physical health needs',
-type: 'column',
-data: [31,36,37]
-,index: 5
 }
 ]
 }
