@@ -12,13 +12,13 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Un-weighted percentage of staff <br> reporting feeling pressure to attend <br> work when feeling unwell in last <br> 3 months ± SEM', offset: 111}
+title: {text:'Un-weighted percentage of staff <br> reporting feeling pressure to attend <br> work when feeling unwell in last <br> 3 months Â± SEM', offset: 111}
 , max: 40
 , labels: {
 }},
 series:[
 {
-name: 'Key finding 20: Staff feeling pressure to attend work when feeling unwell in last 3 months',
+name: 'Percentage',
 type: 'column',
 data: [21.52,22.26,22.52,27.01]
 },
