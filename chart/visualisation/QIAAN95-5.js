@@ -1,8 +1,8 @@
-/* Created by ianb on 04/11/2014 12:52:59 using v2.2 */{
+/* Created by ianb on 04/11/2014 13:01:08 using v2.2 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'What are the views of inpatients on whether they were treated with dignity and respect?'},
+title: {text: 'Do inpatients report having their admission date changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -14,8 +14,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Were you treated with dignity and <br> respect? (Percentage of inpatients)', offset: 87}
-, max: 100
+title: {text:'The proportion of inpatients who <br> had their admission date changed <br> by the hospital.', offset: 99}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -23,21 +22,27 @@ tooltip: {valueSuffix: '%'},
 plotOptions: {column: {stacking: 'normal',}},
 series:[
 {
-name: 'Yes, always',
+name: 'No',
 type: 'column',
-data: [79,78,78,79,79,79,79,80,81]
+data: [80,80,79,80,80,79,79,80,81]
+,index: 3
+},
+{
+name: 'Yes, once',
+type: 'column',
+data: [17,17,18,17,17,17,17,16,16]
 ,index: 2
 },
 {
-name: 'Yes, sometimes',
+name: 'Yes, 2 or 3 times',
 type: 'column',
-data: [18,18,19,18,18,18,18,17,16]
+data: [3,3,3,3,3,3,3,3,3]
 ,index: 1
 },
 {
-name: 'No',
+name: 'Yes, 4 times or more',
 type: 'column',
-data: [3,3,3,3,3,3,3,3,3]
+data: [0,0,0,0,0,0,0,0,0]
 ,index: 0
 }
 ]

@@ -1,8 +1,8 @@
-/* Created by ianb on 04/11/2014 12:52:59 using v2.2 */{
+/* Created by ianb on 04/11/2014 12:53:05 using v2.2 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'What are the views of inpatients on whether they were treated with dignity and respect?'},
+title: {text: 'Did hospital inpatients feel staff helped them control their pain?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -14,7 +14,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Were you treated with dignity and <br> respect? (Percentage of inpatients)', offset: 87}
+title: {text:'Do you think the hospital staff <br> did everything they could to help <br> control your pain? (Percentage of <br> inpatients)', offset: 111}
 , max: 100
 , labels: {
 format: '{value:.1f}' 
@@ -23,21 +23,21 @@ tooltip: {valueSuffix: '%'},
 plotOptions: {column: {stacking: 'normal',}},
 series:[
 {
-name: 'Yes, always',
+name: 'Yes, definitely',
 type: 'column',
-data: [79,78,78,79,79,79,79,80,81]
+data: [73,72,71,72,71,71,71,70,71]
 ,index: 2
 },
 {
-name: 'Yes, sometimes',
+name: 'Yes, to some extent',
 type: 'column',
-data: [18,18,19,18,18,18,18,17,16]
+data: [23,23,23,23,23,23,23,24,23]
 ,index: 1
 },
 {
 name: 'No',
 type: 'column',
-data: [3,3,3,3,3,3,3,3,3]
+data: [5,5,6,6,6,6,6,6,6]
 ,index: 0
 }
 ]

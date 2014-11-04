@@ -1,8 +1,8 @@
-/* Created by ianb on 04/11/2014 12:52:59 using v2.2 */{
+/* Created by ianb on 04/11/2014 12:54:07 using v2.2 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'What are the views of inpatients on whether they were treated with dignity and respect?'},
+title: {text: 'Do inpatients feel they were given enough information about their treatment or condition?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -14,8 +14,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Were you treated with dignity and <br> respect? (Percentage of inpatients)', offset: 87}
-, max: 100
+title: {text:'How much information about your <br> condition or treatment was given <br> to you? (proportion of inpatients)', offset: 99}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -23,21 +22,21 @@ tooltip: {valueSuffix: '%'},
 plotOptions: {column: {stacking: 'normal',}},
 series:[
 {
-name: 'Yes, always',
+name: 'Not enough',
 type: 'column',
-data: [79,78,78,79,79,79,79,80,81]
+data: [20,21,21,21,21,22,21,20,20]
 ,index: 2
 },
 {
-name: 'Yes, sometimes',
+name: 'The right amount',
 type: 'column',
-data: [18,18,19,18,18,18,18,17,16]
+data: [79,79,79,79,78,78,78,79,80]
 ,index: 1
 },
 {
-name: 'No',
+name: 'Too much',
 type: 'column',
-data: [3,3,3,3,3,3,3,3,3]
+data: [1,1,1,1,1,1,1,1,1]
 ,index: 0
 }
 ]
