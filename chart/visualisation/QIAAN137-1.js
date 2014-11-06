@@ -1,4 +1,5 @@
-/* Created by ianb on 04/11/2014 13:15:42 using v2.2 */{
+/* Created by ianb on 04/11/2014 13:15:42 using v2.2 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +8,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Warfarin Sodium','Amitriptyline Hydrochloride','Furoserride','Amoxicilin','Citopralam Hydrobromide','Co-codamol','Bendroflumethiazide','Biosprolol Fumarate','Colecalciferol','Metformin Hydrochloride','Atorvastatin','Lansoprazole','Salbutamol','Paracetamol','Amlodipine','Ramipiril','Omeprazole','Levothyroxine sodium','Aspirin','Simvastatin']
+, categories: ['Warfarin Sodium','Amitriptyline Hydrochloride','Furoserride','Amoxicillin','Citopralam Hydrobromide','Co-codamol','Bendroflumethiazide','Biosprolol Fumarate','Colecalciferol','Metformin Hydrochloride','Atorvastatin','Lansoprazole','Salbutamol','Paracetamol','Amlodipine','Ramipiril','Omeprazole','Levothyroxine sodium','Aspirin','Simvastatin']
 , labels: {
 }
 },
