@@ -1,4 +1,5 @@
-/* Created by ianb on 04/11/2014 13:16:01 using v2.2 */{
+/* Created by ianb on 04/11/2014 13:16:01 using v2.2 */
+{
 title: {text:'Antibacterials for systemic use'},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -21,37 +22,37 @@ legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},
 {
 name: 'Australia',
 type: 'line',
-data: [21.5,21.4,19.9,19.3,20.9,21.3,21,23.6,24.9,23.6,24.1,24.8,23.7,0]
+data: [21.5,21.4,19.9,19.3,20.9,21.3,21,23.6,24.9,23.6,24.1,24.8,23.7,null]
 ,index: 1
 },
 {
 name: 'Canada',
 visible: false,type: 'line',
-data: [0,0,0,0,0,0,0,18.6,18.3,17.8,18.2,18.5,18.4,0]
+data: [null,null,null,null,null,null,null,18.6,18.3,17.8,18.2,18.5,18.4,null]
 ,index: 2
 },
 {
 name: 'Finland',
 visible: false,type: 'line',
-data: [19.1,19.8,17.9,18.7,17.3,18.1,17.4,18.3,17.8,17.9,18.5,20.1,22,0]
+data: [19.1,19.8,17.9,18.7,17.3,18.1,17.4,18.3,17.8,17.9,18.5,20.1,22,null]
 ,index: 3
 },
 {
 name: 'France',
 visible: false,type: 'line',
-data: [33.3,33.2,32.2,28.9,27.1,28.9,27.9,28.6,28.1,29.6,28.2,28.7,0,0]
+data: [33.3,33.2,32.2,28.9,27.1,28.9,27.9,28.6,28.1,29.6,28.2,28.7,null,null,null]
 ,index: 4
 },
 {
 name: 'Germany',
 visible: false,type: 'line',
-data: [13.5,12.6,12.6,12.7,12,13.3,12.5,13.3,13.5,14.2,14,13.9,14.8,0]
+data: [13.5,12.6,12.6,12.7,12,13.3,12.5,13.3,13.5,14.2,14,13.9,14.8,null]
 ,index: 5
 },
 {
 name: 'Spain',
 visible: false,type: 'line',
-data: [19,18,18,18.9,18.6,19.3,18.7,19.9,19.8,19.7,20.3,20.9,19.4,0]
+data: [19,18,18,18.9,18.6,19.3,18.7,19.9,19.8,19.7,20.3,20.9,19.4, null]
 ,index: 6
 },
 {
@@ -63,7 +64,7 @@ data: [16.1,16.3,16.1,16.1,16,16.5,16.9,17.3,16.8,15.8,15.7,15.7,15.5,14.7]
 {
 name: 'United Kingdom',
 visible: false,type: 'line',
-data: [14.3,14.8,14.8,15.1,15,15.4,15.3,16.5,17,17.3,18.7,18.8,19.4,0]
+data: [14.3,14.8,14.8,15.1,15,15.4,15.3,16.5,17,17.3,18.7,18.8,19.4,null]
 ,index: 8
 }
 ]
