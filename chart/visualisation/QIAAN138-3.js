@@ -2,9 +2,7 @@
 title: {text:'Caesarean section'},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How does the rate of caesarean sections compare internationally 
-
-and over time?'},
+title: {text: 'How does the rate of caesarean sections compare internationally and over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -18,9 +16,7 @@ categories: [2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012]
 }
 },
 yAxis: {
-title: {text:'Total procedures per 1000 live 
-
-births'}
+title: {text:'Total procedures per 1000 live births'}
 , min: 100
 , labels: {
 }},
