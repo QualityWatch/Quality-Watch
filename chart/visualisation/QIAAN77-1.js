@@ -1,13 +1,13 @@
-/* Created by EFisher on 26/03/2014 16:50:12 using v2.1 */{
+/* Created by ianb on 16/12/2014 10:56:53 using v2.3 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion of older people living at home after discharge changed?'},
+title: {text: 'How successful were reablement services for older people?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2008/09','2009/10','2010/11','2011/12','2012/13']
+, categories: ['2009/10','2010/11','2011/12','2012/13','2013/14']
 , labels: {
 }
 },
@@ -23,7 +23,7 @@ series:[
 {
 name: 'England',
 type: 'line',
-data: [78.2,81.2,81.9,82.7,81.5]
+data: [81.2,81.9,82.7,81.5,82.5]
 ,index: 1
 }
 ]

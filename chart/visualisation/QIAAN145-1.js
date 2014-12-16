@@ -1,20 +1,18 @@
-/* Created by ianb on 16/12/2014 10:53:37 using v2.3 */{
+/* Created by ianb on 16/12/2014 11:18:36 using v2.3 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'What are the views of outpatients on whether they were treated with dignity and respect?'},
+title: {text: 'How has the proportion of inpatients warned about medication side effects to watch for on discharge changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2003','2004','2009','2011']
+, categories: [2005,2006,2007,2008,2009,2010,2011,2012,2013]
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Were you treated with dignity and <br> respect? (Percentage of outpatients)', offset: 87}
-, max: 100
-, min: 0
+title: {text:'Percentage of respondents'}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -22,21 +20,21 @@ tooltip: {valueSuffix: '%'},
 plotOptions: {column: {stacking: 'normal',}},
 series:[
 {
-name: 'Yes, all of the time',
+name: 'Yes, completely',
 type: 'column',
-data: [87,87,87,89]
+data: [40,37,36,38,36,37,38,38,39]
 ,index: 2
 },
 {
-name: 'Yes, some of the time',
+name: 'Yes, to some extent',
 type: 'column',
-data: [12,12,12,10]
+data: [18,18,18,18,18,19,19,19,19]
 ,index: 1
 },
 {
 name: 'No',
 type: 'column',
-data: [1,1,1,1]
+data: [42,45,46,44,45,44,43,43,42]
 ,index: 0
 }
 ]
