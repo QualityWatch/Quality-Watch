@@ -1,4 +1,5 @@
-/* Created by ianb on 16/12/2014 11:19:02 using v2.3 */{
+/* Created by ianb on 16/12/2014 11:19:02 using v2.3 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -13,7 +14,7 @@ title: {text:''}
 , step: 1
 }
 },
-yAxis: {
+yAxis: {max: 100,
 title: {text:'Percentage of respondents'}
 , labels: {
 format: '{value:.1f}' 
