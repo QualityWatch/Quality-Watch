@@ -1,4 +1,4 @@
-Enter file contents here/* Created by ianb on 18/12/2014 10:46:34 using v2.3 */
+/* Created by ianb on 18/12/2014 10:46:34 using v2.3 */
 {
 title: {text:'Reception'},
 credits: {enabled: false},
