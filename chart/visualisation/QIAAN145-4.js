@@ -6,13 +6,13 @@ exporting: {chartOptions: {
 title: {text: 'How has the proportion of outpatients warned of danger signals changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
-xAxis: {max: 100,
+xAxis: {
 title: {text:''}
 , categories: [2003,2004,2009,2011]
 , labels: {
 }
 },
-yAxis: {
+yAxis: {max: 100,
 title: {text:'Percentage of respondents'}
 , labels: {
 format: '{value:.1f}' 
