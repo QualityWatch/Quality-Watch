@@ -1,11 +1,12 @@
-/* Created by ianb on 16/12/2014 11:18:55 using v2.3 */{
+/* Created by ianb on 16/12/2014 11:18:55 using v2.3 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion of outpatients warned of danger signals changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
-xAxis: {
+xAxis: {max: 100,
 title: {text:''}
 , categories: [2003,2004,2009,2011]
 , labels: {
