@@ -1,4 +1,4 @@
-/* Created by ianb on 21/07/2014 16:45:26 using v2.1 */{
+/* Created by ianb on 19/12/2014 11:00:26 using v2.3 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -16,7 +16,7 @@ title: {text:''}
 yAxis: {
 title: {text:'Major A&E four-hour target achievement'}
 , max: 100
-, min: 85
+, min: 80
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -43,7 +43,7 @@ data: [89.5,92,93.8,92.4,91.4,92.2,91.2,91.8,90.2,89.1,90.2,90,91.8,88,87.4,90.2
 {
 name: '2014',
 type: 'line',
-data: [91.5,91.7,93.1,94.1,92.9,91.4,91.5,92.4,92.1,92.5,94.3,93.7,93.6,91.5,93,94.7,92.1,92.5,92.2,92.3,91.9,92.2,91.6,92.7,93.6,93.4,92.8,93.1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
+data: [91.5,91.7,93.1,94.1,92.9,91.4,91.5,92.4,92.1,92.5,94.3,93.7,93.6,91.5,93,94.7,92.1,92.5,92.2,92.3,91.9,92.2,91.6,92.7,93.6,93.4,92.8,93.1,92.2,92.5,93.4,92.6,93.1,93.4,91.3,90.9,92.3,92,92.7,91.8,90.8,89.6,90.6,90.6,90.2,89.4,90.8,90.4,87.7,84.7,null,null]
 ,index: 4
 }
 ]
