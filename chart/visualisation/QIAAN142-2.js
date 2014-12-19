@@ -1,9 +1,9 @@
 /* Created by ianb on 18/12/2014 10:46:34 using v2.3 */
 {
-title: {text:'Reception'},
+title: {text:'Year 6'},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion of obese 4-5 year old children changed over time?'},
+title: {text: 'How has the proportion of obese 10-11 year old children changed over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -16,7 +16,6 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Prevalence (%)'}
-, max: 40
 , labels: {
 format: '{value:.1f}' 
 }},
@@ -25,19 +24,19 @@ series:[
 {
 name: 'Overweight',
 type: 'column',
-data: [13.1,13,13.2,13.3,13.2,13.1,13]
+data: [14.2,14.3,14.3,14.6,14.4,14.7,14.4]
 ,index: 2
 },
 {
 name: 'Obese',
 type: 'column',
-data: [9.9,9.6,9.6,9.8,9.4,9.5,9.3]
+data: [17.5,18.3,18.3,18.7,19,19.2,18.9]
 ,index: 1
 },
 {
 name: 'Underweight',
 type: 'column',
-data: [1.3,1.3,1,0.9,1,0.9,0.9]
+data: [1.5,1.4,1.3,1.3,1.3,1.3,1.3]
 ,index: 0
 }
 ]
