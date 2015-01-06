@@ -14,6 +14,7 @@ title: {text:''}
 yAxis: {
 title: {text:'Percentage of women who drank more <br> than 6 units on heaviest drinking <br> day in last week', offset: 99}
 , max: 35
+, tickInterval: 5
 , labels: {
 }},
 series:[
