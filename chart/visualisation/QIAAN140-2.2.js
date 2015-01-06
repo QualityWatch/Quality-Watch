@@ -16,6 +16,7 @@ title: {text:''}
 yAxis: {
 title: {text:'Age-sex standardised alcohol related <br> death rates per 100,000 population', offset: 87}
 , max: 45
+, min: 0
 , labels: {
 }},
 series:[
