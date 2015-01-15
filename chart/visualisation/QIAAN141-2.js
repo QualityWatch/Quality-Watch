@@ -1,5 +1,5 @@
-/* Created by ianb on 16/12/2014 11:17:10 using v2.3 */
 {
+title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'What are the trends in hospital admissions for children and young people with a mental illness?'},
@@ -12,16 +12,15 @@ title: {text:''}
 }
 },
 yAxis: {
-min: 0,
 title: {text:'Crute Rate per 100,000 (Age <18)'}
 , labels: {
 }},
 series:[
 {
-name: 'Hospital admissions for mental illness in the under 18s,
+name: 'Hospital admissions for mental illness in the under 18s',
 type: 'line',
 data: [109.4,91.3,87.63]
-,index: 1
+
 }
 ]
 }
