@@ -1,6 +1,7 @@
 /* Created by ianb on 16/12/2014 11:17:04 using v2.3 */
 {
 credits: {enabled: false},
+   title: '',
 exporting: {chartOptions: {
 title: {text: 'What are the trends in hospital admissions as a result of self-harm for children and young people?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
