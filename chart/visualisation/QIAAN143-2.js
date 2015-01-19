@@ -1,6 +1,7 @@
 /* Created by ianb on 16/12/2014 11:17:56 using v2.3 */
 {
 credits: {enabled: false},
+title: {text: ''},
 exporting: {chartOptions: {
 title: {text: 'How has the rate of hospital admissions for asthma in under 19 year olds changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
