@@ -1,6 +1,7 @@
 /* Created by ianb on 16/12/2014 11:17:50 using v2.3 */
 {
 credits: {enabled: false},
+title: {text: ''},
 exporting: {chartOptions: {
 title: {text: 'What is the trend for asthma, diabetes and epilepsy unplanned emergency admissions for the under 19s?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
