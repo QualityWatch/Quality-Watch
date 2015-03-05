@@ -12,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Crute Rate per 100,000 (Age <18)'}
+title: {text:'Crude Rate per 100,000 (Age <18)'}
 , labels: {
 }},
 series:[
