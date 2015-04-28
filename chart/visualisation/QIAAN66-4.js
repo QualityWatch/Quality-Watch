@@ -1,42 +1,36 @@
-/* Created by EFisher on 26/03/2014 16:46:39 using v2.1 */{
+/* Created by ianb on 27/04/2015 18:07:21 using v2.5 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How have HPV vaccination rates in teenage girls changed?'},
+title: {text: 'Rotavirus vaccination coverage in babies'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2008/2009','2009/2010','2010/2011','2011/2012','Sep 2012 - May 2013','Apr 2013 - Jun 2013']
+, categories: ['Oct 2013','Nov 2013','Dec 2013','Jan 2014','Feb 2014','Mar 2014','Apr 2014','May 2014','Jun 2014','Jul 2014','Aug 2014','Sep 2014']
 , labels: {
  rotation: -90
 , step: 1
 }
 },
 yAxis: {
-title: {text:'HPV immunisation uptake in 12-13 <br> year old females', offset: 87}
+title: {text:'Percentage of babies immunised by <br> 25 weeks of age', offset: 87}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Dose 1',
-type: 'column',
-data: [88.1,84.3,88.9,90.6,90.3,90.4]
+name: 'One dose',
+type: 'line',
+data: [34.9,64,65.9,66.8,91.5,91.6,92.4,93,92.9,93.2,93.3,93.3]
 ,index: 1
 },
 {
-name: 'Dose 1&2',
-type: 'column',
-data: [86,82.3,87.5,89.6,88.1,88.6]
+name: 'Two doses',
+type: 'line',
+data: [29.6,56.4,58.8,59.7,86,86.5,87.5,87.9,87.7,88.3,88.4,88.1]
 ,index: 2
-},
-{
-name: 'All 3 doses',
-type: 'column',
-data: [80.1,76.4,84.2,86.8,71.8,80.8]
-,index: 3
 }
 ]
 }

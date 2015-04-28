@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 16:38:28 using v2.1 */{
+/* Created by ianb on 28/04/2015 10:16:25 using v2.6 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,23 +7,29 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2007/08','2008/09','2009/10','2010/11','2011/12','2012/13']
+, categories: ['2007/08','2008/09','2009/10','2010/11','2011/12','2012/13','2013/14']
 , labels: {
  rotation: -90
 , step: 1
 }
 },
 yAxis: {
-title: {text:'MRSA counts'}
+title: {text:'Annual counts of MRSA'}
 , labels: {
 format: '{value:.1f}' 
 }},
 series:[
 {
-name: 'MRSA counts',
+name: 'total',
 type: 'line',
-data: [4451,2935,1898,1481,1116,924]
+data: [4451,2935,1898,1481,1116,924,862]
 ,index: 1
+},
+{
+name: 'trust apportioned',
+type: 'line',
+data: [null,1606,1004,688,473,398,364]
+,index: 2
 }
 ]
 }

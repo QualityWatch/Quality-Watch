@@ -1,34 +1,40 @@
-/* Created by EFisher on 26/03/2014 16:47:33 using v2.1 */{
+/* Created by ianb on 27/04/2015 18:08:17 using v2.5 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How have waiting times for IAPT services changed?'},
+title: {text: 'What proportion of people with anxiety and depression is IAPT treating?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011/12 Q1','2011/12 Q2','2011/12 Q3','2011/12 Q4','2012/13 Q1','2012/13 Q2','2012/13 Q3','2012/13 Q4']
+, categories: ['2011-12','2012-13','2013-14','2014-15 (Q1 & Q2 only)']
 , labels: {
- rotation: -90
-, step: 1
 }
 },
 yAxis: {
-title: {text:' Ratio of active referrals who have <br> waited more than 28 days from referral <br> to first treatment/first therapeutic <br> session (at the end of the reporting <br> period) to number of referrals (during <br> the reporting period)', offset: 135}
+title: {text:'% of population in need receiving <br> IAPT treatment', offset: 87}
 , labels: {
-}},
+format: '{value:.2f}' 
+,formatter: function() {return this.value +'%';}}},
+tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Ratio of referrals',
+name: 'Achievement',
 type: 'line',
-data: [0.44,0.38,0.39,0.39,0.51,0.47,0.45,0.44]
+data: [8.73,9.81,11.51,null]
 ,index: 1
 },
 {
+name: 'Objective',
 type: 'line',
-marker: {fillColor: 'none', lineColor: null },
-name: 'Ratio of referrals trendline',
-data: [[0, 0.39],[7, 0.46]]
+data: [15,15,15,15]
+,index: 2
+},
+{
+name: 'Potential acheivement based on mid-year success',
+type: 'line',
+data: [null,null,11.51,12.44]
+,index: 3
 }
 ]
 }

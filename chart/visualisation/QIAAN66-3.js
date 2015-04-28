@@ -1,20 +1,20 @@
-/* Created by EFisher on 26/03/2014 16:46:35 using v2.1 */{
+/* Created by ianb on 27/04/2015 18:07:17 using v2.5 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Do vaccination rates differ by country?'},
+title: {text: 'Vaccination coverage in children in the United Kingdom'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['United Kingdom','England','Northern Ireland','Scotland','Wales']
+, categories: ['United Kingdom','England','Wales','Scotland','Northern Ireland']
 , labels: {
  rotation: -90
 , step: 1
 }
 },
 yAxis: {
-title: {text:'Percentage of children immunised <br> by their first birthday, completed <br> primary courses in 2011/12', offset: 99}
+title: {text:'Percentage of children immunised'}
 , max: 100
 , min: 0
 , labels: {
@@ -23,28 +23,34 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Diphtheria & Tetanus & Polio & Pertussis & Hib',
+name: 'Diphtheria, Tetanus, Polio, Pertussis, Hib (DTaP/IPV/Hib) by 1st birthday',
 type: 'column',
-data: [95,94.7,97.6,97.4,96.4]
+data: [94.8,94.3,96.7,97.5,97.5]
 ,index: 1
 },
 {
-name: 'Meningococcal group C',
+name: 'Pneumococcal Disease (PCV) by 1st birthday',
 type: 'column',
-data: [94.3,93.9,97.2,96.8,96.1]
+data: [94.5,94.1,96.2,97.5,97.4]
 ,index: 2
 },
 {
-name: 'Pneumococcal Disease (PCV)',
+name: 'Pneumococcal Disease (PCV) booster by 2nd birthday',
 type: 'column',
-data: [94.6,94.2,97.4,97.4,95.8]
+data: [92.9,92.4,95.5,95.5,96]
 ,index: 3
 },
 {
-name: 'MMR',
+name: 'Measles, Mumps, Rubella (MMR) by 2nd birthday',
 type: 'column',
-data: [91.6,91.2,93.3,94.3,92.7]
+data: [93.1,92.7,96.5,95.6,96.2]
 ,index: 4
+},
+{
+name: 'Hib/MenC booster by 2nd birthday',
+type: 'column',
+data: [93,92.5,95.3,95.7,96.2]
+,index: 5
 }
 ]
 }
