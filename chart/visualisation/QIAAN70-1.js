@@ -1,4 +1,5 @@
-/* Created by ianb on 27/04/2015 18:08:12 using v2.5 */{
+/* Created by ianb on 27/04/2015 18:08:12 using v2.5 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -13,11 +14,11 @@ title: {text:''}
 , step: 1
 }
 },
-yAxis: {
+yAxis: { min: 0,
 title: {text:'Number in each quarter'}
 , labels: {
-format: '{value:.5f}' 
-,formatter: function() {return '$'+this.value;}}},
+format: '{value:.0f}' 
+}},
 series:[
 {
 name: 'Number of referrals to IAPT',
