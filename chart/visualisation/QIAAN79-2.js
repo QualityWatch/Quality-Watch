@@ -1,4 +1,5 @@
-/* Created by ianb on 01/10/2014 11:52:10 using v2.1 */{
+/* Created by ianb on 01/10/2014 11:52:10 using v2.1 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'The proportion of people who had <br> their first cancer treatment within <br> 31 days of the decision to treat', offset: 99}
+title: {text:'The proportion of people who had <br> subsequent cancer treatments within <br> 31 days of first treatment', offset: 99}
 , max: 100
 , min: 90
 , labels: {
