@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2009/10','2010/11','2011/12','2012/13','Jan - Sept 2013']
+, categories: ['2009/10','2010/11','2011/12','2012/13','Jan - Sept 2013', 'Jul 2013 - Mar 2014']
 , labels: {
  rotation: -90
 , step: 1
@@ -36,7 +36,7 @@ data: [5.6,5.5,null,null,null]
 {
 name: 'More than 15 minutes',
 type: 'column',
-data: [null,null,24.3,25.9,{y:26.3, color: 'rgba(79,11,123,0.5)'}]
+data: [null,null,24.3,25.9,26.3,26.7]
 ,index: 0
 }
 ]

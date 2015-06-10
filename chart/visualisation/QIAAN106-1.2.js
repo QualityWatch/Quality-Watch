@@ -21,7 +21,7 @@
             title: {
                 text: ''
             },
-            categories: ['2009/10', '2010/11', '2011/12', '2012/13', 'Jan - Sept 2013'],
+            categories: ['2009/10', '2010/11', '2011/12', '2012/13', 'Jan - Sept 2013', 'Jul 2013 - Mar 2014'],
             labels: {
                 rotation: -90,
                 step: 1
@@ -45,17 +45,17 @@
         series: [{
             name: 'I don`t normally have to wait too long',
             type: 'column',
-            data: [64.3, 61.9, 61.2, 59.5, {y:58.8, color: 'rgba(0,154,166,0.5)'}],
+            data: [64.3, 61.9, 61.2, 59.5, 58.8, 58.3}],
             index: 1
         }, {
             name: 'I have to wait a bit too long',
             type: 'column',
-            data: [22.3, 24.2, 24.4, 25.3, {y:25.7, color: 'rgba(225,14,73,0.5)'}],
+            data: [22.3, 24.2, 24.4, 25.3, 25.7, 25.9],
             index: 2
         }, {
             name: 'I have to wait far too long',
             type: 'column',
-            data: [6.8, 6.9, 7.8, 8.6, {y:8.9, color: 'rgba(79,11,123,0.5)'}],
+            data: [6.8, 6.9, 7.8, 8.6, 8.9, 9.2],
             index: 3
         }]
     }
