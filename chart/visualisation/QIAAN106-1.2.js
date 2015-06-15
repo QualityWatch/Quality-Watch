@@ -45,7 +45,7 @@
         series: [{
             name: 'I don`t normally have to wait too long',
             type: 'column',
-            data: [64.3, 61.9, 61.2, 59.5, 58.8, 58.3}],
+            data: [64.3, 61.9, 61.2, 59.5, 58.8, 58.3],
             index: 1
         }, {
             name: 'I have to wait a bit too long',
