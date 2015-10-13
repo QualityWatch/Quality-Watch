@@ -22,8 +22,7 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Proportion of applicable patients directly admitted to a stroke unit within 4 hours AND
-who receive thrombolysis if clinically needed',
+name: 'Proportion of applicable patients directly admitted to a stroke unit within 4 hours AND who receive thrombolysis if clinically needed',
 type: 'line',
 data: [56.5,57.2,59,56.3]
 ,index: 1
