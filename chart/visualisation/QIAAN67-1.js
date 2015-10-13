@@ -1,4 +1,5 @@
-/* Created by EFisher on 12/10/2015 14:30:35 using v2.7 */{
+/* Created by EFisher on 12/10/2015 14:30:35 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -21,7 +22,8 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Proportion of applicable patients directly admitted to a stroke unit within 4 hours AND who receive thrombolysis if clinically needed',
+name: 'Proportion of applicable patients directly admitted to a stroke unit within 4 hours AND
+who receive thrombolysis if clinically needed',
 type: 'line',
 data: [56.5,57.2,59,56.3]
 ,index: 1
