@@ -28,8 +28,7 @@ data: [65,67.3,69.2,68.7]
 ,index: 1
 },
 {
-name: 'Proportion of applicable patients who are assessed by a nurse within 24h AND at least one therapist within 24h AND
-all relevant therapists within 72h AND have rehab goals agreed within 5 days ',
+name: 'Proportion of applicable patients who are assessed by a nurse within 24h AND at least one therapist within 24h AND all relevant therapists within 72h AND have rehab goals agreed within 5 days ',
 type: 'line',
 data: [46.3,48.7,52.7,52.7]
 ,index: 2
