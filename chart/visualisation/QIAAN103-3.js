@@ -1,4 +1,4 @@
-/* Created by ianb on 27/04/2015 18:00:41 using v2.5 */{
+/* Created by EFisher on 12/10/2015 14:28:52 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -49,7 +49,7 @@ data: [91.5,91.7,93.1,94.1,92.9,91.4,91.5,92.4,92.1,92.5,94.3,93.7,93.6,91.5,93,
 {
 name: '2015',
 type: 'line',
-data: [79.8,84.3,88.4,89.4,88.3,89.1,87.1,87.7,87,89,89.7,89.6,87.8,88.4,88.5,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
+data: [79.8,84.3,88.4,89.4,88.3,89.1,87.1,87.7,87,89,89.7,89.6,87.8,88.4,88.5,88.5,89.8,91.4,91.1,90,91.3,92.7,91.9,91.1,92.5,92.5,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
 ,index: 5
 }
 ]

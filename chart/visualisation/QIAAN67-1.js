@@ -1,82 +1,42 @@
-/* Created by EFisher on 26/03/2014 16:47:01 using v2.1 */{
+/* Created by EFisher on 12/10/2015 14:30:35 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has compliance with good practice changed?'},
+title: {text: 'How have standards of admission to hospital for stroke care changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2001','2004','2006','2008','2010']
+, categories: ['Jan-Mar 2014 ','Apr-Jun 2014',' Jul-Sep 2014 ','Oct-Dec 2014']
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
-title: {text:'Percentage compliance against indicator '}
+title: {text:'Proportion of patients'}
 , labels: {
-format: '{value:.2f}' 
+format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
+series:[
 {
-name: 'Treated for 90% of stay in stroke unit',
+name: 'Proportion of applicable patients directly admitted to a stroke unit within 4 hours AND who receive thrombolysis if clinically needed',
 type: 'line',
-data: [null,null,51,58,60]
+data: [56.5,57.2,59,56.3]
 ,index: 1
 },
 {
-name: 'Screened for swallowing disorders within 24 hours',
-visible: false,type: 'line',
-data: [64,63,66,72,83]
+name: 'Proportion of patients who has a brain scan within 1 hour of arrival to hospital',
+type: 'line',
+data: [43.2,43.1,44.1,44]
 ,index: 2
 },
 {
-name: 'Brain scan within 24 hours',
-visible: false,type: 'line',
-data: [58,59,42,59,70]
+name: 'Target for brain scan',
+type: 'line',
+data: [50,50,50,50]
 ,index: 3
-},
-{
-name: 'Aspirin by 48 hours',
-visible: false,type: 'line',
-data: [65,68,71,85,93]
-,index: 4
-},
-{
-name: 'Physiotherapy assessment within 72 hours',
-visible: false,type: 'line',
-data: [59,63,71,84,91]
-,index: 5
-},
-{
-name: 'Assessment by occupational therapist within 4 days',
-visible: false,type: 'line',
-data: [null,null,49,66,83]
-,index: 6
-},
-{
-name: 'Weighed at least once',
-visible: false,type: 'line',
-data: [49,52,57,72,85]
-,index: 7
-},
-{
-name: 'Mood assessed by discharge',
-visible: false,type: 'line',
-data: [52,47,55,65,80]
-,index: 8
-},
-{
-name: 'Rehabilitation goals agreed',
-visible: false,type: 'line',
-data: [61,68,76,86,94]
-,index: 9
-},
-{
-name: 'Average for 9 indicators',
-visible: false,type: 'line',
-data: [null,null,60,72,82]
-,index: 10
 }
 ]
 }

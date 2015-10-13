@@ -1,4 +1,4 @@
-﻿{
+/* Created by EFisher on 01/10/2015 12:24:11 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2009,2010,2011,2012,2013]
+, categories: [2009,2010,2011,2012,2013,2014]
 , labels: {
 }
 },
@@ -22,26 +22,27 @@ series:[
 {
 name: 'England',
 type: 'column',
-data: [21.5,22.3,22.5,27,25.4]
+data: [21.52,22.26,22.52,27.01,25.35,22.98]
 },
     {name: 'Eng err',
      type: 'errorbar',
      data: [
-         [20.996,22.036],
-[21.722,22.794],
-[21.908,23.125],
-[26.363,27.658],
-[24.52,26.19]
+        [21.251,21.782],
+[21.984,22.532],
+[22.206,22.827],
+[26.68,27.341],
+[24.929,25.781],
+[22.561,23.393]
      ]},
 {
 name: 'Disabled staff',
 type: 'column',
-data: [30.2,32,32.6,38.5,37.1]
+data: [30.16,31.98,32.64,38.54,37.09,34.34]
 },
 {
 name: 'Non-disabled staff',
 type: 'column',
-data: [19.3,20.4,20.4,24.6,22.9]
+data: [19.33,20.35,20.41,24.56,22.85,20.15]
 }
 ]
 }

@@ -2,7 +2,7 @@
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How have standards of assessment and screening during hospital stay changed for stroke care?'},
+title: {text: 'How have discharge procedures and ongoing care changed for stroke?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -14,22 +14,23 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Proportion of patients'}
+title: {text:'Proportion of applicable patients'}
+, min: 0
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Proportion of applicable patients who were given a swallowing screening within 4h of arrival to hospital',
+name: 'Proportion of applicable patients who have a continence plan drawn up within 3 weeks of clock start ',
 type: 'line',
-data: [65,67.3,69.2,68.7]
+data: [79.2,83,85,85.5]
 ,index: 1
 },
 {
-name: 'Proportion of applicable patients who are assessed by a nurse within 24h AND at least one therapist within 24h AND all relevant therapists within 72h AND have rehab goals agreed within 5 days ',
+name: 'Proportion of applicable patients who have mood and cognition screening by discharge ',
 type: 'line',
-data: [46.3,48.7,52.7,52.7]
+data: [81.4,84,87,87.2]
 ,index: 2
 }
 ]

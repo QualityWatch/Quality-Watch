@@ -1,36 +1,42 @@
-/* Created by EFisher on 26/03/2014 16:47:11 using v2.1 */{
+/* Created by EFisher on 12/10/2015 14:30:36 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has placement to stroke beds changed?'},
+title: {text: 'How has ongoing rehabilitation changed for stroke care?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Apr-Jun 2011','Jul-Sep 2011','Oct-Dec 2011','Jan-Mar 2012','Apr-Jun 2012','Jul-Sep 2012','Oct-Dec 2012']
+, categories: ['Jan-Mar 2014 ','Apr-Jun 2014',' Jul-Sep 2014 ','Oct-Dec 2014']
 , labels: {
  rotation: -90
 , step: 1
 }
 },
 yAxis: {
-title: {text:'Proportion of those who arrive at <br> a stroke bed within 4 hours', offset: 87}
+title: {text:'Proportion of patients'}
 , labels: {
-format: '{value:.3f}' 
+format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Arrived at stroke bed within 4 hours',
+name: 'Proportion of patients who received the 45 minutes of occupatoinal therapy required 5 days a week.',
 type: 'line',
-data: [54,58,60,56,63,66,65]
+data: [54.9,67.3,76.1,74.3]
 ,index: 1
 },
 {
+name: 'Proportion of patients who received the 45 minutes of physiotherapy required 5 days a week.',
 type: 'line',
-marker: {fillColor: 'none', lineColor: null },
-name: 'Arrived at stroke bed within 4 hours trendline',
-data: [[0, 52.857],[6, 64]]
+data: [53.4,67.1,69.9,70.9]
+,index: 2
+},
+{
+name: 'Proportion of patients who received the 45 minutes of speech & language therapy required 5 days a week.',
+type: 'line',
+data: [23.9,30.9,36.4,37.8]
+,index: 3
 }
 ]
 }

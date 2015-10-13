@@ -1,4 +1,4 @@
-{
+/* Created by EFisher on 30/09/2015 17:19:51 using v2.7 */{
 legend: {enabled: false},
 title: {text:''},
 credits: {enabled: false},
@@ -8,7 +8,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2003/04','2004/05','2005/06','2006/07','2007/08','2008/09','2009/10','2010/11','2011/12','2012/13', '2013/14']
+, categories: ['2003/04','2004/05','2005/06','2006/07','2007/08','2008/09','2009/10','2010/11','2011/12','2012/13','2013/14','2014/15']
 , labels: {
  rotation: -90
 , step: 1
@@ -24,9 +24,9 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Percentage',
+name: 'Series1',
 type: 'line',
-data: [16.5,16.9,15.6,15.1,14.4,14.4,14,13.5,13.2,12.7,12.0]
+data: [16.5,16.9,15.6,15.1,14.4,14.4,14,13.5,13.2,12.7,12,11.4]
 }, {
             name: 'error',
             type: 'errorbar',
@@ -41,8 +41,10 @@ data: [16.5,16.9,15.6,15.1,14.4,14.4,14,13.5,13.2,12.7,12.0]
 [13.4,13.6],
 [13.1,13.3],
 [12.6,12.8],
-[11.9,12.1]
-            ]
+[11.9,12.1],
+[11.3,11.5]
+              
+           ]
         }
 
 ]

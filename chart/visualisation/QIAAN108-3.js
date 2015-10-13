@@ -1,4 +1,4 @@
-/* Created by ianb on 01/08/2014 12:46:09 using v2.1 */{
+/* Created by EFisher on 12/10/2015 14:32:12 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['10 - Least deprived',9,8,7,6,5,4,3,2,'1 - Most deprived']
+, categories: ['1 - Most deprived',2,3,4,5,6,7,8,9,'10 - Least deprived']
 , labels: {
  rotation: -90
 , step: 1
@@ -15,23 +15,22 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Percentage of people who feel supported <br> to manage their long-term condition', offset: 87}
-, max: 100
 , min: 0
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.2f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: '2011/12',
+name: '2012/13',
 type: 'column',
-data: [70.7,70.1,69.9,68.6,68.5,66.8,65.3,63.9,63.4,62.8]
+data: [62.3,62.7,63.7,64.7,66,67.2,66.9,67.7,68.3,68.7]
 ,index: 1
 },
 {
-name: '2012/13',
+name: '2013/14',
 type: 'column',
-data: [68.7,68.3,67.7,66.9,67.2,66,64.7,63.7,62.7,62.3]
+data: [61.9,61.8,62.9,64.8,65.9,66.2,66.9,67.7,68.1,68]
 ,index: 2
 }
 ]

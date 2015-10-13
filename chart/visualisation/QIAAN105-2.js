@@ -1,4 +1,4 @@
-       {
+/* Created by EFisher on 05/10/2015 15:49:53 using v2.7 */       {
         title: {
             text: ''
         },
@@ -21,7 +21,7 @@
             title: {
                 text: ''
             },
-            categories: ['2011/12', '2012/13', 'July 2013-March 2014'],
+            categories: ['2011/12', '2012/13', 'July 2013 - March 2014', 'July 2014 - March 2015'],
             labels: {}
         },
         yAxis: {
@@ -44,27 +44,27 @@ plotOptions: {column: {stacking: 'normal',}},
         series: [{
             name: 'On the same day',
             type: 'column',
-            data: [36.3, 36.4,  {y: 36.8, color:'rgba(0,154,166, 0.5)'}],
+            data: [36.3, 36.4,{y:36.8, color:'#3FCFD5'},{y:37.3, color:'#3FCFD5'}],
             index: 4
         }, {
             name: 'On the next working day',
             type: 'column',
-            data: [14.2, 13, {y: 12.2, color:'rgba(225,14,73, 0.5)'}],
+            data: [14.2, 13,{y:12.2, color:'#E59AAA'},{y:11.1, color:'#E59AAA'}],
             index: 3
         }, {
             name: 'A few days later',
             type: 'column',
-            data: [33.3, 32.7, {y: 31.8, color:'rgba(79,11,123, 0.5)'}],
+            data: [33.3, 32.7,{y:31.8, color:'#B634BB'},{y:30.2, color:'#B634BB'}],
             index: 2
         }, {
             name: 'A week or more later',
             type: 'column',
-            data: [12.8, 14.6, {y: 15.9, color:'rgba(108,111,112, 0.5)'}],
+            data: [12.8, 14.6,{y:15.9, color:'#CECFCB'},{y:17.9, color:'#CECFCB'}],
             index: 1
         }, {
             name: 'Can\'t remember ',
             type: 'column',
-            data: [3.3, 3.3, {y: 3.2, color:'rgba(63,207,213, 0.5)'}],
+            data: [3.3, 3.3,{y:3.2, color:'#6FFFF5'},{y:3.6, color:'#6FFFF5'}],
             index: 0
         }]
     }

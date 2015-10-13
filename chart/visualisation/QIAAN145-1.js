@@ -1,5 +1,4 @@
-/* Created by ianb on 16/12/2014 11:18:36 using v2.3 */
-{
+/* Created by EFisher on 12/10/2015 14:33:31 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,11 +7,11 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2005,2006,2007,2008,2009,2010,2011,2012,2013]
+, categories: [2005,2006,2007,2008,2009,2010,2011,2012,2013,2014]
 , labels: {
 }
 },
-yAxis: { max: 100,
+yAxis: {
 title: {text:'Percentage of respondents'}
 , labels: {
 format: '{value:.1f}' 
@@ -23,19 +22,19 @@ series:[
 {
 name: 'Yes, completely',
 type: 'column',
-data: [40,37,36,38,36,37,38,38,39]
+data: [40,37,36,38,36,37,38,38,39,39]
 ,index: 2
 },
 {
 name: 'Yes, to some extent',
 type: 'column',
-data: [18,18,18,18,18,19,19,19,19]
+data: [18,18,18,18,18,19,19,19,19,20]
 ,index: 1
 },
 {
 name: 'No',
 type: 'column',
-data: [42,45,46,44,45,44,43,43,42]
+data: [42,45,46,44,45,44,43,43,42,41]
 ,index: 0
 }
 ]

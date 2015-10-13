@@ -1,9 +1,8 @@
-/* Created by ianb on 16/12/2014 11:17:56 using v2.3 */
-{
+/* Created by EFisher on 12/10/2015 14:33:25 using v2.7 */{
+title: {text:''},
 credits: {enabled: false},
-title: {text: ''},
 exporting: {chartOptions: {
-title: {text: 'How has the rate of hospital admissions for asthma in under 19 year olds changed?'},
+title: {text: 'How has the rate of hospital admissions for under 19 year olds changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -14,14 +13,14 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Crute Rate per 100,000 (Age 0-18)'}
-, min: 0
+, min: 50
 , labels: {
-format: '{value:.0f}' 
+format: '{value:.1f}' 
 }},
 series:[
 {
-name: 'Hospital admissions for asthma in under 19s',
-type: 'line',
+name: 'Series1',
+type: 'column',
 data: [193.9,221.4]
 ,index: 1
 }

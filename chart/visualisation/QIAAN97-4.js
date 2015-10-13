@@ -1,4 +1,4 @@
-{
+/* Created by EFisher on 12/10/2015 14:31:40 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,21 +7,21 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2009,2010,2011,2012,2013]
+, categories: [2009,2010,2011,2012,2013,2014]
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Percentage of staff who felt pressured <br> to attend work while ill', offset: 87}
+title: {text:'Un-weighted percentage of staff <br> feeling pressure in last 3 months <br> to attend work when feeling unwell', offset: 99}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Percentage',
+name: 'Series1',
 type: 'column',
-data: [21,22,23,27,25]
+data: [21,22,23,27,25,23]
 ,index: 1
 }
 ]

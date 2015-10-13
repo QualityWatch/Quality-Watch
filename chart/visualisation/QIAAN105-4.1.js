@@ -1,4 +1,4 @@
-{
+/* Created by EFisher on 06/10/2015 08:59:57 using v2.7 */{
 title: {text:''},
 legend: {enabled: false},
 credits: {enabled: false},
@@ -8,8 +8,9 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011/12','2012/13','July 2013 - March 2014']
+, categories: ['2011/12', '2012/13', 'July 2013 - March 2014', 'July 2014 - March 2015']
 , labels: {
+    rotation: -45,
 }
 },
 yAxis: {
@@ -23,14 +24,12 @@ series:[
 {
 name: 'Percentage',
 type: 'column',
-data: [77.7,76.8,{y:74.6, color: 'rgba(0,154,166,0.5)'}]
+data: [77.7, 76.8,{y:74.6, color:'#3FCFD5'},{y:73.8, color:'#3FCFD5'}]
 }, {
             name: 'Error bars',
             type: 'errorbar',
             data: [
-[77.62,77.84],
-[76.66,76.89],
-[74.47,74.72]
+[77.59, 77.81], [76.68, 76.92], [74.47, 74.72], [73.67, 73.93]
             ]
         }
 ]
