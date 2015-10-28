@@ -1,4 +1,5 @@
-/* Created by EFisher on 26/10/2015 10:08:29 using v2.7 */{
+/* Created by EFisher on 26/10/2015 10:08:29 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -22,31 +23,32 @@ series:[
 {
 name: 'CASSR (local authority)',
 type: 'column',
-data: [1114.7,1011.4,925.7]
+data: [11.147,10.114,9.257]
 ,index: 4
 },
 {
 name: 'Private',
 type: 'column',
-data: [5594.4,5637.6,5723.7]
+data: [55.944,56.376,57.237]
 ,index: 3
 },
 {
 name: 'Voluntary',
 type: 'column',
-data: [1888.1,1879.2,1907.9]
+data: [18.881,18.792,19.079]
 ,index: 2
 },
 {
 name: 'NHS',
 type: 'column',
-data: [518.6,513.3,535.2]
+data: [5.186,5.133,5.352]
 ,index: 1
 },
 {
 name: 'Direct payment recipients',
 type: 'column',
-data: [909.1,939.6,921.1]
+data: [9.091,9.396,9.211]
+
 ,index: 0
 }
 ]
