@@ -1,4 +1,5 @@
-/* Created by EFisher on 26/10/2015 10:06:05 using v2.7 */{
+/* Created by EFisher on 26/10/2015 10:06:05 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -17,7 +18,7 @@ yAxis: {
 title: {text:'Number in each quarter'}
 , labels: {
 format: '{value:.5f}' 
-,formatter: function() {return '$'+this.value;}}},
+,formatter: function() {return this.value;}}},
 series:[
 {
 name: 'Number of referrals to IAPT',
