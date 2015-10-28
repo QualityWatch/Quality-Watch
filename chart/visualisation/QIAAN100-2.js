@@ -1,4 +1,4 @@
-/* Created by ianb on 28/04/2015 10:16:25 using v2.6 */{
+/* Created by EFisher on 26/10/2015 10:04:00 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2007/08','2008/09','2009/10','2010/11','2011/12','2012/13','2013/14']
+, categories: ['2007/08','2008/09','2009/10','2010/11','2011/12','2012/13','2013/14','2014/15']
 , labels: {
  rotation: -90
 , step: 1
@@ -22,13 +22,13 @@ series:[
 {
 name: 'total',
 type: 'line',
-data: [4451,2935,1898,1481,1116,924,862]
+data: [4451,2935,1898,1481,1116,924,862,801]
 ,index: 1
 },
 {
 name: 'trust apportioned',
 type: 'line',
-data: [null,1606,1004,688,473,398,364]
+data: [null,1606,1004,688,473,398,364,287]
 ,index: 2
 }
 ]

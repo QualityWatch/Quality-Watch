@@ -1,4 +1,4 @@
-{
+/* Created by EFisher on 20/10/2015 10:47:38 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,39 +7,38 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2011,2012,2013]
+, categories: [2011,2012,2013,2014]
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Percentage change in numbers of <br> whole time equivalent', offset: 87}
+title: {text:'Number of whole time equivalents'}
 , labels: {
 format: '{value:.1f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+}},
 series:[
 {
 name: 'Direct care',
 type: 'line',
-data: [0,-6.1,-17.9]
+data: [66600,62800,56500,52400]
 ,index: 1
 },
 {
 name: 'Manager, Supervisor',
 type: 'line',
-data: [0,-4.5,-12.5]
+data: [20700,19800,18400,17000]
 ,index: 2
 },
 {
 name: 'Professional',
 type: 'line',
-data: [0,1.7,3.3]
+data: [17500,17800,18100,17100]
 ,index: 3
 },
 {
 name: 'Other',
 type: 'line',
-data: [0,-6.5,-14]
+data: [21200,19900,18600,17800]
 ,index: 4
 }
 ]

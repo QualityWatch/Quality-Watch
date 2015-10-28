@@ -1,5 +1,4 @@
-/* Created by ianb on 30/01/2015 15:41:01 using v2.3 */
-{
+/* Created by EFisher on 26/10/2015 10:09:32 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,14 +7,14 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['HbA1c','BMI','Blood pressure','Urinary Albumin','Cholesterol','Eye screening','Foot examination','All care processes']
+, categories: ['HbA1c','BMI','Blood pressure','Urinary Albumin','Cholesterol','Eye screening','Foot examination','over age 12with all care processes recorded']
 , labels: {
  rotation: -90
 , step: 1
 }
 },
 yAxis: {
-title: {text:'Percentage receiving recommended <br> care processes', offset: 87}
+title: {text:'Proportion if children having specific <br> care processes (%)', offset: 87}
 , max: 100
 , labels: {
 }},
@@ -70,9 +69,15 @@ data: [89.3,64.7,67.7,40.7,44.4,36.9,34.4,6.7]
 },
 {
 name: '2012/13',
-visible: true,type: 'column',
+visible: false,type: 'column',
 data: [97.6,87.9,77.3,49.5,52.7,49.7,39.5,12.1]
 ,index: 9
+},
+{
+name: '2013/14',
+visible: false,type: 'column',
+data: [98.3,94,80.2,48.8,54.2,51.9,45.7,16.1]
+,index: 10
 }
 ]
 }

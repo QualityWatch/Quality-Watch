@@ -1,4 +1,4 @@
-/* Created by ianb on 27/04/2015 18:08:17 using v2.5 */{
+/* Created by EFisher on 26/10/2015 10:06:05 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011-12','2012-13','2013-14','2014-15 (Q1 & Q2 only)']
+, categories: ['2011-12','2012-13','2013-14','2014-15 (Q1 - Q3 only)']
 , labels: {
 }
 },
@@ -33,7 +33,7 @@ data: [15,15,15,15]
 {
 name: 'Potential acheivement based on mid-year success',
 type: 'line',
-data: [null,null,11.51,12.44]
+data: [null,null,11.51,12.7]
 ,index: 3
 }
 ]

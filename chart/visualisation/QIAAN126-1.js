@@ -1,4 +1,4 @@
-/* Created by ianb on 07/05/2014 13:25:58 using v2.1 */{
+/* Created by EFisher on 26/10/2015 10:08:29 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2011,2012]
+, categories: [2011,2012,2013]
 , labels: {
 }
 },
@@ -22,31 +22,31 @@ series:[
 {
 name: 'CASSR (local authority)',
 type: 'column',
-data: [10.2,9.2]
+data: [1114.7,1011.4,925.7]
 ,index: 4
 },
 {
 name: 'Private',
 type: 'column',
-data: [53.1,53.8]
+data: [5594.4,5637.6,5723.7]
 ,index: 3
 },
 {
 name: 'Voluntary',
 type: 'column',
-data: [17.7,17.9]
+data: [1888.1,1879.2,1907.9]
 ,index: 2
 },
 {
 name: 'NHS',
 type: 'column',
-data: [4.8,4.7]
+data: [518.6,513.3,535.2]
 ,index: 1
 },
 {
 name: 'Direct payment recipients',
 type: 'column',
-data: [14.3,14.4]
+data: [909.1,939.6,921.1]
 ,index: 0
 }
 ]
