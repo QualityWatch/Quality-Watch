@@ -1,4 +1,5 @@
-/* Created by EFisher on 26/10/2015 10:02:00 using v2.7 */{
+/* Created by EFisher on 26/10/2015 10:02:00 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -34,7 +35,7 @@ type: 'line',
  yAxis:0,
 marker: {fillColor: 'none', lineColor: null },
 name: 'Proportion of calls abandoned (left) trendline',
-data: [[0, 1.19],[44, 1.39]]
+data: [[0, 1.40],[51, 1.09]]
 },
 {
 name: 'Number of calls (right)',
