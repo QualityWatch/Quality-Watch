@@ -1,4 +1,5 @@
-/* Created by EFisher on 26/10/2015 10:09:32 using v2.7 */{
+/* Created by EFisher on 26/10/2015 10:09:32 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,9 +8,9 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['HbA1c','BMI','Blood pressure','Urinary Albumin','Cholesterol','Eye screening','Foot examination','over age 12with all care processes recorded']
+, categories: ['HbA1c','BMI','Blood <br/> pressure','Urinary <br/> Albumin','Cholesterol','Eye <br/> screening','Foot <br/> exam','over age <br/> 12with <br/> all care <br/> processes recorded']
 , labels: {
- rotation: -90
+ rotation: 0
 , step: 1
 }
 },
