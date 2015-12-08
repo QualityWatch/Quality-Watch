@@ -1,4 +1,4 @@
-/* Created by ianb on 01/08/2014 12:54:10 using v2.1 */
+/* Created by EFisher on 24/11/2015 10:52:19 using v2.7 *//* Created by ianb on 01/08/2014 12:54:10 using v2.1 */
 {
 title: {text:''},
 credits: {enabled: false},
@@ -8,7 +8,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['East Midlands','East of England','Yorkshire and the Humber','Wessex','Thames Valley','North West London','South London','North Central & East London','Kent, Surrey and Sussex','North East','North West','West Midlands','South West','Special Health Authorities<br> and other statutory bodies']
+, categories: ['East Midlands','East of England','Yorkshire and the Humber','Wessex','Thames Valley','North West London','South London','North Central & East London','Kent, Surrey and Sussex','North East','North West','West Midlands','South West','Special Health Authorities <br> and other statutory bodies']
 , labels: {
  rotation: -45
 , step: 1

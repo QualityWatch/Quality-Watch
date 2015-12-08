@@ -1,4 +1,4 @@
- {
+/* Created by EFisher on 23/11/2015 16:11:15 using v2.7 */ {
 legend: {
             enabled: false
         },
@@ -10,7 +10,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011/12','2012/13','Jan 2013 - Sept 2013']
+, categories: ['2011/12','2012/13','Jan 2013 - Sept 2013','July 2013 - Mar 2014','Jan 2014 - Sept 2014','July 2014 - Mar 2015']
 , labels: {
 }
 },
@@ -28,7 +28,16 @@ name: 'Series1',
 type: 'column',
 data: [63.3,62,{
                 y: 59.6,
-                color: 'rgba(0,154,166,0.5)'
+                color: 'rgba(0,154,166,1)'
+            },{
+                y: 58.9,
+                color: 'rgba(0,154,166,1)'
+            },{
+                y: 60.5,
+                color: 'rgba(0,154,166,1)'
+            },{
+                y: 60.7,
+                color: 'rgba(0,154,166,1)'
             }]
 }, {
             name: 'error',
@@ -36,7 +45,11 @@ data: [63.3,62,{
             data: [
 [62.89,63.62],
 [61.57,62.33],
-[59.18,59.99]
+[59.18,59.99],
+                [58.5,59.3],
+[60.1,60.9],
+[60.3,61.1]
+
 
             ]
         }

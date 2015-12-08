@@ -1,4 +1,4 @@
-﻿{
+/* Created by EFisher on 23/11/2015 14:31:29 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,26 +7,35 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2010-11','2011-12','2012-13']
+, categories: ['2010-11','2011-12','2012-13','2013-14','2014-15']
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Proportion of people who use services <br> and carers who find it easy to find <br> information about services', offset: 99}
-, max: 80
-, min: 50
+title: {text:''}
+, max: 90
 , labels: {
-format: '{value:.2f}' 
 }},
 series:[
 {
-name: 'England',
+name: 'Proportion of people who use services and carers who find it easy to find information about services',
 type: 'column',
-data: [74.2,73.8,71.4]
+data: [74.2,73.8,74.1,74.5,74.5]
 },
+
     {name: 'Eng err',
      type: 'errorbar',
-     data: [[73.5,74.7], [73.3,74.3],null]}
+     data: [[73.5,74.9],[73.3,74.3],[73.6,74.6],[74,75],[74,75]
+]},
+{
+name: 'Proportion of carers who find it easy to find information about support',
+type: 'column',
+data: [null,null,68.9,null,65.5]
+},
+{name: 'Eng error',
+             type: 'errorbar',
+             data: [ null,null,[68.3,69.5],null,[64.9,66.1]
 ]
-
+            }
+        ]
     }

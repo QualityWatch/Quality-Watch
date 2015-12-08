@@ -1,4 +1,4 @@
-{
+/* Created by EFisher on 03/12/2015 14:04:27 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,47 +14,47 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of staff'}
+title: {text:'Percentage of staff (2014)'}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 plotOptions: {column: {stacking: 'normal',}},
-series:[
+legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
-name: '0 sick days',
-type: 'column',
-data: [42.4,40.6,47.8,42.8,43.2]
+name: '0',
+visible: true,type: 'column',
+data: [46.5,44.2,53.2,46.9,47.4]
 ,index: 5
 },
 {
-name: '1 to 4 sick days',
-type: 'column',
-data: [23.4,22.7,22.9,24.2,25.2]
+name: '1 to 4',
+visible: false,type: 'column',
+data: [22.3,21.7,20.9,23.4,24.3]
 ,index: 4
 },
 {
-name: '4.1 to 10 sick days',
-type: 'column',
-data: [13.2,13.6,12,12.9,13.3]
+name: '4.1 to 10',
+visible: false,type: 'column',
+data: [12.2,12.7,10.5,12.1,12.3]
 ,index: 3
 },
 {
-name: '10.1 to 20 sick days',
-type: 'column',
-data: [7.7,8.6,6.1,7.1,6.9]
+name: '10.1 to 20',
+visible: false,type: 'column',
+data: [7.1,7.8,5.9,6.6,6.3]
 ,index: 2
 },
 {
-name: '20.1 to 40 sick days',
-type: 'column',
-data: [6.2,6.7,5.4,6,5.5]
+name: '20.1 to 40',
+visible: false,type: 'column',
+data: [5.4,6,4.5,4.9,4.7]
 ,index: 1
 },
 {
-name: 'More than 40 sick days',
-type: 'column',
-data: [7,7.8,5.8,7,5.8]
+name: 'More than 40',
+visible: false,type: 'column',
+data: [6.5,7.6,4.9,6,5]
 ,index: 0
 }
 ]

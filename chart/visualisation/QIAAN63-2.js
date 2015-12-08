@@ -1,4 +1,5 @@
-/* Created by ianb on 14/10/2013 11:42:11 using v0.9 */{
+/* Created by EFisher on 23/11/2015 14:07:34 using v2.7 *//* Created by EFisher on 23/11/2015 14:02:05 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,30 +8,30 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['North East','North West','South West','East Midlands','Yorkshire and the Humber','West Midlands','England','South East','Eastern','London']
+, categories: ['South West','North West','North East','Yorkshire and the Humber','South East','England','East Midlands','West Midlands','Eastern','London']
 , labels: {
- rotation: -90
+ rotation: -45
 , step: 1
 }
 },
 yAxis: {
-title: {text:'Proportion of adults who are satisfied <br> with the service they receive by <br> region', offset: 99}
+title: {text:'Proportion of respondents who said <br> they were satisfied with their care <br> and support (%) ', offset: 99}
+, min: 0
 , labels: {
-format: '{value:.2f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+format: '{value:.0f}' 
+}},
 series:[
 {
-name: '2011/12',
+name: '2014-15',
 type: 'column',
-data: [66.8,66.4,64.4,63.7,63.4,63.3,62.8,61.6,60.5,57.2]
-,index: 1
-},
-{
-name: '2012/13',
-type: 'column',
-data: [65.9,66,65.2,65.1,65.5,64.1,63.7,62.7,62.3,58.2]
-,index: 2
+data: [67.4,66.8,66.6,65.9,65.6,{
+                y: 64.7,
+                color: 'rgba(0,154,166,0.5)'
+            },64.4,64.3,63.6,59.5]
 }
+        ,{name: 'Eng err',
+        type: 'errorbar',
+        data: [[65.7,67.9],[66.1,68.7],[65.3,67.9],[64.7,67.1],[64.4,66.8],[64.3,65.1],[62.8,66],[62.9,65.7],[62.1,65.1],[58.6,60.4]        
+        ]}
 ]
-}
+    }

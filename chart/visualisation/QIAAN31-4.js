@@ -1,32 +1,52 @@
-/* Created by EFisher on 26/03/2014 16:39:47 using v2.1 */{
+/* Created by EFisher on 03/12/2015 11:48:01 using v2.7 *//* Created by EFisher on 03/12/2015 11:45:53 using v2.7 */
+/* Created by EFisher on 25/11/2015 15:43:27 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion of timely antenatal assessments changed?'},
+title: {text: 'How has the number of timely antenatal assessments changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2009-10 Q3','2009-10 Q4','2010-11 Q1','2010-11 Q2','2010-11 Q3','2010-11 Q4','2011-12 Q1','2011-12 Q2','2011-12 Q3','2011-12 Q4','2012-13 Q1']
+, categories: ['2010/11 Q1', '2010/11 Q2', '2010/11 Q3', '2010/11 Q4', '2011/12 Q1', '2011/12 Q2', '2011/12 Q3', '2011/12 Q4', '2012/13 Q1', '2012/13 Q2', '2012/13 Q3', '2012/13 Q4', '2013/14 Q1', '2013/14 Q2', '2013/14 Q3', '2013/14 Q4', '2014/15 Q1', '2014/15 Q2', '2014/15 Q3', '2014/15 Q4', '2015/16 Q1']
 , labels: {
- rotation: -90
+ rotation: -45
 , step: 1
 }
 },
-yAxis: {
-title: {text:'Proportion of antenatal appointments <br> which happened before 12 weeks 6 <br> days', offset: 99}
-, max: 90
-, min: 70
+yAxis: [
+    {
+    
+title: {text:'Total number of assessments', offset: 50}
+    , max: 200000
+, min: 0
 , labels: {
-format: '{value:.1f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+}},
+    {
+    
+title: {text:'Proportion of total assessments which <br> happened after 12 weeks and 6 days (%)', offset: 60}
+    , max: 30, 
+        min: 0, 
+        tickInterval: 5,
+labels: {
+}, opposite: true},
+       
+       ],
 series:[
 {
-name: 'Proportion of appointments which happened before 12 weeks 6 days',
-type: 'line',
-data: [82.2,80,83.2,83.4,85.3,84.5,85.5,85.6,86.7,86.5,86.9]
+name: 'Total number of assessments',
+type: 'area',
+    yAxis: 0,
+data: [170887, 183640, 183640, 174265, 177397, 178599, 185187, 179294, 181749, 177266, 187326, 175682, 174475, 177084, 185208, 175746, 176158, 174490, 188863, 182254, 187475]
 ,index: 1
+},
+
+{
+name: 'Proportion of total assessments',
+type: 'line',
+    yAxis: 1,
+data: [18, 20, 17, 17, 15, 15, 14, 14, 13, 13, 13, 14, 13, 14, 17, 17, 17, 18, 17, 17, 17]
 }
 ]
 }

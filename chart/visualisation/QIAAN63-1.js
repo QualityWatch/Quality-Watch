@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 16:45:54 using v2.1 */{
+/* Created by EFisher on 23/11/2015 13:47:25 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,28 +7,28 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2010/11','2011/12','2012/13']
+, categories: ['2010-11','2011-12','2012-13','2013-14','2014-15']
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Proportion of people who are satisfied <br> with the service they receive', offset: 87}
+title: {text:'Proportion of respondents who said <br> they were satisfied with their care <br> and support (%) ', offset: 99}
+, max: 70
+, min: 0
 , labels: {
-format: '{value:.3f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+}},
 series:[
 {
-name: 'Unweighted data',
+name: 'Series1',
 type: 'column',
-data: [61.7,null,null]
-,index: 1
-},
-{
-name: 'Weighted data',
-type: 'column',
-data: [null,62.8,63.7]
-,index: 2
+data: [62.1,62.8,64.1,64.8,{
+                y: 64.7,
+                color: 'rgba(0,154,166,0.5)'
+            }]
 }
+        ,{name: 'Eng err',
+        type: 'errorbar',
+        data: [[61.6,62.6],[62.3,63.3],[63.6,64.6],[64.4,65.2],[64.3,65.1]        
+        ]}
 ]
 }
