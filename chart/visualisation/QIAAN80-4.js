@@ -1,4 +1,5 @@
-/* Created by EFisher on 17/02/2016 18:38:42 using v2.7 */{
+/* Created by EFisher on 17/02/2016 18:38:42 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
