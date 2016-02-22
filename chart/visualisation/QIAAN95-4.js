@@ -1,29 +1,31 @@
-/* Created by ianb on 04/11/2014 13:01:04 using v2.2 */{
+/* Created by EFisher on 17/02/2016 16:22:08 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'What is the regional variation in rates of cancelled elective operations in 2012/13?'},
+title: {text: 'What is the regional variation of cancelled elective operations?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['North East','South East Coast','South Central','London','Yorkshire and The Humber','North West','South West','West Midlands','East Midlands','East of England']
+, categories: ['Devon, Cornwall <br>and Isles Of Scilly','Bristol,<br> North<br> Somerset, <br>Somerset<br> and <br>South<br> Gloucestershire','Bath,<br> Gloucestershire,<br> Swindon<br> and<br> Wiltshire','Shropshire<br> and<br> Staffordshire','Birmingham<br> and<br> The<br> Black<br> Country','Greater<br> Manchester','Arden,<br> Herefordshire<br> and<br> Worcestershire','Cheshire,<br> Warrington<br> and<br> Wirral','East Anglia','North <br>Yorkshire and<br> Humber','Essex','Leicestershire<br> and Lincolnshire','England','Hertfordshire<br> and The South<br> Midlands','Surrey<br> and Sussex','Merseyside','South Yorkshire<br> and Bassetlaw','West Yorkshire','London','Wessex','Cumbria, Northumberland,<br> Tyne and Wear','Lancashire','Kent and Medway','Durham, Darlington and Tees','Thames Valley','Derbyshire <br>and <br>Nottinghamshire']
 , labels: {
- rotation: -90
-, step: 1
-}
+ rotation: -30
+, step: 12
+},
+showLastLabel: true,
+endOnTick: true
 },
 yAxis: {
-title: {text:'Rate of cancelled elective operations <br> per 1,000 \'elective\' admissions', offset: 87}
-, max: 10
+title: {text:'Rate of cancelled elective operations <br> per 1,000 \'elective\' admissions', offset: 50}
+, max: 14
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.0f}' 
 }},
 series:[
 {
 name: 'Series1',
 type: 'column',
-data: [4.4,6.4,7.4,8.1,8.2,8.4,9.1,9.6,9.6,9.6]
+data: [13.8,11.7,10.9,10.7,10.5,10.5,10.3,10.1,9.9,9.9,9.3,9.1,8.6,8.3,8.2,8.2,8.1,7.8,7.7,7.7,7.4,7,6.6,5.8,5.1,4.5]
 ,index: 1
 }
 ]

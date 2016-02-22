@@ -1,4 +1,4 @@
-{
+/* Created by EFisher on 17/02/2016 13:28:15 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,8 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Aug 2010','Sep 2010','Oct 2010','Nov 2010','Dec 2010','Jan 2011','Feb 2011','Mar 2011','Apr 2011','May 2011','Jun 2011','Jul 2011','Aug 2011','Sep 2011','Oct 2011','Nov 2011','Dec 2011','Jan 2012','Feb 2012','Mar 2012','Apr 2012','May 2012','Jun 2012','Jul 2012','Aug 2012','Sep 2012','Oct 2012','Nov 2012','Dec 2012','Jan 2013','Feb 2013','Mar 2013','Apr 2013','May 2013','Jun 2013','Jul 2013','Aug 2013','Sep 2013','Oct 2013','Nov 2013','Dec 2013','Jan 2014','Feb 2014','Mar 2014','Apr 2014','May 2014','Jun 2014','Jul 2014','Aug 2014','Sep 2014','Oct 2014','Nov 2014','Dec 2014','Jan 2015','Feb 2015']
+, categories: [
+'Aug-10','Sep-10','Oct-10','Nov-10','Dec-10','Jan-11','Feb-11','Mar-11','Apr-11','May-11','Jun-11','Jul-11','Aug-11','Sep-11','Oct-11','Nov-11','Dec-11','Jan-12','Feb-12','Mar-12','Apr-12','May-12','Jun-12','Jul-12','Aug-12','Sep-12','Oct-12','Nov-12','Dec-12','Jan-13','Feb-13','Mar-13','Apr-13','May-13','Jun-13','Jul-13','Aug-13','Sep-13','Oct-13','Nov-13','Dec-13','Jan-14','Feb-14','Mar-14','Apr-14','May-14','Jun-14','Jul-14','Aug-14','Sep-14','Oct-14','Nov-14','Dec-14','Jan-15','Feb-15','Mar-15','Apr-15','May-15','Jun-15','Jul-15','Aug-15','Sep-15','Oct-15','Nov-15','Dec-15']
 , labels: {
  rotation: -90
 , step: 2
@@ -16,32 +17,32 @@ title: {text:''}
 yAxis: {
 title: {text:'Total number of delayed days'}
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.0f}' 
 }},
 series:[
 {
 name: 'Whole period',
 type: 'line',
-data: [109918,115855,113246,113091,116466,114346,112386,123130,108064,113364,117075,115517,117297,117194,116878,114705,112096,111934,109532,119736,108482,119331,110348,117200,120094,114264,116881,116169,107652,125716,109180,115158,113297,120550,112984,111951,122337,118864,123852,116932,112629,124289,112845,123061,116278,126854,124124,133724,137954,138068,143118,139658,139156,151093,134508]
+data: [109918, 115855, 113246, 113091, 116466, 114346, 112386, 123130, 108064, 113364, 117075, 115517, 117297, 117194, 116878, 114705, 112096, 111934, 109532, 119736, 108482, 119331, 110348, 117200, 120094, 114264, 116881, 116169, 107652, 125716, 109180, 115158, 113297, 120550, 112984, 111951, 122337, 118864, 123852, 116932, 112629, 124289, 112845, 123061, 116261, 126779, 124118, 133903, 137613, 138267, 142927, 140949, 139025, 150392, 134353, 140390, 138030, 137115, 139538, 147005, 145067, 147738, 160094, 153191, 154060]
 ,index: 1
 },
 {
 type: 'line',
 marker: {fillColor: 'none', lineColor: null },
 name: 'Whole period trendline',
-data: [[0, 107975],[54, 130129.2]]
+data: [[0, 105065],[64, 142064]]
 },
 {
 name: 'Since April 2014',
 type: 'line',
-data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,116278,126854,124124,133724,137954,138068,143118,139658,139156,151093,134508]
+data: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 116261, 126779, 124118, 133903, 137613, 138267, 142927, 140949, 139025, 150392, 134353, 140390, 138030, 137115, 139538, 147005, 145067, 147738, 160094, 153191, 154060]
 ,index: 2
 },
 {
 type: 'line',
 marker: {fillColor: 'none', lineColor: null },
 name: 'Since April 2014 trendline',
-data: [[44, 121308.6],[54, 146332]]
+data: [[44, 126668],[64, 153986]]
 }
 ]
 }
