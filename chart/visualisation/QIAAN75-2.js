@@ -1,4 +1,5 @@
-/* Created by NCODowd on 04/04/2016 13:24:03 using v2.7 */{
+/* Created by NCODowd on 04/04/2016 13:24:03 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -9,6 +10,7 @@ xAxis: {
 title: {text:''}
 , categories: [2007,2008,2009,2010,2011,'Question<br>change', 2012,2013,2014,2015]
 , labels: {
+    rotation:-45
 }
 },
 yAxis: {
