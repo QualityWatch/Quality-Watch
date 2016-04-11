@@ -20,7 +20,7 @@ title: {text:''}
 yAxis: {
 title: {text:'Staff personally pleased with<br>the standard and quality of<br>care they provide (%)', offset: 99}
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.0f}' 
 }},
 series:[
 {
