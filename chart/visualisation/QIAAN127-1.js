@@ -1,6 +1,4 @@
-/* Created by EFisher on 03/12/2015 13:09:34 using v2.7 */
-
-{
+/* Created by EFisher on 05/04/2016 10:11:50 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -9,44 +7,27 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011', '2012', '2013', '2014']
+, categories: [2011,2012,2013,2014]
 , labels: {
- rotation: 0
-, step: 1
 }
 },
-yAxis: [
-    {
-    
-title: {text:'Median number of sickness days for all staff roles', offset: 50}
-    , max: 2
-, min: 0
+yAxis: {
+title: {text:'Median number of sickness days for <br> all staff roles', offset: 87}
 , labels: {
+format: '{value:.2f}' 
 }},
-    {
-    
-title: {text:'Average (mean)  number of <br>sickness days taken by each employee', offset: 60}
-    , max: 12, 
-        min: 0, 
-        tickInterval: 5,
-labels: {
-}, opposite: true},
-       
-       ],
 series:[
 {
 name: 'Median days (left axis)',
 type: 'column',
-    yAxis: 0,
-data: [1, 1, 1.5, 1]
+data: [1,1,1.5,1]
 ,index: 1
 },
-
 {
 name: 'Average (mean) per employee (right axis)',
 type: 'line',
-    yAxis: 1,
-data: [9.7, 9.9, 10.3, 9.5]
+data: [9.7,9.9,10.3,9.5]
+,index: 1
 }
 ]
 }

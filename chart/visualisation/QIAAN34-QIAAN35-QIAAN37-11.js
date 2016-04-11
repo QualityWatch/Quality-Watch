@@ -1,4 +1,4 @@
-/* Created by EFisher on 01/10/2015 12:24:11 using v2.7 */{
+/* Created by NCODowd on 01/04/2016 13:45:24 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,12 +7,12 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2009,2010,2011,2012,2013,2014]
+, categories: [2009,2010,2011,2012,2013,2014,"Question<br>changed",2015]
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Un-weighted percentage of staff <br> feeling pressure in last 3 months <br> to attend work when feeling unwell (%)', offset: 111}
+title: {text:'Un-weighted percentage of staff <br> feeling pressure in last 3 months <br> to attend work when feeling unwell <br> (±SEM) (%)', offset: 111}
 , max: 100
 , min: 0
 , labels: {
@@ -22,7 +22,8 @@ series:[
 {
 name: 'England',
 type: 'column',
-data: [21.52,22.26,22.52,27.01,25.35,22.98]
+data: [21.5,22.3,22.5,27,25.4,23,null,56.5]
+,index: 1
 },
     {name: 'Eng err',
      type: 'errorbar',
@@ -32,17 +33,20 @@ data: [21.52,22.26,22.52,27.01,25.35,22.98]
 [22.206,22.827],
 [26.68,27.341],
 [24.929,25.781],
-[22.561,23.393]
+[22.561,23.393],null,
+[55.967,56.946]
      ]},
 {
 name: 'Disabled staff',
 type: 'column',
-data: [30.16,31.98,32.64,38.54,37.09,34.34]
+data: [30.2,32,32.6,38.5,37.1,34.3,null,73.3]
+,index: 2
 },
 {
 name: 'Non-disabled staff',
 type: 'column',
-data: [19.33,20.35,20.41,24.56,22.85,20.15]
+data: [19.3,20.4,20.4,24.6,22.9,20.2,null,52.9]
+,index: 3
 }
 ]
 }

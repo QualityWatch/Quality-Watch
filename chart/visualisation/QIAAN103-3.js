@@ -1,4 +1,4 @@
-/* Created by EFisher on 17/02/2016 18:36:21 using v2.7 */{
+/* Created by EFisher on 05/04/2016 10:07:28 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -52,7 +52,7 @@ data: [92.79,92.19,92.83,92.74,92.65,91.97,90.63,90.24,84.78,86.55,87.76,88.92]
 {
 name: '2015/16',
 visible: false,type: 'line',
-data: [89.8,91.42,92.26,92.52,91.41,90.15,88.57,87.02,86.56,null,null,null]
+data: [89.8,91.42,92.26,92.52,91.41,90.16,88.57,87.02,86.56,83.03,null,null]
 ,index: 6
 }
 ]

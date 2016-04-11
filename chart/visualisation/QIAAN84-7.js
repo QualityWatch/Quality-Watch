@@ -1,8 +1,8 @@
-/* Created by EFisher on 17/02/2016 18:38:55 using v2.7 */{
+/* Created by EFisher on 05/04/2016 10:10:04 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Which organisations are responsible patients being delayed, when they\'re awaiting a care package in their own home?'},
+title: {text: 'Which organisations are responsible for patients being delayed, when they\'re awaiting a care package in their own home?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
