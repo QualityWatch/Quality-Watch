@@ -1,4 +1,5 @@
-/* Created by NCODowd on 04/04/2016 08:52:47 using v2.7 */{
+/* Created by NCODowd on 04/04/2016 08:52:47 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -18,6 +19,7 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
+  showInLegend: false,
 type: 'column',
 data: [21,22,23,27,25,23,null,56.5]
 ,
