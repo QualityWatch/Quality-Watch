@@ -1,4 +1,5 @@
-/* Created by NCODowd on 04/04/2016 10:41:03 using v2.7 *//* Created by NCODowd on 04/04/2016 09:45:31 using v2.7 */
+/* Created by NCODowd on 04/04/2016 10:41:03 using v2.7 */
+/* Created by NCODowd on 04/04/2016 09:45:31 using v2.7 */
 /* Created by NCODowd on 01/04/2016 14:09:24 using v2.7 */
 /* Created by EFisher on 01/10/2015 10:59:47 using v2.7 */
 {
@@ -13,6 +14,7 @@ title: {text:''}
 , categories: [2008,2009,2010,2011,2012,2013,2014,2015]
 
 , labels: {
+    rotation: - 45
 }
 },
 yAxis: {
