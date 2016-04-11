@@ -1,4 +1,5 @@
-/* Created by ianb on 01/10/2014 11:47:47 using v2.1 */{
+/* Created by ianb on 01/10/2014 11:47:47 using v2.1 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'The proportion of people who didn\'t <br> have support from NHS mental health <br> services for certain aspects of <br> their life', offset: 111}
+title: {text:'Proportion of people<br>who didn\'t have support<br>from NHS mental health<br>services for certain<br>aspects of their life', offset: 111}
 , max: 45
 , min: 30
 , labels: {
