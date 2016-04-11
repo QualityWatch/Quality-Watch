@@ -1,4 +1,5 @@
-/* Created by NCODowd on 01/04/2016 12:06:41 using v2.7 *//* Created by NCODowd on 01/04/2016 11:17:35 using v2.7 */
+/* Created by NCODowd on 01/04/2016 12:06:41 using v2.7 */
+/* Created by NCODowd on 01/04/2016 11:17:35 using v2.7 */
 {
 title: {text:''},
 credits: {enabled: false},
@@ -10,6 +11,7 @@ xAxis: {
 title: {text:''}
 , categories: [2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,'Question change',2015]
 , labels: {
+    rotation: -45
 }
 },
 yAxis: {
