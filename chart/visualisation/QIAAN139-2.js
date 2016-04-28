@@ -1,4 +1,4 @@
-/* Created by ianb on 04/11/2014 13:31:14 using v2.2 */{
+/* Created by NCODowd on 27/04/2016 10:33:34 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -20,7 +20,7 @@ title: {text:'Proportion of infants breastfed <br> at age 3 months', offset: 87}
 legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
 name: 'Finland',
-type: 'line',
+visible: true,type: 'line',
 data: [74,null,null,null,null,76,null,null,null,null,76,null]
 ,index: 1
 },
@@ -56,7 +56,7 @@ data: [87.7,87.6,87.6,87.2,87,86.1,85.7,84.5,83.7,82.8,81.3,81]
 },
 {
 name: 'United Kingdom',
-visible: false,type: 'line',
+visible: true,type: 'line',
 data: [28,null,null,null,null,34,null,null,null,null,42,null]
 ,index: 7
 }

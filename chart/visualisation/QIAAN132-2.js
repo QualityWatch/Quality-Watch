@@ -1,4 +1,4 @@
-{
+/* Created by NCODowd on 21/04/2016 10:10:11 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2010,2011,2012]
+, categories: [2010,2011,2012,2013,2014]
 , labels: {
 }
 },
@@ -20,11 +20,11 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Percentage',
+showInLegend: false,
 type: 'column',
-data: [37.5,39.5,40.2]
-}, {name: 'Error', type: 'errorbar', data: [[37.01,37.98],
-[39,39.99],
-[39.72,40.69]]}
+data: [34.4,36.6,37.7,37.7,39.2]
+,index: 1
+}, {name: 'Error', type: 'errorbar', data: [[33.97,34.79],[36.22,37.05],[37.24,38.06],[37.26,38.07],[38.79,39.60]]
+}
 ]
 }

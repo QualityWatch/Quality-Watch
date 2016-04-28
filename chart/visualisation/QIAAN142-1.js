@@ -1,4 +1,4 @@
-/* Created by EFisher on 12/10/2015 14:33:22 using v2.7 */{
+/* Created by NCODowd on 27/04/2016 10:33:39 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2006/07','2007/08','2008/09','2009/10','2010/11','2011/12','2012/13','2013/14']
+, categories: ['2006/07','2007/08','2008/09','2009/10','2010/11','2011/12','2012/13','2013/14','2014/15']
 , labels: {
  rotation: -90
 , step: 1
@@ -15,28 +15,34 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Proportion of 4-5 year olds (%)'}
-, max: 40
+, max: 100
 , labels: {
 format: '{value:.1f}' 
 }},
 plotOptions: {column: {stacking: 'normal',}},
 series:[
 {
-name: 'Overweight',
+name: 'obese',
 type: 'column',
-data: [13.1,13,13.2,13.3,13.2,13.1,13,13.1]
+data: [9.9,9.6,9.6,9.8,9.4,9.5,9.3,9.5,9.1]
+,index: 3
+},
+{
+name: 'overweight',
+type: 'column',
+data: [13.1,13,13.2,13.3,13.2,13.1,13,13.1,12.8]
 ,index: 2
 },
 {
-name: 'Obese',
+name: 'healthy weight',
 type: 'column',
-data: [9.9,9.6,9.6,9.8,9.4,9.5,9.3,9.5]
+data: [75.8,76.2,76.2,76,76.4,76.5,76.9,76.5,77.2]
 ,index: 1
 },
 {
-name: 'Underweight',
+name: 'underweight',
 type: 'column',
-data: [1.3,1.3,1,0.9,1,0.9,0.9,1]
+data: [1.3,1.3,1,0.9,1,0.9,0.9,0.9,1]
 ,index: 0
 }
 ]
