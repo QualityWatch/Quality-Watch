@@ -15,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Male age-standardised alcohol-related <br> death rates per 100,000 population <br> in UK', offset: 99}
+title: {text:'Male age-standardised alcohol-related death<br>rates per 100,000 population in UK', offset: 99}
 , max: 50
 , labels: {
 format: '{value:.0f}' 
