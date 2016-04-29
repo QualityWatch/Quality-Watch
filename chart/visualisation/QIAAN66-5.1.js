@@ -1,4 +1,5 @@
-/* Created by ianb on 24/04/2015 16:50:46 using v2.5 */{
+/* Created by ianb on 24/04/2015 16:50:46 using v2.5 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,7 +9,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 xAxis: {
 title: {text:''}
 , categories: ['UK','England','Scotland','Wales','N.Ireland']
-, labels: {
+, labels: {rotation:-90
 }
 },
 yAxis: {
