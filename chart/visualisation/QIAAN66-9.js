@@ -1,5 +1,6 @@
-/* Created by NCODowd on 27/04/2016 10:33:26 using v2.7 */{
-title: {text:'Measles Immunisation Coverage'},
+/* Created by NCODowd on 27/04/2016 10:33:26 using v2.7 */
+{
+title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How does UK\'s measles immunisation coverage compare internationally?'},
