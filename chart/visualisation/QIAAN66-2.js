@@ -1,4 +1,5 @@
-/* Created by NCODowd on 27/04/2016 10:33:25 using v2.7 */{
+/* Created by NCODowd on 27/04/2016 10:33:25 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -15,6 +16,8 @@ title: {text:'Time period of second birthday'}
 },
 yAxis: {
 title: {text:'Percentage of children in England <br> immunised by their second birthday', offset: 87}
+, max: 100
+, min: 70
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
