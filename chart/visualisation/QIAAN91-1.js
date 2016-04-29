@@ -1,4 +1,5 @@
-/* Created by NCODowd on 27/04/2016 10:33:30 using v2.7 */{
+/* Created by NCODowd on 27/04/2016 10:33:30 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -20,7 +21,7 @@ format: '{value:.1f}'
 }},
 series:[
 {
-name: 'Series1',
+name: 'Series1',showInLegend: false,
 type: 'line',
 data: [45.1,46.3,46.9,47.7,44.6,43.5,42.5,41.9,41.9,46.3,45.9,47.1,45.1,43.9,42.7,42.9,42.3,41.8,41.5,40.9,42,40.7,38.3,35.5,30.9,27.9,24.5,22.9]
 ,index: 1
