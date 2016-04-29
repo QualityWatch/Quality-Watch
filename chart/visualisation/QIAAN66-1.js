@@ -1,4 +1,5 @@
-/* Created by NCODowd on 25/04/2016 12:41:37 using v2.7 */{
+/* Created by NCODowd on 25/04/2016 12:41:37 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -15,6 +16,8 @@ title: {text:'Time period of first birthday'}
 },
 yAxis: {
 title: {text:'Percentage of children<br>England immunised by<br>their first birthday', offset: 87}
+, max: 100
+, min: 70
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
