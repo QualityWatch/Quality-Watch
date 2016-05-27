@@ -1,5 +1,4 @@
-/* Created by EFisher on 26/10/2015 10:08:30 using v2.7 */
-{
+/* Created by NCODowd on 24/05/2016 16:32:08 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2011,2012,2013,2014]
+, categories: [2011,2012,2013,2014,2015]
 , labels: {
 }
 },
@@ -23,31 +22,31 @@ series:[
 {
 name: 'Residential',
 type: 'column',
-data: [23.902,22.259,21.838,23.287]
+data: [23.9,22.2,21.8,23.3,22]
 ,index: 4
 },
 {
 name: 'Day',
 type: 'column',
-data: [10.226,9.806,10.892,10.171]
-    ,index: 3
+data: [10.2,9.8,10.9,10.1,9.4]
+,index: 3
 },
 {
-name: 'Domiciliary (home care)',
+name: 'Domiciliary',
 type: 'column',
-data: [14.492,12.691,14.104,13.65]
+data: [14.5,12.7,14.1,13.7,13.6]
 ,index: 2
 },
 {
 name: 'Community',
 type: 'column',
-data: [31.744,34.925,32.684,33.178]
+data: [31.7,34.9,32.7,33.2,34.2]
 ,index: 1
 },
 {
 name: 'Other',
 type: 'column',
-data: [19.636,20.318,20.482,19.714]
+data: [19.6,20.3,20.5,19.8,20.6]
 ,index: 0
 }
 ]

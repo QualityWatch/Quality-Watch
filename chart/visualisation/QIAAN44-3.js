@@ -1,4 +1,4 @@
-/* Created by ianb on 01/10/2014 11:47:49 using v2.1 */{
+/* Created by NCODowd on 24/05/2016 16:31:55 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,21 +7,21 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2010','2011','2012','2013']
+, categories: [2010,2011,2012,2013,'Question change',2014,2015]
 , labels: {
 }
 },
 yAxis: {
-title: {text:'The proportion of people who felt <br> they could not contact their care <br> coordinator if they have a problem', offset: 99}
+title: {text:'Proportion who do not know/cannot <br> contact care co-ordinator', offset: 87}
 , labels: {
 format: '{value:.2f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'No',
+name: 'Do not know how to contact',
 type: 'column',
-data: [4,4,4,4]
+data: [4,4,4,4,null,3.06,3.62]
 ,index: 1
 }
 ]

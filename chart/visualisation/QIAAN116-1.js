@@ -1,4 +1,4 @@
-/* Created by ianb on 01/10/2014 12:02:18 using v2.1 */{
+/* Created by NCODowd on 24/05/2016 16:31:57 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,27 +7,27 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2010,2011,2012,2013,2014]
+, categories: [2011,2012,2013,'Question change',2014,2015]
 , labels: {
 }
 },
 yAxis: {
-title: {text:'The proportion of respondents who <br> had at least one care review meeting <br> in the previous 12 months', offset: 99}
+title: {text:'Proportion who had a care review <br> meeting in the previous 12 months', offset: 87}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'On CPA',
+name: 'CPA',
 type: 'column',
-data: [73,73,76,75,83]
+data: [73,76,75,null,83,82]
 ,index: 1
 },
 {
-name: 'Not on CPA',
+name: 'Non-CPA',
 type: 'column',
-data: [53,52,52,53,69]
+data: [52,53,53,null,69,67]
 ,index: 2
 }
 ]

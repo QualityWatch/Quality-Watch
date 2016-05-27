@@ -1,33 +1,33 @@
-/* Created by ianb on 01/10/2014 12:02:23 using v2.1 */{
+/* Created by NCODowd on 24/05/2016 16:31:58 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How often are people having care review meetings?'},
+title: {text: 'How involved do people feel in discussing their care?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: [2010,2011,2012,2013]
+, categories: ['Yes, definitely','Yes, to some extent','No']
 , labels: {
 }
 },
 yAxis: {
-title: {text:'The proportion of people who have <br> had more than one care review in <br> the previous 12 months', offset: 99}
+title: {text:'Proportion who felt care decisions <br> were made together', offset: 87}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'On CPA',
+name: '2014',
 type: 'column',
-data: [40,40,43,42]
+data: [62.3,29,8.7]
 ,index: 1
 },
 {
-name: 'Not on CPA',
+name: '2015',
 type: 'column',
-data: [27,27,26,26]
+data: [60.8,31.5,7.7]
 ,index: 2
 }
 ]

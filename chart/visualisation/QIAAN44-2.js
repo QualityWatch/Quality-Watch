@@ -1,5 +1,4 @@
-/* Created by ianb on 01/10/2014 11:47:47 using v2.1 */
-{
+/* Created by NCODowd on 23/05/2016 17:31:40 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Care responsibilities','Finding or keeping work','Finding or keeping accommodation','Financial advice or benefits','Physical health needs']
+, categories: ['Finding or keeping work','Finding or keeping accommodation','Financial advice or benefits','Physical health needs']
 , labels: {
  rotation: -90
 , step: 1
@@ -17,7 +16,7 @@ title: {text:''}
 yAxis: {
 title: {text:'Proportion of people<br>who didn\'t have support<br>from NHS mental health<br>services for certain<br>aspects of their life', offset: 111}
 , max: 45
-, min: 30
+, min: 0
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -26,26 +25,32 @@ series:[
 {
 name: '2011',
 type: 'column',
-data: [35,43,38,38,31]
+data: [43,38,38,31]
 ,index: 1
 },
 {
 name: '2012',
 type: 'column',
-data: [39,44,38,37,36]
+data: [44,38,37,36]
 ,index: 2
 },
 {
 name: '2013',
 type: 'column',
-data: [39,43,40,39,37]
+data: [43,40,39,37]
 ,index: 3
 },
 {
 name: '2014',
 type: 'column',
-data: [null,44,42,43,35]
+data: [44,42,43,35]
 ,index: 4
+},
+{
+name: '2015',
+type: 'column',
+data: [46.8,42.9,43.3,35.4]
+,index: 5
 }
 ]
 }

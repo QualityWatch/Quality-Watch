@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 17:16:38 using v2.1 */{
+/* Created by NCODowd on 24/05/2016 16:31:56 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,12 +7,13 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013]
+, categories: [2010,2011,2012,2013,2014,2015]
 , labels: {
 }
 },
 yAxis: {
-title: {text:'The proportion of respondents who <br> weren\'t told about possible medication <br> side effects', offset: 99}
+title: {text:'Proportion of people who were not <br> given understandable information <br> with new prescription', offset: 99}
+, min: 0
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -21,14 +22,8 @@ series:[
 {
 name: 'No',
 type: 'line',
-data: [35,35,34,33,32,null,null,null,null,null]
+data: [15,15,15,16,14.9,14.5]
 ,index: 1
-},
-{
-name: 'No',
-type: 'line',
-data: [null,null,null,null,null,null,29,28,28,28]
-,index: 2
 }
 ]
 }

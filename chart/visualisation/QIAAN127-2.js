@@ -1,4 +1,4 @@
-/* Created by EFisher on 03/12/2015 13:09:34 using v2.7 */{
+/* Created by NCODowd on 24/05/2016 16:32:09 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2011,2012,2013,2014]
+, categories: [2011,2012,2013,2014,2015]
 , labels: {
 }
 },
@@ -22,37 +22,37 @@ legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},
 {
 name: '0',
 visible: true,type: 'column',
-data: [46.1,44.4,42.4,46.5]
+data: [4600,4400,4200,4600,4500]
 ,index: 5
 },
 {
 name: '1 to 4',
 visible: false,type: 'column',
-data: [23.9,22.8,23.4,22.3]
+data: [2400,2300,2300,2200,2200]
 ,index: 4
 },
 {
 name: '4.1 to 10',
 visible: false,type: 'column',
-data: [9.9,12.9,13.2,12.2]
+data: [1000,1300,1300,1200,1300]
 ,index: 3
 },
 {
 name: '10.1 to 20',
 visible: false,type: 'column',
-data: [7.9,7.6,7.7,7.1]
+data: [800,800,800,700,700]
 ,index: 2
 },
 {
 name: '20.1 to 40',
 visible: false,type: 'column',
-data: [5.7,5.6,6.2,5.4]
+data: [600,600,600,500,600]
 ,index: 1
 },
 {
 name: 'More than 40',
 visible: false,type: 'column',
-data: [6.6,6.7,7,6.5]
+data: [700,700,700,600,700]
 ,index: 0
 }
 ]

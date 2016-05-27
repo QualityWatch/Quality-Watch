@@ -1,5 +1,4 @@
-/* Created by EFisher on 26/03/2014 17:22:55 using v2.1 */
-{
+/* Created by NCODowd on 24/05/2016 16:32:01 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,34 +7,34 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2012/2013']
+, categories: ['North East','North West','Yorkshire and the Humber','South West','ENGLAND','Eastern','West Midlands','East Midlands','South East','London']
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
-title: {text:'Carer-reported quality of life'}
-, max: 10
-, min: 5
+title: {text:'Carer reported quality of life score'}
 , labels: {
-format: '{value:.2f}' 
+format: '{value:.1f}' 
 }},
 series:[
 {
-name: 'All',
+name: 'Total',
 type: 'column',
-data: [8.1]
+data: [8.5,8,8.1,7.6,7.9,7.8,7.9,8.1,7.6,7.7]
 ,index: 1
 },
 {
-name: 'Adults 18 to 64',
+name: '18-64',
 type: 'column',
-data: [7.8]
+data: [8.3,7.8,8,7.6,7.6,7.8,7.5,7.2,7.5,7.4]
 ,index: 2
 },
 {
-name: 'Adults 65 and over',
+name: '>65',
 type: 'column',
-data: [8.3]
+data: [8.7,8.3,8.2,8.2,8.1,8.1,8,7.9,7.9,7.8]
 ,index: 3
 }
 ]

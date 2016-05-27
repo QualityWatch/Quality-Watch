@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/03/2014 16:39:27 using v2.1 */{
+/* Created by NCODowd on 24/05/2016 16:31:52 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,29 +7,30 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['18-24','25-34','35-44','45-54','55-64','65-74','75-84','85 and over','Unknown']
+, categories: ['18-24','25-34','35-44','45-54','55-64','65-74','75-84',85]
 , labels: {
  rotation: -90
 , step: 1
 }
 },
 yAxis: {
-title: {text:'Proportion of carers who always <br> or usually felt they had been involved <br> or consulted in discussions about <br> the services and support the person <br> they care for receives by age', offset: 123}
+title: {text:'Proportion who felt consulted in <br> discussions about the services provided <br> to the person they care for', offset: 99}
+, min: 0
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.0f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: '2009/10',
+name: '2012-13',
 type: 'column',
-data: [70.6,69.8,72.2,74.9,78.7,80.5,81.5,80.1,78.8]
+data: [5480,5360,5360,5700,5750,5550,5270,5280]
 ,index: 1
 },
 {
-name: '2012/13',
+name: '2014-15',
 type: 'column',
-data: [72.1,67.4,69.4,70.5,74,73.5,72.3,74.8,null]
+data: [4980,5020,5450,5520,5590,5410,5240,5170]
 ,index: 2
 }
 ]

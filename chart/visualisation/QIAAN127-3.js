@@ -1,4 +1,4 @@
-/* Created by EFisher on 03/12/2015 14:04:27 using v2.7 */{
+/* Created by NCODowd on 24/05/2016 16:32:10 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['All job roles','Direct Care','Manager, Supervisor','Professional','Other']
+, categories: ['All job roles','Direct Care','Manager,Supervisor','Regulated Professions','Other']
 , labels: {
  rotation: -90
 , step: 1
@@ -24,37 +24,37 @@ legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},
 {
 name: '0',
 visible: true,type: 'column',
-data: [46.5,44.2,53.2,46.9,47.4]
+data: [4500,4200,5100,4700,4600]
 ,index: 5
 },
 {
 name: '1 to 4',
 visible: false,type: 'column',
-data: [22.3,21.7,20.9,23.4,24.3]
+data: [2200,2100,2200,2200,2400]
 ,index: 4
 },
 {
 name: '4.1 to 10',
 visible: false,type: 'column',
-data: [12.2,12.7,10.5,12.1,12.3]
+data: [1300,1300,1200,1200,1300]
 ,index: 3
 },
 {
 name: '10.1 to 20',
 visible: false,type: 'column',
-data: [7.1,7.8,5.9,6.6,6.3]
+data: [700,800,600,700,700]
 ,index: 2
 },
 {
 name: '20.1 to 40',
 visible: false,type: 'column',
-data: [5.4,6,4.5,4.9,4.7]
+data: [600,700,400,500,500]
 ,index: 1
 },
 {
 name: 'More than 40',
 visible: false,type: 'column',
-data: [6.5,7.6,4.9,6,5]
+data: [700,900,500,700,500]
 ,index: 0
 }
 ]
