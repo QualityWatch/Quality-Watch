@@ -1,4 +1,5 @@
-/* Created by NCODowd on 24/05/2016 16:32:06 using v2.7 */{
+/* Created by NCODowd on 24/05/2016 16:32:06 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Gross current expenditure on long <br> term support for adults; by support <br> setting and age', offset: 99}
+title: {text:'Gross current expenditure on long <br> term support for adults; by support <br> setting and age (in thousands)', offset: 99}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return '$'+this.value;}}},
