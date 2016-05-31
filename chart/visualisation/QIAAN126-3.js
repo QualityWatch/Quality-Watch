@@ -1,4 +1,5 @@
-/* Created by NCODowd on 24/05/2016 16:32:08 using v2.7 */{
+/* Created by NCODowd on 24/05/2016 16:32:08 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -12,6 +13,7 @@ title: {text:''}
 }
 },
 yAxis: {
+max:100,
 title: {text:'Percentage of jobs'}
 , labels: {
 format: '{value:.1f}' 
