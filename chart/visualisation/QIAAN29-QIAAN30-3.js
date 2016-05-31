@@ -15,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Proportion of carers who found it <br> easy to find information and advice', offset: 87}
+title: {text:'Proportion of carers who found it <br> easy to find info and advice', offset: 87}
 , labels: {
 format: '{value:.0f}' 
 ,formatter: function() {return this.value +'%';}}},
