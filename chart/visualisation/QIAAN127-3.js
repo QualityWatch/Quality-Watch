@@ -1,4 +1,4 @@
-/* Created by NCODowd on 24/05/2016 16:32:10 using v2.7 */{
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,10 +14,11 @@ title: {text:''}
 }
 },
 yAxis: {
+max:10000,
 title: {text:'Percentage of staff (2014)'}
 , labels: {
 format: '{value:.1f}' 
-,formatter: function() {return this.value +'%';}}},
+,formatter: function() {return this.value/100 +'%';}}},
 tooltip: {valueSuffix: '%'},
 plotOptions: {column: {stacking: 'normal',}},
 legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
