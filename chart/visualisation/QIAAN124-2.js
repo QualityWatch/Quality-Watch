@@ -1,4 +1,6 @@
-/* Created by NCODowd on 24/05/2016 16:32:03 using v2.7 */{
+
+    $('#container').highcharts(/* Created by NCODowd on 24/05/2016 16:32:03 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -17,14 +19,16 @@ yAxis: {
 title: {text:'Proportion of adults with a learning <br> disability who live in their own <br> home or with family', offset: 99}
 , labels: {
 format: '{value:.0f}' 
-,formatter: function() {return this.value +'%';}}},
+,formatter: function() {return this.value+'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
 name: '2014-15',
 type: 'column',
-data: [8790,8140,7810,7330,7320,6950,6920,6910,6850,6260]
+data: [87.9,81.4,78.1,73.3,73.2,69.5,69.2,69.1,68.5,62.6]
 ,index: 1
 }
 ]
+}
+);
 }
