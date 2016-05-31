@@ -1,42 +1,37 @@
-/* Created by EFisher on 26/03/2014 17:22:40 using v2.1 */
 {
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How does carer quality of life vary by gender?'},
+title: {text: 'How has carer quality of life changed over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2012/2013']
+, categories: ['North East','Yorkshire and the Humber','Eastern','North West','England','South West','West Midlands','South East','East Midlands','London']
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
-title: {text:'Carer-reported quality of life'}
-, max: 10
-, min: 5
+title: {text:'Carer-reported QoL score'}
+, max: 9
+, min: 0
 , labels: {
-format: '{value:.2f}' 
+format: '{value:.1f}' 
 }},
 series:[
 {
-name: 'All',
+name: '2012-13',
 type: 'column',
-data: [8.1]
+data: [8.6,8.3,8.1,8.2,8.1,8.2,7.9,8.1,7.7,7.7]
 ,index: 1
 },
 {
-name: 'Male',
+name: '2014-15',
 type: 'column',
-data: [8.3]
+data: [8.5,8.1,8.1,8,7.9,7.9,7.8,7.7,7.6,7.6]
 ,index: 2
-},
-{
-name: 'Female',
-type: 'column',
-data: [8]
-,index: 3
 }
 ]
 }
