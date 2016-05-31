@@ -1,4 +1,4 @@
-/* Created by NCODowd on 24/05/2016 16:32:07 using v2.7 */{
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -11,7 +11,7 @@ title: {text:''}
 , labels: {
 }
 },
-yAxis: {
+yAxis: {max:100,
 title: {text:'Percentage of jobs across sector'}
 , labels: {
 format: '{value:.1f}' 
@@ -22,31 +22,31 @@ series:[
 {
 name: 'CASSR (local authority)',
 type: 'column',
-data: [1100,1000,900,800]
+data: [11,10,9,8]
 ,index: 4
 },
 {
 name: 'Private',
 type: 'column',
-data: [5800,5800,5700,5700]
+data: [58,58,57,57]
 ,index: 3
 },
 {
 name: 'Voluntary',
 type: 'column',
-data: [1700,1800,1900,2000]
+data: [17,18,19,20]
 ,index: 2
 },
 {
 name: 'NHS',
 type: 'column',
-data: [500,500,500,600]
+data: [5,5,5,6]
 ,index: 1
 },
 {
 name: 'Jobs for direct payment recipients',
 type: 'column',
-data: [900,900,900,900]
+data: [9,9,9,9]
 ,index: 0
 }
 ]
