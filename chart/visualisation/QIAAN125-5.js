@@ -1,4 +1,3 @@
-/* Created by NCODowd on 24/05/2016 16:32:06 using v2.7 */
 {
 title: {text:''},
 credits: {enabled: false},
@@ -15,10 +14,12 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Gross current expenditure on long <br> term support for adults; by support <br> setting and age (in thousands)', offset: 99}
-, labels: {
+max: 3000000,
+tickInterval:250000,
+title: {text:'Gross current expenditure<br>on long term support<br>for adults', offset: 99}
+,labels: {
 format: '{value:.1f}' 
-,formatter: function() {return '$'+this.value;}}},
+,formatter: function() {return '£'+this.value/1000000+'bn';}}},
 series:[
 {
 name: '18-64',
