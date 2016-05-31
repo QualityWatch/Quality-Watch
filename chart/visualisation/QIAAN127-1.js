@@ -1,4 +1,5 @@
-/* Created by NCODowd on 23/05/2016 18:08:10 using v2.7 *//* Created by EFisher on 08/12/2015 18:27:03 using v2.7 */
+/* Created by NCODowd on 23/05/2016 18:08:10 using v2.7 */
+/* Created by EFisher on 08/12/2015 18:27:03 using v2.7 */
 {
 title: {text:''},
 credits: {enabled: false},
@@ -20,7 +21,7 @@ yAxis: [
 title: {text:'Median number of sickness days for all staff roles', offset: 50}
     , max: 1.6
 , min: 0
-, tickInterval:0.1
+, tickInterval:0.2
 , labels: {
 }},
     {
