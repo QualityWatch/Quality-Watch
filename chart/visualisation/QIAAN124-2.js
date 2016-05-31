@@ -1,5 +1,3 @@
-
-    $('#container').highcharts(/* Created by NCODowd on 24/05/2016 16:32:03 using v2.7 */
 {
 title: {text:''},
 credits: {enabled: false},
@@ -19,7 +17,7 @@ yAxis: {
 title: {text:'Proportion of adults with a learning <br> disability who live in their own <br> home or with family', offset: 99}
 , labels: {
 format: '{value:.0f}' 
-,formatter: function() {return this.value+'%';}}},
+,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
@@ -29,6 +27,4 @@ data: [87.9,81.4,78.1,73.3,73.2,69.5,69.2,69.1,68.5,62.6]
 ,index: 1
 }
 ]
-}
-);
 }
