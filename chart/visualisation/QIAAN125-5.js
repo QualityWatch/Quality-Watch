@@ -15,7 +15,7 @@ title: {text:''}
 },
 yAxis: {
 max: 3000000,
-tickInterval:250000,
+tickInterval:500000,
 title: {text:'Gross current expenditure<br>on long term support<br>for adults', offset: 99}
 ,labels: {
 format: '{value:.1f}' 
