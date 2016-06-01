@@ -13,7 +13,7 @@ title: {text:''}
 , step: 1
 }
 },
-yAxis: {
+yAxis: {min:0,
 title: {text:'Gross adult social care expenditure <br> spent on home care (billions)', offset: 87}
 , labels: {
 format: '{value:.4f}' 
