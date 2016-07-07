@@ -1,5 +1,4 @@
-/* Created by NCODowd on 24/05/2016 16:31:52 using v2.7 */
-{
+/* Created by NCODowd on 07/07/2016 12:47:51 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -15,7 +14,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Proportion of carers who found it <br> easy to find info and advice', offset: 87}
+title: {text:'Proportion of carers who found it <br> easy to find information and advice', offset: 87}
 , labels: {
 format: '{value:.0f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -24,13 +23,13 @@ series:[
 {
 name: '2012-13',
 type: 'column',
-data: [74.8,71.1,69.6,71.2,68.9,67.2,64.2,69.2,64.1,70.8]
+data: [7480,7110,6960,7120,6890,6720,6420,6920,6410,7080]
 ,index: 1
 },
 {
 name: '2014-15',
 type: 'column',
-data: [73.2,68.4,68.2,66.4,65.6,65,63.6,63.4,62.1,61.6]
+data: [7320,6840,6820,6640,6560,6500,6360,6340,6210,6160]
 ,index: 2
 }
 ]

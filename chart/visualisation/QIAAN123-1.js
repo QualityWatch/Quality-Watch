@@ -1,4 +1,4 @@
-{
+/* Created by NCODowd on 07/07/2016 12:48:00 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,11 +14,11 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Carer-reported QoL score'}
+title: {text:'Carer-reported quality of life score '}
 , max: 9
 , min: 0
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.2f}' 
 }},
 series:[
 {

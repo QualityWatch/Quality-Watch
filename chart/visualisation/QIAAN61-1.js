@@ -1,13 +1,13 @@
-/* Created by ianb on 01/08/2014 12:35:06 using v2.1 */{
+/* Created by NCODowd on 07/07/2016 12:49:49 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Do doctors or nurses talk in front of patients as though they weren\'t there?'},
+title: {text: 'Do doctors or nurses talk in front of patients as though they aren\'t there?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: [2002,2005,2006,2007,2008,2009,2010,2011,2012,2013]
+, categories: [2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015]
 , labels: {
 }
 },
@@ -21,13 +21,13 @@ series:[
 {
 name: 'Nurses',
 type: 'line',
-data: [19,22,22,22,22,22,22,22,19,19]
+data: [22,22,22,22,23,22,22,19,19,19,18]
 ,index: 1
 },
 {
 name: 'Doctors',
 type: 'line',
-data: [29,28,28,28,28,28,27,26,24,24]
+data: [29,28,28,28,28,28,27,24,24,24,22]
 ,index: 2
 }
 ]

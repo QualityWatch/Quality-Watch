@@ -1,4 +1,4 @@
-{
+/* Created by NCODowd on 07/07/2016 12:48:09 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -12,11 +12,10 @@ title: {text:''}
 }
 },
 yAxis: {
-max:10000,
 title: {text:'Percentage of sickness days for <br> all staff roles', offset: 87}
 , labels: {
 format: '{value:.1f}' 
-,formatter: function() {return this.value/100 +'%';}}},
+,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 plotOptions: {column: {stacking: 'normal',}},
 legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[

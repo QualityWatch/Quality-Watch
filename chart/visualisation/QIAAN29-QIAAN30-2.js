@@ -1,5 +1,4 @@
-/* Created by NCODowd on 24/05/2016 16:31:52 using v2.7 */
-{
+/* Created by NCODowd on 07/07/2016 12:47:51 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -25,13 +24,13 @@ series:[
 {
 name: '2012-13',
 type: 'column',
-data: [54.8,53.6,53.6,57,57.5,55.5,52.7,52.8]
+data: [5480,5360,5360,5700,5750,5550,5270,5280]
 ,index: 1
 },
 {
 name: '2014-15',
 type: 'column',
-data: [49.8,50.2,54.5,55.2,55.9,54.1,52.4,51.7]
+data: [4980,5020,5450,5520,5590,5410,5240,5170]
 ,index: 2
 }
 ]

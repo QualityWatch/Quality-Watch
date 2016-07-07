@@ -1,4 +1,4 @@
-{
+/* Created by NCODowd on 07/07/2016 12:48:04 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -13,11 +13,11 @@ title: {text:''}
 , step: 1
 }
 },
-yAxis: {min:0,
+yAxis: {
 title: {text:'Gross adult social care expenditure <br> spent on home care (billions)', offset: 87}
 , labels: {
 format: '{value:.4f}' 
-,formatter: function() {return '£'+this.value/1000000+'bn';}}},
+,formatter: function() {return '$'+this.value;}}},
 series:[
 {
 name: 'Older people (aged 65 or over) including older mentally ill',

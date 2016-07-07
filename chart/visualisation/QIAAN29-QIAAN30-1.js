@@ -1,4 +1,4 @@
-{
+/* Created by NCODowd on 07/07/2016 12:47:51 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +14,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Proportion who felt consulted<br>in discussions about services<br>provided to the person they<br>care for', offset: 99}
+title: {text:'Proportion who felt consulted in <br> discussions about the services provided <br> to the person they care for', offset: 99}
 , labels: {
 format: '{value:.0f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -23,13 +23,13 @@ series:[
 {
 name: '2012-13',
 type: 'column',
-data: [64,56.9,58.4,53.4,55.4,55.5,55.3,56,49.5,50.8]
+data: [6400,5690,5840,5340,5540,5550,5530,5600,4950,5080]
 ,index: 1
 },
 {
 name: '2014-15',
 type: 'column',
-data: [63.7,58,57.3,57.2,55.7,54.3,53.4,50.5,47.7,46.5]
+data: [6370,5800,5730,5720,5570,5430,5340,5050,4770,4650]
 ,index: 2
 }
 ]
