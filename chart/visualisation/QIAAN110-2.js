@@ -1,5 +1,4 @@
-{
-
+/* Created by NCODowd on 29/06/2016 16:24:59 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011/12','2012/13','July 2013 - March 2014']
+, categories: ['2011/12','2012/13','2013/14','2014/15']
 , labels: {
 }
 },
@@ -22,15 +21,17 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series1',
+name: 'Series1',showInLegend:false,
 type: 'column',
-    data: [81.9,79.9,{y:78.7, color: '#3FCFD5'}]
+data: [81.9,79.9,78.7,77.5]
+,index: 1
 },
-    {name: 'Error', type: 'errorbar', data: [
+{name: 'Error', type: 'errorbar', data: [
 [81.82,82.02],
 [79.82,80.04],
-[78.54,78.77]
-    
-    ]}
+[78.54,78.77],
+[77.39,77.64]
+
+]}
 ]
 }
