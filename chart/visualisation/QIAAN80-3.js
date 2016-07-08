@@ -1,4 +1,5 @@
-/* Created by NCODowd on 28/06/2016 16:43:52 using v2.7 *//* Created by NCODowd on 28/06/2016 16:16:29 using v2.7 */
+/* Created by NCODowd on 28/06/2016 16:43:52 using v2.7 */
+/* Created by NCODowd on 28/06/2016 16:16:29 using v2.7 */
 /* Created by EFisher on 22/02/2016 16:19:15 using v2.7 */
 /* Created by EFisher on 20/10/2015 16:11:46 using v2.7 */
     {
@@ -39,6 +40,7 @@
         },
         {
             max: 25000,
+            min: 0,
             title: {
                 text: 'Number of people referred waiting<br> more than 52 weeks for treatment',
                 offset: 87
