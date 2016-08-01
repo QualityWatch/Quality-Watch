@@ -1,4 +1,5 @@
-/* Created by NCODowd on 27/07/2016 12:15:45 using v2.7 */{
+/* Created by NCODowd on 27/07/2016 12:15:45 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -18,6 +19,7 @@ title: {text:'Percentage of patients responding <br> yes or no when asked if the
 , max: 1
 , min: 0
 , labels: {
+ formatter: function(){return this.value*100+"%"}
 }},
 plotOptions: {column: {stacking: 'normal',}},
 series:[
