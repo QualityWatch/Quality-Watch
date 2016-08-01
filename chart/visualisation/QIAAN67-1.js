@@ -1,4 +1,5 @@
-/* Created by NCODowd on 27/07/2016 12:16:06 using v2.7 */{
+/* Created by NCODowd on 27/07/2016 12:16:06 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -19,21 +20,21 @@ format: '{value:.0f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Proportion of applicable patients directly admitted to a stroke unit within 4 hours AND who receive thrombolysis if clinically needed',
+name: 'Admitted to a stroke unit within 4 hours AND receive thrombolysis if clinically needed',
 type: 'line',
-data: [5660,5620,5800]
+data: [56.60,56.20,58.00]
 ,index: 1
 },
 {
-name: 'Proportion of patients who has a brain scan within 1 hour of arrival to hospital',
+name: 'Brain scan within 1 hour of arrival to hospital',
 type: 'line',
-data: [4190,4410,4750]
+data: [41.90,44.10,47.50]
 ,index: 2
 },
 {
 name: 'Target for brain scan',
 type: 'line',
-data: [5000,5000,5000]
+data: [50.00,50.00,50.00]
 ,index: 3
 }
 ]
