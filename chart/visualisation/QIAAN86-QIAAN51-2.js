@@ -1,8 +1,8 @@
-/* Created by ianb on 01/08/2014 12:39:25 using v2.1 */{
+/* Created by NCODowd on 27/07/2016 12:16:50 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Overall, how patients rate the care they receive? '},
+title: {text: 'Overall, how do patients rate the care they receive (from 2012)? '},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -29,6 +29,18 @@ name: '2013',
 type: 'column',
 data: [1,1,1,2,2,5,5,11,23,21,27]
 ,index: 2
+},
+{
+name: '2014',
+type: 'column',
+data: [1,1,1,2,2,5,5,11,24,22,27]
+,index: 3
+},
+{
+name: '2015',
+type: 'column',
+data: [1,1,1,2,2,4,5,11,24,22,27]
+,index: 4
 }
 ]
 }

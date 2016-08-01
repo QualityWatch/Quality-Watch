@@ -1,9 +1,8 @@
-/* Created by ianb on 16/12/2014 11:19:08 using v2.3 */
-{
+/* Created by NCODowd on 27/07/2016 12:18:46 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion of outpatients informed of who to contact in case of any concern changed?'},
+title: {text: 'How did the proportion of outpatients informed of who to contact in case of any concern change to 2011?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -12,7 +11,7 @@ title: {text:''}
 , labels: {
 }
 },
-yAxis: {max: 100,
+yAxis: {
 title: {text:'Percentage of respondents'}
 , labels: {
 format: '{value:.1f}' 

@@ -1,4 +1,4 @@
-/* Created by ianb on 01/08/2014 12:34:35 using v2.1 */{
+/* Created by NCODowd on 27/07/2016 12:15:45 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,30 +7,30 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2007','2008','2009','2010','2011','2012','2013']
+, categories: ['2007','2008','2009','2010','2011','2012','2013','2014','2015']
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
 title: {text:'Percentage of patients responding <br> yes or no when asked if they felt <br> threatened during their stay ', offset: 99}
-, max: 100
+, max: 1
 , min: 0
 , labels: {
-format: '{value:.1f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+}},
 plotOptions: {column: {stacking: 'normal',}},
 series:[
 {
 name: 'No',
 type: 'column',
-data: [96,96,96,96,97,97,97]
+data: [0.96,0.97,0.96,0.96,0.97,0.97,0.97,0.97,0.97]
 ,index: 1
 },
 {
 name: 'Yes',
 type: 'column',
-data: [4,4,4,4,3,3,3]
+data: [0.04,0.03,0.04,0.04,0.03,0.03,0.03,0.03,0.03]
 ,index: 0
 }
 ]

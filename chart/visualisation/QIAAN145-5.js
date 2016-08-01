@@ -1,5 +1,4 @@
-/* Created by EFisher on 12/10/2015 14:33:33 using v2.7 */
-{
+/* Created by NCODowd on 27/07/2016 12:18:45 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,10 +7,8 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2005','2006','2007','2008','2009','2010','2011','2012','2013','2014']
+, categories: [2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015]
 , labels: {
- rotation: -90
-, step: 1
 }
 },
 yAxis: {
@@ -25,13 +22,13 @@ series:[
 {
 name: 'Yes',
 type: 'column',
-data: [76,76,74,75,75,76,77,77,77,78]
+data: [76,75,74,75,74,76,76,77,78,78,78]
 ,index: 1
 },
 {
 name: 'No',
 type: 'column',
-data: [24,24,26,25,25,24,24,23,23,22]
+data: [24,25,26,25,26,24,24,23,22,22,22]
 ,index: 0
 }
 ]

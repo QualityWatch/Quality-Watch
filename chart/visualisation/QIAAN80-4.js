@@ -1,4 +1,4 @@
-/* Created by NCODowd on 07/07/2016 12:50:17 using v2.7 */{
+/* Created by NCODowd on 27/07/2016 12:16:32 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -15,6 +15,8 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Median waiting times from referral <br> to treatment (weeks)', offset: 87}
+, max: 12
+, min: 0
 , labels: {
 format: '{value:.1f}' 
 }},

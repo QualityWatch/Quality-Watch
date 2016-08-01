@@ -1,13 +1,13 @@
-/* Created by ianb on 01/08/2014 12:33:41 using v2.1 */{
+/* Created by NCODowd on 27/07/2016 12:15:10 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How have perceptions of inpatient toilets cleanliness changed?'},
+title: {text: 'How have perceptions of toilet cleanliness changed among inpatients?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2005','2006','2007','2008','2009','2010','2011','2012','2013']
+, categories: ['2005','2006','2007','2008','2009','2010','2011','2012','2013','1905','1905']
 , labels: {
  rotation: -90
 , step: 1
@@ -25,25 +25,25 @@ series:[
 {
 name: 'Very clean',
 type: 'column',
-data: [46,47,47,52,57,59,60,61,62]
+data: [48,48,48,53,57,60,61,62,63,62,64]
 ,index: 3
 },
 {
 name: 'Fairly clean',
 type: 'column',
-data: [40,42,42,39,36,35,34,33,32]
+data: [40,41,41,39,36,34,33,33,32,32,31]
 ,index: 2
 },
 {
 name: 'Not very clean',
 type: 'column',
-data: [10,9,9,7,6,5,5,5,5]
+data: [9,9,9,7,5,5,5,4,4,4,4]
 ,index: 1
 },
 {
 name: 'Not at all clean',
 type: 'column',
-data: [3,3,3,2,1,1,1,1,1]
+data: [3,3,3,2,1,1,1,1,1,1,1]
 ,index: 0
 }
 ]

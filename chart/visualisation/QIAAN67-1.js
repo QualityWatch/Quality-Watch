@@ -1,5 +1,4 @@
-/* Created by EFisher on 12/10/2015 14:30:35 using v2.7 */
-{
+/* Created by NCODowd on 27/07/2016 12:16:06 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,35 +7,33 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Jan-Mar 2014 ','Apr-Jun 2014',' Jul-Sep 2014 ','Oct-Dec 2014']
+, categories: ['2013/14','2014/15','2015/16']
 , labels: {
- rotation: -90
-, step: 1
 }
 },
 yAxis: {
 title: {text:'Proportion of patients'}
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.0f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
 name: 'Proportion of applicable patients directly admitted to a stroke unit within 4 hours AND who receive thrombolysis if clinically needed',
 type: 'line',
-data: [56.5,57.2,59,56.3]
+data: [5660,5620,5800]
 ,index: 1
 },
 {
 name: 'Proportion of patients who has a brain scan within 1 hour of arrival to hospital',
 type: 'line',
-data: [43.2,43.1,44.1,44]
+data: [4190,4410,4750]
 ,index: 2
 },
 {
 name: 'Target for brain scan',
 type: 'line',
-data: [50,50,50,50]
+data: [5000,5000,5000]
 ,index: 3
 }
 ]

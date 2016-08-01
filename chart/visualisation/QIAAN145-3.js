@@ -1,5 +1,4 @@
-/* Created by EFisher on 12/10/2015 14:33:32 using v2.7 */
-{
+/* Created by NCODowd on 27/07/2016 12:18:44 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,14 +7,14 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2002','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014']
+, categories: [2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015]
 , labels: {
- rotation: -90
-, step: 1
 }
 },
 yAxis: {
 title: {text:'Percentage of respondents'}
+, max: 100
+, min: 0
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -25,19 +24,19 @@ series:[
 {
 name: 'Yes, completely',
 type: 'column',
-data: [41,40,39,39,40,39,41,42,41,43,43]
+data: [39,38,38,39,39,40,41,42,43,44,44]
 ,index: 2
 },
 {
 name: 'Yes, to some extent',
 type: 'column',
-data: [20,21,21,21,21,21,21,21,21,21,21]
+data: [20,20,20,21,21,21,21,21,21,21,20]
 ,index: 1
 },
 {
 name: 'No',
 type: 'column',
-data: [39,40,40,41,39,40,38,38,38,36,35]
+data: [41,42,42,40,41,39,38,37,36,35,35]
 ,index: 0
 }
 ]

@@ -1,5 +1,4 @@
-/* Created by EFisher on 12/10/2015 14:30:36 using v2.7 */
-{
+/* Created by NCODowd on 27/07/2016 12:16:06 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,29 +7,27 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Jan-Mar 2014 ','Apr-Jun 2014',' Jul-Sep 2014 ','Oct-Dec 2014']
+, categories: ['2013/14','2014/15','2015/16']
 , labels: {
- rotation: -90
-, step: 1
 }
 },
 yAxis: {
 title: {text:'Proportion of patients'}
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.0f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Proportion of applicable patients who were given a swallowing screening within 4h of arrival to hospital',
+name: 'Percentage of applicable patients who were given a swallow screen within 4h of clock start',
 type: 'line',
-data: [65,67.3,69.2,68.7]
+data: [6360,6810,7160]
 ,index: 1
 },
 {
 name: 'Proportion of applicable patients who are assessed by a nurse within 24h AND at least one therapist within 24h AND all relevant therapists within 72h AND have rehab goals agreed within 5 days ',
 type: 'line',
-data: [46.3,48.7,52.7,52.7]
+data: [4410,5140,5640]
 ,index: 2
 }
 ]

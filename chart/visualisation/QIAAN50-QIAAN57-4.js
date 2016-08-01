@@ -1,4 +1,4 @@
-/* Created by ianb on 04/11/2014 12:53:05 using v2.2 */{
+/* Created by NCODowd on 27/07/2016 12:15:20 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2005','2006','2007','2008','2009','2010','2011','2012','2013']
+, categories: ['2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
 , labels: {
  rotation: -90
 , step: 1
@@ -25,19 +25,19 @@ series:[
 {
 name: 'Yes, definitely',
 type: 'column',
-data: [73,72,71,72,71,71,71,70,71]
+data: [73,73,72,73,71,71,71,70,71,70,71]
 ,index: 2
 },
 {
 name: 'Yes, to some extent',
 type: 'column',
-data: [23,23,23,23,23,23,23,24,23]
+data: [22,23,23,22,23,23,23,24,23,24,23]
 ,index: 1
 },
 {
 name: 'No',
 type: 'column',
-data: [5,5,6,6,6,6,6,6,6]
+data: [4,5,5,5,6,6,6,6,6,6,6]
 ,index: 0
 }
 ]

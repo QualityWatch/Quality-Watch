@@ -1,8 +1,8 @@
-/* Created by ianb on 01/08/2014 12:39:22 using v2.1 */{
+/* Created by NCODowd on 27/07/2016 12:16:49 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How did patients rate the care they received?'},
+title: {text: 'How did patients rate the care they received (to 2011)?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {

@@ -1,8 +1,8 @@
-/* Created by ianb on 01/08/2014 12:39:28 using v2.1 */{
+/* Created by NCODowd on 27/07/2016 12:16:50 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How have outpatient ratings of care changed?'},
+title: {text: 'How did outpatient ratings of care changed up to 2011?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
