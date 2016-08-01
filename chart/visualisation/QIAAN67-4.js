@@ -1,4 +1,5 @@
-/* Created by NCODowd on 27/07/2016 12:16:07 using v2.7 */{
+/* Created by NCODowd on 27/07/2016 12:16:07 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -22,13 +23,13 @@ series:[
 {
 name: 'Proportion of applicable patients who have a continence plan drawn up within 3 weeks of clock start ',
 type: 'line',
-data: [7520,8480,8930]
+data: [75.20,84.80,89.30]
 ,index: 1
 },
 {
 name: 'Proportion of applicable patients who have mood and cognition screening by discharge ',
 type: 'line',
-data: [7860,8600,8930]
+data: [78.60,86.00,89.30]
 ,index: 2
 }
 ]
