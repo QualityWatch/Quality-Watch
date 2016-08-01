@@ -1,4 +1,5 @@
-/* Created by NCODowd on 27/07/2016 12:16:07 using v2.7 */{
+/* Created by NCODowd on 27/07/2016 12:16:07 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -21,19 +22,19 @@ series:[
 {
 name: 'Compliance against OT target ',
 type: 'line',
-data: [5580,7210,7960]
+data: [55.80,72.10,79.60]
 ,index: 1
 },
 {
 name: 'Compliance against physiotherapy target',
 type: 'line',
-data: [5330,6870,7350]
+data: [53.30,68.70,73.50]
 ,index: 2
 },
 {
 name: 'Compliance against Speech & Language Therapy target',
 type: 'line',
-data: [2420,3560,4160]
+data: [24.20,35.60,41.60]
 ,index: 3
 }
 ]
