@@ -1,4 +1,5 @@
-/* Created by NCODowd on 27/07/2016 12:16:06 using v2.7 */{
+/* Created by NCODowd on 27/07/2016 12:16:06 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -19,15 +20,15 @@ format: '{value:.0f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Percentage of applicable patients who were given a swallow screen within 4h of clock start',
+name: 'Applicable patients given a swallow screen within 4h of clock start',
 type: 'line',
-data: [6360,6810,7160]
+data: [63.60,68.10,71.60]
 ,index: 1
 },
 {
-name: 'Proportion of applicable patients who are assessed by a nurse within 24h AND at least one therapist within 24h AND all relevant therapists within 72h AND have rehab goals agreed within 5 days ',
+name: 'Assessed by a nurse within 24h AND at least one therapist within 24h AND<br>all relevant therapists within 72h AND have rehab goals agreed within 5 days',
 type: 'line',
-data: [4410,5140,5640]
+data: [44.10,51.40,56.40]
 ,index: 2
 }
 ]
