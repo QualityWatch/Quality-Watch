@@ -1,17 +1,13 @@
-{
-  legend: {
-            enabled: false
-        },
-     
+/* Created by NCODowd on 13/09/2016 11:07:24 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Can patients successfully get an NHS dentistry appointment?'},
+title: {text: 'Can patients successfully get an NHS dentist appointment?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011/12','2012/13','July 2013 - March 2014']
+, categories: ['2011/12','2012/13','2013/14','2014/15','2015/16']
 , labels: {
 }
 },
@@ -27,7 +23,7 @@ series:[
 {
 name: 'Series1',
 type: 'column',
-    data: [92.7,93.0,{y:93.0, color: '#3FCFD5'}]
+data: [92.7,93,93,93.1,92.7]
 ,index: 1
 }
 ]

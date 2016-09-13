@@ -1,4 +1,4 @@
-/* Created by NCODowd on 07/07/2016 12:48:04 using v2.7 */{
+/* Created by NCODowd on 13/09/2016 11:02:48 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -15,6 +15,7 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Gross adult social care expenditure <br> spent on home care (billions)', offset: 87}
+, min: 0
 , labels: {
 format: '{value:.4f}' 
 ,formatter: function() {return '$'+this.value;}}},

@@ -1,5 +1,4 @@
-/* Created by NCODowd on 27/07/2016 12:16:06 using v2.7 */
-{
+/* Created by NCODowd on 13/09/2016 11:04:55 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -15,26 +14,26 @@ title: {text:''}
 yAxis: {
 title: {text:'Proportion of patients'}
 , labels: {
-format: '{value:.0f}' 
+format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
 name: 'Admitted to a stroke unit within 4 hours AND receive thrombolysis if clinically needed',
 type: 'line',
-data: [56.60,56.20,58.00]
+data: [56.6,56.2,58]
 ,index: 1
 },
 {
 name: 'Brain scan within 1 hour of arrival to hospital',
 type: 'line',
-data: [41.90,44.10,47.50]
+data: [41.9,44.1,47.5]
 ,index: 2
 },
 {
 name: 'Target for brain scan',
 type: 'line',
-data: [50.00,50.00,50.00]
+data: [50,50,50]
 ,index: 3
 }
 ]

@@ -1,34 +1,32 @@
-/* Created by ianb on 20/03/2015 10:28:16 using v2.5 */{
+/* Created by NCODowd on 13/09/2016 11:03:11 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How do medication safety incidents reported change in acute and mental health trusts over time?'},
+title: {text: 'How do reported medication safety incidents change in acute and mental health trusts over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Oct 09 - Mar 10','Apr 11 - Sep 11','Oct 11 - Mar 12','April 12-Sep12','Oct 12 - Mar 13','Apr 13 - Sep 13','Oct 13 - Mar 14']
+, categories: ['Apr 14 - Sept 14','Oct 14 - Mar 15','Apr 15 - Sept 15']
 , labels: {
- rotation: -90
-, step: 1
 }
 },
 yAxis: {
-title: {text:''}
+title: {text:'Medication errors reported per 10,000 <br> bed days', offset: 87}
 , labels: {
-format: '{value:.2f}' 
+format: '{value:.1f}' 
 }},
 series:[
 {
-name: 'Acute rate of incidents reported per 10,000 admissions',
+name: 'Acute',
 type: 'column',
-data: [62.69,75.06,74.73,74.7,79.5,83.96,88.66]
+data: [39.7,38.4,43.7]
 ,index: 1
 },
 {
-name: 'Mental health rate of incidents reported per 10,000 bed days',
+name: 'Mental health',
 type: 'column',
-data: [13.88,17.97,17.92,19.73,20.33,23.6,23.88]
+data: [31.4,31.5,32]
 ,index: 2
 }
 ]

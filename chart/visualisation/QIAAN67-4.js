@@ -1,5 +1,4 @@
-/* Created by NCODowd on 27/07/2016 12:16:07 using v2.7 */
-{
+/* Created by NCODowd on 13/09/2016 11:04:57 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -16,20 +15,20 @@ yAxis: {
 title: {text:'Proportion of applicable patients'}
 , min: 0
 , labels: {
-format: '{value:.0f}' 
+format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
 name: 'Proportion of applicable patients who have a continence plan drawn up within 3 weeks of clock start ',
 type: 'line',
-data: [75.20,84.80,89.30]
+data: [75.2,84.8,89.3]
 ,index: 1
 },
 {
 name: 'Proportion of applicable patients who have mood and cognition screening by discharge ',
 type: 'line',
-data: [78.60,86.00,89.30]
+data: [78.6,86,89.3]
 ,index: 2
 }
 ]

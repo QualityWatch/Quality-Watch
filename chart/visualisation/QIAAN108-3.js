@@ -1,4 +1,4 @@
-/* Created by EFisher on 12/10/2015 14:32:12 using v2.7 */{
+/* Created by NCODowd on 13/09/2016 11:07:13 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -17,21 +17,15 @@ yAxis: {
 title: {text:'Percentage of people who feel supported <br> to manage their long-term condition', offset: 87}
 , min: 0
 , labels: {
-format: '{value:.2f}' 
+format: '{value:.0f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: '2012/13',
+name: 'Indicator value',
 type: 'column',
-data: [62.3,62.7,63.7,64.7,66,67.2,66.9,67.7,68.3,68.7]
+data: [6080,6100,6200,6370,6450,6560,6610,6680,6680,6820]
 ,index: 1
-},
-{
-name: '2013/14',
-type: 'column',
-data: [61.9,61.8,62.9,64.8,65.9,66.2,66.9,67.7,68.1,68]
-,index: 2
 }
 ]
 }

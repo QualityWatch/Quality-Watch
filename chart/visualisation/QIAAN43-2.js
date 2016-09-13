@@ -1,4 +1,4 @@
-/* Created by EFisher on 12/10/2015 14:29:31 using v2.7 */{
+/* Created by NCODowd on 13/09/2016 11:03:50 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,22 +14,22 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Employement rate'}
+title: {text:''}
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.0f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
 name: 'Employment rate of people with long-term conditions',
 type: 'column',
-data: [27.3,55.2,65.6,65.9,68.3,69.8,70.3,68.1,62.1,40.7]
+data: [3010,5540,6750,6850,6890,7000,7070,6900,6100,4080]
 ,index: 1
 },
 {
-name: 'Employment rate of people with long-term conditions',
+name: 'Employment rate of population ',
 type: 'column',
-data: [35.9,65.9,79.4,81.9,82.5,84,84.9,82.2,73.9,49.4]
+data: [3600,6710,8130,8240,8360,8380,8450,8220,7380,5120]
 ,index: 2
 }
 ]

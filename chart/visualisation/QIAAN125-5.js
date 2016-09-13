@@ -1,8 +1,8 @@
-/* Created by NCODowd on 07/07/2016 12:48:05 using v2.7 */{
+/* Created by NCODowd on 13/09/2016 11:02:49 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How does the expenditure on long term support differ by setting and age?'},
+title: {text: 'How does the expenditure on long-term support differ by setting and age?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
