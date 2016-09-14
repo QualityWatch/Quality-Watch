@@ -1,4 +1,5 @@
-/* Created by NCODowd on 07/07/2016 12:48:04 using v2.7 */{
+/* Created by NCODowd on 31/05/2016 10:24:38 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -19,7 +20,7 @@ title: {text:'Gross current expenditure on adult <br> social services, in millio
 , min: 12000
 , labels: {
 format: '{value:.1f}' 
-,formatter: function() {return '$'+this.value;}}},
+,formatter: function() {return '£'+this.value;}}},
 series:[
 {
 name: 'Cash terms',
