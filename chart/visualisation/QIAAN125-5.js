@@ -1,8 +1,9 @@
-/* Created by NCODowd on 14/09/2016 15:36:42 using v2.7 */{
+/* Created by NCODowd on 31/05/2016 10:36:15 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How does the expenditure on long-term support differ by setting and age?'},
+title: {text: 'How does the expenditure on long term support differ by setting and age?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -14,10 +15,12 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Gross current expenditure on long <br> term support for adults; by support <br> setting and age (in thousands)', offset: 99}
-, labels: {
+max: 3000000,
+tickInterval:250000,
+title: {text:'Gross current expenditure<br>on long term support<br>for adults', offset: 99}
+,labels: {
 format: '{value:.1f}' 
-,formatter: function() {return '$'+this.value;}}},
+,formatter: function() {return '£'+this.value/1000000+'bn';}}},
 series:[
 {
 name: '18-64',
