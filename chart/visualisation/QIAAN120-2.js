@@ -1,4 +1,4 @@
-/* Created by NCODowd on 13/09/2016 11:07:27 using v2.7 */{
+/* Created by NCODowd on 14/09/2016 15:41:10 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,14 +14,14 @@ title: {text:''}
 yAxis: {
 title: {text:'Proportion of adults on Care Programme <br> Approach receiving secondary mental <br> health services in employment', offset: 99}
 , labels: {
-format: '{value:.0f}' 
+format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series1',
+name: 'Employment rate',
 type: 'line',
-data: [950,890,880,700,680]
+data: [9.5,8.9,8.8,7,6.8]
 ,index: 1
 }
 ]

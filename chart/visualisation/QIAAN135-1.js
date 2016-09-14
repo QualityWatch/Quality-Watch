@@ -1,8 +1,8 @@
-/* Created by NCODowd on 13/09/2016 11:08:00 using v2.7 */{
+/* Created by NCODowd on 14/09/2016 15:41:45 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'What proportion of admissions to a psychiatric ward were \'gate kept\' by a CRHT team?'},
+title: {text: 'What proportion of admissions to a psychiatric ward were gate kept by a CRHT team?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {

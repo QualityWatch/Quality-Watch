@@ -1,4 +1,4 @@
-/* Created by NCODowd on 13/09/2016 11:07:24 using v2.7 */{
+/* Created by NCODowd on 14/09/2016 15:41:07 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -21,7 +21,7 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series1',
+name: 'Successful in getting appointment',
 type: 'column',
 data: [92.7,93,93,93.1,92.7]
 ,index: 1

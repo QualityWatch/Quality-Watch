@@ -1,7 +1,4 @@
-/* Created by EFisher on 05/10/2015 15:19:33 using v2.7 */{
-        legend: {
-            enabled: false
-        },
+/* Created by NCODowd on 09/09/2016 08:30:49 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -10,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011/12', '2012/13', 'July 2013 - March 2014', 'July 2014 - March 2015']
+, categories: ['2011/12','2012/13','2013/14','2014/15','2015/16']
 , labels: {
 }
 },
@@ -24,15 +21,17 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series1',
+name: 'Convenient appointment',
 type: 'column',
-data: [93.3, 92.5,{y:91.9, color:'#3FCFD5'},{y:91.8, color:'#3FCFD5'}]
-}, {
+data: [93.3,92.5,91.9,91.8,92.1]
+,index: 1
+},{
             name: 'Error bars',
             type: 'errorbar',
             data: [
-[93.23, 93.37], [92.42, 92.58], [91.82, 91.98], [91.71, 91.89]
+[93.24, 93.38], [92.41, 92.57], [91.82, 91.99], [91.74, 91.92], [91.97, 92.14]
             ]
         }
+
 ]
 }

@@ -1,6 +1,5 @@
-/* Created by EFisher on 06/10/2015 08:59:57 using v2.7 */{
+/* Created by NCODowd on 09/09/2016 08:35:07 using v2.7 */{
 title: {text:''},
-legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'Are GPs open at times that are convenient and are patients satisfied with this?'},
@@ -8,9 +7,8 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011/12', '2012/13', 'July 2013 - March 2014', 'July 2014 - March 2015']
+, categories: ['2011/12','2012/13','2013/14','2014/15','2015/16']
 , labels: {
-    rotation: -45,
 }
 },
 yAxis: {
@@ -22,14 +20,15 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Percentage',
+name: 'Convenient',
 type: 'column',
-data: [77.7, 76.8,{y:74.6, color:'#3FCFD5'},{y:73.8, color:'#3FCFD5'}]
-}, {
+data: [77.7,76.8,74.6,73.8,74.6]
+,index: 1
+},{
             name: 'Error bars',
             type: 'errorbar',
             data: [
-[77.59, 77.81], [76.68, 76.92], [74.47, 74.72], [73.67, 73.93]
+[77.62, 77.84], [76.66, 76.89], [74.47, 74.72], [73.64, 73.90], [74.49,74.74]
             ]
         }
 ]

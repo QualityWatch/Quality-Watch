@@ -1,4 +1,5 @@
-/* Created by EFisher on 05/10/2015 15:49:53 using v2.7 */       {
+/* Created by NCODowd on 08/09/2016 18:06:20 using v2.7 *//* Created by EFisher on 05/10/2015 15:49:53 using v2.7 */
+       {
         title: {
             text: ''
         },
@@ -21,7 +22,7 @@
             title: {
                 text: ''
             },
-            categories: ['2011/12', '2012/13', 'July 2013 - March 2014', 'July 2014 - March 2015'],
+            categories: ['2011/12', '2012/13', '2013/14', '2014/15', '2015/16'],
             labels: {}
         },
         yAxis: {
@@ -29,7 +30,7 @@
                 text: 'How long after initially contacting <br> the surgery did patients actually <br> see or speak someone (percentage <br> of patients)',
                 offset: 111
             },
-            max: 110,
+            max: 100,
             labels: {
                 format: '{value:.1f}',
                 formatter: function () {
@@ -44,27 +45,27 @@ plotOptions: {column: {stacking: 'normal',}},
         series: [{
             name: 'On the same day',
             type: 'column',
-            data: [36.3, 36.4,{y:36.8, color:'#3FCFD5'},{y:37.3, color:'#3FCFD5'}],
+            data: [36.3, 36.4, 36.8, 37.3, 37.6],
             index: 4
         }, {
             name: 'On the next working day',
             type: 'column',
-            data: [14.2, 13,{y:12.2, color:'#E59AAA'},{y:11.1, color:'#E59AAA'}],
+            data: [14.2, 13.0, 12.2, 11.1, 10.7],
             index: 3
         }, {
             name: 'A few days later',
             type: 'column',
-            data: [33.3, 32.7,{y:31.8, color:'#B634BB'},{y:30.2, color:'#B634BB'}],
+            data: [33.3, 32.7, 31.8, 30.2, 29.3],
             index: 2
         }, {
             name: 'A week or more later',
             type: 'column',
-            data: [12.8, 14.6,{y:15.9, color:'#CECFCB'},{y:17.9, color:'#CECFCB'}],
+            data: [12.8, 14.6, 15.9, 17.9, 18.6],
             index: 1
         }, {
             name: 'Can\'t remember ',
             type: 'column',
-            data: [3.3, 3.3,{y:3.2, color:'#6FFFF5'},{y:3.6, color:'#6FFFF5'}],
+            data: [3.3, 3.3, 3.2, 3.6, 3.8],
             index: 0
         }]
     }

@@ -1,4 +1,4 @@
-/* Created by NCODowd on 13/09/2016 11:03:50 using v2.7 */{
+/* Created by NCODowd on 14/09/2016 15:37:47 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,22 +14,21 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:''}
+title: {text:'Employment rate in percentage'}
 , labels: {
-format: '{value:.0f}' 
-,formatter: function() {return this.value +'%';}}},
-tooltip: {valueSuffix: '%'},
+format: '{value:.1f}' 
+}},
 series:[
 {
 name: 'Employment rate of people with long-term conditions',
 type: 'column',
-data: [3010,5540,6750,6850,6890,7000,7070,6900,6100,4080]
+data: [30.1,55.4,67.5,68.5,68.9,70,70.7,69,61,40.8]
 ,index: 1
 },
 {
 name: 'Employment rate of population ',
 type: 'column',
-data: [3600,6710,8130,8240,8360,8380,8450,8220,7380,5120]
+data: [36,67.1,81.3,82.4,83.6,83.8,84.5,82.2,73.8,51.2]
 ,index: 2
 }
 ]

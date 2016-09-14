@@ -1,4 +1,4 @@
-{
+/* Created by NCODowd on 09/09/2016 09:08:01 using v2.7 */{
         title: {
             text: ''
         },
@@ -21,7 +21,7 @@
             title: {
                 text: ''
             },
-            categories: ['2009/10', '2010/11', '2011/12', '2012/13', 'Jan - Sept 2013', 'Jul 2013 - Mar 2014'],
+            categories: ['2011/12', '2012/13', '2013/14', '2014/15','2015/16'],
             labels: {
                 rotation: -90,
                 step: 1
@@ -45,17 +45,17 @@
         series: [{
             name: 'I don`t normally have to wait too long',
             type: 'column',
-            data: [64.3, 61.9, 61.2, 59.5, 58.8, 58.3],
+            data: [61.2,59.5,58.3,57.7,57.7],
             index: 1
         }, {
             name: 'I have to wait a bit too long',
             type: 'column',
-            data: [22.3, 24.2, 24.4, 25.3, 25.7, 25.9],
+            data: [24.4,25.3,25.9,25.1,24.9],
             index: 2
         }, {
             name: 'I have to wait far too long',
             type: 'column',
-            data: [6.8, 6.9, 7.8, 8.6, 8.9, 9.2],
+            data: [7.8,8.6,9.2,9.4,9.0],
             index: 3
         }]
     }

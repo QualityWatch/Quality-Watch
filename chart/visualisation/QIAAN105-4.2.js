@@ -1,6 +1,5 @@
-/* Created by EFisher on 06/10/2015 09:09:59 using v2.7 */{
+/* Created by NCODowd on 09/09/2016 08:39:19 using v2.7 */{
 title: {text:''},
-legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'Are GPs open at times that are convenient and are patients satisfied with this?'},
@@ -8,10 +7,10 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2009/10', '2010/11', '2011/12', '2012/13', 'July 2013 - March 2014', 'July 2014 - March 2015']
+, categories: ['2009/10','2010/11','2011/12','2012/13','2013/14','2014/15','2015/16']
 , labels: {
-     rotation: -45,
- step: 1
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
@@ -23,14 +22,16 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series1',
+name: 'Satisfaction',
 type: 'column',
-data: [79.4, 78.3, 81, 79.6,{y:76.9, color:'#3FCFD5'},{y:74.9, color:'#3FCFD5'}]
-}, {
+data: [79.4,78.3,81,79.6,76.9,74.9,75.9]
+,index: 1
+},
+{
             name: 'Error bars',
             type: 'errorbar',
             data: [
-[79.35, 79.45], [78.24, 78.36], [80.9, 81.1], [79.49, 79.71], [76.78, 77.02], [74.77, 75.03]
+[79.32, 79.42], [78.19, 78.31], [80.85, 81.05], [79.54, 79.76], [76.83, 77.07], [74.78, 75.04],[75.78,76.02]
             ]
         }
 ]
