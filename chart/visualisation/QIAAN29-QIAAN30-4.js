@@ -1,4 +1,5 @@
-/* Created by NCODowd on 07/07/2016 12:47:52 using v2.7 */{
+/* Created by NCODowd on 07/07/2016 12:47:52 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -17,7 +18,7 @@ yAxis: {
 title: {text:'Proportion of carers who found it <br> easy to find information and advice', offset: 87}
 , labels: {
 format: '{value:.0f}' 
-,formatter: function() {return this.value +'%';}}},
+,formatter: function() {return this.value/100+'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
