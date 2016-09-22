@@ -1,4 +1,5 @@
-/* Created by NCODowd on 07/07/2016 12:47:51 using v2.7 */{
+/* Created by NCODowd on 07/07/2016 12:47:51 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -18,7 +19,7 @@ title: {text:'Proportion who felt consulted in <br> discussions about the servic
 , min: 0
 , labels: {
 format: '{value:.0f}' 
-,formatter: function() {return this.value +'%';}}},
+,formatter: function() {return this.value/100+'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
