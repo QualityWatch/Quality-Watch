@@ -1,4 +1,4 @@
-/* Created by NCODowd on 07/07/2016 12:48:18 using v2.7 */{
+/* Created by NCODowd on 16/11/2016 17:22:14 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -61,7 +61,7 @@ data: [89.8,91.4,92.3,92.5,91.4,90.2,88.6,87,86.6,83,81.6,80.9]
 {
 name: '2016/17',
 visible: false,type: 'line',
-data: [85,null,null,null,null,null,null,null,null,null,null,null]
+data: [85,85.4,85.8,85.4,86.4,86,null,null,null,null,null,null]
 ,index: 7
 }
 ]

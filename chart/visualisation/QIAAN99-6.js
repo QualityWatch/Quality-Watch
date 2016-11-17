@@ -1,4 +1,4 @@
-/* Created by EFisher on 12/10/2015 14:31:45 using v2.7 */{
+/* Created by NCODowd on 16/11/2016 17:22:47 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -17,7 +17,6 @@ yAxis: {
 title: {text:'Physician density per 1,000 population <br> (head counts)', offset: 87}
 , min: 1.5
 , labels: {
-format: '{value:.2f}' 
 }},
 legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {

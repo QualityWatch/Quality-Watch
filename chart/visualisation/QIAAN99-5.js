@@ -1,4 +1,4 @@
-/* Created by EFisher on 12/10/2015 14:31:44 using v2.7 */{
+/* Created by NCODowd on 16/11/2016 17:22:47 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,35 +7,22 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Sep 09','Oct 09','Nov 09','Dec 09','Jan 10','Feb 10','Mar 10','Apr 10','May 10','Jun 10','Jul 10','Aug 10','Sep 10','Oct 10','Nov 10','Dec 10','Jan 11','Feb 11','Mar 11','Apr 11','May 11','Jun 11','Jul 11','Aug 11','Sep 11','Oct 11','Nov 11','Dec 11','Jan 12','Feb 12','Mar 12','Apr 12','May 12','Jun 12','Jul 12','Aug 12','Sep 12','Oct 12','Nov 12','Dec 12','Jan 13','Feb 13','Mar 13','Apr 13','May 13','Jun 13','Jul 13','Aug 13','Sep 13','Oct 13','Nov 13','Dec 13','Jan 14','Feb 14','Mar 14','Apr 14','May 14','Jun 14','Jul 14','Aug 14','Sep 14','Oct 14','Nov 14','Dec 14','Jan 15','Feb 15','Mar 15','Apr 15','May 15']
+, categories: ['Sep 2009','Oct 2009','Nov 2009','Dec 2009','Jan 2010','Feb 2010','Mar 2010','Apr 2010','May 2010','Jun 2010','Jul 2010','Aug 2010','Sep 2010','Oct 2010','Nov 2010','Dec 2010','Jan 2011','Feb 2011','Mar 2011','Apr 2011','May 2011','Jun 2011','Jul 2011','Aug 2011','Sep 2011','Oct 2011','Nov 2011','Dec 2011','Jan 2012','Feb 2012','Mar 2012','Apr 2012','May 2012','Jun 2012','Jul 2012','Aug 2012','Sep 2012','Oct 2012','Nov 2012','Dec 2012','Jan 2013','Feb 2013','Mar 2013','Apr 2013','May 2013','Jun 2013','Jul 2013','Aug 2013','Sep 2013','Oct 2013','Nov 2013','Dec 2013','Jan 2014','Feb 2014','Mar 2014','Apr 2014','May 2014','Jun 2014','Jul 2014','Aug 2014','Sep 2014','Oct 2014','Nov 2014','Dec 2014','Jan 2015','Feb 2015','Mar 2015','Apr 2015','May 2015','Jun 2015','Jul 2015','Aug 2015','Sep 2015','Oct 2015','Nov 2015','Dec 2015','Jan 2016','Feb 2016','Mar 2016','Apr 2016','May 2016','Jun 2016','Jul 2016']
 , labels: {
  rotation: -90
-, step: 2
+, step: 3
 }
 },
 yAxis: {
-title: {text:'Number of Health Visitors (FTEs)'}
+title: {text:'Number of health visitors (FTE)'}
 , labels: {
-format: '{value:.1f}' 
 }},
 series:[
 {
-name: 'Qualified Health Visitors',
+name: 'Health visitors',
 type: 'line',
-data: [8284.9,8262,8269.4,8240.3,8197.3,8186.1,8174.7,8106.9,8092.2,8026.8,7965.5,7906.5,8016.7,8098,8143.6,8125.2,8142.2,8113.7,8054.2,7886.3,7851.5,7803.1,7714.4,7677,7941.2,8004.4,8065.1,8065.1,8141.1,8207,8198.9,8208.2,8190,8100.9,8080.3,8067.1,8385.8,8643.7,8712.4,8741.1,8786,8812.5,8812.7,8801.7,8840.1,8817.4,8792.4,8739,9109.4,9341,9503.7,9543.6,9698.4,9837.9,9947.4,9973.9,9969.6,9930.1,9877.8,9816,10166.7,10552.1,10737.6,10783.2,11060.3,11279.5,11495.4,11382.6,11331.2]
+data: [8100,8056.28,8069.73,8029.93,8003.6,7984.66,7963.18,7918.49,7878.73,7815.57,7752.84,7695.78,7849.1,7919.41,7961.34,7929.87,7906.24,7939.39,7846.35,7668.21,7681.44,7642.88,7546.23,7506.67,7802.12,7819.78,7812.04,7808.35,7872.34,7706.87,7697.3,7745.61,7474.8,7393.15,7386.91,7374.53,7686.63,7909.78,7962.86,7985.93,8025.06,8032.08,8028.55,8109.56,8111.41,8083.61,8066.5,8005.74,8304.46,8395.43,8525.95,8552.62,8706.63,8831.68,8926.45,8947.5,8927.14,8887.34,8828.18,8765.53,9162.49,9481.15,9628.55,9639.35,9889.21,10074.7,10256.52,10185.34,10111.37,10041.86,9943.15,9927.56,10235.52,10308.68,10278.65,10212.47,10213.25,10178.48,10143.86,9710.59,9592.16,9491.01,9385.19]
 ,index: 1
-},
-{
-name: 'May 2010 baseline',
-type: 'column',
-data: [null,null,null,null,null,null,null,null,8092,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
-,index: 1
-},
-{
-name: 'March 2015 target',
-type: 'column',
-data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,12292,null,null]
-,index: 2
 }
 ]
 }

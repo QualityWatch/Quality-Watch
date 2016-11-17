@@ -1,4 +1,4 @@
-/* Created by EFisher on 12/10/2015 14:31:45 using v2.7 */{
+/* Created by NCODowd on 16/11/2016 17:22:48 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,75 +14,74 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Nurses  density per 1 ,000 population <br> (head counts)', offset: 87}
+title: {text:'Nurses density per 1,000 population <br> (head counts)', offset: 87}
 , labels: {
-format: '{value:.1f}' 
 }},
 legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
 name: 'Australia',
 visible: true,type: 'line',
-data: [10.4,10.3,10.2,10.1,10,9.9,9.9,10.2,9.8,null,10.2,10.3,10.2,null,10.2,10.2,11.5,null]
+data: [10.41,10.3,10.17,10.07,9.95,9.94,9.94,10.21,9.76,null,10.2,10.3,10.18,null,10.19,10.22,11.52,null]
 ,index: 1
 },
 {
 name: 'Canada',
 visible: false,type: 'line',
-data: [7.6,7.6,7.5,7.6,7.5,9.4,8.5,8.5,8.7,8.8,9,9.1,9.3,9.3,9.2,9.4,9.5,null]
+data: [7.65,7.55,7.52,7.58,7.46,9.45,8.51,8.51,8.73,8.84,9.03,9.14,9.29,9.33,9.25,9.35,9.48,null]
 ,index: 2
 },
 {
 name: 'France',
 visible: false,type: 'line',
-data: [null,6.2,6.4,6.7,6.8,7,7.2,7.4,7.6,7.8,7.6,7.9,8.2,8.4,8.7,9.1,9.4,9.7]
+data: [null,6.22,6.45,6.66,6.84,7,7.19,7.38,7.59,7.78,7.64,7.91,8.19,8.45,8.71,9.1,9.39,9.69]
 ,index: 3
 },
 {
 name: 'Germany',
 visible: false,type: 'line',
-data: [null,null,null,10.5,10.6,10.7,11,11.1,11.2,11.4,11.5,11.7,12,12.2,12.3,12.6,13,null]
+data: [null,null,null,10.52,10.61,10.74,10.95,11.06,11.23,11.35,11.51,11.74,12.04,12.16,12.29,12.61,12.96,null]
 ,index: 4
 },
 {
 name: 'New Zealand',
 visible: false,type: 'line',
-data: [null,null,null,null,null,null,null,null,9,8.8,9.2,9.7,9.7,10,10.1,10,10,10.4]
+data: [null,null,null,null,null,null,null,null,9.03,8.84,9.21,9.74,9.7,10.03,10.08,9.97,10,10.39]
 ,index: 5
 },
 {
 name: 'Norway',
 visible: false,type: 'line',
-data: [null,null,null,null,null,12.1,12.8,13.2,13.6,13.9,13.9,14,15.9,16.1,16.4,16.5,16.7,null]
+data: [null,null,null,null,null,12.13,12.76,13.24,13.64,13.92,13.94,14,15.93,16.13,16.4,16.53,16.67,null]
 ,index: 6
 },
 {
 name: 'Spain',
 visible: false,type: 'line',
-data: [3.4,3.4,3.4,3.6,3.9,4.1,4.3,4.3,4.4,4.5,4.6,4.8,5,5.2,5.2,5.2,5.1,null]
+data: [3.38,3.36,3.41,3.57,3.88,4.07,4.29,4.3,4.36,4.46,4.6,4.82,4.95,5.15,5.22,5.24,5.14,null]
 ,index: 7
 },
 {
 name: 'Sweden',
 visible: false,type: 'line',
-data: [9.6,9.8,9.9,10,10.1,10.3,10.4,10.5,10.7,10.9,11,11,11,11.1,11.1,11.2,null,null]
+data: [9.59,9.75,9.87,9.95,10.09,10.3,10.41,10.54,10.74,10.89,11,11.04,11.03,11.1,11.13,11.15,null,null]
 ,index: 8
 },
 {
 name: 'United Kingdom',
 visible: true,type: 'line',
-data: [null,null,null,9,9.3,9.6,10,10.1,10.2,9.9,9.6,9.6,9.8,9.5,8.4,8.2,8.2,8.3]
+data: [null,null,null,9.01,9.29,9.59,10.02,10.14,10.21,9.87,9.58,9.6,9.75,9.52,8.36,8.21,8.18,8.26]
 ,index: 9
 },
 {
 name: 'United States',
 visible: false,type: 'line',
-data: [null,null,10.4,10.2,10.2,10.2,10.1,10.3,10.4,10.5,10.6,10.8,10.8,10.9,11.1,11.2,11.1,null]
+data: [null,null,10.37,10.17,10.18,10.19,10.1,10.3,10.42,10.52,10.58,10.76,10.8,10.94,11.08,11.15,11.14,null]
 ,index: 10
 },
 {
 name: 'OECD AVERAGE',
 visible: false,type: 'line',
-data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,10.6,null,null]
+data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,10.56,null,null]
 ,index: 11
 }
 ]

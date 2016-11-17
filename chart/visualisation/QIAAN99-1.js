@@ -1,4 +1,4 @@
-/* Created by EFisher on 12/10/2015 14:31:42 using v2.7 */{
+/* Created by NCODowd on 16/11/2016 17:22:45 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,12 +7,12 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014]
+, categories: [2010,2011,2012,2013,2014,2015]
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Percentage change compared to 2004'}
+title: {text:'Percentage changed compared to 2010'}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -21,56 +21,38 @@ legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},
 {
 name: 'Total',
 visible: true,type: 'line',
-data: [0,3.3,2.9,2.2,5.5,10.3,12.4,10.8,10.6,11.5,13.8]
+data: [0,-1.4,-3.2,-3.8,-2.2,-0.3]
 ,index: 1
 },
 {
-name: 'All doctors',
+name: 'HCHS doctors',
 visible: false,type: 'line',
-data: [0,4.6,9,10.8,14.7,21.2,21.4,23,24.9,26.9,29.2]
+data: [0,1.7,3.4,4.4,6.5,8.3]
 ,index: 2
 },
 {
-name: 'All GPs',
+name: 'Nurses & health visitors',
 visible: false,type: 'line',
-data: [0,2.8,7.6,8.7,9.7,16.3,13.6,13.9,15.6,17,19]
+data: [0,-0.9,-2.7,-2.1,-0.3,0.5]
 ,index: 3
 },
 {
-name: 'Total qualified nursing staff ',
+name: 'Midwives',
 visible: false,type: 'line',
-data: [0,2.6,3.3,2.7,4.5,6.7,7.8,6.9,6.4,7.4,9.4]
+data: [0,2.6,4.7,6.6,8.4,9.2]
 ,index: 4
 },
 {
-name: 'Qualified Allied Health Professions',
+name: 'Ambulance staff',
 visible: false,type: 'line',
-data: [0,3.4,4.5,7,11.5,16,17.8,18.1,18.5,20.8,24]
+data: [0,0.7,0.8,0.6,-0.2,1.4]
 ,index: 5
 },
 {
-name: 'Qualified Healthcare Scientists',
+name: 'Scientific, therapeutic & technical staff',
 visible: false,type: 'line',
-data: [0,6,7.9,6.9,9.6,13.9,13.7,11.9,10.8,5.1,-2.6]
+data: [0,1.5,0.5,1.8,3.4,4.8]
 ,index: 6
-},
-{
-name: 'Other qualified scientific, therapeutic & technical staff',
-visible: false,type: 'line',
-data: [0,4.2,5,10.1,16.2,25.2,33.1,35.6,39.6,42.6,50.1]
-,index: 7
-},
-{
-name: 'Qualified ambulance staff',
-visible: false,type: 'line',
-data: [0,5,-5.2,-0.3,1.8,3.8,6.6,7.6,7,7.4,6.7]
-,index: 8
-},
-{
-name: 'NHS infrastructure support',
-visible: false,type: 'line',
-data: [0,4.5,-0.1,-0.7,5.1,13.8,13.2,6.6,4.6,2.8,3.6]
-,index: 9
 }
 ]
 }
