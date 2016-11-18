@@ -1,4 +1,5 @@
-/* Created by NCODowd on 16/11/2016 17:22:27 using v2.7 */{
+/* Created by NCODowd on 16/11/2016 17:22:27 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -16,7 +17,7 @@ title: {text:''}
 yAxis: {
 title: {text:'Number of people on waiting list <br> & total activity (in millions)', offset: 87}
 , labels: {
-format: '{value:.3f}' 
+format: '{value:.0f}' 
 }},
 series:[
 {
