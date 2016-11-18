@@ -1,4 +1,5 @@
-/* Created by NCODowd on 16/11/2016 17:20:19 using v2.7 */{
+/* Created by NCODowd on 16/11/2016 17:20:19 using v2.7 */
+{
         title: {
             text: ''
         },
@@ -36,6 +37,7 @@
         labels: {format: '{value}%'}
         },
         { 
+            min: 0, 
             max: 25000,
             title: {
                 text: 'Number of people referred waiting<br> more than 52 weeks for treatment',
