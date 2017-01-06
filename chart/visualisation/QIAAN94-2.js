@@ -1,5 +1,4 @@
-/* Created by rreed on 20/12/2016 12:00:54 using v2.7 */
-{
+/* Created by rreed on 20/12/2016 12:00:54 using v2.7 */^M{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
