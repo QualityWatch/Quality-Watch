@@ -1,5 +1,5 @@
-/* Created by rreed on 20/12/2016 11:34:27 using v2.7 */$(function () {
-    Highcharts.chart('container', {
+/* Created by rreed on 20/12/2016 11:34:27 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -46,5 +46,4 @@ data: [81.2,79.4,82.1,80.2,82.0]
 ,index: 4
 }
 ]
-});
-});
+}
