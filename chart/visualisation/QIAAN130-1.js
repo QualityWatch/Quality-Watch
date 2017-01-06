@@ -1,5 +1,4 @@
-/* Created by ianb on 29/05/2014 15:06:42 using v2.1 */
-{
+/* Created by rreed on 05/01/2017 15:05:32 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2006/07','2007/08','2008/09','2009/10','2010/11','2011/12','2012/13']
+, categories: ['2006/07','2007/08','2008/09','2009/10','2010/11','2011/12','2012/13','2013/14','2014/15','2015/16']
 , labels: {
  rotation: -90
 , step: 1
@@ -17,14 +16,14 @@ title: {text:''}
 yAxis: {
 title: {text:'CKD prevalence in GP registered <br> patients aged 18+', offset: 87}
 , labels: {
-format: '{value:.3f}' 
+format: '{value:.2f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Prevalence',
+name: 'Series1',
 type: 'line',
-data: [2.4,2.943,4.1,4.266,4.256,4.3,4.253]
+data: [2.4,2.94,4.1,4.27,4.26,4.3,4.25,4,4.13,4.1]
 ,index: 1
 }
 ]

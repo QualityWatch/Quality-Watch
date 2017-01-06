@@ -1,4 +1,4 @@
-/* Created by ianb on 29/05/2014 15:06:53 using v2.1 */{
+/* Created by rreed on 05/01/2017 15:05:32 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2007,2008,2009,2010,2011,2012]
+, categories: [2006,2007,2008,2009,2010,2011]
 , labels: {
 }
 },
@@ -19,34 +19,22 @@ format: '{value:.2f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'URR>65% (HD)',
+name: '% Haemoglobin >= 10 g/dl (HD)',
 type: 'line',
-data: [80.28,83.31,85.3,86.3,87.7,88]
+data: [85.75,85.54,85.22,85.17,84.38,81.95]
 ,index: 1
 },
 {
-name: 'Haemoglobin 10 to 12 g/dl (HD)',
+name: '% Haemoglobin >= 10 g/dl (PD)',
 type: 'line',
-data: [46.98,49.51,50.33,52.39,56.01,56.78]
+data: [89.85,90.11,88.39,87.85,86.47,84.51]
 ,index: 2
 },
 {
-name: 'Haemoglobin 10 to 12 g/dl (PD)',
+name: 'URR>65% (HD)',
 type: 'line',
-data: [44.41,49.19,48.47,50.02,53.24,54.19]
+data: [79.28,80.28,83.31,85.3,86.3,87.7]
 ,index: 3
-},
-{
-name: 'Haemoglobin < 10 g/dl (HD)',
-type: 'line',
-data: [14.51,14.78,14.85,15.66,18.1,17.92]
-,index: 4
-},
-{
-name: 'Haemoglobin < 10 g/dl (PD)',
-type: 'line',
-data: [9.96,11.65,12.26,13.63,15.46,15.31]
-,index: 5
 }
 ]
 }

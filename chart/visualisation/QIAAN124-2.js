@@ -1,4 +1,4 @@
-{
+/* Created by rreed on 05/01/2017 15:02:29 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['North West','Yorkshire and the Humber','North East','England','East Midlands','South West','Eastern','London','South East','West Midlands']
+, categories: ['North West','North East','Yorkshire and the Humber','East Midlands','England','Eastern','South West','South East','London','West Midlands']
 , labels: {
  rotation: -90
 , step: 1
@@ -16,14 +16,14 @@ title: {text:''}
 yAxis: {
 title: {text:'Proportion of adults with a learning <br> disability who live in their own <br> home or with family', offset: 99}
 , labels: {
-format: '{value:.0f}' 
+format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: '2014-15',
+name: 'Series1',
 type: 'column',
-data: [87.9,81.4,78.1,73.3,73.2,69.5,69.2,69.1,68.5,62.6]
+data: [88.9,80.4,78.6,76.3,75.4,74,72.2,70.2,70.1,67.9]
 ,index: 1
 }
 ]

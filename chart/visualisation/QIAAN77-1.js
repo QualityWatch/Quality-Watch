@@ -1,14 +1,16 @@
-/* Created by ianb on 16/12/2014 10:56:53 using v2.3 */{
+/* Created by rreed on 05/01/2017 15:04:18 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How successful were reablement services for older people?'},
+title: {text: 'How successful are reablement services for older people? '},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2009/10','2010/11','2011/12','2012/13','2013/14']
+, categories: ['2009/10','2010/11','2011/12','2012/13','2013/14','2014/15','2015/16']
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
@@ -21,9 +23,9 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'England',
+name: 'Series1',
 type: 'line',
-data: [81.2,81.9,82.7,81.5,82.5]
+data: [81.2,81.9,82.7,81.5,82.5,81.9,82.7]
 ,index: 1
 }
 ]

@@ -1,5 +1,5 @@
-/* Created by ianb on 26/06/2015 16:56:55 using v2.6 */{
-title: {text:'Colorectal cancer'},
+/* Created by rreed on 05/01/2017 15:03:41 using v2.7 */{
+title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How does colorectal cancer mortality compare internationally over time?'},

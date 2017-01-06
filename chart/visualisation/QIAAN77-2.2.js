@@ -1,4 +1,5 @@
-{
+/* Created by rreed on 20/12/2016 11:34:27 using v2.7 */$(function () {
+    Highcharts.chart('container', {
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,12 +8,12 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011/12','2012/13','2013/14']
+, categories: ['2011/12','2012/13','2013/14','2014/15','2015/16']
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Percentage of wmoen still living <br> at home 91 days after discharge', offset: 87}
+title: {text:'Percentage of females still living <br> at home 91 days after discharge', offset: 87}
 , max: 90
 , min: 70
 , labels: {
@@ -23,26 +24,27 @@ series:[
 {
 name: 'Total Aged 65 and over',
 type: 'line',
-data: [84,82.6,84.3]
+data: [84,82.6,84.3,83.3,84.2]
 ,index: 1
 },
 {
 name: 'Aged 65 to 74',
 type: 'line',
-data: [88,86.6,87.3]
+data: [88,86.6,87.3,87.7,87.5]
 ,index: 2
 },
 {
 name: 'Aged 75 to 84',
 type: 'line',
-data: [86,85,85.9]
+data: [86,85,85.9,85.4,85.8]
 ,index: 3
 },
 {
 name: 'Aged 85 and over',
 type: 'line',
-data: [81.2,79.4,82.1]
+data: [81.2,79.4,82.1,80.2,82.0]
 ,index: 4
 }
 ]
-}
+});
+});

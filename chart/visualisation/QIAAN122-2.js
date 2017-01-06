@@ -1,4 +1,5 @@
-{
+/* Created by rreed on 19/12/2016 16:59:08 using v2.7 */$(function () {
+    Highcharts.chart('container', {
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -6,13 +7,13 @@ title: {text: 'How does five-year cancer survival vary by cancer type?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:''}
-, categories: ['Testis (men only)','Melanoma of skin','Breast (women only)','Hodgkin lymphoma','Prostate (men only)','Uterus (women only)','Cervix (women only)','Larynx (men only)','Non-Hodgkin lymphoma','Rectum','Colorectum','Colon','Bladder','Kidney','Leukaemia','Ovary (women only)','Myeloma','Brain','Stomach','Oesophagus','Lung','Pancreas']
+title: {text:'Cancer (m/o=men only; w/o=women only)'}
+, categories: ['Testis (m/o)' , 'Melanoma of skin' , 'Thyroid' , 'Breast (w/o)' , 'Hodgkin lymphoma' , 'Prostate (m/o)' , 'Uterus (w/o)' , 'Non-Hodgkin lymphoma' , 'Cervix (w/o)' , 'Larynx (m/o)' , 'Kidney' , 'Rectum' , 'Colorectum' , 'Colon' , 'Bladder' , 'Leukaemia' , 'Ovary (w/o)' , 'Myeloma' , 'Brain' , 'Stomach' , 'Oesophagus' , 'Lung' , 'Liver' , 'Mesothelioma' , 'Pancreas']
     , labels: {step: 1
 }
 },
 yAxis: {
-title: {text:'Five-year survival estimates for <br> adults (aged 15�99 years) in England <br> diagnosed 2007-2011 and followed <br> up to 2012', offset: 20}
+title: {text:'Five-year survival estimates for adults (aged 15–99 years)<br> in England diagnosed with cancer 2010–2014 and followed up to 2015', offset: 20}
 , max: 100
 , labels: {
 format: '{value:.2f}' 
@@ -20,35 +21,39 @@ format: '{value:.2f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Five-year survival',
+name: 'Survival',
 type: 'bar',
-data: [97.08,89.03,84.97,83.86,81.72,77.38,67.33,66.14,65.15,58.1,57.05,56.9,56.06,55.45,46.89,46.3,42.25,18.85,18.78,13.97,10.9,4.98]
+data: [96.8,90,87.1,86.3,85.2,83.6,77.8,68.2,66.8,65.5,60.2,59.5,57.8,57.3,54.6,50.5,49.5,47.9,19.7,19.1,15.1,13.3,12.2,6.6,5.6]
 },
     {name: 'Error',
      type: 'errorbar',
      data: [
-         [96.449,97.705],
-[88.489,89.562],
-[84.619,85.316],
-[82.445,85.276],
-[81.13,82.316],
-[76.604,78.166],
-[65.751,68.907],
-[64.293,67.981],
-[64.388,65.908],
-[57.355,58.848],
-[56.612,57.486],
-[56.371,57.422],
-[55.25,56.878],
-[54.608,56.285],
-[45.758,48.018],
-[45.268,47.336],
-[40.736,43.764],
-[17.332,20.364],
-[17.985,19.571],
-[13.114,14.826],
-[10.644,11.159],
-[4.549,5.401]
+         [96.1,97.5],
+[89.5,90.5],
+[85.6,88.6],
+[86,86.7],
+[83.7,86.6],
+[83,84.2],
+[77,78.6],
+[67.5,68.9],
+[65.1,68.5],
+[63.7,67.3],
+[59.4,61],
+[58.7,60.3],
+[57.4,58.2],
+[56.8,57.8],
+[53.8,55.5],
+[49.4,51.7],
+[48.5,50.5],
+[46.5,49.4],
+[18.1,21.2],
+[18.3,19.9],
+[14.4,15.8],
+[13,13.6],
+[11.3,13.1],
+[5.7,7.6],
+[5.2,6.1],
      ]}
 ]
-}
+});
+});

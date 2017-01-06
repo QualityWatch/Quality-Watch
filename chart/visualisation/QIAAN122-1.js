@@ -1,4 +1,5 @@
-{
+/* Created by rreed on 20/12/2016 09:45:02 using v2.7 */$(function () {
+    Highcharts.chart('container', {
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -6,13 +7,13 @@ title: {text: 'How does one-year cancer survival vary by cancer type?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:''}
-, categories: ['Testis (men only)','Melanoma of skin','Breast (women only)','Prostate (men only)','Hodgkin lymphoma','Uterus (women only)','Larynx (men only)','Cervix (women only)','Rectum','Non-Hodgkin lymphoma','Colorectum','Bladder','Myeloma','Ovary (women only)','Colon','Kidney','Leukaemia','Brain','Stomach','Oesophagus','Lung','Pancreas']
+title: {text:'Cancer (m/o=men only; w/o=women only)'}
+, categories: ['Testis (m/o)' , 'Melanoma of skin' , 'Breast (w/o)' , 'Prostate (m/o)' , 'Hodgkin lymphoma' , 'Thyroid' , 'Uterus (w/o)' , 'Larynx (m/o)' , 'Cervix (w/o)' , 'Rectum' , 'Non-Hodgkin lymphoma' , 'Myeloma' , 'Kidney' , 'Colorectum' , 'Ovary (w/o)' , 'Bladder' , 'Colon' , 'Leukaemia' , 'Mesothelioma' , 'Brain' , 'Stomach' , 'Oesophagus'  , 'Lung' , 'Liver' , 'Pancreas']
 , labels: {step: 1
 }
 },
 yAxis: {
-title: {text:'One-year survival estimates for <br> adults (aged 15�99 years) in England <br> diagnosed 2007-2011 and followed <br> up to 2012', offset: 20}
+title: {text:'One-year survival estimates for adults (aged 15–99 years) <br>in England diagnosed  with cancer 2010–2014 and followed up to 2015', offset: 20}
 , max: 100
 , labels: {
 format: '{value:.2f}' 
@@ -22,33 +23,38 @@ series:[
 {
 name: 'One-year survival',
 type: 'bar',
-data: [98.11,97.03,95.79,93.12,91.57,89.92,84.96,83.72,79.69,78.61,75.28,75.13,74.22,73.67,73.4,72.94,66.18,43.75,43.16,41.99,32.94,19.64]
+data: [98.4,97.6,96.3,94.4,92.1,90.8,90.5,85.5,84.5,81.8,80.3,79.0,77.1,76.7,76.5,74.9,74.6,68.7,46.9,46.5,44.6,44.1,36.9,35.0,21.9]
 },
     {name: 'Error',
      type: 'errorbar',
      data:[
-[97.784,98.445],
-[96.855,97.208],
-[95.681,95.906],
-[92.929,93.306],
-[90.891,92.24],
-[89.563,90.285],
-[84.08,85.848],
-[82.868,84.568],
-[79.316,80.056],
-[78.228,79.001],
-[75.043,75.514],
-[74.691,75.578],
-[73.545,74.903],
-[73.087,74.25],
-[73.101,73.692],
-[72.465,73.424],
-[65.605,66.755],
-[42.736,44.758],
-[42.551,43.766],
-[41.42,42.567],
-[32.696,33.181],
-[19.158,20.124]         
+[98.1,98.7],
+[97.4,97.7],
+[96.2,96.4],
+[94.2,94.6],
+[91.5,92.7],
+[90,91.5],
+[90.2,90.9],
+[84.7,86.4],
+[83.6,85.3],
+[81.4,82.1],
+[80,80.7],
+[78.4,79.6],
+[76.7,77.5],
+[76.5,76.9],
+[76,77],
+[74.5,75.4],
+[74.3,74.8],
+[68.1,69.2],
+[45.8,48.1],
+[45.5,47.5],
+[44,45.3],
+[43.5,44.6],
+[36.7,37.1],
+[34.3,35.7],
+[21.4,22.3]
+         
      ]}
 ]
-}
+});
+});

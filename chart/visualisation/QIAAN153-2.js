@@ -1,5 +1,5 @@
-/* Created by ianb on 26/06/2015 16:56:54 using v2.6 */{
-title: {text:'Cervical Cancer Mortality'},
+/* Created by rreed on 05/01/2017 15:03:40 using v2.7 */{
+title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How does cervical cancer mortality compare internationally over time?'},

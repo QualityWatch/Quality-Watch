@@ -1,4 +1,6 @@
-/* Created by NCODowd on 23/05/2016 17:31:40 using v2.7 */{
+/* Created by rreed on 20/12/2016 11:20:07 using v2.7 */$(function () {
+    Highcharts.chart('container', 
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +9,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Finding or keeping work','Finding or keeping accommodation','Financial advice or benefits','Physical health needs']
+, categories: ['Finding/keeping work','Finding/keeping<br>accommodation (n/a 2016)','Financial advice/benefits','Physical health needs']
 , labels: {
  rotation: -90
 , step: 1
@@ -49,8 +51,15 @@ data: [44,42,43,35]
 {
 name: '2015',
 type: 'column',
-data: [46.8,42.9,43.3,35.4]
+data: [47,43,44,36]
 ,index: 5
+},
+{
+name: '2016',
+type: 'column',
+data: [43,0,43,35]
+,index: 6
 }
 ]
-}
+});
+});
