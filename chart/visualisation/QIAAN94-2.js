@@ -1,4 +1,5 @@
-/* Created by rreed on 20/12/2016 12:00:54 using v2.7 */{
+/* Created by rreed on 20/12/2016 12:00:54 using v2.7 */
+{
 title: {text:''},
 legend: {enabled: false},
 credits: {enabled: false},
@@ -31,5 +32,3 @@ data: [96.4,97.6,98.2,98.1,98.7,98.7,97.2, 97.2,97.4,97.4]
 }
 ]
 }
-);
-})
