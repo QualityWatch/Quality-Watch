@@ -1,4 +1,5 @@
-/* Created by rreed on 20/12/2016 09:45:02 using v2.7 *//* Created by rreed on 20/12/2016 09:45:02 using v2.7 */{
+/* Created by rreed on 20/12/2016 09:45:02 using v2.7 *//* Created by rreed on 20/12/2016 09:45:02 using v2.7 *//* Created by rreed on 20/12/2016 09:45:02 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -53,4 +54,7 @@ data: [98.4,97.6,96.3,94.4,92.1,90.8,90.5,85.5,84.5,81.8,80.3,79.0,77.1,76.7,76.
 [34.3,35.7],
 [21.4,22.3]
          
-]}
+     ]}
+]
+});
+})
