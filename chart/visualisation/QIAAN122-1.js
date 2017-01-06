@@ -1,5 +1,4 @@
-/* Created by rreed on 20/12/2016 09:45:02 using v2.7 */
-(function () {
+/* Created by rreed on 20/12/2016 09:45:02 using v2.7 */(function () {
     Highcharts.chart('container', {
 title: {text:''},
 credits: {enabled: false},
