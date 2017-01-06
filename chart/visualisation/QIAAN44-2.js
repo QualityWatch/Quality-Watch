@@ -1,5 +1,4 @@
-/* Created by rreed on 20/12/2016 11:20:07 using v2.7 */$(function () {
-    Highcharts.chart('container', 
+/* Created by rreed on 20/12/2016 11:20:07 using v2.7 */
 {
 title: {text:''},
 credits: {enabled: false},
@@ -61,5 +60,4 @@ data: [43,0,43,35]
 ,index: 6
 }
 ]
-});
-});
+}
