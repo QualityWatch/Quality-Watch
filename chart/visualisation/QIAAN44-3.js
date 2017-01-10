@@ -1,5 +1,7 @@
-/* Created by rreed on 05/01/2017 15:02:20 using v2.7 */{
+/* Created by rreed on 05/01/2017 15:02:20 using v2.7 */
+{
 title: {text:''},
+legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the proportion of respondents not able to contact the person in charge of their care changed? '},
