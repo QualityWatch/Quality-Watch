@@ -10,6 +10,8 @@ xAxis: {
 title: {text:''}
 , categories: ['2011/12','2012/13','2013/14','2014/15','2015/16']
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
