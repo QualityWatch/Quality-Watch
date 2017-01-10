@@ -7,7 +7,7 @@ title: {text: 'How does five-year cancer survival vary by gender?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:''}
+title: {text:'Cancer'}
 , categories: ['Melanoma of skin' , 'Thyroid' , 'Hodgkin lymphoma' , 'Non-Hodgkin lymphoma' , 'Kidney' , 'Rectum' , 'Colorectum' , 'Colon' , 'Bladder' , 'Leukaemia' , 'Myeloma' , 'Brain' , 'Stomach' , 'Oesophagus' , 'Lung' , 'Liver' , 'Mesothelioma' , 'Pancreas']
     , labels: {step: 1
 }
