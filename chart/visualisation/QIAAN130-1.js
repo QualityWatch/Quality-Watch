@@ -1,6 +1,8 @@
-/* Created by rreed on 05/01/2017 15:05:32 using v2.7 */{
+/* Created by rreed on 05/01/2017 15:05:32 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
+legend: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has prevalence of stage 3-5 CKD changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
