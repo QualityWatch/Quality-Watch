@@ -2,7 +2,7 @@
 {
 title: {text:''},
 credits: {enabled: false},
-legend: { enabled: false},
+legend: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How does the proportion of people with learning disabilities living in their own home vary across England?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
