@@ -20,12 +20,6 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: '2013',
-type: 'column',
-data: [2,2,2,4,4,10,8,14,20,15,18]
-,index: 1
-},
-{
 name: '2014',
 type: 'column',
 data: [2,2,3,4,4,10,8,14,19,14,18]
