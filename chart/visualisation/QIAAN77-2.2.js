@@ -16,7 +16,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of females still living <br> at home 91 days after discharge', offset: 87}
+title: {text:'Percentage of females still living at <br> home 91 days after discharge', offset: 87}
 , max: 90
 , min: 70
 , labels: {
