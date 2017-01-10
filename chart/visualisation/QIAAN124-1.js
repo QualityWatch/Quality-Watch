@@ -2,7 +2,7 @@
 {
 title: {text:''},
 credits: {enabled: false},
-legend: { enabled: false},
+legend: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'What proportion of adults with learning disabilities live at home?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
