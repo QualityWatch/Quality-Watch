@@ -1,6 +1,7 @@
-/* Created by rreed on 19/12/2016 16:59:08 using v2.7 */$(function () {
-    Highcharts.chart('container', {
+/* Created by rreed on 19/12/2016 16:59:08 using v2.7 */
+{
 title: {text:''},
+legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How does five-year cancer survival vary by cancer type?'},
@@ -55,5 +56,4 @@ data: [96.8,90,87.1,86.3,85.2,83.6,77.8,68.2,66.8,65.5,60.2,59.5,57.8,57.3,54.6,
 [5.2,6.1],
      ]}
 ]
-});
-});
+}
