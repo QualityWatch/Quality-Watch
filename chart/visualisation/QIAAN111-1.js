@@ -4,7 +4,7 @@ title: {text:''},
 legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Are people given understandable information with a new prescription?'},
+title: {text: 'Are people given understandable <br> information with a new prescription?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
