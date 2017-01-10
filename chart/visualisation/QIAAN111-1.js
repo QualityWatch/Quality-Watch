@@ -1,7 +1,7 @@
 /* Created by rreed on 05/01/2017 15:02:22 using v2.7 */
 {
 title: {text:''},
-legend: {enabled: false}.
+legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'Are people given understandable information with a new prescription?'},
