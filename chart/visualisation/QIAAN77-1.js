@@ -1,6 +1,8 @@
-/* Created by rreed on 05/01/2017 15:04:18 using v2.7 */{
+/* Created by rreed on 05/01/2017 15:04:18 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
+legend: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How successful are reablement services for older people? '},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
