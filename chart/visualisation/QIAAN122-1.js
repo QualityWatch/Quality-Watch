@@ -1,5 +1,6 @@
 /* Created by rreed on 20/12/2016 09:45:02 using v2.7 *//* Created by rreed on 20/12/2016 09:45:02 using v2.7 *//* Created by rreed on 20/12/2016 09:45:02 using v2.7 */{
 title: {text:''},
+legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How does one-year cancer survival vary by cancer type?'},
