@@ -1,4 +1,5 @@
-/* Created by rreed on 05/01/2017 15:03:40 using v2.7 */{
+/* Created by rreed on 05/01/2017 15:03:40 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -65,7 +66,7 @@ data: [41.5,40.8,36.3,38,38,38.9,37.1,33,38.6,34.9,31.6,33.7,32.6,32.5,0]
 {
 name: 'Italy',
 visible: false,type: 'line',
-data: [31.4,31.2,29.9,29.9,0,0,28.2,28.7,28.8,28.2,27.5,27.1,26.7,0,0]
+data: [31.4,31.2,29.9,29.9,null,null,28.2,28.7,28.8,28.2,27.5,27.1,26.7,null,null]
 ,index: 8
 },
 {
