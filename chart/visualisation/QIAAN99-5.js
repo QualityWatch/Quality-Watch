@@ -1,6 +1,8 @@
-/* Created by rreed on 20/02/2017 12:58:40 using v2.7 */{
+/* Created by rreed on 20/02/2017 12:58:40 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
+legend: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have the numbers of health visitors changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
