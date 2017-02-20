@@ -9,7 +9,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2009/10','2010/11','2011/12','2012/13','2013/14','2014/15', '2015/16']
+, categories: ['2009-10','2010-11','2011-12','2012-13','2013-14','2014-15', '2015-16']
 , labels: {
  rotation: -90
 , step: 1
@@ -57,7 +57,7 @@ data: [1.8,1.4,1.1,1,0.8,0.8,0.6]
 {
 name: 'Treatment completed free of dependence',
 type: 'line',
-data: [43.0042,48.8701,52.6311,53.2931,52.9109,51.9015,50.4926]
+data: [43.0,48.9,52.6,53.3,52.9,51.9,50.5]
 ,index: 5
 }
 ]
