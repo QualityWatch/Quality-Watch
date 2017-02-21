@@ -1,5 +1,9 @@
 /* Created by RReed on 21/02/2017 12:54:10 using v2.6 */
-{title: {text: 'How does the proportion of joiners and leavers vary across regions ( between November 2014 and November 2015)?'},
+{
+title: {text:''},
+credits: {enabled: false},
+exporting: {chartOptions: {
+title: {text: 'How does the proportion of joiners and leavers vary across regions (Feb-March 2014)?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
@@ -28,4 +32,6 @@ name: 'Joining Rate',
 type: 'column',
 data: [0.83,0.93,0.88,0.94,1.00,1.18,1.23,1.32,1.29,1.36,1.29,1.23,1.13,1.27]
 ,index: 2
+}
+]
 }
