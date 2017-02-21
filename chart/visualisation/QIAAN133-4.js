@@ -1,14 +1,11 @@
-/* Created by EFisher on 24/11/2015 10:52:19 using v2.7 *//* Created by ianb on 01/08/2014 12:54:10 using v2.1 */
-{
-title: {text:''},
-credits: {enabled: false},
-exporting: {chartOptions: {
-title: {text: 'How does the proportion of joiners and leavers vary across regions (Feb-March 2014)?'},
+
+/* Created by RReed on 21/02/2017 12:54:10 using v2.6 */
+{title: {text: 'How does the proportion of joiners and leavers vary across regions ( between November 2014 and November 2015)?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['East Midlands','East of England','Yorkshire and the Humber','Wessex','Thames Valley','North West London','South London','North Central & East London','Kent, Surrey and Sussex','North East','North West','West Midlands','South West','Special Health Authorities <br> and other statutory bodies']
+, categories: ['North East','North West','Yorkshire and the Humber','West Midlands','East Midlands','South West','Kent, Surrey and Sussex','South London','North West London','Thames Valley','East of England','North Central and East London','Wessex','Special Health Authorities <br> and other statutory bodies']
 , labels: {
  rotation: -45
 , step: 1
@@ -24,13 +21,13 @@ series:[
 {
 name: 'Leaving Rate',
 type: 'column',
-data: [0.71,0.86,0.68,0.83,1.02,0.88,1,0.95,0.89,0.57,0.68,0.7,0.86,0.8]
+data: [0.71,0.71,0.75,0.78,0.80,0.90,0.94,0.96,0.98,1.00,1.00,1.01,1.01,1.45]
 ,index: 1
 },
 {
 name: 'Joining Rate',
 type: 'column',
-data: [0.74,1.04,0.8,1.09,1.36,1.04,1.07,1.33,1.07,0.83,0.8,0.81,0.94,0.84]
+data: [0.83,0.93,0.88,0.94,1.00,1.18,1.23,1.32,1.29,1.36,1.29,1.23,1.13,1.27]
 ,index: 2
 }
 ]
