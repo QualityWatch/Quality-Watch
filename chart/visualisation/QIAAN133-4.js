@@ -1,4 +1,3 @@
-
 /* Created by RReed on 21/02/2017 12:54:10 using v2.6 */
 {title: {text: 'How does the proportion of joiners and leavers vary across regions ( between November 2014 and November 2015)?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
