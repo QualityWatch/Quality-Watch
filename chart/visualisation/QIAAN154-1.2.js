@@ -2,7 +2,7 @@
 {title: {text:'Admission-based ischaemic stroke, 30-day in-hospital mortality'},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How does UK\'s ischaemic stroke mortality rate compare internationally over time?'},
+title: {text: 'How does the UK\'s ischaemic stroke mortality rate compare internationally over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
