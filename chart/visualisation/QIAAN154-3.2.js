@@ -14,7 +14,7 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Age(-sex) standardised rate per <br> 100 hospital discharges (age 45+)', offset: 87}
-, max: 30
+, max: 20
 , labels: {
 }},
 legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
