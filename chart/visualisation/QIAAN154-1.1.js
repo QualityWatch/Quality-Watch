@@ -15,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Age-sex standardised rate per 100 <br> hospital discharges (45+)', offset: 87}
+title: {text:'Age-sex standardised rate per 100 <br> hospital discharges (age 45+)', offset: 87}
 , max: 45
 , labels: {
 }},
