@@ -1,7 +1,7 @@
 /* Created by rreed on 16/02/2017 16:51:58 using v2.6 */{title: {text:'Patient-based ischaemic stroke, 30-day mortality'},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How does UK\'s ischaemic stroke mortality rate compare internationally over time?'},
+title: {text: 'How does the UK\'s ischaemic stroke mortality rate compare internationally over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
