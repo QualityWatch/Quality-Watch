@@ -16,7 +16,7 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Age-sex standaridsed rate per 100 <br> patients (age 45+)', offset: 87}
-, max: 45
+, max: 30
 , labels: {
 }},
 legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
