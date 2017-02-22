@@ -14,7 +14,7 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Age-sex standardised rate per 100 <br> patients (age 45+)', offset: 87}
-, max: 45
+, max: 20
 , min: 0
 , labels: {
 }},
