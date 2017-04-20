@@ -1,4 +1,5 @@
-/* Created by NCODowd on 05/07/2016 10:16:03 using v2.7 *//* Created by NCODowd on 28/06/2016 17:02:09 using v2.7 */
+/* Created by NCODowd on 05/07/2016 10:16:03 using v2.7 */
+/* Created by NCODowd on 28/06/2016 17:02:09 using v2.7 */
 /* Created by EFisher on 17/02/2016 13:28:15 using v2.7 */
 {
 title: {text:''},
@@ -29,22 +30,10 @@ data: [109918, 115855, 113246, 113091, 116466, 114346, 112386, 123130, 108064, 1
 ,index: 1
 },
 {
-type: 'line',
-marker: {fillColor: 'none', lineColor: null },
-name: 'Whole period trendline',
-data: [[0, 102952],[68, 148887]]
-},
-{
 name: 'Since April 2014',
 type: 'line',
 data: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 116261, 126779, 124118, 133903, 137613, 138267, 142927, 140949, 139025, 150392, 134353, 140390, 138030, 137115, 139538, 147005, 145067, 147738,160130,153155,154008,159641,158131,169928,167677]
 ,index: 2
 },
-{
-type: 'line',
-marker: {fillColor: 'none', lineColor: null },
-name: 'Since April 2014 trendline',
-data: [[44, 125104],[68, 163103]]
-}
 ]
 }
