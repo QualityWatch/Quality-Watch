@@ -1,4 +1,5 @@
-/* Created by rreed on 4/19/2017 4:41:51 PM using v2.7 */{
+/* Created by rreed on 4/19/2017 4:41:51 PM using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -59,22 +60,10 @@ data: [null,null,null,null,null,null,null,null,null,null,null,null,91.1,91.3,92,
 ,index: 6
 },
 {
-name: 'Diphtheria, Tetanus, Polio, Pertussis, Hib (DTaP/IPV/Hib)',
-visible: false,type: 'column',
-data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
-,index: 1
-},
-{
 name: 'MenC',
 visible: false,type: 'line',
 data: [null,null,null,null,null,null,null,89.1,90,90.2,89.6,90.9,91,90.3,91.2,92.7,93.4,93.9,93.9,null,null,96,null,null,null,94.9,95.2,95.1,95.2,94.7]
 ,index: 7
-},
-{
-name: 'Men C',
-visible: false,type: 'column',
-data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
-,index: 2
 },
 {
 name: 'Pneumococcal Disease (PCV)',
@@ -82,11 +71,5 @@ visible: false,type: 'line',
 data: [null,null,null,null,null,null,null,null,null,null,null,null,null,83.7,91.3,92.9,93.6,94.2,94.4,94.1,93.7,93.5,94,93.9,93.5,93.5,93.9,93.4,93.1,93.1]
 ,index: 8
 },
-{
-name: 'Pneumococcal Disease (PCV)',
-visible: false,type: 'column',
-data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
-,index: 3
-}
 ]
 }
