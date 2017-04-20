@@ -1,6 +1,8 @@
-/* Created by rreed on 4/19/2017 4:41:55 PM using v2.7 */{
+/* Created by rreed on 4/19/2017 4:41:55 PM using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
+legend: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'Pertussis vaccine coverage for pregnant women'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
