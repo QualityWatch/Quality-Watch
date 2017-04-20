@@ -8,7 +8,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Dec 2013','Jan 2014','Feb 2014','Mar 2014','Apr 2014','May 2014','Jun 2014','Jul 2014','Aug 2014','Sep 2014','Oct 2014','Nov 2014','Dec 2014','Jan 2015','Feb 2015','Mar 2015','Apr 2015','May 2015','Jun 2015','Jul 2015','Aug 2015','Sep 2015','Oct 2015','Nov 2015','Dec 2015','Jan 2016','Feb 2016','Mar 2016','Apr 2016','May 2016','Jun 2016','Jul 2016','Aug 2016','Sep 2016','Oct 2016','Nov 2016','Dec 2016','Jan 2017']
+, categories: ['Sep 2014','Oct 2014','Nov 2014','Dec 2014','Jan 2015','Feb 2015','Mar 2015','Apr 2015','May 2015','Jun 2015','Jul 2015','Aug 2015','Sep 2015','Oct 2015','Nov 2015','Dec 2015','Jan 2016','Feb 2016','Mar 2016','Apr 2016','May 2016','Jun 2016','Jul 2016','Aug 2016','Sep 2016','Oct 2016','Nov 2016','Dec 2016','Jan 2017']
 , labels: {
  rotation: -90
 , step: 2
@@ -25,7 +25,7 @@ series:[
 {
 name: 'Incomplete RTT pathways',
 type: 'line',
-data: [6.3,6.2,5.4,5.5,5.9,6.2,5.8,5.9,6.4,6.2,5.8,5.8,6.5,6.7,5.6,5.6,5.9,6.0,6.0,6.0,6.5,6.5,6.2,6.1,6.7,6.8,5.9,6.4,6.6,6.4,6.5,6.6,7.0,6.9,6.5,6.5,7.2,7.2]
+data: [6.2,5.8,5.8,6.5,6.7,5.6,5.6,5.9,6.0,6.0,6.0,6.5,6.5,6.2,6.1,6.7,6.8,5.9,6.4,6.6,6.4,6.5,6.6,7.0,6.9,6.5,6.5,7.2,7.2]
 ,index: 1
 },
 {
