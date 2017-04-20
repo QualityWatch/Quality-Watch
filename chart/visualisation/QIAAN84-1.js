@@ -2,6 +2,7 @@
 {
 title: {text:''},
 credits: {enabled: false},
+legend: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How many patients are affected by delayed transfers of care and how has this changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
