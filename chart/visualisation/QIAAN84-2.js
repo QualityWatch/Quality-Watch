@@ -32,7 +32,7 @@ data: [109918, 115855, 113246, 113091, 116466, 114346, 112386, 123130, 108064, 1
 {
 name: 'Since April 2014',
 type: 'line',
-data: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 116261, 126779, 124118, 133903, 137613, 138267, 142927, 140949, 139025, 150392, 134353, 140390, 138030, 137115, 139538, 147005, 145067, 147738,160130,153155,154008,159641,158131,169928,167677]
+data: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 116261, 126779, 124118, 133903, 137613, 138267, 142927, 140949, 139025, 150392, 134353, 140390, 138030, 137115, 139538, 147005, 145067, 147738,160130,153155,154008,159641,158131,169928,167677,172195,171546,184188,188340,196246,200008,193680,195286,197054]
 ,index: 2
 },
 ]
