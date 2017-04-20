@@ -34,7 +34,7 @@
                 text: 'Percentage of admitted patients <br> spending >4 hours from decision <br> to admit to admission',
                 offset: 90
             },
-            max: 15,
+            max: 20,
             labels: {
                 format: '{value:.1f}',
                 formatter: function () {
