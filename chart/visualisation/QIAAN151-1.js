@@ -1,6 +1,8 @@
-/* Created by rreed on 4/19/2017 4:41:31 PM using v2.7 */{
+/* Created by rreed on 4/19/2017 4:41:31 PM using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
+legend: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How does the rate of babies admitted to a neonatal unit soon after birth vary over time in England?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
