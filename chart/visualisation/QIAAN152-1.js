@@ -1,8 +1,8 @@
-/* Created by ianb on 26/06/2015 16:56:50 using v2.6 */{
+/* Created by rreed on 4/19/2017 4:41:33 PM using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has mmunisation coverage against seasonal flu in persons aged 65 changed over time?'},
+title: {text: 'How has immunisation coverage against seasonal flu in persons aged 65 changed over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {

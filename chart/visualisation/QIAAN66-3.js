@@ -1,4 +1,4 @@
-/* Created by NCODowd on 27/04/2016 10:33:25 using v2.7 */{
+/* Created by rreed on 4/19/2017 4:41:52 PM using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,8 +7,10 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['United Kingdom','England','Wales','Scotland']
+, categories: ['United Kingdom','Wales','Northern Ireland','Scotland','England']
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
@@ -23,31 +25,31 @@ series:[
 {
 name: 'Diphtheria, Tetanus, Polio, Pertussis, Hib (DTaP/IPV/Hib) by 1st birthday',
 type: 'column',
-data: [94.7,94.2,96.6,97.4]
+data: [93.5,96.4,97.1,97.1,92.9]
 ,index: 1
 },
 {
 name: 'Pneumococcal Disease (PCV) by 1st birthday',
 type: 'column',
-data: [94.4,93.9,96.3,97.4]
+data: [93.7,96.4,97.1,97.2,93.1]
 ,index: 2
 },
 {
 name: 'Pneumococcal Disease (PCV) booster by 2nd birthday',
 type: 'column',
-data: [92.7,92.2,95.7,95.4]
+data: [92,96,94.9,95.1,91.4]
 ,index: 3
 },
 {
 name: 'Measles, Mumps, Rubella (MMR) by 2nd birthday',
 type: 'column',
-data: [92.8,92.3,95.8,95.4]
+data: [91.7,95.3,94.5,94.8,91.2]
 ,index: 4
 },
 {
 name: 'Hib/MenC booster by 2nd birthday',
 type: 'column',
-data: [92.6,92.1,95,95.4]
+data: [95.3,97.4,97.4,97.7,94.9]
 ,index: 5
 }
 ]

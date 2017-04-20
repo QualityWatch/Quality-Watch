@@ -1,4 +1,4 @@
-/* Created by NCODowd on 16/11/2016 17:22:14 using v2.7 */{
+/* Created by rreed on 4/19/2017 4:37:05 PM using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -55,13 +55,13 @@ data: [92.8,92.2,92.8,92.7,92.7,92,90.6,90.2,84.8,86.5,87.8,88.9]
 {
 name: '2015/16',
 visible: false,type: 'line',
-data: [89.8,91.4,92.3,92.5,91.4,90.2,88.6,87,86.6,83,81.6,80.9]
+data: [89.8,91.4,92.3,92.5,91.4,90.2,88.6,87,86.6,83,81.6,80.8]
 ,index: 6
 },
 {
 name: '2016/17',
 visible: false,type: 'line',
-data: [85,85.4,85.8,85.4,86.4,86,null,null,null,null,null,null]
+data: [85,85.4,85.8,85.4,86.4,86,83.7,82.7,79.3,77.6,81.2]
 ,index: 7
 }
 ]

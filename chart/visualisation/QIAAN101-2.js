@@ -1,8 +1,8 @@
-/* Created by ianb on 27/06/2014 16:14:44 using v2.1 */{
+/* Created by rreed on 4/19/2017 4:37:55 PM using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has all age all cause  mortality changed over time?'},
+title: {text: 'How has all age all cause mortality changed over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
