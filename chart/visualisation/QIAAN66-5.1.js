@@ -3,7 +3,7 @@
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Human Papilloma Virus (HPV) vaccination coverage'},
+title: {text: 'Human Papilloma Virus (HPV) vaccination coverage in the UK, 2015/16'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
