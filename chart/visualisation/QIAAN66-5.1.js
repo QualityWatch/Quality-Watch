@@ -22,20 +22,14 @@ series:[
 {
 name: 'At least one dose',
 type: 'column',
-data: [91.3,91.1,93.6,89.6,91.5]
+data: [90.6,90.2,93.3,90.4,92.4]
 ,index: 1
 },
 {
 name: 'At least two doses',
 type: 'column',
-data: [89.9,89.8,91.7,87.6,90.8]
+data: [85.3,85.1,86.5,83.1,90.7]
 ,index: 2
 },
-{
-name: 'Three doses',
-type: 'column',
-data: [85.9,86.7,81.4,77.2,87.2]
-,index: 3
-}
 ]
 }
