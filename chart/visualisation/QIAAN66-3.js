@@ -3,7 +3,7 @@
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Vaccination coverage in children in the United Kingdom, July-September 2015-16'},
+title: {text: 'Vaccination coverage in children in the United Kingdom, July-September 2015/16'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
