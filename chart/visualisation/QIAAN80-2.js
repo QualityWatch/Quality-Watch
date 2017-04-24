@@ -1,5 +1,7 @@
-/* Created by rreed on 4/19/2017 4:37:11 PM using v2.7 */{
+/* Created by rreed on 4/19/2017 4:37:11 PM using v2.7 */
+{
 title: {text:''},
+legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How many people are waiting for treatment?'},
@@ -14,7 +16,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Number of people waiting for treatme'}
+title: {text:'Number of people waiting for treatment'}
 , labels: {
 }},
 series:[
