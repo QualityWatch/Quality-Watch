@@ -1,4 +1,4 @@
-/* Created by NCODowd on 07/07/2016 12:48:10 using v2.7 */{
+/* Created by rreed on 25/05/2017 13:34:42 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +14,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of staff (2014)'}
+title: {text:'Percentage of staff (2015)'}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},

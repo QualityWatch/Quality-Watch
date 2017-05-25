@@ -1,4 +1,4 @@
-/* Created by ianb on 27/04/2015 18:01:41 using v2.5 */{
+/* Created by rreed on 25/05/2017 13:35:02 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013']
+, categories: ['2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016']
 , labels: {
  rotation: -90
 , step: 1
@@ -23,13 +23,13 @@ series:[
 {
 name: 'Breast cancer screening coverage of women (53-70)',
 type: 'line',
-data: [63.5,63.9,65.3,67.7,71.3,73.8,75.9,76.5,76.9,77.2,77,null]
+data: [63.5,63.9,65.3,67.7,71.26,73.78,75.92,76.53,76.95,77.2,77,76.38,75.91,75.41,75.5]
 ,index: 1
 },
 {
 name: 'Cervical screening coverage of women (25-64)',
 type: 'line',
-data: [74.33,73.99,73.52,72.87,72.81,72.49,72.52,74.72,75.46,75,74.8,73.33]
+data: [74.33,73.99,73.52,72.87,72.81,72.49,72.52,74.72,75.46,75,74.8,73.33,73.49,72.92,71.99]
 ,index: 2
 }
 ]

@@ -1,4 +1,4 @@
-/* Created by rreed on 20/02/2017 12:58:41 using v2.7 */{
+/* Created by rreed on 25/05/2017 13:34:19 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +14,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Nurses density per 1,000 population <br> (head counts)', offset: 87}
+title: {text:'Nurse density per 1,000 population <br> (headcount)', offset: 87}
 , labels: {
 }},
 legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[

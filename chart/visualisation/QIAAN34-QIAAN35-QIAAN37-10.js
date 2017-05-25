@@ -1,55 +1,44 @@
-/* Created by NCODowd on 01/04/2016 15:03:33 using v2.7 *//* Created by EFisher on 01/10/2015 11:41:31 using v2.7 */
-{
+/* Created by rreed on 25/05/2017 13:35:14 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Are there differences between staff groups in report being ill due to work related stress?'},
+title: {text: 'Are there differences between staff groups in reporting being ill due to work-related stress?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
 , categories: [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015]
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
-title: {text:'Un-weighted percentage of staff <br> reporting that they had been ill <br> due to work related stress <br> (%)', offset: 111}
+title: {text:'Un-weighted percentage of staff <br> reporting that they had been ill <br> due to work related stress (±SEM) <br> (%)', offset: 111}
 , max: 100
 , min: 0
 , labels: {
 format: '{value:.1f}' 
-}},
+,formatter: function() {return this.value +'%';}}},
+tooltip: {valueSuffix: '%'},
 series:[
 {
 name: 'England',
 type: 'column',
-data: [35.1,34.47,32.45,32.71,28.06,28.31,29.11,30.05,38.16,38.31,37.68,35.65]
+data: [35.1,34.5,32.5,32.7,28.1,28.3,29.1,30,38.2,38.3,37.7,37]
+,index: 1
 },
-    {name: 'Eng err',
-     type: 'errorbar',
-     data: [
-        [34.923,35.274],
-[34.282,34.66],
-[32.214,32.691],
-[32.514,32.914],
-[27.872,28.254],
-[28.126,28.499],
-[28.912,29.302],
-[29.802,30.29],
-[37.855,38.466],
-[37.935,38.691],
-[37.23,38.135],
-[35.274,36.025]
-     ]},
 {
 name: 'Disabled staff',
 type: 'column',
-data: [50.48,52.13,50.34,47.03,42.76,41.24,42.17,43.74,52.3,53.19,51.83,50.46]
+data: [50.5,52.1,50.3,47,42.8,41.2,42.2,43.7,52.3,53.2,51.8,50.5]
+,index: 2
 },
 {
 name: 'Non-disabled staff',
 type: 'column',
-data: [34.04,33.33,30.76,30.78,26.11,25.83,26.84,27.49,35.34,35.45,34.58,32.46]
+data: [34,33.3,30.8,30.8,26.1,25.8,26.8,27.5,35.3,35.4,34.6,32.5]
+,index: 3
 }
 ]
 }
