@@ -1,4 +1,5 @@
-/* Created by rreed on 25/05/2017 13:35:21 using v2.7 */{
+/* Created by rreed on 25/05/2017 13:35:21 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -12,7 +13,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Un-weighted average (mean score) <br> staff rating the support from immediate <br> manager (± SEM)*= weighted scores', offset: 99}
+title: {text:'Un-weighted average (mean score) <br> staff rating the support from immediate manager (± SEM)<br>*= weighted scores', offset: 99}
 , max: 5
 , labels: {
 }},
