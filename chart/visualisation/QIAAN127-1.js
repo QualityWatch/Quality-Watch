@@ -26,9 +26,9 @@ title: {text:'Median number of sickness days for all staff roles', offset: 50}
     {
     
 title: {text:'Average (mean)  number of <br>sickness days taken by each employee', offset: 60}
-    , max: 16, 
+    , max: 12, 
         min: 0, 
-        tickInterval: 4,
+        tickInterval: 3,
 labels: {
 }, opposite: true},
        
