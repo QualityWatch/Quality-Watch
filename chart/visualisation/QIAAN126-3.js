@@ -1,4 +1,5 @@
-/* Created by rreed on 25/05/2017 13:34:40 using v2.7 */{
+/* Created by rreed on 25/05/2017 13:34:40 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -17,6 +18,10 @@ title: {text:'Percentage of jobs  in adult social <br> care in England', offset:
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
+yAxis: {
+   min: 0,     
+   max: 100
+},
 plotOptions: {column: {stacking: 'normal',}},
 series:[
 {
