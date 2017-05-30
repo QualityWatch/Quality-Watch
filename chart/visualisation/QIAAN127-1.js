@@ -9,7 +9,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2011', '2012', '2013', '2014','2015']
+, categories: ['2011', '2012', '2013', '2014','2015','2016']
 , labels: {
  rotation: 0
 , step: 1
@@ -21,7 +21,7 @@ yAxis: [
 title: {text:'Median number of sickness days for all staff roles', offset: 50}
     , max: 1.6
 , min: 0
-, tickInterval:0.2
+, tickInterval:0.1
 , labels: {
 }},
     {
@@ -39,7 +39,7 @@ series:[
 name: 'Median days (left axis)',
 type: 'column',
     yAxis: 0,
-data: [1, 1, 1.5, 1,1]
+data: [1, 1, 1.5, 1,1,1]
 ,index: 1
 },
 
@@ -47,7 +47,8 @@ data: [1, 1, 1.5, 1,1]
 name: 'Average (mean) per employee (right axis)',
 type: 'line',
     yAxis: 1,
-data: [9.7, 9.9, 10.3, 9.5,10.5]
+data: [9.7, 9.9, 10.3, 9.5,10.5,10.5]
 }
 ]
 }
+
