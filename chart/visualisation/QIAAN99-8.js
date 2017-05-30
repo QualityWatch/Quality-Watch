@@ -1,5 +1,5 @@
 /* Created by rreed on 25/05/2017 13:34:19 using v2.7 */
-title: {text:''},
+{title: {text:''},
 credits: {enabled: false},
 legend: {enabled: false},
 exporting: {chartOptions: {
