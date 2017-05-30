@@ -1,6 +1,8 @@
-/* Created by rreed on 25/05/2017 13:39:11 using v2.7 */{
+/* Created by rreed on 25/05/2017 13:39:11 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
+legend: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have conception rates changed over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
