@@ -18,7 +18,7 @@ title: {text:'Percentage of jobs  in adult social <br> care in England', offset:
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-yAxis: {
+  {
    min: 0,     
    max: 100
 },
