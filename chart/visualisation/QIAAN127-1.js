@@ -20,7 +20,7 @@ yAxis: [
 title: {text:'Median number of sickness days for all staff roles', offset: 50}
     , max: 1.6
 , min: 0
-, tickInterval:0.1
+, tickInterval:0.5
 , labels: {
 }},
     {
@@ -28,7 +28,7 @@ title: {text:'Median number of sickness days for all staff roles', offset: 50}
 title: {text:'Average (mean)  number of <br>sickness days taken by each employee', offset: 60}
     , max: 16, 
         min: 0, 
-        tickInterval: 2,
+        tickInterval: 4,
 labels: {
 }, opposite: true},
        
