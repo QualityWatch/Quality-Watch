@@ -1,5 +1,7 @@
-/* Created by rreed on 25/05/2017 13:34:17 using v2.7 */{
+/* Created by rreed on 25/05/2017 13:34:17 using v2.7 */
+{
 title: {text:''},
+legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the number of community nurses changed?'},
