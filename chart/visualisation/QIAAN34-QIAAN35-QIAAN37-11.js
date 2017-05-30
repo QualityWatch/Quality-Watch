@@ -1,4 +1,5 @@
-/* Created by NCODowd on 01/04/2016 13:45:24 using v2.7 */{
+/* Created by NCODowd on 01/04/2016 13:45:24 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -25,17 +26,6 @@ type: 'column',
 data: [21.5,22.3,22.5,27,25.4,23,null,56.5]
 ,index: 1
 },
-    {name: 'Eng err',
-     type: 'errorbar',
-     data: [
-        [21.251,21.782],
-[21.984,22.532],
-[22.206,22.827],
-[26.68,27.341],
-[24.929,25.781],
-[22.561,23.393],null,
-[55.967,56.946]
-     ]},
 {
 name: 'Disabled staff',
 type: 'column',
