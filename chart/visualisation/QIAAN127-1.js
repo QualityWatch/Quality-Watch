@@ -1,5 +1,4 @@
 /* Created by NCODowd on 23/05/2016 18:08:10 using v2.7 */
-/* Created by EFisher on 08/12/2015 18:27:03 using v2.7 */
 {
 title: {text:''},
 credits: {enabled: false},
@@ -51,4 +50,3 @@ data: [9.7, 9.9, 10.3, 9.5,10.5,10.5]
 }
 ]
 }
-
