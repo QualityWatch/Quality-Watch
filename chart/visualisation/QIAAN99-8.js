@@ -1,6 +1,7 @@
-/* Created by rreed on 25/05/2017 13:34:19 using v2.7 */{
+/* Created by rreed on 25/05/2017 13:34:19 using v2.7 */
 title: {text:''},
 credits: {enabled: false},
+legend: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How has the number of ambulance staff changed over time?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
