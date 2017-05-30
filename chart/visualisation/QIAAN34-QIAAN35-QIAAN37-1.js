@@ -1,4 +1,5 @@
-/* Created by rreed on 25/05/2017 13:35:12 using v2.7 */{
+/* Created by rreed on 25/05/2017 13:35:12 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Un-weighted percentage of staff <br> reporting that they worked extra <br> hours (paid and un-paid) (±SEM)(%)*= <br> weighted scores', offset: 111}
+title: {text:'Un-weighted percentage of staff <br> reporting that they worked extra <br> hours (paid and un-paid) (±SEM)(%)<br>*= weighted scores', offset: 111}
 , max: 100
 , min: 0
 , labels: {
