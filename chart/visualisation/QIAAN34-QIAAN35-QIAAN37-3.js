@@ -13,7 +13,7 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Un-weighted percentage of staff <br> feeling pressure in last 3 months <br> to attend work when feeling unwell (%)<br>*= weighted score', offset: 111}
-, max: 100
+, max: 100%
 , labels: {
 format: '{value:.1f}' 
 }},
