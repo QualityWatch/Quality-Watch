@@ -1,5 +1,5 @@
 /* Created by RREED on 30/05/2017 16:43:06 using v2.7 */
-        {
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -15,8 +15,9 @@ title: {text:''}
 yAxis: {
 title: {text:'Un-weighted percentage of staff <br> experiencing physical violence from <br> other staff in previous 12 months(%)', offset: 99}
 , labels: {
-format: '{value:.2f}' 
-}},
+format: '{value:.1f}' 
+,formatter: function() {return this.value +'%';}}},
+tooltip: {valueSuffix: '%'}, 
 series:[
 {
 name: 'England',
@@ -44,4 +45,4 @@ type: 'line',
 data: [null,null,null,null,null,null,null,null,0.90,null,1.38,1.44,1.38,0.96,0.90]
 },
 ]
-}
+}  
