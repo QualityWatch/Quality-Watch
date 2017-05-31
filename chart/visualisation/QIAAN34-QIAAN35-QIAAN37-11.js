@@ -1,4 +1,4 @@
-/* Created by NCODowd on 01/04/2016 13:45:24 using v2.7 */
+/* Created by RREED on 31/05/2017 13:45:24 using v2.7 */
 {
 title: {text:''},
 credits: {enabled: false},
@@ -18,7 +18,8 @@ title: {text:'Un-weighted percentage of staff <br> feeling pressure in last 3 mo
 , min: 0
 , labels: {
 format: '{value:.1f}' 
-}},
+,formatter: function() {return this.value +'%';}}},
+tooltip: {valueSuffix: '%'},
 series:[
 {
 name: 'England',
