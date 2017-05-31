@@ -14,6 +14,8 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Percentage of jobs  in adult social <br> care in England', offset: 87}
+, max: 100
+, min: 0
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
