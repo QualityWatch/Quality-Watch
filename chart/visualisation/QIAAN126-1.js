@@ -14,6 +14,8 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Percentage of jobs across sector'}
+, max: 100
+, min: 0
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
