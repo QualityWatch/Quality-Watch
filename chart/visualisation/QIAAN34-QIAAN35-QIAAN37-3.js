@@ -16,7 +16,8 @@ title: {text:'Un-weighted percentage of staff <br> feeling pressure in last 3 mo
 , max: 100
 , labels: {
 format: '{value:.1f}' 
-}},
+,formatter: function() {return this.value +'%';}}},
+tooltip: {valueSuffix: '%'},  
 series:[
 {
 name: 'England',
