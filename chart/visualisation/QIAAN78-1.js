@@ -24,7 +24,7 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series1',
+name: '',
 type: 'line',
 data: [94.5,94.1,94.4,95.6,95.6,95.5,95,95.5,96,95.4,95.7,96.2,96.3,95.2,95.4,95.8,95.7,95.5,95.2,95.6,95,93.5,93.6,94.7,94.7,93.6,93.5,94.8,94.7]
 ,index: 1
@@ -32,7 +32,7 @@ data: [94.5,94.1,94.4,95.6,95.6,95.5,95,95.5,96,95.4,95.7,96.2,96.3,95.2,95.4,95
 {
 type: 'line',
 marker: {fillColor: 'none', lineColor: null },
-name: 'Series1 trendline',
+name: 'Trendline',
 data: [[0, 95.6],[28, 94.6]]
 }
 ]
