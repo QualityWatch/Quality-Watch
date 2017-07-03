@@ -24,7 +24,7 @@ format: '{value:.1f}'
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
 floating: true,
-    y: -30
+    x: -30
 ,series:[
 {
 name: '',
