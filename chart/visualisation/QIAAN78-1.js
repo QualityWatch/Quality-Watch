@@ -23,7 +23,9 @@ title: {text:'% of patients', offset: 99}
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-series:[
+floating: true,
+    y: -30
+,series:[
 {
 name: '',
 type: 'line',
