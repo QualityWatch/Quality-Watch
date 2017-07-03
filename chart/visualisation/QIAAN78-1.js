@@ -1,6 +1,6 @@
 /* Created by NCODowd on 07/07/2016 12:50:11 using v2.7 */
 {
-title: {text:'Proportion of patients with an urgent referral<br>who were seen by a specialist within 2 weeks, NHS England'},
+title: {text:'Proportion of patients with an urgent referral who were<br>seen by a specialist within 2 weeks, NHS England'},
 credits: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have waiting times after an urgent referral changed?'},
