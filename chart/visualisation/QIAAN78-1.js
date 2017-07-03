@@ -2,6 +2,7 @@
 {
 title: {text:'Proportion of patients with an urgent referral who were<br>seen by a specialist within 2 weeks, NHS England'},
 credits: {enabled: false},
+legend: {enabled: false},
 exporting: {chartOptions: {
 title: {text: 'How have waiting times after an urgent referral changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
@@ -15,7 +16,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Proportion', offset: 99}
+title: {text:'', offset: 99}
 , max: 100
 , min: 90
 , labels: {
