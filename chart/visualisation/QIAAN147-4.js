@@ -1,4 +1,4 @@
-/* Created by ianb on 30/01/2015 15:41:45 using v2.3 */{
+/* Created by rreed on 06/07/2017 08:50:20 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -16,22 +16,24 @@ title: {text:''}
 yAxis: {
 title: {text:'Percentage'}
 , labels: {
-}},
+format: '{value:.2f}' 
+,formatter: function() {return this.value +'%';}}},
+tooltip: {valueSuffix: '%'},
 series:[
 {
-name: '2010/11',
+name: '2010-11',
 type: 'column',
 data: [24.8,63.3,92.1,62,40.7,77.6,33.7]
 ,index: 1
 },
 {
-name: '2011/12',
+name: '2011-12',
 type: 'column',
 data: [24.7,62.7,91.9,67.1,40.4,77,35.9]
 ,index: 2
 },
 {
-name: '2012/13',
+name: '2012-13',
 type: 'column',
 data: [25.1,62.2,92.4,69,39.6,76.2,35.9]
 ,index: 3

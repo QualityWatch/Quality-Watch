@@ -1,4 +1,4 @@
-/* Created by EFisher on 26/10/2015 10:09:33 using v2.7 */{
+/* Created by rreed on 06/07/2017 08:50:18 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,38 +7,36 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:'HbA1c band (mmol/mol)'}
-, categories: ['<58','>58 and <=80','>80']
+, categories: ['2010/11','2011/12','2012/13','2013/14','2014/15','2015/16']
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
 title: {text:'Percentage'}
 , labels: {
-}},
+format: '{value:.1f}' 
+,formatter: function() {return this.value +'%';}}},
+tooltip: {valueSuffix: '%'},
 series:[
 {
-name: '2010/11',
-type: 'column',
-data: [15.8,55.5,28.7]
+name: '<58',
+type: 'line',
+data: [15.8,17.4,15.8,18.4,23.5,26.6]
 ,index: 1
 },
 {
-name: '2011/12',
-type: 'column',
-data: [17.4,56.2,26.4]
+name: '>58 and <=80',
+type: 'line',
+data: [55.5,56.2,58.4,57.7,null,null]
 ,index: 2
 },
 {
-name: '2012/13',
-type: 'column',
-data: [15.8,58.4,25.8]
+name: '>80',
+type: 'line',
+data: [28.7,26.4,25.8,23.9,21.3,17.9]
 ,index: 3
-},
-{
-name: '2013/14',
-type: 'column',
-data: [18.4,57.7,23.9]
-,index: 4
 }
 ]
 }

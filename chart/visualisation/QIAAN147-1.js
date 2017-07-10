@@ -1,4 +1,4 @@
-/* Created by ianb on 30/01/2015 15:41:25 using v2.3 */{
+/* Created by rreed on 06/07/2017 08:50:19 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,21 +7,25 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2010/11','2011/12','2012/13']
+, categories: ['2010-11','2011-12','2012-13','2013-14','2014-15','2015-16']
 , labels: {
+ rotation: -90
+, step: 1
 }
 },
 yAxis: {
 title: {text:'Percentage'}
-, max: 5
+, max: 10
 , min: 0
 , labels: {
-}},
+format: '{value:.1f}' 
+,formatter: function() {return this.value +'%';}}},
+tooltip: {valueSuffix: '%'},
 series:[
 {
 name: 'Series1',
-type: 'column',
-data: [4.59,4.73,4.87]
+type: 'line',
+data: [4.6,4.7,4.9,4.8,5.1,6.4]
 ,index: 1
 }
 ]

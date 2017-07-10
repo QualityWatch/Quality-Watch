@@ -1,13 +1,13 @@
-/* Created by NCODowd on 27/04/2016 10:33:37 using v2.7 */{
+/* Created by rreed on 06/07/2017 08:50:54 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has alcohol related admissions to hospital changed?'},
+title: {text: 'How have alcohol-related admissions to hospital changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2008/09','2009/10','2010/11','2011/12','2012/13','2013/14']
+, categories: ['2008/09','2009/10','2010/11','2011/12','2012/13','2013/14','2014/15','2015/16']
 , labels: {
  rotation: -90
 , step: 1
@@ -16,25 +16,24 @@ title: {text:''}
 yAxis: {
 title: {text:'Directly standardised rate of alcohol <br> related admissions to hospital  <br> per 100,000', offset: 99}
 , labels: {
-format: '{value:.2f}' 
 }},
 series:[
 {
 name: 'Male',
 type: 'line',
-data: [805.6,833.39,848.32,848.58,829.36,835.3]
+data: [793,821,836,839,820,827,818,830]
 ,index: 1
 },
 {
 name: 'Female',
 type: 'line',
-data: [446.17,464.91,477.87,479.08,464.87,474.78]
+data: [440,459,472,474,460,472,471,483]
 ,index: 2
 },
 {
-name: 'All',
+name: 'All persons',
 type: 'line',
-data: [614.63,638.07,651.92,652.81,636.85,645.13]
+data: [606,629,643,645,630,640,635,647]
 ,index: 3
 }
 ]
