@@ -57,7 +57,7 @@
             name: 'Percentage',
             type: 'line',
             yAxis: 1,
-            data: [76.97, 76.91, 75.47, 76.62, 77.54, 75.71, 76.03, 77.12, 74.11, 77.87, 73.87, 75.52, 76.22, 74.76, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,null,null,null,null,null,null,null,null]
+            data: [76.9,77.0,75.5,76.6,77.5,75.7,76.0,77.1,74.1,77.9,73.9,75.5,76.2,74.8,77.4,77.3,78.0,75.8,76.4,75.9,70.8,75.6,75.3,73.8,76.0,77.8,77.1,74.1,75.5,73.9,73.7,73.1,71.8,76.4,74.1,74.8,73.8,72.6,70.8,68.9,71.1,70.1,70.0,68.6,61.3,67.8,67.8,69.8,72.5,73.4,71.5,70.7,69.9,69.0,69.0,67.6,67.5,63.7,60.7,58.4,65.7,65.4,63.3,60.8,64.5,62.7,63.4,63.6,59.1,58.9,62.1,64.7,66.6]
         }, {
             name: 'Eight minute target',
             type: 'line',
