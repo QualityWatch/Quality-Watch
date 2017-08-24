@@ -1,4 +1,4 @@
-/* Created by rreed on 4/19/2017 4:37:05 PM using v2.7 */{
+/* Created by hdorning on 23/08/2017 15:38:30 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +14,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage of patients from arrival <br> either admitted, transferred or <br> discharged within 4 hours (type <br> 1)', offset: 111}
+title: {text:'Percentage of attendances'}
 , max: 100
 , min: 70
 , labels: {
@@ -25,7 +25,7 @@ legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},
 {
 name: '2010/11',
 visible: true,type: 'line',
-data: [null,null,null,null,97.1,96.5,96,95.9,92.4,93.7,95.6,95.3]
+data: [null,null,null,null,98.1,97.7,97.4,97.2,94.8,95.8,97.1,96.8]
 ,index: 1
 },
 {
@@ -61,8 +61,14 @@ data: [89.8,91.4,92.3,92.5,91.4,90.2,88.6,87,86.6,83,81.6,80.8]
 {
 name: '2016/17',
 visible: false,type: 'line',
-data: [85,85.4,85.8,85.4,86.4,86,83.7,82.7,79.3,77.6,81.2]
+data: [85,85.4,85.8,85.4,86.4,86,83.7,82.7,79.3,77.6,81.2,85.1]
 ,index: 7
+},
+{
+name: '2017/18',
+visible: false,type: 'line',
+data: [85.7,84.6]
+,index: 8
 }
 ]
 }

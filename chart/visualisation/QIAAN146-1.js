@@ -1,5 +1,4 @@
-/* Created by rreed on 06/07/2017 08:50:17 using v2.7 */
-{
+/* Created by hdorning on 23/08/2017 15:42:57 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -15,7 +14,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'% of children having specific <br> care processes', offset: 87}
+title: {text:'% children having specific care <br> processes', offset: 87}
 , max: 100
 , labels: {
 format: '{value:.1f}' 
@@ -65,7 +64,8 @@ data: [17.4,15.4,21.3,23.5,23.1,24.5,31.9,34.4,39.5,45.7,55.4,50]
 ,index: 7
 },
 {
-name: 'Age 12+ all care processes recorded',
+name: 'Age 12+
+with all care processes recorded',
 visible: false,type: 'line',
 data: [2,2.6,3.6,5,5.2,4.1,5.8,6.7,12.1,16.1,16.1,16.7]
 ,index: 8

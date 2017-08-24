@@ -1,4 +1,4 @@
-/* Created by EFisher on 20/10/2015 15:59:58 using v2.7 */{
+/* Created by hdorning on 23/08/2017 15:41:10 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,15 +7,15 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Acute Leukaemia','Brain/CNS','Breast','Children\'s','Gynaecological','Haematological malignancies','Head & neck','Lower gastrointestinal','Lung','Other','Sarcoma','Skin','Testicular','Upper gastrointestinal','Urological malignancies']
+, categories: [' Acute leukaemia',' Brain/CNS tumours',' Breast cancer',' Children\'s cancer',' Gynaecological cancer',' Haematological malig. (excl. acute leukaemia)',' Head & neck cancer',' Lower gastrointestinal cancer',' Lung cancer',' Other cancer',' Sarcoma',' Skin cancer',' Testicular cancer',' Upper gastrointestinal cancer',' Urological malig. (excl. testicular)']
 , labels: {
  rotation: -90
 , step: 1
 }
 },
 yAxis: {
-title: {text:'The proportion of people with an <br> urgent referral who were seen by <br> a specialist within 2 weeks', offset: 99}
-    , min: 80, max: 100
+title: {text:'Percentage'}
+, max: 100
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
@@ -24,24 +24,20 @@ series:[
 {
 name: '2014/15 Q1',
 type: 'column',
-data:  [98.31, 96.65, 92.34, 92.86, 94.4, 96.43, 95.24, 93.58, 96.16, 94.51, 94.14, 93, 97.16, 92.21, 94.04]
+data: [98.3,96.7,92.3,92.9,94.4,96.4,95.2,93.6,96.2,94.5,94.1,93,97.2,92.2,94]
+,index: 1
 },
-    {
-        name: '2014/15 Q1 error',
-        type: 'errorbar',
-        data: [
-        [96.62, 99.99], [96.25, 97.06], [92.24, 92.44], [92.27, 93.45], [94.28, 94.53], [96.1, 96.75], [95.13, 95.35], [93.47, 93.68], [96, 96.32], [93.6, 95.41], [93.56, 94.71], [92.9, 93.09], [96.8, 97.53], [92.07, 92.34], [93.92, 94.15]
-        ]},
 {
-name: '2015/16 Q1',
+name: '2015/16 Q1 ',
 type: 'column',
-data: [94.12, 95.54, 94.61, 94.05, 94.6, 96.97, 94.71, 92.24, 94.98, 96.7, 95.06, 93.51, 96.46, 90.97, 93.91]
+data: [94.1,95.5,94.6,94.1,94.6,97,94.7,92.2,95,96.7,95.1,93.5,96.5,91,93.9]
+,index: 2
 },
-    {
-        name: '2015/16 Q1 error',
-        type: 'errorbar',
-        data: [
-        [90.08, 98.15], [95.1, 95.98], [94.53, 94.69], [93.51, 94.59], [94.48, 94.71], [96.69, 97.26], [94.6, 94.82], [92.14, 92.35], [94.8, 95.16], [96.15, 97.25], [94.55, 95.57], [93.43, 93.6], [96.08, 96.84], [90.84, 91.1], [93.8, 94.02]
-        ]}    
+{
+name: '2016/17 Q1',
+type: 'column',
+data: [100,94.3,94.1,95.2,94.7,95.1,94.3,92.7,94.9,93.4,92.6,93.9,96.2,91.7,93.4]
+,index: 3
+}
 ]
 }

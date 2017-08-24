@@ -1,4 +1,4 @@
-/* Created by NCODowd on 07/07/2016 12:50:53 using v2.7 */{
+/* Created by hdorning on 23/08/2017 15:38:44 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -12,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Was your appointment changed to <br> a later date by the hospital? (proportion <br> of outpatients)', offset: 99}
+title: {text:'Proportion'}
 , max: 100
 , min: 0
 , labels: {

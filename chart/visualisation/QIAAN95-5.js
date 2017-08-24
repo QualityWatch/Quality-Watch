@@ -1,4 +1,4 @@
-/* Created by NCODowd on 27/07/2016 12:17:06 using v2.7 */{
+/* Created by hdorning on 23/08/2017 15:38:43 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -12,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'The proportion of inpatients who <br> had their admission date changed <br> by the hospital.', offset: 99}
+title: {text:'Proportion'}
 , max: 100
 , min: 0
 , labels: {

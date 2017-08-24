@@ -1,4 +1,4 @@
-/* Created by NCODowd on 13/09/2016 11:03:53 using v2.7 */{
+/* Created by hdorning on 23/08/2017 15:40:08 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+, categories: ['2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016']
 , labels: {
  rotation: -90
 , step: 1
@@ -25,25 +25,25 @@ series:[
 {
 name: 'Very clean',
 type: 'column',
-data: [48,48,48,53,57,60,61,62,63,62,64]
+data: [48,48,48,53,57,60,61,62,63,62,64,64]
 ,index: 3
 },
 {
 name: 'Fairly clean',
 type: 'column',
-data: [40,41,41,39,36,34,33,33,32,32,31]
+data: [40,41,41,39,36,34,33,33,32,32,31,31]
 ,index: 2
 },
 {
 name: 'Not very clean',
 type: 'column',
-data: [9,9,9,7,5,5,5,4,4,4,4]
+data: [9,8,9,7,5,5,4,4,4,4,4,4]
 ,index: 1
 },
 {
 name: 'Not at all clean',
 type: 'column',
-data: [3,3,3,2,1,1,1,1,1,1,1]
+data: [3,3,3,2,1,1,1,1,1,1,1,1]
 ,index: 0
 }
 ]
