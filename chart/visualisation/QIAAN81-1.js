@@ -16,7 +16,9 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Proportion of people waiting for <br> a diagnostic test (%)', offset: 87}
-, labels: {
+, 
+ min: 0,
+  labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
