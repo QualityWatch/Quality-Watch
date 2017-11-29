@@ -1,4 +1,5 @@
-/* Created by JMorris on 28/11/2017 12:55:37 using v2.7 */{
+/* Created by JMorris on 28/11/2017 12:55:37 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Total number of patients waiting <br> for treatment (millions)', offset: 50}
+title: {text:'Total number of patients waiting <br> for treatment (millions)', offset: 87}
 , min: 1.5
 , labels: {
 format: '{value:.1f}' 
