@@ -1,4 +1,5 @@
-/* Created by JMorris on 28/11/2017 12:59:32 using v2.7 */{
+/* Created by JMorris on 28/11/2017 12:59:32 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Total number of delayed transfer <br> of care beds (thousands)', offset: 87}
+title: {text:'Total number of delayed transfer <br> of care beds', offset: 87}
 , min: 3000
 , labels: {
 format: '{value:.0f}' 
