@@ -1,4 +1,5 @@
-/* Created by JMorris on 28/11/2017 12:55:41 using v2.7 */{
+/* Created by JMorris on 28/11/2017 12:55:41 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Median diagnostic test wait ing <br> time (weeks)', offset: 50}
+title: {text:'Median diagnostic test wait ing <br> time (weeks)', offset: 87}
 , min: 0
 , labels: {
 format: '{value:.1f}' 
