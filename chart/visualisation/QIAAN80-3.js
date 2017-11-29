@@ -1,4 +1,5 @@
-/* Created by JMorris on 27/11/2017 16:47:42 using v2.7 *//* Created by JMORRIS on 27/11/2017 using v2.7 */{
+/* Created by JMorris on 27/11/2017 16:47:42 using v2.7 */
+/* Created by JMORRIS on 27/11/2017 using v2.7 */{
         title: {
             text: ''
         },
@@ -31,14 +32,15 @@
         max:1,
             min: 0,
             title: {
-                text: 'Proportion of patients waiting for treatment >52 weeks after referral',
+                text: 'Proportion of patients waiting for treatment <br> >52 weeks after referral',
                 offset: 50},
         labels: {format: '{value}%'}
         },
         { 
             max: 25000,
+                min: 0,
             title: {
-                text: 'Number of patients',
+                text: 'Number of patients waiting for treatment <br> >52 weeks after referral',
                 offset: 60
             },
             labels: {
