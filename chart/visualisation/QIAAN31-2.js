@@ -18,14 +18,14 @@ title: {text:''}
 yAxis: [
     {
     
-title: {text:'Total number of maternities or number of women who had an antenatal assessment <br> by 12 weeks and 6 days of pregnancy (thousands)', offset: 90},
+title: {text:'Total number of maternities or number of women who had an antenatal assessment <br> by 12 weeks and 6 days of pregnancy (thousands)', offset: 70},
 max: 200,
 min: 80,
 tickInterval: 20,
 labels: {}
 },
     {
-title: {text:'Proportion of maternities which had an antenatal assessment by 12 weeks and <br> 6 days of pregnancy', offset: 90},
+title: {text:'Proportion of maternities which had an antenatal assessment by 12 weeks and <br> 6 days of pregnancy', offset: 70},
 max: 110,
 min: 80,
 tickInterval: 5,
