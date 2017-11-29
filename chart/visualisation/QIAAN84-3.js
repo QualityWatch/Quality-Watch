@@ -1,4 +1,5 @@
-/* Created by JMorris on 28/11/2017 12:59:34 using v2.7 */{
+/* Created by JMorris on 28/11/2017 12:59:34 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Number of delayed transfer of care <br> acute and non-acute beds', offset: 50}
+title: {text:'Number of delayed transfer of care <br> acute and non-acute beds', offset: 87}
 , min: 0
 , labels: {
 format: '{value:.0f}' 
