@@ -1,4 +1,5 @@
-/* Created by JMorris on 28/11/2017 12:55:37 using v2.7 */{
+/* Created by JMorris on 28/11/2017 12:55:37 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Proportion of patients treated within <br> 18 weeks of referral', offset: 50}
+title: {text:'Proportion of patients treated within <br> 18 weeks of referral', offset: 87}
 , max: 100
 , min: 70
 , labels: {
