@@ -25,7 +25,7 @@ tickInterval: 20,
 labels: {}
 },
     {
-title: {text:'Proportion of maternities which had an antenatal assessment by 12 weeks and <br> 6 days of pregnancy', offset: 70},
+title: {text:'Proportion of maternities which had an antenatal assessment <br> by 12 weeks and 6 days of pregnancy', offset: 70},
 max: 110,
 min: 80,
 tickInterval: 5,
