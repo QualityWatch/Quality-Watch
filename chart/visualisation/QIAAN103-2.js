@@ -1,4 +1,5 @@
-/* Created by JMorris on 27/11/2017 13:50:02 using v2.7 */{
+/* Created by JMorris on 27/11/2017 13:50:02 using v2.7 */
+{
  /* Created by JMORRIS on 27/11/2017 using v2.7 */
         title: {
             text: ''
@@ -40,7 +41,7 @@
             }
         }, {
             title: {
-                text: 'Percentage of patients spending <4 hours in A&E',
+                text: 'Percentage of patients spending <br> <4 hours in A&E',
                },
             opposite: true,
             min: 60,
