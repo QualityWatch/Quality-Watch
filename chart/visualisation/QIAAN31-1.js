@@ -1,4 +1,5 @@
-/* Created by JMorris on 28/11/2017 12:57:29 using v2.7 */{
+/* Created by JMorris on 28/11/2017 12:57:29 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -14,7 +15,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Proportion of maternities which <br> had an antenatal assessment  by <br> 12 weeks and 6 days of pregnancy', offset: 50}
+title: {text:'Proportion of maternities which <br> had an antenatal assessment  by <br> 12 weeks and 6 days of pregnancy', offset: 99}
 , max: 110
 , min: 80
 , labels: {
