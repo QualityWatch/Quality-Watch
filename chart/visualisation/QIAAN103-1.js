@@ -1,4 +1,5 @@
-/* Created by JMorris on 27/11/2017 12:40:07 using v2.7 */{
+/* Created by JMorris on 27/11/2017 12:40:07 using v2.7 */
+{
 /* Created by JMorris on 27/11/2017 using v2.7 */
     title: {
             text: ''
@@ -31,10 +32,11 @@
         },
         yAxis: [{
             title: {
-                text: 'Percentage of admitted patients waiting >4 hours from decision to admit to admission',
+                text: 'Percentage of admitted patients waiting >4 hours <br> from decision to admit to admission',
                 offset: 45
             },
             max: 20,
+            min: 0,
             labels: {
                 format: '{value:.1f}',
                 formatter: function () {
@@ -43,11 +45,12 @@
             }
         }, {
             title: {
-                text: 'Number of admitted patients waiting >12 hours from decision to admit to admission',
+                text: 'Number of admitted patients waiting >12 hours <br> from decision to admit to admission',
                 offset: 45
             },
             opposite: true,
             max: 1000,
+            min: 0,
             labels: {
                 format: '{value:.1f}',
                 formatter: function () {
