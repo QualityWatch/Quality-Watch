@@ -42,6 +42,7 @@
         }, {
             title: {
                 text: 'Percentage of patients spending <br> <4 hours in A&E',
+             offset: 55,
                },
             opposite: true,
             min: 60,
