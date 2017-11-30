@@ -33,7 +33,7 @@
             min: 0,
             title: {
                 text: 'Proportion of patients waiting for treatment <br> >52 weeks after referral',
-                offset: 50},
+                offset: 65},
         labels: {format: '{value}%'}
         },
         { 
@@ -41,7 +41,7 @@
                 min: 0,
             title: {
                 text: 'Number of patients waiting for treatment <br> >52 weeks after referral',
-                offset: 60
+                offset: 65
             },
             labels: {
                 format: '{value:0f}'
