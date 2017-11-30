@@ -33,7 +33,7 @@
         yAxis: [{
             title: {
                 text: 'Percentage of admitted patients waiting >4 hours <br> from decision to admit to admission',
-                offset: 45
+                offset: 60
             },
             max: 20,
             min: 0,
@@ -45,8 +45,8 @@
             }
         }, {
             title: {
-                text: 'Number of admitted patients waiting >12 hours <br> from decision to admit to admission',
-                offset: 45
+                text: 'Number of admitted patients waiting <br> >12 hours from decision to admit to admission',
+                offset: 60
             },
             opposite: true,
             max: 1000,
