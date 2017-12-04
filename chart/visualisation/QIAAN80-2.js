@@ -1,4 +1,5 @@
-/* Created by JMorris on 04/12/2017 12:38:46 using v2.7 */{
+/* Created by JMorris on 04/12/2017 12:38:46 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -18,7 +19,7 @@ title: {text:'Total number of patients waiting <br> for treatment (millions)', o
 , max: 4.5
 , min: 1.5
 , labels: {
-format: '{value:.4f}' 
+format: '{value:.0f}' 
 }},
 series:[
 {
