@@ -1,4 +1,5 @@
-/* Created by JMorris on 28/11/2017 12:55:38 using v2.7 */{
+/* Created by JMorris on 28/11/2017 12:55:38 using v2.7 */ 
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
