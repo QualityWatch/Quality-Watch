@@ -1,5 +1,4 @@
-/* Created by JMorris on 28/11/2017 12:57:29 using v2.7 */
-{
+/* Created by JMorris on 04/12/2017 12:40:39 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -32,7 +31,7 @@ data: [87.4,87,85.3,92.6,93.2,92.3,91.5,94.7,93.2,95.1,91.8,96.7,103.7,100.9,94.
 {
 type: 'line',
 marker: {fillColor: 'none', lineColor: null },
-name: 'Trendline',
+name: 'Proportion of maternities which had an antenatal assessment by 12 weeks and 6 days trendline',
 data: [[0, 89.8],[27, 99]]
 }
 ]

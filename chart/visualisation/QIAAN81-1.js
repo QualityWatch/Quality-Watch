@@ -1,5 +1,4 @@
-/* Created by JMorris on 28/11/2017 12:55:41 using v2.7 */
-{
+/* Created by JMorris on 04/12/2017 12:38:50 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -16,9 +15,8 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Proportion of people waiting for <br> a diagnostic test (%)', offset: 87}
-, 
- min: 0,
-  labels: {
+, min: 0
+, labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},

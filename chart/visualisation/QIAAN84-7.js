@@ -1,5 +1,4 @@
-/* Created by JMorris on 28/11/2017 12:59:37 using v2.7 */
-{
+/* Created by JMorris on 04/12/2017 12:42:44 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -16,10 +15,10 @@ title: {text:''}
 },
 yAxis: {
 title: {text:'Number of delayed days'}
-, 
- min: 0,
-  labels: {
-format: '{value:.0f}' 
+, max: 30000
+, min: 0
+, labels: {
+format: '{value:.1f}' 
 }},
 series:[
 {
