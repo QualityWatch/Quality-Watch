@@ -1,4 +1,4 @@
-/* Created by rreed on 05/01/2017 15:06:54 using v2.7 */{
+/* Created by JMorris on 15/02/2018 14:47:40 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: [2006,2007,2008,2009,2010,2011,2012,2013,2014,2015]
+, categories: [2007,2008,2009,2010,2011,2012,2013,2014,2015,2016]
 , labels: {
 }
 },
@@ -21,31 +21,31 @@ series:[
 {
 name: 'Sex between men',
 type: 'line',
-data: [42,41,43,40,38,36,34,31,29,30]
+data: [42,43,40,38,36,36,31,30,29,32]
 ,index: 1
 },
 {
 name: 'Heterosexual contact - Men',
 type: 'line',
-data: [67,67,67,66,64,66,66,62,61,55]
+data: [67,67,65,63,66,66,63,60,56,60]
 ,index: 2
 },
 {
 name: 'Heterosexual contact - Women',
 type: 'line',
-data: [64,59,61,59,58,56,57,52,51,49]
+data: [59,61,59,58,57,57,52,51,48,47]
 ,index: 3
 },
 {
 name: 'Injecting drug use',
 type: 'line',
-data: [50,58,47,47,48,54,62,51,60,45]
+data: [59,50,50,49,53,60,52,59,44,51]
 ,index: 4
 },
 {
 name: 'Total',
 type: 'line',
-data: [56,53,55,52,50,48,46,42,41,39]
+data: [54,55,52,50,49,47,42,41,39,42]
 ,index: 5
 }
 ]

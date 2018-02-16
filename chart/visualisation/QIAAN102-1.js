@@ -1,8 +1,8 @@
-/* Created by rreed on 25/05/2017 13:34:49 using v2.7 */{
+/* Created by JMorris on 15/02/2018 14:41:20 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'Do mortality rates for people with serious mental illness differ to those of the general population in England?'},
+title: {text: 'Do mortality rates for adults with a serious mental illness differ from those of the general population in England?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {

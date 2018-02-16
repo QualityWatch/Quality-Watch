@@ -1,20 +1,18 @@
-/* Created by rreed on 05/01/2017 15:02:20 using v2.7 */
-{
+/* Created by JMorris on 15/02/2018 14:40:46 using v2.7 */{
 title: {text:''},
-legend: {enabled: false},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How has the proportion of respondents not able to contact the person in charge of their care changed? '},
+title: {text: 'How has the proportion of service users who do not know how to contact their care coordinator changed?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: [2014,2015,2016]
+, categories: [2012,2013,'Question change',2014,2015,2016,2017]
 , labels: {
 }
 },
 yAxis: {
-title: {text:'Proportion who do not know how to <br> contact the person in charge of <br> their care', offset: 99}
+title: {text:'Proportion of respondents who do <br> not know how to contact their care <br> coordinator', offset: 99}
 , max: 5
 , min: 0
 , labels: {
@@ -25,7 +23,7 @@ series:[
 {
 name: 'Series1',
 type: 'column',
-data: [3,4,3]
+data: [4,4,null,3.1,3.8,3.6,3.3]
 ,index: 1
 }
 ]

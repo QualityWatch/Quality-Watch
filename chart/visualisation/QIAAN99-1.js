@@ -1,4 +1,4 @@
-/* Created by rreed on 25/05/2017 13:34:16 using v2.7 */{
+/* Created by JMorris on 15/02/2018 14:40:33 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -12,7 +12,7 @@ title: {text:''}
 }
 },
 yAxis: {
-title: {text:'Percentage change compared to 2010'}
+title: {text:'Percentage change of NHS staff numbers <br> (FTE) compared to 2010', offset: 87}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},

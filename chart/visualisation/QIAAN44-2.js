@@ -1,5 +1,4 @@
-/* Created by rreed on 20/12/2016 11:20:07 using v2.7 */
-{
+/* Created by JMorris on 06/02/2018 11:04:47 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -8,55 +7,53 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Finding/keeping work','Finding/keeping<br>accommodation (n/a 2016)','Financial advice/benefits','Physical health needs']
+, categories: ['Finding or keeping work','Financial advice or benefits','Physical health needs']
 , labels: {
- rotation: -90
+ rotation: -0
 , step: 1
 }
 },
 yAxis: {
-title: {text:'Proportion of people<br>who didn\'t have support<br>from NHS mental health<br>services for certain<br>aspects of their life', offset: 111}
-, max: 45
-, min: 0
+title: {text:'Proportion of respondents who did <br> not receive any help or advice with <br> finding support for certain aspects <br> of their lives', offset: 111}
 , labels: {
 format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-series:[
+legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
-name: '2011',
-type: 'column',
-data: [43,38,38,31]
+name: '2012',
+visible: true,type: 'column',
+data: [44,37,36]
 ,index: 1
 },
 {
-name: '2012',
-type: 'column',
-data: [44,38,37,36]
+name: '2013',
+visible: false,type: 'column',
+data: [43,39,37]
 ,index: 2
 },
 {
-name: '2013',
-type: 'column',
-data: [43,40,39,37]
+name: '2014',
+visible: false,type: 'column',
+data: [44.5,43.5,35.1]
 ,index: 3
 },
 {
-name: '2014',
-type: 'column',
-data: [44,42,43,35]
+name: '2015',
+visible: false,type: 'column',
+data: [46.8,43.5,35.4]
 ,index: 4
 },
 {
-name: '2015',
-type: 'column',
-data: [47,43,44,36]
+name: '2016',
+visible: false,type: 'column',
+data: [43.2,43.5,35.3]
 ,index: 5
 },
 {
-name: '2016',
-type: 'column',
-data: [43,0,43,35]
+name: '2017',
+visible: false,type: 'column',
+data: [42.7,44.9,35.9]
 ,index: 6
 }
 ]
