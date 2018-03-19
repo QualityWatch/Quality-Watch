@@ -1,4 +1,5 @@
-/* Created by JMorris on 14/03/2018 14:27:58 using v2.7 */{
+/* Created by JMorris on 14/03/2018 14:27:58 using v2.7 */
+{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -18,7 +19,7 @@ title: {text:'Number of cancelled elective operations'}
 , max: 25000
 , min: 0
 , labels: {
-format: '{value:.1f}' 
+format: '{value:.0f}' 
 }},
 series:[
 {
