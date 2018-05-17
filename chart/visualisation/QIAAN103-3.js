@@ -1,4 +1,4 @@
-/* Created by JMorris on 09/05/2018 14:37:38 using v2.7 */{
+/* Created by JMorris on 17/05/2018 12:28:32 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
@@ -7,7 +7,7 @@ credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation
 }},
 xAxis: {
 title: {text:''}
-, categories: ['April','May','June','July','August','September','October','November']
+, categories: ['April','May','June','July','August','September','October','November','December','January','February','March']
 , labels: {
  rotation: -90
 , step: 1
@@ -25,7 +25,7 @@ legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},
 {
 name: '2010/11',
 visible: true,type: 'line',
-data: [97.1,96.5,96,95.9,92.4,93.7,95.6,95.3]
+data: [null,null,null,null,97.1,96.5,96,95.9,92.4,93.7,95.6,95.3]
 ,index: 1
 },
 {
