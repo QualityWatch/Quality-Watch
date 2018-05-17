@@ -1,20 +1,20 @@
-/* Created by EFisher on 26/03/2014 16:46:44 using v2.1 */{
+/* Created by JMorris on 09/05/2018 14:45:42 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How have influenza vaccination rates in over-65-year-olds changed?'},
+title: {text: 'Human Papilloma Virus (HPV) vaccination coverage'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['Oct 04 - Dec 04','Oct 05 - Jan 06','Oct 06 - Jan 07','Oct 07 - Jan 08','Oct 08 - Jan 09','Oct 09 - Jan 10','Sep 10 - Feb 11','Sep 11 - Jan 12']
+, categories: ['2008/09','2009/10','2010/11','2011/12','2012/13','2013/14','2014/15','2015/16','2016/17']
 , labels: {
  rotation: -90
 , step: 1
 }
 },
 yAxis: {
-title: {text:'Percentage of persons aged 65 and <br> over immunised against influenza', offset: 87}
+title: {text:'HPV vaccination uptake in 12-13 <br> year old females', offset: 87}
 , max: 100
 , min: 0
 , labels: {
@@ -23,10 +23,22 @@ format: '{value:.1f}'
 tooltip: {valueSuffix: '%'},
 series:[
 {
-name: 'Series1',
-type: 'line',
-data: [71.4,75.3,73.9,73.5,74.1,72.4,72.8,74]
+name: 'Dose 1',
+type: 'column',
+data: [88.1,84.3,88.9,90.6,90.9,91.1,89.4,90.2,88.8]
 ,index: 1
+},
+{
+name: 'Dose 1&2',
+type: 'column',
+data: [86,82.3,87.5,89.6,89.6,89.8,null,85.1,83.1]
+,index: 2
+},
+{
+name: 'All 3 doses',
+type: 'column',
+data: [80.1,76.4,84.2,86.8,86.1,86.7,null,null,null]
+,index: 3
 }
 ]
 }

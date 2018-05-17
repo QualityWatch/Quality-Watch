@@ -1,20 +1,20 @@
-/* Created by JMorris on 28/11/2017 12:55:28 using v2.7 */{
+/* Created by JMorris on 09/05/2018 14:37:38 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How strongly do seasons influence breaches?'},
+title: {text: 'How strongly do seasons influence breaches of the four-hour A&E target?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
 title: {text:''}
-, categories: ['April','May','June','July','August','September','October','November','December','January','February','March']
+, categories: ['April','May','June','July','August','September','October','November']
 , labels: {
  rotation: -90
 , step: 1
 }
 },
 yAxis: {
-title: {text:'Percentage spending <4 hours in <br> A&E (type 1)', offset: 87}
+title: {text:'Percentage of patients spending <br> <4 hours in A&E (type 1)', offset: 87}
 , max: 100
 , min: 70
 , labels: {
@@ -25,7 +25,7 @@ legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},
 {
 name: '2010/11',
 visible: true,type: 'line',
-data: [null,null,null,null,97.1,96.5,96,95.9,92.4,93.7,95.6,95.3]
+data: [97.1,96.5,96,95.9,92.4,93.7,95.6,95.3]
 ,index: 1
 },
 {
@@ -67,7 +67,7 @@ data: [85,85.4,85.8,85.4,86.4,86,83.7,82.7,79.3,77.6,81.2,85.1]
 {
 name: '2017/18',
 visible: false,type: 'line',
-data: [85.7,84.6,86.1,85.5,85.4,84.6,84.9]
+data: [85.7,84.6,86.1,85.5,85.4,84.6,84.9,83,77.3,77.1,76.9,76.4]
 ,index: 8
 }
 ]

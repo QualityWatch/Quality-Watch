@@ -1,78 +1,132 @@
-/* Created by rreed on 20/12/2016 10:31:13 using v2.7 */
-{
+/* Created by JMorris on 09/05/2018 14:43:41 using v2.7 */{
 title: {text:''},
 credits: {enabled: false},
 exporting: {chartOptions: {
-title: {text: 'How does five-year cancer survival vary by gender?'},
+title: {text: 'How does five-year cervical cancer survival in the UK compare to other countries?'},
 credits: {enabled: true, text: 'Copyright Nuffield Trust & The Health Foundation', href: 'http://www.qualitywatch.org.uk'}
 }},
 xAxis: {
-title: {text:'Cancer'}
-, categories: ['Melanoma of skin' , 'Thyroid' , 'Hodgkin lymphoma' , 'Non-Hodgkin lymphoma' , 'Kidney' , 'Rectum' , 'Colorectum' , 'Colon' , 'Bladder' , 'Leukaemia' , 'Myeloma' , 'Brain' , 'Stomach' , 'Oesophagus' , 'Lung' , 'Liver' , 'Mesothelioma' , 'Pancreas']
-    , labels: {step: 1
+title: {text:''}
+, categories: ['2000-2004','2005-2009','2010-2014']
+, labels: {
 }
 },
 yAxis: {
-title: {text:'Five-year survival estimates for adults (aged 15–99 years)<br>in England diagnosed  with  cancer 2010–2014 and followed up to 2015', offset: 30}
-, max: 100
+title: {text:'Cervical cancer five-year net surival <br> (15 years old and over)', offset: 87}
+, max: 75
+, min: 50
 , labels: {
-format: '{value:.2f}' 
+format: '{value:.1f}' 
 ,formatter: function() {return this.value +'%';}}},
 tooltip: {valueSuffix: '%'},
-series:[
+legend: {title: {text: 'Click on series name to show or hide'}, borderWidth: 2},series:[
 {
-name: 'Men',
-type: 'bar',
-data: [87.1,82.8,84.5,66.1,58.8,59.4,57.8,57.3,57.1,50.8,47.5,18.3,18.3,14.3,11.4,12.8,5.5,5.2]
+name: 'Australia',
+visible: true,type: 'line',
+data: [67.9,67.5,66.4]
+,index: 1
 },
-    {name: 'Man err',
-     type: 'errorbar',
-     data: [
-         [86.3,87.9],
-[79.6,86],
-[81.7,87.3],
-[65.2,67.1],
-[57.7,59.9],
-[58.4,60.5],
-[57.2,58.4],
-[56.5,58.1],
-[56.1,58.1],
-[49.2,52.3],
-[45.4,49.5],
-[16.2,20.4],
-[17.3,19.3],
-[13.5,15.1],
-[11.1,11.8],
-[11.7,14],
-[4.5,6.5],
-[4.5,5.9]
-     ]},
 {
-name: 'Women',
-type: 'bar',
-data: [92.6,89.1,86,70.8,62.9,60,57.9,57.3,48,50.3,48.5,21.7,21.1,17.6,15.5,11.2,10,6.2]
+name: 'Austria',
+visible: false,type: 'line',
+data: [65.4,66,63.9]
+,index: 2
 },
-        {name: 'Woman err',
-     type: 'errorbar',
-     data: [
-         [92,93.2],
-[87.5,90.7],
-[84.2,87.8],
-[69.9,71.8],
-[61.7,64],
-[58.8,61.2],
-[57.3,58.5],
-[56.6,58],
-[46.6,49.4],
-[48.8,51.9],
-[46.5,50.5],
-[19.4,24],
-[19.7,22.5],
-[16.3,18.8],
-[15.1,16],
-[9.2,13.1],
-[7.4,12.6],
-[5.6,6.9]
-     ]}
+{
+name: 'Belgium',
+visible: false,type: 'line',
+data: [65.1,65.7,65.4]
+,index: 3
+},
+{
+name: 'Canada',
+visible: false,type: 'line',
+data: [67.9,66.9,66.6]
+,index: 4
+},
+{
+name: 'Denmark',
+visible: false,type: 'line',
+data: [63,66.7,69.5]
+,index: 5
+},
+{
+name: 'Finland',
+visible: false,type: 'line',
+data: [67.8,65.2,67.4]
+,index: 6
+},
+{
+name: 'France',
+visible: false,type: 'line',
+data: [61.7,62.1,65]
+,index: 7
+},
+{
+name: 'Germany',
+visible: false,type: 'line',
+data: [64.9,65.7,65.2]
+,index: 8
+},
+{
+name: 'Ireland',
+visible: false,type: 'line',
+data: [57.8,58.7,63.6]
+,index: 9
+},
+{
+name: 'Italy',
+visible: false,type: 'line',
+data: [67.3,67.7,66.8]
+,index: 10
+},
+{
+name: 'Japan',
+visible: false,type: 'line',
+data: [67.5,69.2,71.4]
+,index: 11
+},
+{
+name: 'Netherlands',
+visible: false,type: 'line',
+data: [66.1,65.5,67.5]
+,index: 12
+},
+{
+name: 'New Zealand',
+visible: false,type: 'line',
+data: [67.4,64.4,67.4]
+,index: 13
+},
+{
+name: 'Portugal',
+visible: false,type: 'line',
+data: [60.4,65.3,66.2]
+,index: 14
+},
+{
+name: 'Spain',
+visible: false,type: 'line',
+data: [63.6,64.5,64.5]
+,index: 15
+},
+{
+name: 'Sweden',
+visible: false,type: 'line',
+data: [66.9,67.7,68.3]
+,index: 16
+},
+{
+name: 'United Kingdom',
+visible: true,type: 'line',
+data: [58.9,61.9,63.8]
+,index: 17
+},
+{
+name: 'United States',
+visible: false,type: 'line',
+data: [64.3,63,62.6]
+,index: 18
+}
 ]
 }
